@@ -160,7 +160,7 @@
 					}
 				]
 			},
-			"mActiveTimeSec": 7.3666596e+31,
+			"mActiveTimeSec": null,
 			"mCoolTimeSec": 0.0
 		},
 		{
@@ -179,7 +179,7 @@
 					}
 				]
 			},
-			"mActiveTimeSec": 7.3666596e+31,
+			"mActiveTimeSec": null,
 			"mCoolTimeSec": 0.0
 		},
 		{
@@ -198,7 +198,7 @@
 					}
 				]
 			},
-			"mActiveTimeSec": 7.3666596e+31,
+			"mActiveTimeSec": null,
 			"mCoolTimeSec": 0.0
 		},
 		{
@@ -217,7 +217,7 @@
 					}
 				]
 			},
-			"mActiveTimeSec": 7.3666596e+31,
+			"mActiveTimeSec": null,
 			"mCoolTimeSec": 0.0
 		}
 	]

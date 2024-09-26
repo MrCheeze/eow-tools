@@ -197,7 +197,7 @@
 			"mGoods": [
 				{
 					"mCondition": "HasNotBottle0",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 80,
 					"mDiscountPrice": 80,
 					"mModelPath": "actor/Bottle.bfres",
@@ -220,7 +220,7 @@
 			"mGoods": [
 				{
 					"mCondition": "L001Clear",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 10,
 					"mDiscountPrice": 10,
 					"mModelPath": "actor/ItemRecoveryHeart.bfres",
@@ -243,7 +243,7 @@
 			"mGoods": [
 				{
 					"mCondition": "L001Clear",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 20,
 					"mDiscountPrice": 20,
 					"mModelPath": "actor/HeartMany.bfres",
@@ -266,7 +266,7 @@
 			"mGoods": [
 				{
 					"mCondition": "L001Clear",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemPastePowerLow.bfres",
@@ -289,7 +289,7 @@
 			"mGoods": [
 				{
 					"mCondition": "L001Clear",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 80,
 					"mDiscountPrice": 80,
 					"mModelPath": "actor/ItemPastePowerHigh.bfres",
@@ -312,7 +312,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 10,
 					"mDiscountPrice": 10,
 					"mModelPath": "actor/ItemRecoveryHeart.bfres",
@@ -335,7 +335,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemIngredientShop05.bfres",
@@ -358,7 +358,7 @@
 			"mGoods": [
 				{
 					"mCondition": "L001Clear",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ItemGeneralShop02.bfres",
@@ -381,7 +381,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -418,7 +418,7 @@
 				},
 				{
 					"mCondition": "L001Clear",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop03.bfres",
@@ -441,7 +441,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop03.bfres",
@@ -464,7 +464,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -487,7 +487,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ItemGeneralShop02.bfres",
@@ -510,7 +510,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 40,
 					"mDiscountPrice": 40,
 					"mModelPath": "actor/ItemIngredientShop01.bfres",
@@ -533,7 +533,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop03.bfres",
@@ -570,7 +570,7 @@
 				},
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ItemGeneralShop02.bfres",
@@ -593,7 +593,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -616,7 +616,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 25,
 					"mDiscountPrice": 25,
 					"mModelPath": "actor/ItemIngredientShop00.bfres",
@@ -639,7 +639,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -662,7 +662,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop03.bfres",
@@ -685,7 +685,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ItemIngredientShop04.bfres",
@@ -708,7 +708,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemIngredientShop07.bfres",
@@ -731,7 +731,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -768,7 +768,7 @@
 				},
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop03.bfres",
@@ -791,7 +791,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 25,
 					"mDiscountPrice": 25,
 					"mModelPath": "actor/ItemIngredientShop08.bfres",
@@ -814,7 +814,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemIngredientShop09.bfres",
@@ -837,7 +837,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -860,7 +860,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop03.bfres",
@@ -883,7 +883,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ItemIngredientShop10.bfres",
@@ -906,7 +906,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemIngredientShop03.bfres",
@@ -929,7 +929,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -966,7 +966,7 @@
 				},
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ItemGeneralShop02.bfres",
@@ -989,7 +989,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 40,
 					"mDiscountPrice": 40,
 					"mModelPath": "actor/ItemIngredientShop02.bfres",
@@ -1026,7 +1026,7 @@
 				},
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop03.bfres",
@@ -1049,7 +1049,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 30,
 					"mDiscountPrice": 30,
 					"mModelPath": "actor/ItemGeneralShop01.bfres",
@@ -1072,7 +1072,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ItemGeneralShop02.bfres",
@@ -1095,7 +1095,7 @@
 			"mGoods": [
 				{
 					"mCondition": "true",
-					"mTransformReference": "",
+					"mTransformReference": null,
 					"mPrice": 50,
 					"mDiscountPrice": 50,
 					"mModelPath": "actor/ShopMannequin.bfres",

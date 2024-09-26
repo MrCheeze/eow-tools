@@ -509,7 +509,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -562,7 +562,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -615,7 +615,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -668,7 +668,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -721,7 +721,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -774,7 +774,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -880,7 +880,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -933,7 +933,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -986,7 +986,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1039,7 +1039,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1092,7 +1092,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1463,7 +1463,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1516,7 +1516,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1569,7 +1569,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1622,7 +1622,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1675,7 +1675,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1781,7 +1781,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1834,7 +1834,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1887,7 +1887,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1940,7 +1940,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -1993,7 +1993,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2046,7 +2046,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2099,7 +2099,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2152,7 +2152,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2205,7 +2205,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2258,7 +2258,7 @@
 			"attachTarget": 0,
 			"enableFloat": true,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2311,7 +2311,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": true,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2364,7 +2364,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2417,7 +2417,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2470,7 +2470,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2523,7 +2523,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2576,7 +2576,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2629,7 +2629,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2682,7 +2682,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2735,7 +2735,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2788,7 +2788,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2841,7 +2841,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2894,7 +2894,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -2947,7 +2947,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3000,7 +3000,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3053,7 +3053,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3106,7 +3106,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3159,7 +3159,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3212,7 +3212,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3265,7 +3265,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3318,7 +3318,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3371,7 +3371,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3424,7 +3424,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3477,7 +3477,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3530,7 +3530,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3583,7 +3583,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3636,7 +3636,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3689,7 +3689,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3742,7 +3742,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3795,7 +3795,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3901,7 +3901,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -3954,7 +3954,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4007,7 +4007,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4060,7 +4060,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4113,7 +4113,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4166,7 +4166,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4219,7 +4219,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4272,7 +4272,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4325,7 +4325,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4378,7 +4378,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4431,7 +4431,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4484,7 +4484,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4537,7 +4537,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4590,7 +4590,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4643,7 +4643,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4696,7 +4696,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4749,7 +4749,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4802,7 +4802,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4855,7 +4855,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4908,7 +4908,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -4961,7 +4961,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5014,7 +5014,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5067,7 +5067,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5120,7 +5120,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5173,7 +5173,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5226,7 +5226,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5279,7 +5279,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5332,7 +5332,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5385,7 +5385,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5438,7 +5438,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5491,7 +5491,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5544,7 +5544,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5597,7 +5597,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5650,7 +5650,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5703,7 +5703,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5756,7 +5756,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5809,7 +5809,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5862,7 +5862,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5915,7 +5915,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -5968,7 +5968,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6021,7 +6021,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6074,7 +6074,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6127,7 +6127,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6180,7 +6180,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6233,7 +6233,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6286,7 +6286,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6339,7 +6339,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6392,7 +6392,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6445,7 +6445,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6498,7 +6498,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6551,7 +6551,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6604,7 +6604,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6657,7 +6657,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6710,7 +6710,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6763,7 +6763,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6816,7 +6816,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6869,7 +6869,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6922,7 +6922,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -6975,7 +6975,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7028,7 +7028,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7081,7 +7081,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7134,7 +7134,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7187,7 +7187,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7240,7 +7240,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7293,7 +7293,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7346,7 +7346,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7399,7 +7399,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7452,7 +7452,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7505,7 +7505,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7558,7 +7558,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7611,7 +7611,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7664,7 +7664,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7717,7 +7717,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7770,7 +7770,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7823,7 +7823,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7876,7 +7876,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7929,7 +7929,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -7982,7 +7982,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8035,7 +8035,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8088,7 +8088,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8141,7 +8141,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8194,7 +8194,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8247,7 +8247,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8300,7 +8300,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8353,7 +8353,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8406,7 +8406,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8459,7 +8459,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8512,7 +8512,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8565,7 +8565,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8618,7 +8618,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8671,7 +8671,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8724,7 +8724,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8777,7 +8777,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8830,7 +8830,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8883,7 +8883,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8936,7 +8936,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -8989,7 +8989,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9042,7 +9042,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9095,7 +9095,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9148,7 +9148,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9201,7 +9201,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9254,7 +9254,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9307,7 +9307,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9360,7 +9360,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9413,7 +9413,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9466,7 +9466,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9519,7 +9519,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9572,7 +9572,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9625,7 +9625,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9678,7 +9678,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9731,7 +9731,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9784,7 +9784,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9837,7 +9837,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9890,7 +9890,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9943,7 +9943,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -9996,7 +9996,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10049,7 +10049,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10102,7 +10102,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10155,7 +10155,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10208,7 +10208,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10261,7 +10261,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10314,7 +10314,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10367,7 +10367,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10420,7 +10420,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10473,7 +10473,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10738,7 +10738,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10791,7 +10791,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10844,7 +10844,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -10897,7 +10897,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11003,7 +11003,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11056,7 +11056,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11109,7 +11109,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11162,7 +11162,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11215,7 +11215,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11268,7 +11268,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11321,7 +11321,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11374,7 +11374,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11427,7 +11427,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -11692,7 +11692,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -12593,7 +12593,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -12699,7 +12699,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -12752,7 +12752,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -12805,7 +12805,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -12858,7 +12858,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -12911,7 +12911,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,
@@ -12964,7 +12964,7 @@
 			"attachTarget": 0,
 			"enableFloat": false,
 			"autoDestroyWhenDrop": false,
-			"mEventFlag": "",
+			"mEventFlag": null,
 			"actorFlag": false,
 			"ability": {
 				"dropMoreRupee": false,

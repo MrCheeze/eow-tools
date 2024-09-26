@@ -106,7 +106,7 @@
 			"mRankAFlag": "PickUpAconsRankA_00",
 			"mRankBFlag": "PickUpAconsRankB_00",
 			"mBonusItemKey": "ItemMachineUnlock01",
-			"mBonusItemIndex": 1953002343,
+			"mBonusItemIndex": null,
 			"mGetBonusFlag": "AconsBonusGet_00"
 		},
 		{
@@ -123,7 +123,7 @@
 			"mRankAFlag": "PickUpAconsRankA_01",
 			"mRankBFlag": "PickUpAconsRankB_01",
 			"mBonusItemKey": "SmoothieIngredient15",
-			"mBonusItemIndex": 1953002343,
+			"mBonusItemIndex": null,
 			"mGetBonusFlag": "AconsBonusGet_01"
 		},
 		{
@@ -157,7 +157,7 @@
 			"mRankAFlag": "PickUpAconsRankA_03",
 			"mRankBFlag": "PickUpAconsRankB_03",
 			"mBonusItemKey": "RupeeSilver",
-			"mBonusItemIndex": 1953002343,
+			"mBonusItemIndex": null,
 			"mGetBonusFlag": "AconsBonusGet_03"
 		},
 		{

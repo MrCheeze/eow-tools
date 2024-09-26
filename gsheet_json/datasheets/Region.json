@@ -738,8 +738,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -814,8 +814,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -895,8 +895,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -970,8 +970,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1045,8 +1045,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1120,8 +1120,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1196,8 +1196,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1266,8 +1266,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1341,8 +1341,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1416,8 +1416,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1491,8 +1491,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1566,8 +1566,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1641,8 +1641,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1716,8 +1716,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -1791,8 +1791,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -2703,8 +2703,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -2773,8 +2773,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -3713,8 +3713,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -3789,8 +3789,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4021,8 +4021,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4102,8 +4102,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4183,8 +4183,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4264,8 +4264,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4345,8 +4345,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4426,8 +4426,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4507,8 +4507,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4588,8 +4588,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4669,8 +4669,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4750,8 +4750,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4820,8 +4820,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4890,8 +4890,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -4960,8 +4960,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5030,8 +5030,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5100,8 +5100,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5170,8 +5170,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5321,8 +5321,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5391,8 +5391,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5461,8 +5461,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5531,8 +5531,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5601,8 +5601,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5671,8 +5671,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5741,8 +5741,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5811,8 +5811,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5881,8 +5881,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -5951,8 +5951,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -6021,8 +6021,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -6091,8 +6091,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -6161,8 +6161,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7211,8 +7211,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7281,8 +7281,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7351,8 +7351,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7421,8 +7421,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7491,8 +7491,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7561,8 +7561,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7631,8 +7631,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7701,8 +7701,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7771,8 +7771,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7841,8 +7841,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7911,8 +7911,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -7981,8 +7981,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8051,8 +8051,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8121,8 +8121,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8191,8 +8191,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8261,8 +8261,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8331,8 +8331,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8401,8 +8401,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8471,8 +8471,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -8541,8 +8541,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9171,8 +9171,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9241,8 +9241,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9311,8 +9311,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9381,8 +9381,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9451,8 +9451,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9521,8 +9521,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9591,8 +9591,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9661,8 +9661,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9731,8 +9731,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9801,8 +9801,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9871,8 +9871,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -9941,8 +9941,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10011,8 +10011,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10081,8 +10081,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10151,8 +10151,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10221,8 +10221,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10291,8 +10291,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10361,8 +10361,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10431,8 +10431,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10501,8 +10501,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10571,8 +10571,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -10941,8 +10941,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -11011,8 +11011,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -11081,8 +11081,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12341,8 +12341,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12411,8 +12411,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12481,8 +12481,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12551,8 +12551,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12621,8 +12621,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12691,8 +12691,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12761,8 +12761,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12831,8 +12831,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12901,8 +12901,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -12971,8 +12971,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13041,8 +13041,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13111,8 +13111,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13181,8 +13181,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13251,8 +13251,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13321,8 +13321,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13391,8 +13391,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13461,8 +13461,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13531,8 +13531,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13601,8 +13601,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13671,8 +13671,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13741,8 +13741,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13811,8 +13811,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -13881,8 +13881,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -14861,8 +14861,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -14931,8 +14931,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15001,8 +15001,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15071,8 +15071,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15141,8 +15141,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15211,8 +15211,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15281,8 +15281,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15351,8 +15351,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15421,8 +15421,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15491,8 +15491,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15561,8 +15561,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15631,8 +15631,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15701,8 +15701,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15841,8 +15841,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15911,8 +15911,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -15981,8 +15981,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16051,8 +16051,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16121,8 +16121,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16191,8 +16191,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16681,8 +16681,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16751,8 +16751,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16821,8 +16821,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16891,8 +16891,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -16961,8 +16961,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -17241,8 +17241,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -17311,8 +17311,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -17381,8 +17381,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -17451,8 +17451,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -17521,8 +17521,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -17591,8 +17591,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -17661,8 +17661,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18011,8 +18011,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18081,8 +18081,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18151,8 +18151,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18221,8 +18221,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18361,8 +18361,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18431,8 +18431,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18501,8 +18501,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18571,8 +18571,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18641,8 +18641,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18711,8 +18711,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18781,8 +18781,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -18851,8 +18851,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -19061,8 +19061,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -19131,8 +19131,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -19271,8 +19271,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -19481,8 +19481,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -20041,8 +20041,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -20786,8 +20786,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -20856,8 +20856,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -20926,8 +20926,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -20996,8 +20996,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -21071,8 +21071,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -21141,8 +21141,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -21211,8 +21211,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -21281,8 +21281,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -21636,8 +21636,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -21711,8 +21711,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -21786,8 +21786,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22276,8 +22276,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22346,8 +22346,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22416,8 +22416,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22486,8 +22486,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22556,8 +22556,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22766,8 +22766,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22836,8 +22836,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22906,8 +22906,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -22976,8 +22976,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23046,8 +23046,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23116,8 +23116,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23186,8 +23186,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23256,8 +23256,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23326,8 +23326,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23396,8 +23396,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23466,8 +23466,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23536,8 +23536,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23611,8 +23611,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23681,8 +23681,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23762,8 +23762,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23832,8 +23832,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23907,8 +23907,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -23983,8 +23983,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -24058,8 +24058,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -24128,8 +24128,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -24198,8 +24198,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -24279,8 +24279,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -24360,8 +24360,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -24430,8 +24430,8 @@
 			"mIsLightProbeZNeg": false,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		},
 		{
@@ -24505,8 +24505,8 @@
 			"mIsLightProbeZNeg": true,
 			"mItemDrop": {
 				"mRegion": "NoEffect",
-				"mDropTableKeyPot": "",
-				"mDropTableKeyBoxWooden": ""
+				"mDropTableKeyPot": null,
+				"mDropTableKeyBoxWooden": null
 			}
 		}
 	]

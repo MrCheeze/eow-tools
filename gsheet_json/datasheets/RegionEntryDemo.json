@@ -110,7 +110,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingGoronRace",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/Goron011.bfevfl",
 					"mEntryPoint": "Racing_Valcano010_OutOfArea",
 					"mPlayerJoin": true,
@@ -175,7 +175,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingPickUpAcorns",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianM032.bfevfl",
 					"mEntryPoint": "cancelMiniGameOutOfArea",
 					"mPlayerJoin": true,
@@ -188,7 +188,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingGerudoChase",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/Gerudo004.bfevfl",
 					"mEntryPoint": "Chase_Desert010_OutOfArea",
 					"mPlayerJoin": true,
@@ -201,7 +201,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingGerudoChase",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/Gerudo004.bfevfl",
 					"mEntryPoint": "Chase_Desert010_OutOfArea2",
 					"mPlayerJoin": true,
@@ -214,7 +214,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingPickUpAcorns",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianM032.bfevfl",
 					"mEntryPoint": "cancelMiniGameOutOfArea",
 					"mPlayerJoin": true,
@@ -227,7 +227,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingPickUpAcorns",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianM032.bfevfl",
 					"mEntryPoint": "cancelMiniGameOutOfArea",
 					"mPlayerJoin": true,
@@ -240,7 +240,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingPickUpAcorns",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianM032.bfevfl",
 					"mEntryPoint": "cancelMiniGameOutOfArea",
 					"mPlayerJoin": true,
@@ -253,7 +253,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingPickUpAcorns",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianM032.bfevfl",
 					"mEntryPoint": "cancelMiniGameOutOfArea",
 					"mPlayerJoin": true,
@@ -266,7 +266,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingGliding_Valcano040",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/GoronC001.bfevfl",
 					"mEntryPoint": "Gliding_Valcano040_OutOfArea",
 					"mPlayerJoin": true,
@@ -279,7 +279,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "PlayingGliding_Valcano070",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/Goron006.bfevfl",
 					"mEntryPoint": "Gliding_Valcano070_OutOfArea",
 					"mPlayerJoin": true,
@@ -292,7 +292,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "HorseRaceLayoutEasy",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianF006.bfevfl",
 					"mEntryPoint": "LeaveCourse",
 					"mPlayerJoin": true,
@@ -305,7 +305,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "HorseRaceLayoutNormal",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianF006.bfevfl",
 					"mEntryPoint": "LeaveCourse",
 					"mPlayerJoin": true,
@@ -318,7 +318,7 @@
 			"mEvents": [
 				{
 					"mConditionKey": "HorseRaceLayoutHard",
-					"mEventFlag": "",
+					"mEventFlag": null,
 					"mEventAssetPath": "event/HylianF006.bfevfl",
 					"mEntryPoint": "LeaveCourse",
 					"mPlayerJoin": true,

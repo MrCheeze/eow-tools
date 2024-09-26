@@ -79,10 +79,14 @@ def deserializeField(filedata, offset, fielddef):
     elif fielddef['typeid'] == 4: # string
         assert fielddef['elemsize'] == 16
         strptr, length = struct.unpack('<QQ', filedata[offset:offset+16])
-        value = filedata[strptr:strptr+length].decode('ascii')
+        if strptr == 0:
+            value = None
+        else:
+            value = filedata[strptr:strptr+length].decode('ascii')
     elif fielddef['typeid'] == 5: # bytes
         assert fielddef['elemsize'] == 16
         bytesptr, length = struct.unpack('<QQ', filedata[offset:offset+16])
+        assert bytesptr != 0
         value = list(filedata[bytesptr:bytesptr+length])
     else:
         raise Exception("Don't know how to deal with %s %s"%(fielddef, filedata[offset:offset+fielddef['size1']]))
@@ -92,6 +96,7 @@ def deserializeArray(filedata, offset, fielddef):
     #print('deserializeArray', fielddef, hex(offset))
     assert fielddef['directsize'] == 16
     arrayptr, arraycount = struct.unpack('<QQ', filedata[offset:offset+16])
+    assert arrayptr != 0
     value = []
     for i in range(arraycount):
         value.append(deserializeField(filedata, arrayptr+i*fielddef['elemsize'], fielddef))
@@ -101,7 +106,10 @@ def deserializePointer(filedata, offset, fielddef):
     #print('deserializePointer', fielddef, hex(offset))
     assert fielddef['directsize'] == 8
     ptr, = struct.unpack('<Q', filedata[offset:offset+8])
-    return deserializeField(filedata, ptr, fielddef)
+    if ptr == 0:
+        return None
+    else:
+        return deserializeField(filedata, ptr, fielddef)
 
 def deserializeStruct(filedata, offset, fielddefs):
     #print('deserializeStruct', fielddefs, hex(offset))

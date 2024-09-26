@@ -1511,7 +1511,7 @@
 				"mPosX": -32.84375,
 				"mPosY": -30.15625
 			},
-			"mTexScale": 7.3666596e+31,
+			"mTexScale": null,
 			"mFloorInfo": [],
 			"mChangeTexutreInfo": []
 		},
@@ -1544,7 +1544,7 @@
 				"mPosX": -3.875,
 				"mPosY": 12.5625
 			},
-			"mTexScale": 7.3666596e+31,
+			"mTexScale": null,
 			"mFloorInfo": [],
 			"mChangeTexutreInfo": []
 		},
@@ -1661,7 +1661,7 @@
 				"mPosX": 0.71875,
 				"mPosY": -31.5
 			},
-			"mTexScale": 7.3666596e+31,
+			"mTexScale": null,
 			"mFloorInfo": [],
 			"mChangeTexutreInfo": []
 		},
@@ -1781,7 +1781,7 @@
 				"mPosX": -25.25,
 				"mPosY": -36.75
 			},
-			"mTexScale": 7.3666596e+31,
+			"mTexScale": null,
 			"mFloorInfo": [],
 			"mChangeTexutreInfo": []
 		},
@@ -2042,7 +2042,7 @@
 				"mPosX": 16.4375,
 				"mPosY": 18.1875
 			},
-			"mTexScale": 7.3666596e+31,
+			"mTexScale": null,
 			"mFloorInfo": [],
 			"mChangeTexutreInfo": []
 		},
@@ -2397,7 +2397,7 @@
 				"mPosX": -2.5,
 				"mPosY": 41.25
 			},
-			"mTexScale": 7.3666596e+31,
+			"mTexScale": null,
 			"mFloorInfo": [],
 			"mChangeTexutreInfo": []
 		},
@@ -2408,7 +2408,7 @@
 				"mPosX": -52.0,
 				"mPosY": 70.5
 			},
-			"mTexScale": 7.3666596e+31,
+			"mTexScale": null,
 			"mFloorInfo": [],
 			"mChangeTexutreInfo": []
 		},

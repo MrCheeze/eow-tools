@@ -42,8 +42,8 @@
 	"rows": [
 		{
 			"mRegion": "NoEffect",
-			"mDropTableKeyPot": "",
-			"mDropTableKeyBoxWooden": ""
+			"mDropTableKeyPot": null,
+			"mDropTableKeyBoxWooden": null
 		},
 		{
 			"mRegion": "Forest",
