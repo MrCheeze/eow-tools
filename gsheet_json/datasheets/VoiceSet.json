@@ -1,0 +1,878 @@
+{
+	"unk1": 2899333210,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "VoiceSet",
+	"fields": [
+		{
+			"name": "mLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mVoices",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mLabel": "HylianF_N",
+			"mVoices": [
+				"VO_HYL_W003_1_001",
+				"VO_HYL_W003_1_002",
+				"VO_HYL_W003_1_003",
+				"VO_HYL_W003_1_004",
+				"VO_HYL_W003_1_005",
+				"VO_HYL_W003_1_006",
+				"VO_HYL_W003_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_P",
+			"mVoices": [
+				"VO_HYL_W003_2_001",
+				"VO_HYL_W003_2_002",
+				"VO_HYL_W003_2_003",
+				"VO_HYL_W003_2_004",
+				"VO_HYL_W003_2_005",
+				"VO_HYL_W003_2_006",
+				"VO_HYL_W003_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_M",
+			"mVoices": [
+				"VO_HYL_W004_1_001",
+				"VO_HYL_W004_1_002",
+				"VO_HYL_W004_1_003",
+				"VO_HYL_W004_1_004",
+				"VO_HYL_W004_1_005",
+				"VO_HYL_W004_1_006",
+				"VO_HYL_W004_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_Mid_N",
+			"mVoices": [
+				"VO_HYL_W005_1_001",
+				"VO_HYL_W005_1_002",
+				"VO_HYL_W005_1_003",
+				"VO_HYL_W005_1_004",
+				"VO_HYL_W005_1_005",
+				"VO_HYL_W005_1_006",
+				"VO_HYL_W005_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_Mid_M",
+			"mVoices": [
+				"VO_HYL_W6_1_001",
+				"VO_HYL_W6_1_002",
+				"VO_HYL_W6_1_003",
+				"VO_HYL_W6_1_004",
+				"VO_HYL_W6_1_005",
+				"VO_HYL_W6_1_006",
+				"VO_HYL_W6_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_Old_P",
+			"mVoices": [
+				"VO_HYL_W008_1_001",
+				"VO_HYL_W008_1_002",
+				"VO_HYL_W008_1_003",
+				"VO_HYL_W008_1_004",
+				"VO_HYL_W008_1_005",
+				"VO_HYL_W008_1_006",
+				"VO_HYL_W008_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_Old_M",
+			"mVoices": [
+				"VO_HYL_W007_1_001",
+				"VO_HYL_W007_1_002",
+				"VO_HYL_W007_1_003",
+				"VO_HYL_W007_1_004",
+				"VO_HYL_W007_1_005",
+				"VO_HYL_W007_1_006",
+				"VO_HYL_W007_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_N",
+			"mVoices": [
+				"VO_HYL_M004_1_001",
+				"VO_HYL_M004_1_002",
+				"VO_HYL_M004_1_003",
+				"VO_HYL_M004_1_004",
+				"VO_HYL_M004_1_005",
+				"VO_HYL_M004_1_006",
+				"VO_HYL_M004_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_P",
+			"mVoices": [
+				"VO_HYL_M004_2_001",
+				"VO_HYL_M004_2_002",
+				"VO_HYL_M004_2_003",
+				"VO_HYL_M004_2_004",
+				"VO_HYL_M004_2_005",
+				"VO_HYL_M004_2_006",
+				"VO_HYL_M004_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_M",
+			"mVoices": [
+				"VO_HYL_M003_1_001",
+				"VO_HYL_M003_1_002",
+				"VO_HYL_M003_1_003",
+				"VO_HYL_M003_1_004",
+				"VO_HYL_M003_1_005",
+				"VO_HYL_M003_1_006",
+				"VO_HYL_M003_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_Mid_N1",
+			"mVoices": [
+				"VO_HYL_M005_1_001",
+				"VO_HYL_M005_1_002",
+				"VO_HYL_M005_1_003",
+				"VO_HYL_M005_1_004",
+				"VO_HYL_M005_1_005",
+				"VO_HYL_M005_1_006",
+				"VO_HYL_M005_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_Mid_N2",
+			"mVoices": [
+				"VO_HYL_M6_1_001",
+				"VO_HYL_M6_1_002",
+				"VO_HYL_M6_1_003",
+				"VO_HYL_M6_1_004",
+				"VO_HYL_M6_1_005",
+				"VO_HYL_M6_1_006",
+				"VO_HYL_M6_1_007",
+				"",
+				"VO_HYL_M6_1_009"
+			]
+		},
+		{
+			"mLabel": "HylianM_Old_N",
+			"mVoices": [
+				"VO_HYL_M7_1_001",
+				"VO_HYL_M7_1_002",
+				"VO_HYL_M7_1_003",
+				"VO_HYL_M7_1_004",
+				"VO_HYL_M7_1_005",
+				"VO_HYL_M7_1_006",
+				"VO_HYL_M7_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_Old_M",
+			"mVoices": [
+				"VO_HYL_M8_1_001",
+				"VO_HYL_M8_1_002",
+				"VO_HYL_M8_1_003",
+				"VO_HYL_M8_1_004",
+				"VO_HYL_M8_1_005",
+				"VO_HYL_M8_1_006",
+				"VO_HYL_M8_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_Child_P",
+			"mVoices": [
+				"VO_HYL_M001_1_001",
+				"VO_HYL_M001_1_002",
+				"VO_HYL_M001_1_003",
+				"VO_HYL_M001_1_004",
+				"VO_HYL_M001_1_005",
+				"VO_HYL_M001_1_006",
+				"VO_HYL_M001_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianM_Child_M",
+			"mVoices": [
+				"VO_HYL_M002_1_001",
+				"VO_HYL_M002_1_002",
+				"VO_HYL_M002_1_003",
+				"VO_HYL_M002_1_004",
+				"VO_HYL_M002_1_005",
+				"VO_HYL_M002_1_006",
+				"VO_HYL_M002_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_Child_P",
+			"mVoices": [
+				"VO_HYL_W001_1_001",
+				"VO_HYL_W001_1_002",
+				"VO_HYL_W001_1_003",
+				"VO_HYL_W001_1_004",
+				"VO_HYL_W001_1_005",
+				"VO_HYL_W001_1_006",
+				"VO_HYL_W001_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "HylianF_Child_M",
+			"mVoices": [
+				"VO_HYL_W2_1_001",
+				"VO_HYL_W2_1_002",
+				"VO_HYL_W2_1_003",
+				"VO_HYL_W2_1_004",
+				"VO_HYL_W2_1_005",
+				"VO_HYL_W2_1_006",
+				"VO_HYL_W2_1_007",
+				"VO_HYL_W2_1_008",
+				"VO_HYL_W2_1_009"
+			]
+		},
+		{
+			"mLabel": "HyruleSoldier",
+			"mVoices": [
+				"VO_HYL_SOL_001",
+				"VO_HYL_SOL_002",
+				"VO_HYL_SOL_003",
+				"VO_HYL_SOL_004",
+				"VO_HYL_SOL_005",
+				"VO_HYL_SOL_006",
+				"VO_HYL_SOL_007",
+				"VO_HYL_SOL_008",
+				""
+			]
+		},
+		{
+			"mLabel": "Gerudo_N",
+			"mVoices": [
+				"VO_GERUDO_002_1_001",
+				"VO_GERUDO_002_1_002",
+				"VO_GERUDO_002_1_003",
+				"VO_GERUDO_002_1_004",
+				"VO_GERUDO_002_1_005",
+				"VO_GERUDO_002_1_006",
+				"VO_GERUDO_002_1_007",
+				"VO_GERUDO_002_1_008",
+				""
+			]
+		},
+		{
+			"mLabel": "Gerudo_P",
+			"mVoices": [
+				"VO_GERUDO_001_1_001",
+				"VO_GERUDO_001_1_002",
+				"VO_GERUDO_001_1_003",
+				"VO_GERUDO_001_1_004",
+				"VO_GERUDO_001_1_005",
+				"VO_GERUDO_001_1_006",
+				"VO_GERUDO_001_1_007",
+				"VO_GERUDO_001_1_008",
+				""
+			]
+		},
+		{
+			"mLabel": "Gerudo_M",
+			"mVoices": [
+				"VO_GERUDO_001_2_001",
+				"VO_GERUDO_001_2_002",
+				"VO_GERUDO_001_2_003",
+				"VO_GERUDO_001_2_004",
+				"VO_GERUDO_001_2_005",
+				"VO_GERUDO_001_2_006",
+				"VO_GERUDO_001_2_007",
+				"VO_GERUDO_001_2_008",
+				""
+			]
+		},
+		{
+			"mLabel": "Gerudo_Mid_P",
+			"mVoices": [
+				"VO_GERUDO_003_2_001",
+				"VO_GERUDO_003_2_002",
+				"VO_GERUDO_003_2_003",
+				"VO_GERUDO_003_2_004",
+				"VO_GERUDO_003_2_005",
+				"VO_GERUDO_003_2_006",
+				"VO_GERUDO_003_2_007",
+				"VO_GERUDO_003_2_008",
+				""
+			]
+		},
+		{
+			"mLabel": "Gerudo_Mid_M",
+			"mVoices": [
+				"VO_GERUDO_003_1_001",
+				"VO_GERUDO_003_1_002",
+				"VO_GERUDO_003_1_003",
+				"VO_GERUDO_003_1_004",
+				"VO_GERUDO_003_1_005",
+				"VO_GERUDO_003_1_006",
+				"VO_GERUDO_003_1_007",
+				"VO_GERUDO_003_1_008",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraSeaF_P",
+			"mVoices": [
+				"SEQ_VO_ZORA_W002_2_001",
+				"SEQ_VO_ZORA_W002_2_002",
+				"SEQ_VO_ZORA_W002_2_003",
+				"SEQ_VO_ZORA_W002_2_004",
+				"SEQ_VO_ZORA_W002_2_005",
+				"SEQ_VO_ZORA_W002_2_006",
+				"SEQ_VO_ZORA_W002_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraSeaF_M",
+			"mVoices": [
+				"SEQ_VO_ZORA_W002_1_001",
+				"SEQ_VO_ZORA_W002_1_002",
+				"SEQ_VO_ZORA_W002_1_003",
+				"SEQ_VO_ZORA_W002_1_004",
+				"SEQ_VO_ZORA_W002_1_005",
+				"SEQ_VO_ZORA_W002_1_006",
+				"SEQ_VO_ZORA_W002_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraSeaM_P",
+			"mVoices": [
+				"VO_ZORA_M002_2_001",
+				"VO_ZORA_M002_2_002",
+				"VO_ZORA_M002_2_003",
+				"VO_ZORA_M002_2_004",
+				"VO_ZORA_M002_2_005",
+				"VO_ZORA_M002_2_006",
+				"VO_ZORA_M002_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraSeaM_M",
+			"mVoices": [
+				"VO_ZORA_M002_1_001",
+				"VO_ZORA_M002_1_002",
+				"VO_ZORA_M002_1_003",
+				"VO_ZORA_M002_1_004",
+				"VO_ZORA_M002_1_005",
+				"VO_ZORA_M002_1_006",
+				"VO_ZORA_M002_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraRiverF_P",
+			"mVoices": [
+				"VO_ZORA_W12_1_001",
+				"VO_ZORA_W12_1_002",
+				"VO_ZORA_W12_1_003",
+				"VO_ZORA_W12_1_004",
+				"VO_ZORA_W12_1_005",
+				"VO_ZORA_W12_1_006",
+				"VO_ZORA_W12_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraRiverF_M",
+			"mVoices": [
+				"VO_ZORA_W12_2_001",
+				"VO_ZORA_W12_2_002",
+				"VO_ZORA_W12_2_003",
+				"VO_ZORA_W12_2_004",
+				"VO_ZORA_W12_2_005",
+				"VO_ZORA_W12_2_006",
+				"VO_ZORA_W12_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraRiverM_P",
+			"mVoices": [
+				"VO_ZORA_M11_1_001",
+				"VO_ZORA_M11_1_002",
+				"VO_ZORA_M11_1_003",
+				"VO_ZORA_M11_1_004",
+				"VO_ZORA_M11_1_005",
+				"VO_ZORA_M11_1_006",
+				"VO_ZORA_M11_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "ZoraRiverM_M",
+			"mVoices": [
+				"VO_ZORA_M11_2_001",
+				"VO_ZORA_M11_2_002",
+				"VO_ZORA_M11_2_003",
+				"VO_ZORA_M11_2_004",
+				"VO_ZORA_M11_2_005",
+				"VO_ZORA_M11_2_006",
+				"VO_ZORA_M11_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Zora_Child",
+			"mVoices": [
+				"SEQ_VO_ZORA_C1_1_001",
+				"SEQ_VO_ZORA_C1_1_002",
+				"SEQ_VO_ZORA_C1_1_003",
+				"SEQ_VO_ZORA_C1_1_004",
+				"SEQ_VO_ZORA_C1_1_005",
+				"SEQ_VO_ZORA_C1_1_006",
+				"SEQ_VO_ZORA_C1_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Goron_Old1",
+			"mVoices": [
+				"VO_GORON_003_1_001",
+				"VO_GORON_003_1_002",
+				"VO_GORON_003_1_003",
+				"VO_GORON_003_1_004",
+				"VO_GORON_003_1_005",
+				"VO_GORON_003_1_006",
+				"VO_GORON_003_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Goron_Old2",
+			"mVoices": [
+				"VO_GORON_004_1_001",
+				"VO_GORON_004_1_002",
+				"VO_GORON_004_1_003",
+				"VO_GORON_004_1_004",
+				"VO_GORON_004_1_005",
+				"VO_GORON_004_1_006",
+				"VO_GORON_004_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Goron_N",
+			"mVoices": [
+				"VO_GORON_002_1_001",
+				"VO_GORON_002_1_002",
+				"VO_GORON_002_1_003",
+				"VO_GORON_002_1_004",
+				"VO_GORON_002_1_005",
+				"VO_GORON_002_1_006",
+				"VO_GORON_002_1_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Goron_P",
+			"mVoices": [
+				"VO_GORON_002_2_001",
+				"VO_GORON_002_2_002",
+				"VO_GORON_002_2_003",
+				"VO_GORON_002_2_004",
+				"VO_GORON_002_2_005",
+				"VO_GORON_002_2_006",
+				"VO_GORON_002_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Goron_M",
+			"mVoices": [
+				"VO_GORON_002_3_001",
+				"VO_GORON_002_3_002",
+				"VO_GORON_002_3_003",
+				"VO_GORON_002_3_004",
+				"VO_GORON_002_3_005",
+				"VO_GORON_002_3_006",
+				"VO_GORON_002_3_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Goron_Child_P",
+			"mVoices": [
+				"VO_GORON_001_1_001",
+				"VO_GORON_001_1_002",
+				"VO_GORON_001_1_003",
+				"VO_GORON_001_1_004",
+				"VO_GORON_001_1_005",
+				"VO_GORON_001_1_006",
+				"VO_GORON_001_1_007",
+				"VO_GORON_001_1_008",
+				""
+			]
+		},
+		{
+			"mLabel": "Goron_Child_M",
+			"mVoices": [
+				"VO_GORON_001_2_001",
+				"VO_GORON_001_2_002",
+				"VO_GORON_001_2_003",
+				"VO_GORON_001_2_004",
+				"VO_GORON_001_2_005",
+				"VO_GORON_001_2_006",
+				"VO_GORON_001_2_007",
+				"",
+				""
+			]
+		},
+		{
+			"mLabel": "Deku_P2",
+			"mVoices": [
+				"VO_DKN_1_3_001",
+				"VO_DKN_1_3_002",
+				"VO_DKN_1_3_003",
+				"VO_DKN_1_3_004",
+				"VO_DKN_1_3_005",
+				"VO_DKN_1_3_006",
+				"VO_DKN_1_3_007",
+				"VO_DKN_1_3_008",
+				"VO_DKN_1_3_009"
+			]
+		},
+		{
+			"mLabel": "Deku_M2",
+			"mVoices": [
+				"VO_DKN_1_4_001",
+				"VO_DKN_1_4_002",
+				"VO_DKN_1_4_003",
+				"VO_DKN_1_4_004",
+				"VO_DKN_1_4_005",
+				"VO_DKN_1_4_006",
+				"VO_DKN_1_4_007",
+				"VO_DKN_1_4_008",
+				"VO_DKN_1_4_009"
+			]
+		},
+		{
+			"mLabel": "Deku_P3",
+			"mVoices": [
+				"VO_DKN_1_5_001",
+				"VO_DKN_1_5_002",
+				"VO_DKN_1_5_003",
+				"VO_DKN_1_5_004",
+				"VO_DKN_1_5_005",
+				"VO_DKN_1_5_006",
+				"VO_DKN_1_5_007",
+				"VO_DKN_1_5_008",
+				"VO_DKN_1_5_009"
+			]
+		},
+		{
+			"mLabel": "Deku_M3",
+			"mVoices": [
+				"VO_DKN_1_6_001",
+				"VO_DKN_1_6_002",
+				"VO_DKN_1_6_003",
+				"VO_DKN_1_6_004",
+				"VO_DKN_1_6_005",
+				"VO_DKN_1_6_006",
+				"VO_DKN_1_6_007",
+				"VO_DKN_1_6_008",
+				"VO_DKN_1_6_009"
+			]
+		},
+		{
+			"mLabel": "HyruleKing",
+			"mVoices": [
+				"VO_KNG_001",
+				"VO_KNG_002",
+				"VO_KNG_003",
+				"VO_KNG_004",
+				"VO_KNG_005",
+				"VO_KNG_006",
+				"VO_KNG_007"
+			]
+		},
+		{
+			"mLabel": "MinisterRight",
+			"mVoices": [
+				"VO_UGI_001",
+				"VO_UGI_002",
+				"VO_UGI_003",
+				"VO_UGI_004",
+				"VO_UGI_005",
+				"VO_UGI_006",
+				"VO_UGI_007"
+			]
+		},
+		{
+			"mLabel": "MinisterLeft",
+			"mVoices": [
+				"VO_SADARI_001",
+				"VO_SADARI_002",
+				"VO_SADARI_003",
+				"VO_SADARI_004",
+				"VO_SADARI_005",
+				"VO_SADARI_006",
+				"VO_SADARI_007"
+			]
+		},
+		{
+			"mLabel": "Impa",
+			"mVoices": [
+				"VO_IMP_001",
+				"VO_IMP_002",
+				"VO_IMP_003",
+				"VO_IMP_004",
+				"VO_IMP_005",
+				"VO_IMP_006",
+				"VO_IMP_007"
+			]
+		},
+		{
+			"mLabel": "Luberi",
+			"mVoices": [
+				"VO_LUB_001",
+				"VO_LUB_002",
+				"VO_LUB_003",
+				"VO_LUB_004",
+				"VO_LUB_005",
+				"VO_LUB_006",
+				"VO_LUB_007"
+			]
+		},
+		{
+			"mLabel": "GerudoChiefsDaughter",
+			"mVoices": [
+				"VO_GERUDO_DAUGHTER_001",
+				"VO_GERUDO_DAUGHTER_002",
+				"VO_GERUDO_DAUGHTER_003",
+				"VO_GERUDO_DAUGHTER_004",
+				"VO_GERUDO_DAUGHTER_005",
+				"VO_GERUDO_DAUGHTER_006",
+				"VO_GERUDO_DAUGHTER_007"
+			]
+		},
+		{
+			"mLabel": "GerudoChief",
+			"mVoices": [
+				"VO_GERUDO_CHIEF_001",
+				"VO_GERUDO_CHIEF_002",
+				"VO_GERUDO_CHIEF_003",
+				"VO_GERUDO_CHIEF_004",
+				"VO_GERUDO_CHIEF_005",
+				"VO_GERUDO_CHIEF_006",
+				"VO_GERUDO_CHIEF_007"
+			]
+		},
+		{
+			"mLabel": "GerudoAide000",
+			"mVoices": [
+				"VO_GERUDO_AIDE_001",
+				"VO_GERUDO_AIDE_002",
+				"VO_GERUDO_AIDE_003",
+				"VO_GERUDO_AIDE_004",
+				"VO_GERUDO_AIDE_005",
+				"VO_GERUDO_AIDE_006",
+				"VO_GERUDO_AIDE_007"
+			]
+		},
+		{
+			"mLabel": "ZoraRiverChief",
+			"mVoices": [
+				"VO_ZORA_RIVER_CHIEF_001",
+				"VO_ZORA_RIVER_CHIEF_002",
+				"VO_ZORA_RIVER_CHIEF_003",
+				"VO_ZORA_RIVER_CHIEF_004",
+				"VO_ZORA_RIVER_CHIEF_005",
+				"VO_ZORA_RIVER_CHIEF_006",
+				"VO_ZORA_RIVER_CHIEF_007"
+			]
+		},
+		{
+			"mLabel": "ZoraSeaChief",
+			"mVoices": [
+				"VO_ZORA_SEA_CHIEF_001",
+				"VO_ZORA_SEA_CHIEF_002",
+				"VO_ZORA_SEA_CHIEF_003",
+				"VO_ZORA_SEA_CHIEF_004",
+				"VO_ZORA_SEA_CHIEF_005",
+				"VO_ZORA_SEA_CHIEF_006",
+				"VO_ZORA_SEA_CHIEF_007"
+			]
+		},
+		{
+			"mLabel": "ZoraRiver002",
+			"mVoices": [
+				"SEQ_VO_ZORA_M013_1_001",
+				"SEQ_VO_ZORA_M013_1_002",
+				"SEQ_VO_ZORA_M013_1_003",
+				"SEQ_VO_ZORA_M013_1_004",
+				"SEQ_VO_ZORA_M013_1_005",
+				"SEQ_VO_ZORA_M013_1_006",
+				"SEQ_VO_ZORA_M013_1_007"
+			]
+		},
+		{
+			"mLabel": "ZoraSea002",
+			"mVoices": [
+				"VO_ZORA_M3_1_001",
+				"VO_ZORA_M3_1_002",
+				"VO_ZORA_M3_1_003",
+				"VO_ZORA_M3_1_004",
+				"VO_ZORA_M3_1_005",
+				"VO_ZORA_M3_1_006",
+				"VO_ZORA_M3_1_007"
+			]
+		},
+		{
+			"mLabel": "GoronChief",
+			"mVoices": [
+				"VO_GORON_CHIEF_001A",
+				"VO_GORON_CHIEF_002",
+				"VO_GORON_CHIEF_003",
+				"VO_GORON_CHIEF_004",
+				"VO_GORON_CHIEF_005",
+				"VO_GORON_CHIEF_006",
+				"VO_GORON_CHIEF_007"
+			]
+		},
+		{
+			"mLabel": "Yeti000",
+			"mVoices": [
+				"VO_YETI_001",
+				"VO_YETI_002",
+				"VO_YETI_003",
+				"VO_YETI_004",
+				"VO_YETI_005",
+				"VO_YETI_006",
+				"VO_YETI_007"
+			]
+		},
+		{
+			"mLabel": "GreatFairy",
+			"mVoices": [
+				"VO_GREAT_FAIRY_001",
+				"VO_GREAT_FAIRY_002",
+				"VO_GREAT_FAIRY_003",
+				"VO_GREAT_FAIRY_004",
+				"VO_GREAT_FAIRY_005",
+				"VO_GREAT_FAIRY_006",
+				"VO_GREAT_FAIRY_007"
+			]
+		},
+		{
+			"mLabel": "MachineEngineer",
+			"mVoices": [
+				"VO_ENGINEER_001",
+				"VO_ENGINEER_002",
+				"VO_ENGINEER_003",
+				"VO_ENGINEER_004",
+				"VO_ENGINEER_005",
+				"VO_ENGINEER_006",
+				"VO_ENGINEER_007"
+			]
+		},
+		{
+			"mLabel": "Stampman",
+			"mVoices": [
+				"VO_STAMPMAN_001",
+				"VO_STAMPMAN_002",
+				"VO_STAMPMAN_003",
+				"VO_STAMPMAN_004",
+				"VO_STAMPMAN_005",
+				"VO_STAMPMAN_006",
+				"VO_STAMPMAN_007"
+			]
+		},
+		{
+			"mLabel": "HylianM034",
+			"mVoices": [
+				"VO_MASTER_001",
+				"VO_MASTER_002",
+				"VO_MASTER_003",
+				"VO_MASTER_004",
+				"VO_MASTER_005",
+				"VO_MASTER_006",
+				"VO_MASTER_007"
+			]
+		},
+		{
+			"mLabel": "DekuMerchant",
+			"mVoices": [
+				"VO_DKN_002_1_001",
+				"VO_DKN_002_1_002",
+				"VO_DKN_002_1_003",
+				"VO_DKN_002_1_004",
+				"VO_DKN_002_1_005",
+				"VO_DKN_002_1_006",
+				"VO_DKN_002_1_007"
+			]
+		}
+	]
+}

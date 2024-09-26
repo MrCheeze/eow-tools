@@ -1,0 +1,3818 @@
+{
+	"unk1": 672779408,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "CopyableActor",
+	"fields": [
+		{
+			"name": "mSymbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mUi",
+			"typename": "__inline_struct_CopyableActor_mUi",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 24,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mNameLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mCategory",
+					"typename": "CopyableActorCategory",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mPasteCost",
+			"typename": "__inline_struct_CopyableActor_mPasteCost",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mSlot",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mReductionGroup",
+					"typename": "PasteCostReduction",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mPasteGridCount",
+			"typename": "__inline_struct_CopyableActor_mPasteGridCount",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 16,
+			"elemsize": 16,
+			"subfields": [
+				{
+					"name": "mShape",
+					"typename": "PasteShape",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mWidthOrDiameter",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mHeightDouble",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mDepth",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mPastePlace",
+			"typename": "__inline_struct_CopyableActor_mPastePlace",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 64,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mIsIgnoreGridSnap",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mRotation",
+					"typename": "PasteRotation",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mTriangleOffset",
+			"typename": "__inline_struct_CopyableActor_mTriangleOffset",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 72,
+			"directsize": 16,
+			"elemsize": 16,
+			"subfields": [
+				{
+					"name": "mBase",
+					"typename": "__inline_enum_CopyableActor_mTriangleOffset.mBase",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 48,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mZ",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mHabitat",
+			"typename": "__inline_enum_CopyableActor_mHabitat",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 48,
+			"offset": 88,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mSymbol": "BoxWooden",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BoxWooden",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Zol",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Zol",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Signboard",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Signboard",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Skulltula",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Skulltula",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 2
+		},
+		{
+			"mSymbol": "RockCave",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_RockCave",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "BlockWater",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BlockWater",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Pot",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Pot",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "ZolFire",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_ZolFire",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "RockSolid",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_RockSolid",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 0.75,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "SeaUrchin",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Urchin",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Walltula",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Walltula",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 2
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 3
+		},
+		{
+			"mSymbol": "Octorok",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Octorok",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "CharmMeat",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_CharmMeat",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 0.75,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "CharmFish",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_CharmFish",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 0.75,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Dekubaba",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Dekubaba",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 1,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "MoriblinSword00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_MoriblinSword00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "MoriblinSword01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_MoriblinSword01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "MoriblinSword02",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_MoriblinSword02",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Bed",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Bed",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 7
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 1
+		},
+		{
+			"mSymbol": "Table",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Table",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 0.75,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Rope",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Rope",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Boundillo00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Boundillo00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 2
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Peahat",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Peahat",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 4,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 3
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 2.25,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Kerotone",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Kerotone",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Dekubaba00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Dekubaba00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 1,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 6
+		},
+		{
+			"mSymbol": "FoliagePlant",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_FoliagePlant",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Darknut00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Darknut00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 5
+		},
+		{
+			"mSymbol": "PotHyruleCastle",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_PotHyruleCastle",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 5
+		},
+		{
+			"mSymbol": "Taggler00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Taggler00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Boundillo01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Boundillo01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 2
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "BedMedium",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BedMedium",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 7
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Bombfish",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Bombfish",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 1,
+				"mX": 0.0,
+				"mY": 0.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "TrapBladeTimer",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_TrapBladeTimer",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 2
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Biri",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Biri",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Guay",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Guay",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "WindMaker",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_WindMaker",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "FlyingTile",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_FlyingTile",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "ZoroZoroHill",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_ZoroZoroHill",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Taggler01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Taggler01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Dekubaba01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Dekubaba01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 1,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "ZolWater",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_ZolWater",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Poe",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Poe",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Peese",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Peese",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "BirdSea",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BirdSea",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Gabufin",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Gabufin",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Megadon",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Megadon",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 2,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 2.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "ZoroZoro",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_ZoroZoro",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Gibdos00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Gibdos00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Gibdos01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Gibdos01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "ReDead",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_ReDead",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Wolfos00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Wolfos00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Tektight00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Tektight00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "Tektight01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Tektight01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "PotGerudo",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_PotGerudo",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Piranha00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Piranha00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Piranha01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Piranha01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "StatueL003",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_StatueL003",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 2.25,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "BoarblinClub00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BoarblinClub00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "BoarblinClub01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BoarblinClub01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "BoarblinBoomerang00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BoarblinBoomerang00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "BoarblinBoomerang01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BoarblinBoomerang01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "MoriblinSpear01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_MoriblinSpear01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 7
+		},
+		{
+			"mSymbol": "MoriblinSpear00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_MoriblinSpear00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "BedZelda",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BedZelda",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 7
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 5
+		},
+		{
+			"mSymbol": "Bonfire",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Bonfire",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 2.25,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "CharmRockRoast",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_CharmRockRoast",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 0.75,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Pitty",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Pitty",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 3
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Octorok01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Octorok01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "SoldierIronBall",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_SoldierIronBall",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 1,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 5
+		},
+		{
+			"mSymbol": "Spark00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Spark00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 7
+		},
+		{
+			"mSymbol": "Dragonfly",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Dragonfly",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 8
+		},
+		{
+			"mSymbol": "DeathBallReverse",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_DeathBallReverse",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 5
+		},
+		{
+			"mSymbol": "Creepee00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Creepee00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Creepee01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Creepee01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Darknut01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Darknut01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 5
+		},
+		{
+			"mSymbol": "Darknut02",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Darknut02",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 4,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Toppyu",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Toppyu",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Octorok02",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Octorok02",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Aruroda",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Aruroda",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 1
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Tail",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Tail",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "StoneFragile",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_StoneFragile",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Firework",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Firework",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Wizzrobe00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Wizzrobe00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Wizzrobe01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Wizzrobe01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Wizzrobe02",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Wizzrobe02",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "TorchSlug",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_TorchSlug",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Keese00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Keese",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 0
+		},
+		{
+			"mSymbol": "Keese01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Keese01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Keese02",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Keese02",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Keese03",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Keese03",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Crowly",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Crowly",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Lizalfos00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Lizalfos00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Lizalfos01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Lizalfos01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "Lizalfos02",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Lizalfos02",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 2,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "BoardFloatLava",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BoardFloatLava",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 2,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 10
+		},
+		{
+			"mSymbol": "AnaMonea",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_AnaMonea",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 4,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Ghini00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Ghini00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Ghini01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Ghini01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 2
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "CharmDoll",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_CharmDoll",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "CharmCarrot",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_CharmCarrot",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 0.75,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "StretchyGhost",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_StretchyGhost",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Hidy",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Hidy",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 1,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "BuzzBlob",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BuzzBlob",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Crowly01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Crowly01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Kerotone01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Kerotone01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Armos",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Armos",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 3
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Beamos",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Beamos",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 6
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "Leever",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Leever",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "BlockIce",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_BlockIce",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "StatueL003Bird",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_StatueL003Bird",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 2.25,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "StatueL003Cat",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_StatueL003Cat",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 2.25,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "StatueL003Snake",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_StatueL003Snake",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 4,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 2.25,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Freezard",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Freezard",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "RollingPole",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_RollingPole",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 5,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 3
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "RollingPoleSide",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 4,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 3
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 4
+		},
+		{
+			"mSymbol": "Wolfos01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Wolfos01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Cloud",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Cloud",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 3
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "GhomaBaby",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_GhomaBaby",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "SnowBall",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_SnowBall",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 2,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 4,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 1
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Moa",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Moa",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Trampoline",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Trampoline",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 1,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 0.75,
+				"mZ": 0.0
+			},
+			"mHabitat": 1
+		},
+		{
+			"mSymbol": "TorchSlug01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_TorchSlug01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "StoneFragile01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_StoneFragile01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 5
+			},
+			"mPasteGridCount": {
+				"mShape": 2,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Mothula00",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Mothula00",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 3
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 9
+		},
+		{
+			"mSymbol": "Mothula01",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Mothula01",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 5,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 11
+		},
+		{
+			"mSymbol": "NorthForestRelic",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_NorthForestRelic",
+				"mCategory": 1
+			},
+			"mPasteCost": {
+				"mSlot": 1,
+				"mReductionGroup": 0
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 2,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": false,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 1.5,
+				"mZ": 0.0
+			},
+			"mHabitat": 6
+		},
+		{
+			"mSymbol": "Dandarma",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Dandarma",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 3,
+				"mReductionGroup": 4
+			},
+			"mPasteGridCount": {
+				"mShape": 1,
+				"mWidthOrDiameter": 1,
+				"mHeightDouble": 5,
+				"mDepth": 1
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 8
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 12
+		},
+		{
+			"mSymbol": "Lynel",
+			"mUi": {
+				"mNameLabel": "glossary/CopyableActor:CopyableActor_Lynel",
+				"mCategory": 0
+			},
+			"mPasteCost": {
+				"mSlot": 6,
+				"mReductionGroup": 6
+			},
+			"mPasteGridCount": {
+				"mShape": 0,
+				"mWidthOrDiameter": 2,
+				"mHeightDouble": 2,
+				"mDepth": 2
+			},
+			"mPastePlace": {
+				"mIsIgnoreGridSnap": true,
+				"mRotation": 0
+			},
+			"mTriangleOffset": {
+				"mBase": 0,
+				"mX": 0.0,
+				"mY": 3.0,
+				"mZ": 0.0
+			},
+			"mHabitat": 6
+		}
+	]
+}

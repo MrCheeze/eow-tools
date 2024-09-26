@@ -1,0 +1,99 @@
+{
+	"unk1": 726802836,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiDressUp",
+	"fields": [
+		{
+			"name": "symbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "nameLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "explanationLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"symbol": "Adventure1",
+			"nameLabel": "glossary/Item:Item300",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_00"
+		},
+		{
+			"symbol": "Adventure2",
+			"nameLabel": "glossary/Item:Item310",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_02"
+		},
+		{
+			"symbol": "Princess",
+			"nameLabel": "glossary/Item:Item305",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_01"
+		},
+		{
+			"symbol": "PrincessAnother",
+			"nameLabel": "glossary/Item:Item311",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_08"
+		},
+		{
+			"symbol": "Nightclothes",
+			"nameLabel": "glossary/Item:Item320",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_04"
+		},
+		{
+			"symbol": "Dancer",
+			"nameLabel": "glossary/Item:Item330",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_06"
+		},
+		{
+			"symbol": "Animal",
+			"nameLabel": "glossary/Item:Item315",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_03"
+		},
+		{
+			"symbol": "AnimalAnother",
+			"nameLabel": "glossary/Item:Item321",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_10"
+		},
+		{
+			"symbol": "GreenColor",
+			"nameLabel": "glossary/Item:Item325",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_05"
+		},
+		{
+			"symbol": "GreenColorAnother",
+			"nameLabel": "glossary/Item:Item331",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_09"
+		},
+		{
+			"symbol": "Stamp",
+			"nameLabel": "glossary/Item:Item332",
+			"explanationLabel": "ui/DressUpMenu:ZeldaClothes_Explanation_07"
+		}
+	]
+}

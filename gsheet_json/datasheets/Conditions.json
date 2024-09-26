@@ -1,0 +1,5599 @@
+{
+	"unk1": 983625126,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Conditions",
+	"fields": [
+		{
+			"name": "mLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mStrategy",
+			"typename": "__inline_enum_Conditions_mStrategy",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 48,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mExpressions",
+			"typename": "__inline_struct_Conditions_mExpressions",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mCategory",
+					"typename": "ConditionCategory",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mParameter",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mLabel": "false",
+			"mStrategy": 0,
+			"mExpressions": []
+		},
+		{
+			"mLabel": "true",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 0,
+					"mParameter": ""
+				}
+			]
+		},
+		{
+			"mLabel": "Switch0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "4"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "5"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "6"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!7"
+				}
+			]
+		},
+		{
+			"mLabel": "AllSwitches01",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				}
+			]
+		},
+		{
+			"mLabel": "AllSwitches12",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				}
+			]
+		},
+		{
+			"mLabel": "AllSwitches23",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "AnySwitches01",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				}
+			]
+		},
+		{
+			"mLabel": "AnySwitches12",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				}
+			]
+		},
+		{
+			"mLabel": "AnySwitches23",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "AllSwitches012",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				}
+			]
+		},
+		{
+			"mLabel": "AllSwitches123",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "AnySwitches012",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				}
+			]
+		},
+		{
+			"mLabel": "AnySwitches123",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "AllSwitches0123",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "AnySwitches0123",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "1"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "2"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch0_NotSwitch1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!0=0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!1"
+				}
+			]
+		},
+		{
+			"mLabel": "Switch0AndNotSwitch1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!1"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "EventVariable7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotEventVariable7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "MessageFlag7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotMessageFlag7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestReadied7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestReadied7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 13,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestOpened7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestOpened7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestCleared7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotQuestCleared7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "Inventory7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotInventory7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemHistory7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotItemHistory7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 3,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "CopyDictionary7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCopyDictionary7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 5,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedForest",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon001"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedSeaRiver",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon002"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedDesert",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon003"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedCastle",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_DungeonCastle"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedVolcano",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon004"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedJungle",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon005"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedSnowMountain",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon006"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedLast",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_DungeonLast"
+				}
+			]
+		},
+		{
+			"mLabel": "CurrentDungeonCleared",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "*"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedForest",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_Dungeon001"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedSeaRiver",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_Dungeon002"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedDesert",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_Dungeon003"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedCastle",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_DungeonCastle"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedVolcano",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_Dungeon004"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedJungle",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_Dungeon005"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedSnowMountain",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_Dungeon006"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedLast",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!L_DungeonLast"
+				}
+			]
+		},
+		{
+			"mLabel": "NotCurrentDungeonCleared",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!*"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonClearedArg7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotDungeonClearedArg7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "ActorSymbol7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$0"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$1"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$2"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$4"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$5"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "NotActorSymbol7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayerStateGround",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "Ground"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayerStateAerial",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "Aerial"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayerStateOnWall",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "OnWall"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayerStateUnderwater",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "Underwater"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayerStateBurrow",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "Burrow"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayerStateRiding",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "Riding"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "Outfit7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "OutfitCategoryZelda",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "Princess"
+				},
+				{
+					"mCategory": 29,
+					"mParameter": "Adventure2"
+				}
+			]
+		},
+		{
+			"mLabel": "OutfitCategoryLink",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 29,
+					"mParameter": "Adventure1"
+				},
+				{
+					"mCategory": 29,
+					"mParameter": "GreenColor"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "Ability7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "RidingBelovedHorse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 31,
+					"mParameter": "BelovedHorse"
+				}
+			]
+		},
+		{
+			"mLabel": "RidingRentalHorse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 31,
+					"mParameter": "RentalHorse"
+				}
+			]
+		},
+		{
+			"mLabel": "RidingRentedRentalHorse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 31,
+					"mParameter": "RentalHorse:Rented"
+				}
+			]
+		},
+		{
+			"mLabel": "RidingNoRentedRentalHorse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 31,
+					"mParameter": "RentalHorse:!Rented"
+				}
+			]
+		},
+		{
+			"mLabel": "RidingStrayHorse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 31,
+					"mParameter": "StrayHorse"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRented",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 33,
+					"mParameter": ""
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "Stamp7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 34,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$0"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$1"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$2"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$3"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition4",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$4"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition5",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$5"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "Condition7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "IsInTopView",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 36,
+					"mParameter": "!"
+				}
+			]
+		},
+		{
+			"mLabel": "IsInSideView",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 36,
+					"mParameter": ""
+				}
+			]
+		},
+		{
+			"mLabel": "EventSensorDefault",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "Switch0_NotSwitch1"
+				}
+			]
+		},
+		{
+			"mLabel": "PartnerActive",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "CopyRod"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle:ImprisonedInJungle~PrisonBreakInJungle"
+				}
+			]
+		},
+		{
+			"mLabel": "OpDungeonEscaping",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "OP_Dungeon_Escaping"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!OP_Dungeon_Escape"
+				}
+			]
+		},
+		{
+			"mLabel": "WeatherUnlock",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!WeatherUnLock"
+				}
+			]
+		},
+		{
+			"mLabel": "TimeUnlock",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!TimeUnLock"
+				}
+			]
+		},
+		{
+			"mLabel": "L001R013DoorEvent",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!0"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "L001R013DekubabaEnd"
+				}
+			]
+		},
+		{
+			"mLabel": "HasNotBottle0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!Bottle:0"
+				}
+			]
+		},
+		{
+			"mLabel": "BoundaryGateOpen",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!1"
+				}
+			]
+		},
+		{
+			"mLabel": "L001Clear",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "EvAreaA013"
+				}
+			]
+		},
+		{
+			"mLabel": "LCastleR009DoorCondition",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!LCastleR009RoomIn"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "LCastleR009EnemyWipeout"
+				}
+			]
+		},
+		{
+			"mLabel": "GoronShop",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "Volcano>=Volcano_HelpMeAgainGoro"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRental",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "RidingNoRentedRentalHorse"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "!Horse_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "PartnerFriendly",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!Midpoint=Midpoint_GoThroneRoom"
+				},
+				{
+					"mCategory": 18,
+					"mParameter": "!Midpoint=Midpoint_LuberiHouseConsutation"
+				},
+				{
+					"mCategory": 18,
+					"mParameter": "LuberiLvUpTalk=LuberiLvUpTalk_Complete"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress6_NotQuestProgress7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "!$7"
+				}
+			]
+		},
+		{
+			"mLabel": "DesertOverview",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "HyruleCastle_LuberiHouse>=HyruleCastle_LuberiHouse_end"
+				}
+			]
+		},
+		{
+			"mLabel": "GoronRaceCourseOut",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Racing_Valcano010=Racing_Valcano010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "GoronRace_Replay=GoronRace_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress5_NotMessageFlag6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$5"
+				},
+				{
+					"mCategory": 20,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "GenerateLanmolaLv1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!Desert_LanmolaDead1"
+				}
+			]
+		},
+		{
+			"mLabel": "GenerateLanmolaLv2",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!Desert_LanmolaDead2"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "LanmolaLv2Activate"
+				}
+			]
+		},
+		{
+			"mLabel": "GenerateLanmolaLv3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Lanmola_Desert010=Lanmola_Desert010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "LanmolaSandStormWest",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "GenerateLanmolaLv1"
+				}
+			]
+		},
+		{
+			"mLabel": "LanmolaSandStormEast",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "GenerateLanmolaLv2"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "GenerateLanmolaLv3"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveNightclothes",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!ZeldaClothes04"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "EvE_WorldGlobeActivate"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveShopBottle",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!Bottle:3"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseLovedGet",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "WorldGlobeSmallActive_007"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "HorseLovedPop"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseLovedPop",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "GetHorse_Forest010"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "GetHorse_Forest010"
+				}
+			]
+		},
+		{
+			"mLabel": "volcano_jungle_hebra_Overview",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Midpoint>=Midpoint_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Golem_Valcano010_stop",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!Midpoint"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "!Volcano"
+				}
+			]
+		},
+		{
+			"mLabel": "Golem_Valcano010_open",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "Volcano"
+				}
+			]
+		},
+		{
+			"mLabel": "Golem_Valcano010_010",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Golem_Valcano010=Golem_Valcano010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "Fairy_HyrulePlains010_Goron_020",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Fairy_HyrulePlains010_Goron=Fairy_HyrulePlains010_Goron_020"
+				}
+			]
+		},
+		{
+			"mLabel": "EnemyDefeat_Desert010_010",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "EnemyDefeat_Desert010=EnemyDefeat_Desert010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveShopHeartPiece3",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!HeartPiece:3"
+				}
+			]
+		},
+		{
+			"mLabel": "Testitart1Alive",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!L005R007MBoss01Dead"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!L005R017MBoss02Dead"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!L005R020MBoss03Dead"
+				}
+			]
+		},
+		{
+			"mLabel": "Testitart2Alive",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "L005R007MBoss01Dead"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!L005R017MBoss02Dead"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!L005R020MBoss03Dead"
+				}
+			]
+		},
+		{
+			"mLabel": "Testitart3Alive",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "L005R007MBoss01Dead"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "L005R017MBoss02Dead"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!L005R020MBoss03Dead"
+				}
+			]
+		},
+		{
+			"mLabel": "Machine_HyrulePlains010_010",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Machine_HyrulePlains010=Machine_HyrulePlains010_none"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Machine_HyrulePlains010=Machine_HyrulePlains010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "Sink_HyrulePlains010",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Sink_HyrulePlains010=Sink_HyrulePlains010_none"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Sink_HyrulePlains010=Sink_HyrulePlains010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Sink_HyrulePlains010=Sink_HyrulePlains010_020"
+				}
+			]
+		},
+		{
+			"mLabel": "Horse_HyrulePlains010_010",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 31,
+					"mParameter": "StrayHorse"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Horse_HyrulePlains010=Horse_HyrulePlains010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress6_NotSwitch1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!1"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRacing",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "!HorseRaceCheckpoint=OutOfRace"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceLayoutEasy",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "HorseRaceDifficulty=Easy"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "HorseRacing"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceLayoutNormal",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "HorseRaceDifficulty=Normal"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "HorseRacing"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceLayoutHard",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "HorseRaceDifficulty=Hard"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "HorseRacing"
+				}
+			]
+		},
+		{
+			"mLabel": "NotRidingHorse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "!Riding"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceTimeOutEasy",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 35,
+					"mParameter": "t>=120"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceTimeOutNormal",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 35,
+					"mParameter": "t>=180"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceTimeOutHard",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 35,
+					"mParameter": "t>=180"
+				}
+			]
+		},
+		{
+			"mLabel": "WeatherUnlock_SnowyMountain",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "CondesHouseBook"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "CondesHousePanting"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "CondeHouseTool"
+				}
+			]
+		},
+		{
+			"mLabel": "LostShip_QuestStart",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				},
+				{
+					"mCategory": 13,
+					"mParameter": "LostShip_Coast010"
+				}
+			]
+		},
+		{
+			"mLabel": "LostShip_QuestStop",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "!LostShip_Quest"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "LostShip_Coast010"
+				}
+			]
+		},
+		{
+			"mLabel": "LostShip_QuestClear",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "LostShip_Coast010=LostShip_Coast010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayingPickUpAcorns",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 18,
+					"mParameter": "MiniGameAcornProgress=InGame"
+				}
+			]
+		},
+		{
+			"mLabel": "GerudoChaseRangeOut",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Chase_Desert010=Chase_Desert010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "GerudoRace_Replay=GerudoRace_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "GerudoChase2RangeOut",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Chase_Desert010=Chase_Desert010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "GerudoRace_Replay=GerudoRace_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayingGerudoChase",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Chase_Desert010=Chase_Desert010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "GerudoRace_Replay=GerudoRace_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayingGliding_Valcano040",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Valcano040=Gliding_Valcano040_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Replay=Gliding_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayingGliding_Valcano070",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Valcano070=Gliding_Valcano070_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding070_Replay=Gliding070_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayingGoronRace",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Racing_Valcano010=Racing_Valcano010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "GoronRace_Replay=GoronRace_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "NotPlayingGerudoChase",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Chase_Desert010!=Chase_Desert010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "GerudoRace_Replay!=GerudoRace_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "NotPlayingGliding_Valcano040",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Valcano040!=Gliding_Valcano040_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Replay!=Gliding_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "NotPlayingGliding_Valcano070",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Valcano070!=Gliding_Valcano070_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding070_Replay!=Gliding070_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "NotPlayingGoronRace",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Racing_Valcano010!=Racing_Valcano010_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "GoronRace_Replay!=GoronRace_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveOrnament17",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!Ornament17"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveOrnament20",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!Ornament20"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveOrnament21",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!Ornament21"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveAnimalCloth",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!ZeldaClothes03"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "EvE_WorldGlobeActivate"
+				}
+			]
+		},
+		{
+			"mLabel": "Gliding_Valcano040RangeOut",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Valcano040=Gliding_Valcano040_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Replay=Gliding_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "Gliding_Valcano070RangeOut",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding_Valcano070=Gliding_Valcano070_010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Gliding070_Replay=Gliding070_Replay_010"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress5_EventVariable6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$5"
+				},
+				{
+					"mCategory": 18,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "Special_Desert010_Start",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Desert"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Special_Desert010=Special_Desert010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "Enemy_Jungle050",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Enemy_Jungle050=Enemy_Jungle050_010"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineNotepad_quit",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Machine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "OctMachine",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Machine_HyrulePlains010"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "!OctMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "ZolMachine",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "MachineCreateFirst"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "!ZolMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "DekMachine",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "MachineCreateFirst"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "!DekMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "MorMachine",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "MachineCreateFirst"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "!MorMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "CroMachine",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "CroMachine_Open"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "!CroMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineEngineerTalk_Oct",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "OctMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineEngineerTalk_Zol",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "ZolMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineEngineerTalk_Dek",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "DekMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineEngineerTalk_Mor",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "MorMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineEngineerTalk_Cro",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "CroMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "KarakuriCreate",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "OctMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "ZolMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "DekMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "MorMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "CroMachine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "KarakuriRepair",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Machine_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackAppearHyruleCastle_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Midpoint>=Midpoint_MinistersSuspected"
+				}
+			]
+		},
+		{
+			"mLabel": "ZolMachinePartsCheck",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "ZolMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!GetMachineUnlock03"
+				}
+			]
+		},
+		{
+			"mLabel": "DekMachinePartsCheck",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "DekMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!GetMachineUnlock01"
+				}
+			]
+		},
+		{
+			"mLabel": "LostShip_Quest",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				}
+			]
+		},
+		{
+			"mLabel": "Special_HyruleCastle010_040",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Special_HyruleCastle010=Special_HyruleCastle010_030"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "PartnerStrayGet_059"
+				}
+			]
+		},
+		{
+			"mLabel": "HaveZeldaClothes08",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "ZeldaClothes08"
+				}
+			]
+		},
+		{
+			"mLabel": "HaveZeldaClothes09",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "ZeldaClothes09"
+				}
+			]
+		},
+		{
+			"mLabel": "HaveZeldaClothes10",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "ZeldaClothes10"
+				}
+			]
+		},
+		{
+			"mLabel": "LostShip_QuestEnemy",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "LostShip_Coast010<=LostShip_Coast010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "AllMachineCreate",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Machine_HyrulePlains010"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "OctMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "ZolMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "DekMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "MorMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "CroMachine_HyrulePlains010"
+				},
+				{
+					"mCategory": 2,
+					"mParameter": "!Ornament22"
+				}
+			]
+		},
+		{
+			"mLabel": "NotHaveOrnament19",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 2,
+					"mParameter": "!Ornament19"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress6_or_7",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineCrowlyExist",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				},
+				{
+					"mCategory": 18,
+					"mParameter": "HorseRaceCheckpoint=OutOfRace"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "QuestProgress6_or_7"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress6_and_7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress5_6_7",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$5"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "$7"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress6_NotSwitch0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!0"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress6_Switch0",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress5_MessageFlag6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$5"
+				},
+				{
+					"mCategory": 20,
+					"mParameter": "$6"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemQuest00",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Fairy_HyrulePlains010>=Fairy_HyrulePlains010_035"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemQuest01",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Fairy_HyrulePlains010_Zora"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemQuest02",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Fairy_HyrulePlains010_Goron"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemQuest04",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Firework_Valcano010>=Firework_Valcano010_020"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemQuest05",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Special_HyruleCastle010>=Special_HyruleCastle010_010"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemMachineUnlock00",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "GetMachineUnlock00"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemMachineUnlock01",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "GetMachineUnlock01"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemMachineUnlock02",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "GetMachineUnlock02"
+				}
+			]
+		},
+		{
+			"mLabel": "Get_ItemMachineUnlock03",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "GetMachineUnlock03"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemQuest00",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Fairy_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemQuest01",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Fairy_HyrulePlains010>=Fairy_HyrulePlains010_035"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemQuest02",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Fairy_HyrulePlains010>=Fairy_HyrulePlains010_035"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemQuest04",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Firework_Valcano010"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemQuest05",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Special_HyruleCastle010>=Special_HyruleCastle010_020"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemMachineUnlock00",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "MorMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemMachineUnlock01",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "DekMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemMachineUnlock02",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "CroMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "Release_ItemMachineUnlock03",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "ZolMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackA_end_CrackB_before_CrackC_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_A=Desert_Crack_A_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_B<Desert_Crack_B_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_C<Desert_Crack_C_end"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackA_before_CrackB_end_CrackC_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_A<Desert_Crack_A_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_B=Desert_Crack_B_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_C<Desert_Crack_C_end"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackA_before_CrackB_before_CrackC_end",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_A<Desert_Crack_A_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_B<Desert_Crack_B_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_C=Desert_Crack_C_end"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackA_end_CrackB_end_CrackC_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_A=Desert_Crack_A_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_B=Desert_Crack_B_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_C<Desert_Crack_C_end"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackA_end_CrackB_before_CrackC_end",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_A=Desert_Crack_A_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_B<Desert_Crack_B_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_C=Desert_Crack_C_end"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackA_before_CrackB_end_CrackC_end",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_A<Desert_Crack_A_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_B=Desert_Crack_B_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Desert_Crack_C=Desert_Crack_C_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Desert_end_CoastRiver_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert=Desert_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Coast_River<Coast_River_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Desert_before_CoastRiver_end",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Desert<Desert_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Coast_River=Coast_River_end"
+				}
+			]
+		},
+		{
+			"mLabel": "TekMachine_A",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "TekMachine_A"
+				}
+			]
+		},
+		{
+			"mLabel": "TekMachine_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "TekMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "OctMachine_A",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "OctMachine_A"
+				}
+			]
+		},
+		{
+			"mLabel": "OctMachine_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "OctMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "ZolMachine_A",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "ZolMachine_A"
+				}
+			]
+		},
+		{
+			"mLabel": "ZolMachine_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "ZolMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "DekMachine_A",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "DekMachine_A"
+				}
+			]
+		},
+		{
+			"mLabel": "DekMachine_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "DekMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "MorMachine_A",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "MorMachine_A"
+				}
+			]
+		},
+		{
+			"mLabel": "MorMachine_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "MorMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "CroMachine_A",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "CroMachine_A"
+				}
+			]
+		},
+		{
+			"mLabel": "CroMachine_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "CroMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "GolemVolcano_Open",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Volcano"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "Firework_Valcano010"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Golem_Valcano010<=Golem_Valcano010_005"
+				},
+				{
+					"mCategory": 19,
+					"mParameter": "VolcanoSubQuests=0"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemWorldGlobePiece_Start",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!EventLuberiLvUpTalk"
+				}
+			]
+		},
+		{
+			"mLabel": "ItemWorldGlobePiece_End",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "EventLuberiLvUpTalk"
+				}
+			]
+		},
+		{
+			"mLabel": "SwordLv1_Message_Clear",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "HyruleCastle_LuberiHouse"
+				}
+			]
+		},
+		{
+			"mLabel": "BeachCam_End",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "BeachCam"
+				}
+			]
+		},
+		{
+			"mLabel": "TekMachine_A_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "TekMachine_A"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "TekMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "OctMachine_A_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "OctMachine_A"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "OctMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "ZolMachine_A_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "ZolMachine_A"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "ZolMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "DekMachine_A_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "DekMachine_A"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "DekMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "MorMachine_A_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "MorMachine_A"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "MorMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "CroMachine_A_B",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 14,
+					"mParameter": "CroMachine_A"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "CroMachine_B"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRentalEnabled",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Horse_HyrulePlains010"
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRentalRanchBlock",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "!Horse_HyrulePlains010"
+				},
+				{
+					"mCategory": 31,
+					"mParameter": "RentalHorse"
+				}
+			]
+		},
+		{
+			"mLabel": "GetJungleHint_EastDeku",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "scenario/GeneralTalkDeku:Deku014Talk010_Q1_A1_030"
+				}
+			]
+		},
+		{
+			"mLabel": "GetJungleHint_Heart",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 20,
+					"mParameter": "scenario/GeneralTalkDeku:Deku009Talk010_Q2_A1_010"
+				}
+			]
+		},
+		{
+			"mLabel": "Volcano_end_Jungle_Snowmountain_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Volcano=Volcano_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle<Jungle_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Snowmountain<Snowmountain_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Jungle_end_Volcano_Snowmountain_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle=Jungle_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Volcano<Volcano_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Snowmountain<Snowmountain_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Snowmountain_end_Jungle_Volcano_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Snowmountain=Snowmountain_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle<Jungle_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Volcano<Volcano_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Volcano_Jungle_end_Snowmountain_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Volcano=Volcano_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle=Jungle_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Snowmountain<Snowmountain_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Volcano_Snowmountain_end_Jungle_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Volcano=Volcano_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Snowmountain=Snowmountain_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle<Jungle_end"
+				}
+			]
+		},
+		{
+			"mLabel": "Jungle_Snowmountain_end_Volcano_before",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle=Jungle_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Snowmountain=Snowmountain_end"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Volcano<Volcano_end"
+				}
+			]
+		},
+		{
+			"mLabel": "GlidingGameElimination",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$6"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "!PlayerIsFlying"
+				}
+			]
+		},
+		{
+			"mLabel": "PlayerIsFlying",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 28,
+					"mParameter": "Aerial"
+				},
+				{
+					"mCategory": 28,
+					"mParameter": "SyncChild"
+				}
+			]
+		},
+		{
+			"mLabel": "GetMachineCoupon",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "RepairCoupon"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "KarakuriRepair"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineSensorExist",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				},
+				{
+					"mCategory": 18,
+					"mParameter": "HorseRaceCheckpoint=OutOfRace"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!3"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "QuestProgress6"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachin_OpenSwordLvMax",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "SwordLv=2"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachin_OpenBowLvMax",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "BowLv=2"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachin_OpenBombLvMax",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "BombLv=2"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachin_OpenMorphEnergyLvMax",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "MorphEnergyLv=3"
+				},
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachine_Sword",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "SwordLv=1"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "LuberiHouseMachin_OpenSwordLvMax"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachine_Bow",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "BowLv=1"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "LuberiHouseMachin_OpenBowLvMax"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachine_Bomb",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "BombLv=1"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "LuberiHouseMachin_OpenBombLvMax"
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiHouseMachine_MorphEnergy",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 30,
+					"mParameter": "MorphEnergyLv=1"
+				},
+				{
+					"mCategory": 30,
+					"mParameter": "MorphEnergyLv=2"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "LuberiHouseMachin_OpenMorphEnergyLvMax"
+				}
+			]
+		},
+		{
+			"mLabel": "SeasideHouse02_Open",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Coast_River"
+				},
+				{
+					"mCategory": 13,
+					"mParameter": "!LostShip_Coast010"
+				},
+				{
+					"mCategory": 14,
+					"mParameter": "!LostShip_Coast010"
+				}
+			]
+		},
+		{
+			"mLabel": "IsGetLCastleBossKey",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "BossKeyGet_BGMChange"
+				}
+			]
+		},
+		{
+			"mLabel": "NoMachineCoupon",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!RepairCoupon"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "KarakuriRepair"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonCleared_SeaRiver_Desert",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon002"
+				},
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon003"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonCleared_Volcano_Jungle",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon004"
+				},
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon005"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonCleared_Volcano_SnowMountain",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon004"
+				},
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon006"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonCleared_Jungle_SnowMountain",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon005"
+				},
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon006"
+				}
+			]
+		},
+		{
+			"mLabel": "DungeonCleared_Volcano_Jungle_SnowMountain",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon004"
+				},
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon005"
+				},
+				{
+					"mCategory": 21,
+					"mParameter": "L_Dungeon006"
+				}
+			]
+		},
+		{
+			"mLabel": "BattleChallengeFinalTraining_Unlock",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "BattleChallengeFinalTraining"
+				}
+			]
+		},
+		{
+			"mLabel": "Mc033HorseLovedSet",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "WorldGlobeSmallActive_007"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "Mc033HorseLovedSet"
+				}
+			]
+		},
+		{
+			"mLabel": "Machine_HyrulePlains010_EnemyInactive",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "!MachineCrowlyExist"
+				}
+			]
+		},
+		{
+			"mLabel": "VolcanoOverviewSensor",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "volcano_jungle_hebra_Overview"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!EvC_Overview"
+				}
+			]
+		},
+		{
+			"mLabel": "CrackAppearHyruleCastle_After",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Midpoint>=Midpoint_CrackAppearHyruleCastle"
+				}
+			]
+		},
+		{
+			"mLabel": "Volcano_SoldierEvent",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Volcano<Volcano_end"
+				},
+				{
+					"mCategory": 20,
+					"mParameter": "!scenario/StoryAreaC:PeopleWorriedVolcanoes_010"
+				}
+			]
+		},
+		{
+			"mLabel": "IsPlayBgmJabuJabuAppearToDead",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "EvB_ImitationJabuJabuAppear"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!EvB_ImitationJabuJabuDead"
+				}
+			]
+		},
+		{
+			"mLabel": "QuestProgress7_or_Switch0",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "$7"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "0"
+				}
+			]
+		},
+		{
+			"mLabel": "ReleaseofGoddess1End",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "ReleaseofGoddess1"
+				}
+			]
+		},
+		{
+			"mLabel": "ReleaseofGoddess2End",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "ReleaseofGoddess2"
+				}
+			]
+		},
+		{
+			"mLabel": "ReleaseofGoddess3End",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "ReleaseofGoddess3"
+				}
+			]
+		},
+		{
+			"mLabel": "Link_RescueEnd",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Link_Rescue"
+				}
+			]
+		},
+		{
+			"mLabel": "IsCondesHouseStarted",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "AudioIsStartedCondesHouse"
+				}
+			]
+		},
+		{
+			"mLabel": "BlockedEntranceFlag",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Coast_River>=Coast_River_Start"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!EvB_BlockedEntrance"
+				}
+			]
+		},
+		{
+			"mLabel": "DestroyedZoraRiverHouseSwitchFlag",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!EvB_ZorasChiefsIntroduction"
+				},
+				{
+					"mCategory": 16,
+					"mParameter": "Midpoint>=Midpoint_end"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch01_NotMessageFlag6",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!1"
+				},
+				{
+					"mCategory": 20,
+					"mParameter": "!$6"
+				}
+			]
+		},
+		{
+			"mLabel": "MachineSensorExist02",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 15,
+					"mParameter": "Midpoint"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "QuestProgress6_or_7"
+				},
+				{
+					"mCategory": 18,
+					"mParameter": "HorseRaceCheckpoint=OutOfRace"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "3"
+				}
+			]
+		},
+		{
+			"mLabel": "AudioStormSubsides",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "CondesHouseBook"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "CondesHousePanting"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "CondeHouseTool"
+				}
+			]
+		},
+		{
+			"mLabel": "AudioStormSubsidesCondesHouse",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "AudioIsStormSubsidesCondesHouse"
+				}
+			]
+		},
+		{
+			"mLabel": "UiHudOperate_Jungle",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Jungle:ImprisonedInJungle~GiveItBack"
+				}
+			]
+		},
+		{
+			"mLabel": "UiHudOperate_LastDungeon",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "LastDungeon:LastDungeonEnter~LastDungeon_end"
+				}
+			]
+		},
+		{
+			"mLabel": "AudioIsDoneLastDungeonLastRoom",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "AudioIsDoneLastDungeonLastRoom"
+				}
+			]
+		},
+		{
+			"mLabel": "AudioDontPlaySwordsManBgm",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "FBLast003DarkLinkDead"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "!OpenedLastDungeon"
+				}
+			]
+		},
+		{
+			"mLabel": "IsOverheadEraserTargetIncludes",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 27,
+					"mParameter": "obj"
+				},
+				{
+					"mCategory": 27,
+					"mParameter": "obj_basic"
+				},
+				{
+					"mCategory": 26,
+					"mParameter": "WeatherVane"
+				},
+				{
+					"mCategory": 26,
+					"mParameter": "WellCover"
+				}
+			]
+		},
+		{
+			"mLabel": "IsOverheadEraserTargetExcludes",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 26,
+					"mParameter": "NorthForestRelic"
+				},
+				{
+					"mCategory": 26,
+					"mParameter": "TreasureBox"
+				}
+			]
+		},
+		{
+			"mLabel": "IsOverheadEraserTarget",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 37,
+					"mParameter": "IsOverheadEraserTargetIncludes"
+				},
+				{
+					"mCategory": 37,
+					"mParameter": "!IsOverheadEraserTargetExcludes"
+				}
+			]
+		},
+		{
+			"mLabel": "Mc001EnemyWipedOut",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "Link_HyrulePlains010>=Link_HyrulePlains010_020"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "Mc001EnemyDead"
+				}
+			]
+		},
+		{
+			"mLabel": "AudioIsLoadTitleGroup",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 1,
+					"mParameter": "!EvPrologue007"
+				}
+			]
+		},
+		{
+			"mLabel": "Mc043EnemyWipedOut",
+			"mStrategy": 1,
+			"mExpressions": [
+				{
+					"mCategory": 16,
+					"mParameter": "LostShip_Coast010>=LostShip_Coast010_020"
+				},
+				{
+					"mCategory": 1,
+					"mParameter": "LostShip_EnemyDead"
+				}
+			]
+		},
+		{
+			"mLabel": "NotSwitch0_And_NotSwitch1",
+			"mStrategy": 0,
+			"mExpressions": [
+				{
+					"mCategory": 11,
+					"mParameter": "!0"
+				},
+				{
+					"mCategory": 11,
+					"mParameter": "!1"
+				}
+			]
+		}
+	]
+}

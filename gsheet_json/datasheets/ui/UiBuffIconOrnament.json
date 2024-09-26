@@ -1,0 +1,154 @@
+{
+	"unk1": 2891986872,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiBuffIconOrnament",
+	"fields": [
+		{
+			"name": "mItemId",
+			"typename": "ItemId",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mTextureName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 8,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mTextLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mItemId": 38,
+			"mTextureName": "AirSaving",
+			"mTextLabel": "ui/Buff:Buff05"
+		},
+		{
+			"mItemId": 39,
+			"mTextureName": "HighJump",
+			"mTextLabel": "ui/Buff:Buff06"
+		},
+		{
+			"mItemId": 40,
+			"mTextureName": "SpeedUpCarry",
+			"mTextLabel": "ui/Buff:Buff07"
+		},
+		{
+			"mItemId": 41,
+			"mTextureName": "DropHeart",
+			"mTextLabel": "ui/Buff:Buff08"
+		},
+		{
+			"mItemId": 42,
+			"mTextureName": "DropRupee",
+			"mTextLabel": "ui/Buff:Buff09"
+		},
+		{
+			"mItemId": 43,
+			"mTextureName": "DropEnergy",
+			"mTextLabel": "ui/Buff:Buff10"
+		},
+		{
+			"mItemId": 44,
+			"mTextureName": "DropFairy",
+			"mTextLabel": "ui/Buff:Buff11"
+		},
+		{
+			"mItemId": 45,
+			"mTextureName": "DropCoupon",
+			"mTextLabel": "ui/Buff:Buff12"
+		},
+		{
+			"mItemId": 46,
+			"mTextureName": "DamageReduce",
+			"mTextLabel": "ui/Buff:Buff13"
+		},
+		{
+			"mItemId": 47,
+			"mTextureName": "AirSaving",
+			"mTextLabel": "ui/Buff:Buff14"
+		},
+		{
+			"mItemId": 48,
+			"mTextureName": "SpeedUpWindingUp",
+			"mTextLabel": "ui/Buff:Buff15"
+		},
+		{
+			"mItemId": 49,
+			"mTextureName": "SpeedUpSwim",
+			"mTextLabel": "ui/Buff:Buff16"
+		},
+		{
+			"mItemId": 50,
+			"mTextureName": "SpeedUpOnWall",
+			"mTextLabel": "ui/Buff:Buff17"
+		},
+		{
+			"mItemId": 51,
+			"mTextureName": "DamageReduce",
+			"mTextLabel": "ui/Buff:Buff18"
+		},
+		{
+			"mItemId": 52,
+			"mTextureName": "DamageReduce",
+			"mTextLabel": "ui/Buff:Buff19"
+		},
+		{
+			"mItemId": 53,
+			"mTextureName": "SensorCopy",
+			"mTextLabel": "ui/Buff:Buff20"
+		},
+		{
+			"mItemId": 54,
+			"mTextureName": "SensorWorldGlobePiece",
+			"mTextLabel": "ui/Buff:Buff21"
+		},
+		{
+			"mItemId": 55,
+			"mTextureName": "IgnoreQuicksand",
+			"mTextLabel": "ui/Buff:Buff22"
+		},
+		{
+			"mItemId": 56,
+			"mTextureName": "HorseStrongAttack",
+			"mTextLabel": "ui/Buff:Buff23"
+		},
+		{
+			"mItemId": 57,
+			"mTextureName": "KnockBackReduce",
+			"mTextLabel": "ui/Buff:Buff24"
+		},
+		{
+			"mItemId": 58,
+			"mTextureName": "SpeedUpSwim",
+			"mTextLabel": "ui/Buff:Buff25"
+		},
+		{
+			"mItemId": 59,
+			"mTextureName": "SpeedUpOnWall",
+			"mTextLabel": "ui/Buff:Buff26"
+		}
+	]
+}

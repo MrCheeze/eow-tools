@@ -1,0 +1,74 @@
+{
+	"unk1": 1737350916,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "TransitCounter",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mTrigger",
+			"typename": "TransitCounterTriggerType",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mKey": "VolcanoSubQuests",
+			"mTrigger": 4
+		},
+		{
+			"mKey": "FollowLynelContinue",
+			"mTrigger": 2
+		},
+		{
+			"mKey": "FollowLynelIndex",
+			"mTrigger": 0
+		},
+		{
+			"mKey": "mc008Clear",
+			"mTrigger": 3
+		},
+		{
+			"mKey": "ElevatorTriforceTraffic",
+			"mTrigger": 0
+		},
+		{
+			"mKey": "StampmanCleared",
+			"mTrigger": 3
+		},
+		{
+			"mKey": "mc032Clear",
+			"mTrigger": 4
+		},
+		{
+			"mKey": "mc032Clear018",
+			"mTrigger": 3
+		},
+		{
+			"mKey": "GoronRaceRespawnStrong",
+			"mTrigger": 3
+		},
+		{
+			"mKey": "YetiLeadingStart",
+			"mTrigger": 4
+		}
+	]
+}

@@ -1,0 +1,4896 @@
+{
+	"unk1": 2392312865,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "GlobalFlags",
+	"fields": [
+		{
+			"name": "mLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mLabel": "EventNextJob"
+		},
+		{
+			"mLabel": "EvPrologue001"
+		},
+		{
+			"mLabel": "EvPrologue002"
+		},
+		{
+			"mLabel": "EvPrologue003"
+		},
+		{
+			"mLabel": "EvPrologue004"
+		},
+		{
+			"mLabel": "EvPrologue005"
+		},
+		{
+			"mLabel": "EvPrologue006"
+		},
+		{
+			"mLabel": "EvPrologue007"
+		},
+		{
+			"mLabel": "EventCalloftheVillager"
+		},
+		{
+			"mLabel": "EvPrologue008"
+		},
+		{
+			"mLabel": "EvPrologue009"
+		},
+		{
+			"mLabel": "EvPrologue010"
+		},
+		{
+			"mLabel": "EventClackDisappear"
+		},
+		{
+			"mLabel": "CallPasteSuccess"
+		},
+		{
+			"mLabel": "CallPastedLinkPasteSuccess"
+		},
+		{
+			"mLabel": "CompDungeonBCD"
+		},
+		{
+			"mLabel": "CompDungeonEF"
+		},
+		{
+			"mLabel": "EventAreaLastRelease"
+		},
+		{
+			"mLabel": "EventAreaBClear"
+		},
+		{
+			"mLabel": "EvPrologue011"
+		},
+		{
+			"mLabel": "EvPrologue012"
+		},
+		{
+			"mLabel": "EvPrologue013"
+		},
+		{
+			"mLabel": "EvPrologue014"
+		},
+		{
+			"mLabel": "EvPrologue015"
+		},
+		{
+			"mLabel": "EvPrologue016"
+		},
+		{
+			"mLabel": "EvPrologue017"
+		},
+		{
+			"mLabel": "EvPrologue018"
+		},
+		{
+			"mLabel": "EventAreaCClear"
+		},
+		{
+			"mLabel": "EvPrologue019"
+		},
+		{
+			"mLabel": "EvPrologue020"
+		},
+		{
+			"mLabel": "EvSentPrison"
+		},
+		{
+			"mLabel": "EvSoldierCatch"
+		},
+		{
+			"mLabel": "EvSoldierAttention"
+		},
+		{
+			"mLabel": "EvPrologue021"
+		},
+		{
+			"mLabel": "EvAreaA001"
+		},
+		{
+			"mLabel": "EvAreaA002"
+		},
+		{
+			"mLabel": "EvAreaA003"
+		},
+		{
+			"mLabel": "EvAreaA004"
+		},
+		{
+			"mLabel": "EvAreaA005"
+		},
+		{
+			"mLabel": "EvAreaA006"
+		},
+		{
+			"mLabel": "EventAreaDClear"
+		},
+		{
+			"mLabel": "EvAreaA007"
+		},
+		{
+			"mLabel": "EvWakingPasteLink"
+		},
+		{
+			"mLabel": "EvPastePowerGet"
+		},
+		{
+			"mLabel": "EvLinkBarricadeBreak"
+		},
+		{
+			"mLabel": "EvPastePowerMax"
+		},
+		{
+			"mLabel": "EvAreaA008"
+		},
+		{
+			"mLabel": "EvAreaA009"
+		},
+		{
+			"mLabel": "EvAreaA010"
+		},
+		{
+			"mLabel": "EventCrackActivation"
+		},
+		{
+			"mLabel": "EvAreaA011"
+		},
+		{
+			"mLabel": "EvAreaA012"
+		},
+		{
+			"mLabel": "EvAreaA013"
+		},
+		{
+			"mLabel": "EvAreaA014"
+		},
+		{
+			"mLabel": "EvAreaA015"
+		},
+		{
+			"mLabel": "EvAreaA016"
+		},
+		{
+			"mLabel": "EvAreaA017"
+		},
+		{
+			"mLabel": "EventLuberiLvUpTalk"
+		},
+		{
+			"mLabel": "SkillUnLock01"
+		},
+		{
+			"mLabel": "Sink_HyrulePlains010_Clear"
+		},
+		{
+			"mLabel": "Carry_HyrulePlains010_Clear"
+		},
+		{
+			"mLabel": "FoxQuizClear01"
+		},
+		{
+			"mLabel": "FoxQuizClear02"
+		},
+		{
+			"mLabel": "FoxQuizClear03"
+		},
+		{
+			"mLabel": "FoxQuizClear04"
+		},
+		{
+			"mLabel": "FoxQuizClear05"
+		},
+		{
+			"mLabel": "GreatFairyChallenge"
+		},
+		{
+			"mLabel": "SoldierQuestClear01"
+		},
+		{
+			"mLabel": "SoldierQuestClear02"
+		},
+		{
+			"mLabel": "SoldierQuestClear03"
+		},
+		{
+			"mLabel": "SoldierQuestClear04"
+		},
+		{
+			"mLabel": "SoldierQuestClear05"
+		},
+		{
+			"mLabel": "SoldierQuestDeku"
+		},
+		{
+			"mLabel": "Mystery_Forest010_sol020"
+		},
+		{
+			"mLabel": "Horse_HyrulePlains010_Clear"
+		},
+		{
+			"mLabel": "Carry_RiverCoast010_Clear"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest01"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest02"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest03"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest04"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest05"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest06"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest07"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest08"
+		},
+		{
+			"mLabel": "HyruleSpecialQuest09"
+		},
+		{
+			"mLabel": "Fairy_HyrulePlains010"
+		},
+		{
+			"mLabel": "Cucco_MC001"
+		},
+		{
+			"mLabel": "Cucco_MC002"
+		},
+		{
+			"mLabel": "Cucco_MC003"
+		},
+		{
+			"mLabel": "Cucco_MC004"
+		},
+		{
+			"mLabel": "Cucco_MC005"
+		},
+		{
+			"mLabel": "EvBossBarrierOffEnemyLink"
+		},
+		{
+			"mLabel": "EvAreaA018"
+		},
+		{
+			"mLabel": "EvAreaA019"
+		},
+		{
+			"mLabel": "EvAreaA020"
+		},
+		{
+			"mLabel": "EvAreaA021"
+		},
+		{
+			"mLabel": "EvAreaA022"
+		},
+		{
+			"mLabel": "EvAreaA023"
+		},
+		{
+			"mLabel": "EventAreaEClear"
+		},
+		{
+			"mLabel": "EvAreaA024"
+		},
+		{
+			"mLabel": "EvAreaA025"
+		},
+		{
+			"mLabel": "EvAreaA026"
+		},
+		{
+			"mLabel": "EvAreaA027"
+		},
+		{
+			"mLabel": "EvAreaA028"
+		},
+		{
+			"mLabel": "EvAreaA029"
+		},
+		{
+			"mLabel": "EvAreaA030"
+		},
+		{
+			"mLabel": "EvFirstWarpSucces"
+		},
+		{
+			"mLabel": "EvEnemyCopySuccess"
+		},
+		{
+			"mLabel": "EvRCameraTuto"
+		},
+		{
+			"mLabel": "EvTest_PartnerTalk_01"
+		},
+		{
+			"mLabel": "EvTest_PartnerTalk_02"
+		},
+		{
+			"mLabel": "EvBoundaryUgiTalk"
+		},
+		{
+			"mLabel": "EventAreaFClear"
+		},
+		{
+			"mLabel": "EventAreaLastPlot"
+		},
+		{
+			"mLabel": "EventAreaLastClear"
+		},
+		{
+			"mLabel": "EventEnding"
+		},
+		{
+			"mLabel": "EventPasteList"
+		},
+		{
+			"mLabel": "EventMeetTry"
+		},
+		{
+			"mLabel": "EventUseCopyRod"
+		},
+		{
+			"mLabel": "EventHorseTuto"
+		},
+		{
+			"mLabel": "Ev_ChangeLink"
+		},
+		{
+			"mLabel": "EventTestBossAppear"
+		},
+		{
+			"mLabel": "EventTestBossDead"
+		},
+		{
+			"mLabel": "EventBoundaryWorldSmallOpen"
+		},
+		{
+			"mLabel": "EvA_MinisterTalk"
+		},
+		{
+			"mLabel": "EvA_EndLeadMinister"
+		},
+		{
+			"mLabel": "EvA_WaitingMinisterLeftFadeIn"
+		},
+		{
+			"mLabel": "EvB_AreaBIntroduction"
+		},
+		{
+			"mLabel": "EvB_PeopleAfraidOfJabujabu"
+		},
+		{
+			"mLabel": "EvB_BlockedEntrance"
+		},
+		{
+			"mLabel": "EvB_DiscordConcert"
+		},
+		{
+			"mLabel": "EvB_ZorasChiefsIntroduction"
+		},
+		{
+			"mLabel": "EvB_CalamityByJabuJabu_First"
+		},
+		{
+			"mLabel": "EvB_SolvingCalamity_First"
+		},
+		{
+			"mLabel": "EvB_AccidentAtRiver"
+		},
+		{
+			"mLabel": "EvB_GetInfo_River"
+		},
+		{
+			"mLabel": "EvB_CalamityByJabuJabu_River"
+		},
+		{
+			"mLabel": "EvB_BoundaryZoraRiverChief"
+		},
+		{
+			"mLabel": "EvB_Complete_River"
+		},
+		{
+			"mLabel": "EvB_SolvingCalamity_River"
+		},
+		{
+			"mLabel": "EvB_GetInfo_Coast"
+		},
+		{
+			"mLabel": "EvB_CalamityByJabuJabu_Coast"
+		},
+		{
+			"mLabel": "EvB_AccidentAtCoast"
+		},
+		{
+			"mLabel": "EvB_DestroyCaveEntrance_Coast"
+		},
+		{
+			"mLabel": "EvB_RemoveRocks_Coast"
+		},
+		{
+			"mLabel": "EvB_SolvingCalamity_Coast"
+		},
+		{
+			"mLabel": "EvB_WhereaboutsOfJabuJabu"
+		},
+		{
+			"mLabel": "EvB_SwallowedUpAttendants"
+		},
+		{
+			"mLabel": "EvB_SwallowedUpAttendantsMidway"
+		},
+		{
+			"mLabel": "EvB_ClosedEntrance_JabuJabuHall"
+		},
+		{
+			"mLabel": "EvB_ClosedEntrance_JabuJabuHall_2"
+		},
+		{
+			"mLabel": "EvB_CompleteHarmony"
+		},
+		{
+			"mLabel": "EvB_ImitationJabuJabuAppear"
+		},
+		{
+			"mLabel": "EvB_ImitationJabuJabuDead"
+		},
+		{
+			"mLabel": "EvB_ImitationJabuJabuDead_2"
+		},
+		{
+			"mLabel": "EvB_ViewBoundaryWorld_AreaB"
+		},
+		{
+			"mLabel": "EvB_IntoDungeon_AreaB"
+		},
+		{
+			"mLabel": "EvB_AreaBBossAppear"
+		},
+		{
+			"mLabel": "EvB_AreaBBossDead"
+		},
+		{
+			"mLabel": "EvB_TouchWedge_AreaB"
+		},
+		{
+			"mLabel": "EvB_WedgeActive_AreaB"
+		},
+		{
+			"mLabel": "EvB_ReconciliationConcert"
+		},
+		{
+			"mLabel": "EvB_InZoraRiverChiefsRoom"
+		},
+		{
+			"mLabel": "EvB_InZoraSeaChiefsRoom"
+		},
+		{
+			"mLabel": "EvB_InZoraRiverChiefsRoomClear"
+		},
+		{
+			"mLabel": "EvB_InZoraSeaChiefsRoomClear"
+		},
+		{
+			"mLabel": "EvB_Calamity_RiverStart"
+		},
+		{
+			"mLabel": "EvB_Calamity_CoastStart"
+		},
+		{
+			"mLabel": "EvB_DiscordConcertStart"
+		},
+		{
+			"mLabel": "TreasureBox_ZoraQuest"
+		},
+		{
+			"mLabel": "LostShip_QuestStart"
+		},
+		{
+			"mLabel": "LostShip_EnemyDead"
+		},
+		{
+			"mLabel": "EvC_GoronNewLeader"
+		},
+		{
+			"mLabel": "Ev_ChangeLink_Bomb"
+		},
+		{
+			"mLabel": "EvC_WorldGlobeActivate"
+		},
+		{
+			"mLabel": "EvC_CrackSmallStart"
+		},
+		{
+			"mLabel": "EvC_GoronSecretPassageOpen"
+		},
+		{
+			"mLabel": "EvC_GlidingPracticeStart"
+		},
+		{
+			"mLabel": "EvC_GlidingPracticeEnd"
+		},
+		{
+			"mLabel": "EvC_L004_R013Retry"
+		},
+		{
+			"mLabel": "EvD_MeetTona"
+		},
+		{
+			"mLabel": "EvD_MeetSerum"
+		},
+		{
+			"mLabel": "EvD_GerudoTriumphed"
+		},
+		{
+			"mLabel": "EvD_TonaRequest"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_A"
+		},
+		{
+			"mLabel": "EvD_CrackABattle_Comp"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_A2"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_B"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_B2"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_B3"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_AB_Clear"
+		},
+		{
+			"mLabel": "EvD_GraveLamp_A"
+		},
+		{
+			"mLabel": "EvD_GraveLamp_B"
+		},
+		{
+			"mLabel": "EvD_GraveLamp_Comp"
+		},
+		{
+			"mLabel": "EvD_JoinUpTona"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_C"
+		},
+		{
+			"mLabel": "EvD_CrackCBattle_Comp"
+		},
+		{
+			"mLabel": "EvD_DesertCrack_C2"
+		},
+		{
+			"mLabel": "EvD_Miniboundary"
+		},
+		{
+			"mLabel": "EvD_ZeldasMerits"
+		},
+		{
+			"mLabel": "EvD_MeetAgainTona"
+		},
+		{
+			"mLabel": "EvD_GerudosDiscussion"
+		},
+		{
+			"mLabel": "EvD_SandObstacleOut_Start"
+		},
+		{
+			"mLabel": "Desert_boundary_open"
+		},
+		{
+			"mLabel": "EvD_RemainsAppear"
+		},
+		{
+			"mLabel": "EvD_ViewBoundaryWorld"
+		},
+		{
+			"mLabel": "Ev_EnemyLinkBowAppear"
+		},
+		{
+			"mLabel": "Ev_EnemyLinkBowDead"
+		},
+		{
+			"mLabel": "Ev_ChangeLink_Bow"
+		},
+		{
+			"mLabel": "EvD_IntoDungeon"
+		},
+		{
+			"mLabel": "EvD_BossAppear"
+		},
+		{
+			"mLabel": "EvD_BossDead"
+		},
+		{
+			"mLabel": "EvD_TouchWorldGlobe"
+		},
+		{
+			"mLabel": "EvD_WorldGlobeActivate"
+		},
+		{
+			"mLabel": "EvD_TalkSerum"
+		},
+		{
+			"mLabel": "Stealth_Desert_Opened"
+		},
+		{
+			"mLabel": "Stealth_Desert_Opened2"
+		},
+		{
+			"mLabel": "Gerudo_Race"
+		},
+		{
+			"mLabel": "Statue_Desert060_Opened"
+		},
+		{
+			"mLabel": "Statue_Desert060_A"
+		},
+		{
+			"mLabel": "Statue_Desert060_B"
+		},
+		{
+			"mLabel": "Statue_Desert060_Clear"
+		},
+		{
+			"mLabel": "Lanmola_Desert010"
+		},
+		{
+			"mLabel": "Volcano_VolcanoPointA"
+		},
+		{
+			"mLabel": "Volcano_VolcanoPointB"
+		},
+		{
+			"mLabel": "SyncRodTutorial"
+		},
+		{
+			"mLabel": "L_Dungeon002_vortex"
+		},
+		{
+			"mLabel": "L_Dungeon002_MoveWhirlpoolEnd"
+		},
+		{
+			"mLabel": "volcano_IntoDungeon"
+		},
+		{
+			"mLabel": "volcano_AreaBBossAppear"
+		},
+		{
+			"mLabel": "volcano_AreaBBoss"
+		},
+		{
+			"mLabel": "volcano_TouchWedge"
+		},
+		{
+			"mLabel": "volcano_WedgeActive"
+		},
+		{
+			"mLabel": "volcano_carryrock"
+		},
+		{
+			"mLabel": "Volcano_VolcanoPointB_1"
+		},
+		{
+			"mLabel": "Volcano_VolcanoPointB_2"
+		},
+		{
+			"mLabel": "Volcano_VolcanoPointB_3"
+		},
+		{
+			"mLabel": "BoundaryMinisterRightTalk"
+		},
+		{
+			"mLabel": "EvB_BigBariAppear"
+		},
+		{
+			"mLabel": "EvB_BigBariDead"
+		},
+		{
+			"mLabel": "EvP_GanonPasteOPAppear"
+		},
+		{
+			"mLabel": "EvP_GanonPasteOPDead"
+		},
+		{
+			"mLabel": "EvE_GanonPasteAppear"
+		},
+		{
+			"mLabel": "EvE_GanonPasteDead"
+		},
+		{
+			"mLabel": "volcano_boundary_open"
+		},
+		{
+			"mLabel": "volcano_boundary_close"
+		},
+		{
+			"mLabel": "Ev_EnemyLinkBowAppear2"
+		},
+		{
+			"mLabel": "Ev_LinkBowGet"
+		},
+		{
+			"mLabel": "EvZ_BalomLv1Dead"
+		},
+		{
+			"mLabel": "EvC_GolemFlameDead"
+		},
+		{
+			"mLabel": "HyruleClear"
+		},
+		{
+			"mLabel": "DanpeiFirstContact"
+		},
+		{
+			"mLabel": "WaterwaysCrack"
+		},
+		{
+			"mLabel": "CondesHouse"
+		},
+		{
+			"mLabel": "CondesHouseBook"
+		},
+		{
+			"mLabel": "CondesHousePanting"
+		},
+		{
+			"mLabel": "CondeHouseTool"
+		},
+		{
+			"mLabel": "EvJ_ApproachEntranceRuins_Clear"
+		},
+		{
+			"mLabel": "EvJ_DekusTrend_Clear"
+		},
+		{
+			"mLabel": "EvJ_ApproachIncorrectCrackA_Clear"
+		},
+		{
+			"mLabel": "EvJ_SolutionIncorrectCrackA_Clear"
+		},
+		{
+			"mLabel": "EvJ_ApproachIncorrectCrackB_Clear"
+		},
+		{
+			"mLabel": "EvJ_SolutionIncorrectCrackB_Clear"
+		},
+		{
+			"mLabel": "EvJ_ApproachEntranceRuins"
+		},
+		{
+			"mLabel": "EvJ_DekusTrend"
+		},
+		{
+			"mLabel": "EvJ_ApproachIncorrectCrackA"
+		},
+		{
+			"mLabel": "EvJ_SolutionIncorrectCrackA"
+		},
+		{
+			"mLabel": "EvJ_ApproachIncorrectCrackB"
+		},
+		{
+			"mLabel": "EvJ_SolutionIncorrectCrackB"
+		},
+		{
+			"mLabel": "EvF_BossAppear"
+		},
+		{
+			"mLabel": "EvF_BossDead"
+		},
+		{
+			"mLabel": "EvF_BalomLv2Dead"
+		},
+		{
+			"mLabel": "Snowmountain_IntoDungeon"
+		},
+		{
+			"mLabel": "Snowmountain_AreaBBossAppear"
+		},
+		{
+			"mLabel": "Snowmountain_AreaBBoss"
+		},
+		{
+			"mLabel": "Snowmountain_TouchWedge"
+		},
+		{
+			"mLabel": "Snowmountain_WedgeActive"
+		},
+		{
+			"mLabel": "EvF_ApproachEntranceRuins_Clear"
+		},
+		{
+			"mLabel": "EvF_DekusTrend_Clear"
+		},
+		{
+			"mLabel": "EvF_ApproachIncorrectCrackA_Clear"
+		},
+		{
+			"mLabel": "EvF_SolutionIncorrectCrackA_Clear"
+		},
+		{
+			"mLabel": "EvF_ApproachIncorrectCrackB_Clear"
+		},
+		{
+			"mLabel": "EvF_SolutionIncorrectCrackB_Clear"
+		},
+		{
+			"mLabel": "EvF_ApproachEntranceRuins"
+		},
+		{
+			"mLabel": "EvF_DekusTrend"
+		},
+		{
+			"mLabel": "EvF_ApproachIncorrectCrackA"
+		},
+		{
+			"mLabel": "EvF_SolutionIncorrectCrackA"
+		},
+		{
+			"mLabel": "EvF_ApproachIncorrectCrackB"
+		},
+		{
+			"mLabel": "EvF_SolutionIncorrectCrackB"
+		},
+		{
+			"mLabel": "EvF_DoorPrisonOpen"
+		},
+		{
+			"mLabel": "EvF_DoorPrisonOpen_R"
+		},
+		{
+			"mLabel": "EvF_SoldierCatchJungle_Field"
+		},
+		{
+			"mLabel": "EvF_GiveItBack"
+		},
+		{
+			"mLabel": "EvF_AfraidOfEnemy"
+		},
+		{
+			"mLabel": "EvF_DekuNextTrend"
+		},
+		{
+			"mLabel": "EvF_BeMyGuest"
+		},
+		{
+			"mLabel": "EvF_PlayHookyDekus"
+		},
+		{
+			"mLabel": "EvG_DeguZolAppear"
+		},
+		{
+			"mLabel": "EvG_DeguZolDead"
+		},
+		{
+			"mLabel": "EvG_FreblazeAppear"
+		},
+		{
+			"mLabel": "EvG_FreblazeDead"
+		},
+		{
+			"mLabel": "LostWoods_SoldierTalk"
+		},
+		{
+			"mLabel": "LastDungeon_CrackAppear"
+		},
+		{
+			"mLabel": "LastDungeon_ReturnWeaponToLink"
+		},
+		{
+			"mLabel": "LastDungeon_gateopen"
+		},
+		{
+			"mLabel": "LastDungeon_IntoDungeon"
+		},
+		{
+			"mLabel": "LastDungeon_LinkLeadTheWay010"
+		},
+		{
+			"mLabel": "LastDungeon_013_Goal"
+		},
+		{
+			"mLabel": "LastDungeon_JoinedLink"
+		},
+		{
+			"mLabel": "LastDungeon_LinkLeadTheWay020"
+		},
+		{
+			"mLabel": "LastDungeon_AreaBBossAppear"
+		},
+		{
+			"mLabel": "LastDungeon_AreaBBoss"
+		},
+		{
+			"mLabel": "LastDungeon_TouchWedge"
+		},
+		{
+			"mLabel": "LastDungeon_WedgeActive"
+		},
+		{
+			"mLabel": "Snowmountain_gateopen"
+		},
+		{
+			"mLabel": "NewMachineRelease"
+		},
+		{
+			"mLabel": "EvB_Overview"
+		},
+		{
+			"mLabel": "EvC_Overview"
+		},
+		{
+			"mLabel": "EvD_Overview"
+		},
+		{
+			"mLabel": "EvE_Overview"
+		},
+		{
+			"mLabel": "EvF_Overview"
+		},
+		{
+			"mLabel": "EvG_Overview"
+		},
+		{
+			"mLabel": "OpenedLastDungeon"
+		},
+		{
+			"mLabel": "EvB_DiscordConcertEnd"
+		},
+		{
+			"mLabel": "EvE_WorldGlobeActivate"
+		},
+		{
+			"mLabel": "EvF_WorldGlobeActivate"
+		},
+		{
+			"mLabel": "EvG_WorldGlobeActivate"
+		},
+		{
+			"mLabel": "EvB_RemoveRocks_L_Dungeon002"
+		},
+		{
+			"mLabel": "EvB_RemoveRocks_L_Dungeon002_end"
+		},
+		{
+			"mLabel": "EvF_DekuKidnapped_Clear"
+		},
+		{
+			"mLabel": "EvF_DekuKidnapped_Start"
+		},
+		{
+			"mLabel": "EvF_ApproachCorrectCrack_Clear"
+		},
+		{
+			"mLabel": "Ev_SmallBoundaryWorldOpen_011"
+		},
+		{
+			"mLabel": "Left_LuberiHouse"
+		},
+		{
+			"mLabel": "OPDungeon_retry"
+		},
+		{
+			"mLabel": "MeetKingHyrule"
+		},
+		{
+			"mLabel": "PartnerAppear"
+		},
+		{
+			"mLabel": "EvE_MinistersSuspected_after"
+		},
+		{
+			"mLabel": "EvE_gateopen"
+		},
+		{
+			"mLabel": "MinisterRight_Balom01_After"
+		},
+		{
+			"mLabel": "MinisterRight_Balom02_After"
+		},
+		{
+			"mLabel": "MinisterRight_BigBari_After"
+		},
+		{
+			"mLabel": "MinisterRight_Lanmola_After"
+		},
+		{
+			"mLabel": "MinisterRight_Golem_After"
+		},
+		{
+			"mLabel": "FireFlower_Pop"
+		},
+		{
+			"mLabel": "CarrotField_Crack_Active"
+		},
+		{
+			"mLabel": "ForestSquare_Crack_Active"
+		},
+		{
+			"mLabel": "EvF_gateopen"
+		},
+		{
+			"mLabel": "Ev_LastDungeonEnter"
+		},
+		{
+			"mLabel": "Snowmountain_gateopen_before"
+		},
+		{
+			"mLabel": "ReleaseofGoddess1"
+		},
+		{
+			"mLabel": "ReleaseofGoddess2"
+		},
+		{
+			"mLabel": "ReleaseofGoddess3"
+		},
+		{
+			"mLabel": "FastChangeLink"
+		},
+		{
+			"mLabel": "MachineCreateFirst"
+		},
+		{
+			"mLabel": "Ev_LinkBombGet"
+		},
+		{
+			"mLabel": "EvG_GatePartnerPhoton_appear"
+		},
+		{
+			"mLabel": "condegoal"
+		},
+		{
+			"mLabel": "jumpConde"
+		},
+		{
+			"mLabel": "TutorialModal_Title_CopyRod_Enemy"
+		},
+		{
+			"mLabel": "Mc066CountEnd"
+		},
+		{
+			"mLabel": "BeachCam"
+		},
+		{
+			"mLabel": "DekuBrotherTalk"
+		},
+		{
+			"mLabel": "DekuTreeFirstTalk"
+		},
+		{
+			"mLabel": "Find_ForestSquare_Crack"
+		},
+		{
+			"mLabel": "Find_BoundaryHylianFC000"
+		},
+		{
+			"mLabel": "FlameGolemEncount"
+		},
+		{
+			"mLabel": "witnesslink"
+		},
+		{
+			"mLabel": "CondesHouse_before"
+		},
+		{
+			"mLabel": "inthehouse"
+		},
+		{
+			"mLabel": "RepairCoupon"
+		},
+		{
+			"mLabel": "S_Dungeon014_In"
+		},
+		{
+			"mLabel": "EnergyStoneGet"
+		},
+		{
+			"mLabel": "TriforceAppear"
+		},
+		{
+			"mLabel": "S_Dungeon009_ZoraSea002_Talk"
+		},
+		{
+			"mLabel": "ZoraRiver001_Talk"
+		},
+		{
+			"mLabel": "F_BuriedItem34"
+		},
+		{
+			"mLabel": "Mc033HorseLovedSet"
+		},
+		{
+			"mLabel": "Smoothie001"
+		},
+		{
+			"mLabel": "Smoothie010"
+		},
+		{
+			"mLabel": "Smoothie030"
+		},
+		{
+			"mLabel": "Mc001EnemyDead"
+		},
+		{
+			"mLabel": "Mc066GC_First"
+		},
+		{
+			"mLabel": "Mc066MetGandS"
+		},
+		{
+			"mLabel": "CopyRod_Enemy_Comp"
+		},
+		{
+			"mLabel": "F_MC034_CatClothStart"
+		},
+		{
+			"mLabel": "LinkRevival"
+		},
+		{
+			"mLabel": "ShipLidBreak"
+		},
+		{
+			"mLabel": "L001BossDead"
+		},
+		{
+			"mLabel": "L001EnemyLinkSwordGet"
+		},
+		{
+			"mLabel": "L001R001DoorCloseOpen"
+		},
+		{
+			"mLabel": "L001R002DodgeRock"
+		},
+		{
+			"mLabel": "L001R003TreasureBoxGet"
+		},
+		{
+			"mLabel": "L001R004DodgeRock"
+		},
+		{
+			"mLabel": "L001R006DarknutEnd"
+		},
+		{
+			"mLabel": "L001R009TreasureBoxGet"
+		},
+		{
+			"mLabel": "L001R012SwichFoot"
+		},
+		{
+			"mLabel": "L001R013DekubabaEnd"
+		},
+		{
+			"mLabel": "L001R014SwitchFoot"
+		},
+		{
+			"mLabel": "L001R014TreasureBoxGet"
+		},
+		{
+			"mLabel": "L001R016TreasureBox"
+		},
+		{
+			"mLabel": "L001R016TreasureBoxGet"
+		},
+		{
+			"mLabel": "L001R017SwitchFoot"
+		},
+		{
+			"mLabel": "L001R017TreasureBoxGet"
+		},
+		{
+			"mLabel": "FB001TreasureBoxGet"
+		},
+		{
+			"mLabel": "L001R009DodgeRock"
+		},
+		{
+			"mLabel": "L001R015DoorBossOpen"
+		},
+		{
+			"mLabel": "L001R019EnemyDead"
+		},
+		{
+			"mLabel": "L001R012FenceOpen"
+		},
+		{
+			"mLabel": "L001R022TreasureBoxGet"
+		},
+		{
+			"mLabel": "L001R015DoorLockOpen"
+		},
+		{
+			"mLabel": "L001R007DropFairy"
+		},
+		{
+			"mLabel": "L001R012DropFairy"
+		},
+		{
+			"mLabel": "L001R001Return"
+		},
+		{
+			"mLabel": "L001R019DodgeRock"
+		},
+		{
+			"mLabel": "L001R011ZolBaundaryEnd"
+		},
+		{
+			"mLabel": "L001R006DoorOpen"
+		},
+		{
+			"mLabel": "L001R022SynkCrear"
+		},
+		{
+			"mLabel": "L001R013BarricadeDestroy"
+		},
+		{
+			"mLabel": "L001R002RockAppearance"
+		},
+		{
+			"mLabel": "BS001_ReversRun"
+		},
+		{
+			"mLabel": "OPD_R004_DoorChange"
+		},
+		{
+			"mLabel": "OPD_R002_DoorClose"
+		},
+		{
+			"mLabel": "BS001_002DoorCloseOpen"
+		},
+		{
+			"mLabel": "BS001_DoorCloseOpen"
+		},
+		{
+			"mLabel": "BS002_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L002BossDead"
+		},
+		{
+			"mLabel": "L002R004BossDoorOpen"
+		},
+		{
+			"mLabel": "L002R005TreasureBoxGet"
+		},
+		{
+			"mLabel": "L002R009TreasureBoxGet"
+		},
+		{
+			"mLabel": "L002R015TreasureBoxGet"
+		},
+		{
+			"mLabel": "L002R015GTreasureBoxGet"
+		},
+		{
+			"mLabel": "L002R007SwitchFoot"
+		},
+		{
+			"mLabel": "L002R010SwitchFoot"
+		},
+		{
+			"mLabel": "L002R014SwitchFoot"
+		},
+		{
+			"mLabel": "L002R016SwitchFoot"
+		},
+		{
+			"mLabel": "L002R004SwitchFoot"
+		},
+		{
+			"mLabel": "L002R004SwitchFoot4"
+		},
+		{
+			"mLabel": "FieldBoundary002TresureBoxOpen00"
+		},
+		{
+			"mLabel": "FieldBoundary002TresureBoxOpen01"
+		},
+		{
+			"mLabel": "L002R013SwitchOpen"
+		},
+		{
+			"mLabel": "L002R002DodgeRock1"
+		},
+		{
+			"mLabel": "L002R002DodgeRock2"
+		},
+		{
+			"mLabel": "L002R002DodgeRock3"
+		},
+		{
+			"mLabel": "L002R020LampSwitch01"
+		},
+		{
+			"mLabel": "L002R020LampSwitch02"
+		},
+		{
+			"mLabel": "L002R020LampSwitch03"
+		},
+		{
+			"mLabel": "L002R020LampSwitch04"
+		},
+		{
+			"mLabel": "L002R019DoorOpen"
+		},
+		{
+			"mLabel": "L002R020DoorOpen"
+		},
+		{
+			"mLabel": "L002R021DoorOpen"
+		},
+		{
+			"mLabel": "L002R022DoorOpen"
+		},
+		{
+			"mLabel": "L002R004FirstCam"
+		},
+		{
+			"mLabel": "L002R001FloorBreak"
+		},
+		{
+			"mLabel": "L002R002RetryPointSet"
+		},
+		{
+			"mLabel": "L002R003RetryPointReset"
+		},
+		{
+			"mLabel": "L002R016WaterDown"
+		},
+		{
+			"mLabel": "L002R006TreasureBoxGet"
+		},
+		{
+			"mLabel": "L002R007FloorShutterOpen"
+		},
+		{
+			"mLabel": "L002R010FloorShutterOpen"
+		},
+		{
+			"mLabel": "L002R014FloorShutterOpen"
+		},
+		{
+			"mLabel": "L002R016FloorShutterOpen"
+		},
+		{
+			"mLabel": "L002R015DodgeRock"
+		},
+		{
+			"mLabel": "L003R023CeilingRock"
+		},
+		{
+			"mLabel": "L003R023CellingRock_BC"
+		},
+		{
+			"mLabel": "L003R023BubbleCrack1"
+		},
+		{
+			"mLabel": "L003R023BubbleCrack2"
+		},
+		{
+			"mLabel": "L003R023BubbleCrack1_BC"
+		},
+		{
+			"mLabel": "L003R023BubbleCrack2_BC"
+		},
+		{
+			"mLabel": "L_Dungeon002_013_ImpactSwitch1_ON"
+		},
+		{
+			"mLabel": "L_Dungeon002_013_ImpactSwitch2_ON"
+		},
+		{
+			"mLabel": "L_Dungeon002_013_ImpactSwitch3_ON"
+		},
+		{
+			"mLabel": "L_Dungeon002_013_ImpactSwitch4_ON"
+		},
+		{
+			"mLabel": "L_Dungeon002_013_ImpactSwitch5_ON"
+		},
+		{
+			"mLabel": "L003BossDead"
+		},
+		{
+			"mLabel": "L003R010SandDown"
+		},
+		{
+			"mLabel": "L003R010ExpelSand"
+		},
+		{
+			"mLabel": "L003R0014PuzzlePanel"
+		},
+		{
+			"mLabel": "L003R015EnemyDead"
+		},
+		{
+			"mLabel": "L003R023SandDown"
+		},
+		{
+			"mLabel": "L003R022ExpelSand"
+		},
+		{
+			"mLabel": "L003R024MBossDead"
+		},
+		{
+			"mLabel": "L003R010EnemyDead"
+		},
+		{
+			"mLabel": "L003R029PuzzlePanel"
+		},
+		{
+			"mLabel": "L003R033PuzzleRotation01"
+		},
+		{
+			"mLabel": "L003R033PuzzleRotation02"
+		},
+		{
+			"mLabel": "L003R012BossDoorOpen"
+		},
+		{
+			"mLabel": "L003R024EnemyLinkArcher01Dead"
+		},
+		{
+			"mLabel": "L003R024EnemyLinkArcher02Dead"
+		},
+		{
+			"mLabel": "L003R024EnemyLinkArcher03Dead"
+		},
+		{
+			"mLabel": "L003R024EnemyLinkArcher04Dead"
+		},
+		{
+			"mLabel": "L003R024EnemyLinkArcherAllDead"
+		},
+		{
+			"mLabel": "L003R016DoorLockOpen"
+		},
+		{
+			"mLabel": "L003R019DoorLockOpen"
+		},
+		{
+			"mLabel": "FieldBoundary003TowerRotationLeft"
+		},
+		{
+			"mLabel": "FieldBoundary003TowerRotationRight"
+		},
+		{
+			"mLabel": "Warp_FieldBoundary003_Warp_Start"
+		},
+		{
+			"mLabel": "L003R014MonumentAppear"
+		},
+		{
+			"mLabel": "L003R016DoorRotationOpen"
+		},
+		{
+			"mLabel": "L003R008FlyingTileEnd"
+		},
+		{
+			"mLabel": "FieldBoundary003TresureBoxOpenSand"
+		},
+		{
+			"mLabel": "FieldBoundary003TresureBoxOpenTower"
+		},
+		{
+			"mLabel": "FieldBoundary003TresureBoxOpenRoofTop"
+		},
+		{
+			"mLabel": "L003R006TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R011TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R013TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R015TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R017TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R018_01TreasureBoxGet"
+		},
+		{
+			"mLabel": "SD041R001DodgeRock"
+		},
+		{
+			"mLabel": "SD041R003DodgeRock"
+		},
+		{
+			"mLabel": "L003R023TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R034LinkBarricadeBreakS"
+		},
+		{
+			"mLabel": "L003R034LinkBarricadeBreakN"
+		},
+		{
+			"mLabel": "L003R003DoorLockOpen"
+		},
+		{
+			"mLabel": "L003R025TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R008TreasureBoxGet"
+		},
+		{
+			"mLabel": "L003R005DoorRotationOpen"
+		},
+		{
+			"mLabel": "L003R021DoorRotationOpen"
+		},
+		{
+			"mLabel": "FB003SandBreak"
+		},
+		{
+			"mLabel": "L003R017SandBreak"
+		},
+		{
+			"mLabel": "SD104R006EnemyWipeout"
+		},
+		{
+			"mLabel": "SD041R002TreasureBoxOpen"
+		},
+		{
+			"mLabel": "SD115R002DoorLockOpen"
+		},
+		{
+			"mLabel": "SD115R005TreasureBoxOpen"
+		},
+		{
+			"mLabel": "SD104R008TreasureBoxOpen"
+		},
+		{
+			"mLabel": "SD104R006TreasureBoxOpen"
+		},
+		{
+			"mLabel": "SD104R005TreasureBoxOpen"
+		},
+		{
+			"mLabel": "SD104R004DoorOpenW"
+		},
+		{
+			"mLabel": "SD104R004DoorOpenE"
+		},
+		{
+			"mLabel": "SD104R002DoorOpen"
+		},
+		{
+			"mLabel": "SD115R006TreasureBoxOpen"
+		},
+		{
+			"mLabel": "SD115R004DoorOpen"
+		},
+		{
+			"mLabel": "SD115R003DoorOpen"
+		},
+		{
+			"mLabel": "SD115R001DoorOpen"
+		},
+		{
+			"mLabel": "L004BossDead"
+		},
+		{
+			"mLabel": "L004R003EnemyDead"
+		},
+		{
+			"mLabel": "L004R006DoorOpen"
+		},
+		{
+			"mLabel": "L004R008EnemyDead"
+		},
+		{
+			"mLabel": "L004R013TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L004R005DoorOpen"
+		},
+		{
+			"mLabel": "L004R014TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L004R013MovelavaStart"
+		},
+		{
+			"mLabel": "L004R012LavaLidActive"
+		},
+		{
+			"mLabel": "L004R017EnemyLinkBomberStage1Clear"
+		},
+		{
+			"mLabel": "L004R018EnemyLinkBomberStage2Clear"
+		},
+		{
+			"mLabel": "L004R019EnemyLinkBomberStage3Clear"
+		},
+		{
+			"mLabel": "L004R019EnemyLinkBomberDead"
+		},
+		{
+			"mLabel": "L004R009TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L004R002DoorOpen"
+		},
+		{
+			"mLabel": "L004R007DoorOpen"
+		},
+		{
+			"mLabel": "L004R011TresureBoxOpen"
+		},
+		{
+			"mLabel": "L004R004BarrierBreak"
+		},
+		{
+			"mLabel": "L004R008TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L004R016TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L004R014DoorOpen"
+		},
+		{
+			"mLabel": "L004R016LinkBarricade1"
+		},
+		{
+			"mLabel": "L004R016LinkBarricade2"
+		},
+		{
+			"mLabel": "L004R016LinkBarricade3"
+		},
+		{
+			"mLabel": "L004R016LinkBarricade4"
+		},
+		{
+			"mLabel": "L004R016LinkBarricade5"
+		},
+		{
+			"mLabel": "L004R016LinkBarricade6"
+		},
+		{
+			"mLabel": "L004R021EnemyDead"
+		},
+		{
+			"mLabel": "L004R021TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L004R020DodgeRock"
+		},
+		{
+			"mLabel": "L004R020DestroyWall"
+		},
+		{
+			"mLabel": "L004R016DestroyWall1"
+		},
+		{
+			"mLabel": "L004R016DestroyWall2"
+		},
+		{
+			"mLabel": "L004R022DoorOpen"
+		},
+		{
+			"mLabel": "FieldBoundary004TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L004R016DestroyWall3"
+		},
+		{
+			"mLabel": "L004R016DestroyWall4"
+		},
+		{
+			"mLabel": "L004R016DestroyWall5"
+		},
+		{
+			"mLabel": "L004R016DestroyWall6"
+		},
+		{
+			"mLabel": "L004R005DropFairy"
+		},
+		{
+			"mLabel": "L004R016DestroyWallTreasureBox"
+		},
+		{
+			"mLabel": "L004R020DestroyWallTreasureBox"
+		},
+		{
+			"mLabel": "L005BossDead"
+		},
+		{
+			"mLabel": "L005R022BossDoorOpen"
+		},
+		{
+			"mLabel": "L005R007MBoss01Dead"
+		},
+		{
+			"mLabel": "L005R017MBoss02Dead"
+		},
+		{
+			"mLabel": "L005R020MBoss03Dead"
+		},
+		{
+			"mLabel": "L005R004EnemyDead"
+		},
+		{
+			"mLabel": "L005R019EnemyDead"
+		},
+		{
+			"mLabel": "L005R004TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R006TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R008TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R016TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R023TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R025TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R001SDoorLockOpen"
+		},
+		{
+			"mLabel": "L005R001NDoorLockOpen"
+		},
+		{
+			"mLabel": "L005R013DoorLockOpen"
+		},
+		{
+			"mLabel": "L005R024DoorLockOpen"
+		},
+		{
+			"mLabel": "L005R003DoorOpen"
+		},
+		{
+			"mLabel": "L005R008TreasureBoxAppear"
+		},
+		{
+			"mLabel": "L005R010DoorOpen"
+		},
+		{
+			"mLabel": "L005R025DoorOpen"
+		},
+		{
+			"mLabel": "L005R013DoorOpen"
+		},
+		{
+			"mLabel": "L005R015DoorOpen"
+		},
+		{
+			"mLabel": "L005R009DoorRotationOpen"
+		},
+		{
+			"mLabel": "L005R012TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R024TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R006SpiderWebDestroy"
+		},
+		{
+			"mLabel": "L005R014SpiderWebDestroy"
+		},
+		{
+			"mLabel": "FB005R001SpiderWebDestroy"
+		},
+		{
+			"mLabel": "L005R026TreasureBoxGet"
+		},
+		{
+			"mLabel": "L005R012DoorOpen"
+		},
+		{
+			"mLabel": "BS009R003DoorOpen"
+		},
+		{
+			"mLabel": "L005R027TreasureBoxBigGet"
+		},
+		{
+			"mLabel": "FB005R001MoveStatueArmos"
+		},
+		{
+			"mLabel": "FB005R002TreasureBoxGet"
+		},
+		{
+			"mLabel": "FB005R002SpiderWebDestroy"
+		},
+		{
+			"mLabel": "BS009R002DoorOpen"
+		},
+		{
+			"mLabel": "L005R001ShutterDown"
+		},
+		{
+			"mLabel": "FB005R002DoorOpen"
+		},
+		{
+			"mLabel": "EnterPlayer_S109_R007"
+		},
+		{
+			"mLabel": "EnterPlayer_S032_R002"
+		},
+		{
+			"mLabel": "Get_JRKey"
+		},
+		{
+			"mLabel": "Deku_Leave"
+		},
+		{
+			"mLabel": "Jingle_S109_R003"
+		},
+		{
+			"mLabel": "L006BossDead"
+		},
+		{
+			"mLabel": "L006BossDoorOpen"
+		},
+		{
+			"mLabel": "L006MBossDead"
+		},
+		{
+			"mLabel": "L006R006DoorOpen"
+		},
+		{
+			"mLabel": "L006R002BigIceMelted"
+		},
+		{
+			"mLabel": "L006R004EnemyDead"
+		},
+		{
+			"mLabel": "L006R006DoorLockOpen"
+		},
+		{
+			"mLabel": "L006R007TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R046TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R015TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R009TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R010BigIceMelted"
+		},
+		{
+			"mLabel": "L006R010TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R014EnemyDead"
+		},
+		{
+			"mLabel": "L006R010DoorLockOpen"
+		},
+		{
+			"mLabel": "L006R024TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R001SwitchOnActorFlag"
+		},
+		{
+			"mLabel": "L006R024LampSwitch"
+		},
+		{
+			"mLabel": "L006R025TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R009DestroyWall"
+		},
+		{
+			"mLabel": "L006R017BigIceMelted"
+		},
+		{
+			"mLabel": "L006R007FootSwitchTogetherSuccess"
+		},
+		{
+			"mLabel": "L006R016BossKeyBoxGet"
+		},
+		{
+			"mLabel": "L006R018DoorOpen"
+		},
+		{
+			"mLabel": "L006R020TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R026DoorOpen"
+		},
+		{
+			"mLabel": "L006R027EnemyDead"
+		},
+		{
+			"mLabel": "L006R016RoomHotOnce"
+		},
+		{
+			"mLabel": "L006R031CloseDoorOpen"
+		},
+		{
+			"mLabel": "L006OrbGimmickActive01"
+		},
+		{
+			"mLabel": "L006FieldBoundaryIceMelt001"
+		},
+		{
+			"mLabel": "L006FieldBoundaryIceMelt002"
+		},
+		{
+			"mLabel": "L006FieldBoundaryIceMelt003"
+		},
+		{
+			"mLabel": "L006R016GimicActivate"
+		},
+		{
+			"mLabel": "L006R004TreasureBoxGet"
+		},
+		{
+			"mLabel": "L006R003PedestalState"
+		},
+		{
+			"mLabel": "L006R008PedestalState"
+		},
+		{
+			"mLabel": "L006R012PedestalState"
+		},
+		{
+			"mLabel": "L006R017PedestalState"
+		},
+		{
+			"mLabel": "L006R019PedestalState"
+		},
+		{
+			"mLabel": "L006R023PedestalState"
+		},
+		{
+			"mLabel": "L006R028PedestalState"
+		},
+		{
+			"mLabel": "L006R010GimmickClearFlag"
+		},
+		{
+			"mLabel": "L006R002Jingle"
+		},
+		{
+			"mLabel": "L006R010Jingle"
+		},
+		{
+			"mLabel": "L006R017Jingle"
+		},
+		{
+			"mLabel": "L006R045Pot1"
+		},
+		{
+			"mLabel": "L006R045Pot2"
+		},
+		{
+			"mLabel": "L006R27WolfosDead"
+		},
+		{
+			"mLabel": "BS011TreasureBoxOpen"
+		},
+		{
+			"mLabel": "LCastleBossDead"
+		},
+		{
+			"mLabel": "LCastleR003ThroneOpen"
+		},
+		{
+			"mLabel": "LCastleR010DoorOpen"
+		},
+		{
+			"mLabel": "LCastleR012DoorOpen"
+		},
+		{
+			"mLabel": "LCastleR012BossDoorOpen"
+		},
+		{
+			"mLabel": "LCastleR015DoorOpen"
+		},
+		{
+			"mLabel": "LCastleR015TreasureBoxGet"
+		},
+		{
+			"mLabel": "LCastleR016WallCrackedOpen"
+		},
+		{
+			"mLabel": "LCastleR019SoldierIronBallDead"
+		},
+		{
+			"mLabel": "LCastleR020TreasureBoxGet"
+		},
+		{
+			"mLabel": "LCastleR021TreasureBoxGet"
+		},
+		{
+			"mLabel": "LCastleR012WarpOpen"
+		},
+		{
+			"mLabel": "LCastleR010LampSwitch01"
+		},
+		{
+			"mLabel": "LCastleR010LampSwitch02"
+		},
+		{
+			"mLabel": "LCastleR010LampSwitch03"
+		},
+		{
+			"mLabel": "LCastleR010LampSwitch04"
+		},
+		{
+			"mLabel": "FBCastleTreasuleBoxGet01"
+		},
+		{
+			"mLabel": "FBCastleTreasuleBoxGet02"
+		},
+		{
+			"mLabel": "LCastleR023ExitGateOpen"
+		},
+		{
+			"mLabel": "LCastleR024ExitGateOpen"
+		},
+		{
+			"mLabel": "LCastleR025ExitGateOpen"
+		},
+		{
+			"mLabel": "LCastleR026ExitGateOpen"
+		},
+		{
+			"mLabel": "LCastleR015TreasureBoxPop"
+		},
+		{
+			"mLabel": "LCastleR003LadderOpen"
+		},
+		{
+			"mLabel": "LCastleR009RoomIn"
+		},
+		{
+			"mLabel": "LCastleR009EnemyWipeout"
+		},
+		{
+			"mLabel": "LCastleR005DoorRotationOpen"
+		},
+		{
+			"mLabel": "LCastleR011DoorOpen"
+		},
+		{
+			"mLabel": "LCastleR029TreasureBoxOpen"
+		},
+		{
+			"mLabel": "LCastleR014TreasureBoxOpen"
+		},
+		{
+			"mLabel": "LCastleR014LinkBarricade01"
+		},
+		{
+			"mLabel": "LCastleR014LinkBarricade02"
+		},
+		{
+			"mLabel": "LCastleR014LinkBarricade03"
+		},
+		{
+			"mLabel": "LCastleR014LinkBarricade04"
+		},
+		{
+			"mLabel": "LCastleR016DoorOpen"
+		},
+		{
+			"mLabel": "FBCastleWarpOpen01"
+		},
+		{
+			"mLabel": "FBCastleWarpOpen02"
+		},
+		{
+			"mLabel": "LcastleWarpOpen01"
+		},
+		{
+			"mLabel": "LcastleWarpOpen02"
+		},
+		{
+			"mLabel": "LcastleWarpOpen03"
+		},
+		{
+			"mLabel": "LcastleWarpOpen04"
+		},
+		{
+			"mLabel": "FBCastleWeatherCock"
+		},
+		{
+			"mLabel": "BossKeyGet_BGMChange"
+		},
+		{
+			"mLabel": "LCastleR029SandBreak"
+		},
+		{
+			"mLabel": "L008BossDead"
+		},
+		{
+			"mLabel": "L008R002EnemyDead1"
+		},
+		{
+			"mLabel": "L008R004DoorOpen"
+		},
+		{
+			"mLabel": "L008R005DoorOpen"
+		},
+		{
+			"mLabel": "L008R005DoorLockOpen"
+		},
+		{
+			"mLabel": "L008R006DoorOpen"
+		},
+		{
+			"mLabel": "L008R010DoorLockOpen"
+		},
+		{
+			"mLabel": "L008R011TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L008R012TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L008R014EnemyDead"
+		},
+		{
+			"mLabel": "L008R014TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L008R016DoorOpen"
+		},
+		{
+			"mLabel": "L008R001WarpOpen"
+		},
+		{
+			"mLabel": "L008R017WarpOpen"
+		},
+		{
+			"mLabel": "L008BoundaryWarpOpen1"
+		},
+		{
+			"mLabel": "L008BoundaryWarpOpen2"
+		},
+		{
+			"mLabel": "L008BoundaryWarpOpen3"
+		},
+		{
+			"mLabel": "L008R002EnemyDead2"
+		},
+		{
+			"mLabel": "L008R002EnemyDead3"
+		},
+		{
+			"mLabel": "L008R002EnemyDead4"
+		},
+		{
+			"mLabel": "L008R006TreasureBoxOpen"
+		},
+		{
+			"mLabel": "L008R005BarrieDestroy"
+		},
+		{
+			"mLabel": "L008R009BarrieDestroy"
+		},
+		{
+			"mLabel": "L008R007BarrieDestroy"
+		},
+		{
+			"mLabel": "FBLast003DarkLinkDead"
+		},
+		{
+			"mLabel": "L008R013WarpOpen"
+		},
+		{
+			"mLabel": "L008R015WarpOpen"
+		},
+		{
+			"mLabel": "L008R013LinkStart"
+		},
+		{
+			"mLabel": "L008R013LinkOut"
+		},
+		{
+			"mLabel": "L008R020LinkStart"
+		},
+		{
+			"mLabel": "L008R020LinkOut"
+		},
+		{
+			"mLabel": "L008R003BreakAwayLink"
+		},
+		{
+			"mLabel": "L008R016WallMuClear"
+		},
+		{
+			"mLabel": "L008R010RetryUpdate"
+		},
+		{
+			"mLabel": "S003_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S003_TreasureBoxPop"
+		},
+		{
+			"mLabel": "OP_Dungeon_Escaping"
+		},
+		{
+			"mLabel": "OP_Dungeon_Escape"
+		},
+		{
+			"mLabel": "S002_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S004_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S003_Switch1"
+		},
+		{
+			"mLabel": "S003_Switch2"
+		},
+		{
+			"mLabel": "S003_Switch3"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_001"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_002"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_003"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_004"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_005"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_006"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_007"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_008"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_009"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_010"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_011"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_012"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_013"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_014"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_015"
+		},
+		{
+			"mLabel": "WorldGlobeSmallAccess_016"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_001"
+		},
+		{
+			"mLabel": "S102R006FenceOpen"
+		},
+		{
+			"mLabel": "S102R006Switch"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_002"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_003"
+		},
+		{
+			"mLabel": "S010_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S008_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_004"
+		},
+		{
+			"mLabel": "S043_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S044_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S007_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S018_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S045R001_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S045R002_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S046R001_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S036R001_TreasureBoxOpen_01"
+		},
+		{
+			"mLabel": "S036R001_TreasureBoxOpen_02"
+		},
+		{
+			"mLabel": "S024R001_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S024R001_TreasureDoorOpen"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_005"
+		},
+		{
+			"mLabel": "S050_EnemyDead_001"
+		},
+		{
+			"mLabel": "S038R002_EnemyWipeout"
+		},
+		{
+			"mLabel": "S038R002_TreasureBoxPop"
+		},
+		{
+			"mLabel": "S038R002_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S039R001_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_006"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_007"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_008"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_009"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_010"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_011"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_012"
+		},
+		{
+			"mLabel": "S052_DodgeRock_01"
+		},
+		{
+			"mLabel": "S052_DodgeRock_02"
+		},
+		{
+			"mLabel": "S107R001_RemoveSnowpile_01"
+		},
+		{
+			"mLabel": "S107R005_DestroyWall_01"
+		},
+		{
+			"mLabel": "S107R004_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S107R007_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S114R004_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S114R005_EnemyDead"
+		},
+		{
+			"mLabel": "S050_EnemyDead_002"
+		},
+		{
+			"mLabel": "S050_EnemyDead_003"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_013"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_014"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_015"
+		},
+		{
+			"mLabel": "PartnerStrayGet_001"
+		},
+		{
+			"mLabel": "PartnerStrayGet_002"
+		},
+		{
+			"mLabel": "PartnerStrayGet_003"
+		},
+		{
+			"mLabel": "PartnerStrayGet_004"
+		},
+		{
+			"mLabel": "PartnerStrayGet_005"
+		},
+		{
+			"mLabel": "PartnerStrayGet_006"
+		},
+		{
+			"mLabel": "PartnerStrayGet_007"
+		},
+		{
+			"mLabel": "PartnerStrayGet_008"
+		},
+		{
+			"mLabel": "PartnerStrayGet_009"
+		},
+		{
+			"mLabel": "PartnerStrayGet_010"
+		},
+		{
+			"mLabel": "PartnerStrayGet_011"
+		},
+		{
+			"mLabel": "PartnerStrayGet_012"
+		},
+		{
+			"mLabel": "PartnerStrayGet_013"
+		},
+		{
+			"mLabel": "PartnerStrayGet_014"
+		},
+		{
+			"mLabel": "PartnerStrayGet_015"
+		},
+		{
+			"mLabel": "PartnerStrayGet_016"
+		},
+		{
+			"mLabel": "PartnerStrayGet_017"
+		},
+		{
+			"mLabel": "PartnerStrayGet_018"
+		},
+		{
+			"mLabel": "PartnerStrayGet_019"
+		},
+		{
+			"mLabel": "PartnerStrayGet_020"
+		},
+		{
+			"mLabel": "PartnerStrayGet_021"
+		},
+		{
+			"mLabel": "PartnerStrayGet_022"
+		},
+		{
+			"mLabel": "PartnerStrayGet_023"
+		},
+		{
+			"mLabel": "PartnerStrayGet_024"
+		},
+		{
+			"mLabel": "PartnerStrayGet_025"
+		},
+		{
+			"mLabel": "PartnerStrayGet_026"
+		},
+		{
+			"mLabel": "PartnerStrayGet_027"
+		},
+		{
+			"mLabel": "PartnerStrayGet_028"
+		},
+		{
+			"mLabel": "PartnerStrayGet_029"
+		},
+		{
+			"mLabel": "PartnerStrayGet_030"
+		},
+		{
+			"mLabel": "PartnerStrayGet_031"
+		},
+		{
+			"mLabel": "PartnerStrayGet_032"
+		},
+		{
+			"mLabel": "PartnerStrayGet_033"
+		},
+		{
+			"mLabel": "PartnerStrayGet_034"
+		},
+		{
+			"mLabel": "PartnerStrayGet_035"
+		},
+		{
+			"mLabel": "PartnerStrayGet_036"
+		},
+		{
+			"mLabel": "PartnerStrayGet_037"
+		},
+		{
+			"mLabel": "PartnerStrayGet_038"
+		},
+		{
+			"mLabel": "PartnerStrayGet_039"
+		},
+		{
+			"mLabel": "PartnerStrayGet_040"
+		},
+		{
+			"mLabel": "PartnerStrayGet_041"
+		},
+		{
+			"mLabel": "PartnerStrayGet_042"
+		},
+		{
+			"mLabel": "PartnerStrayGet_043"
+		},
+		{
+			"mLabel": "PartnerStrayGet_044"
+		},
+		{
+			"mLabel": "PartnerStrayGet_045"
+		},
+		{
+			"mLabel": "PartnerStrayGet_046"
+		},
+		{
+			"mLabel": "PartnerStrayGet_047"
+		},
+		{
+			"mLabel": "PartnerStrayGet_048"
+		},
+		{
+			"mLabel": "PartnerStrayGet_049"
+		},
+		{
+			"mLabel": "PartnerStrayGet_050"
+		},
+		{
+			"mLabel": "PartnerStrayGet_051"
+		},
+		{
+			"mLabel": "PartnerStrayGet_052"
+		},
+		{
+			"mLabel": "PartnerStrayGet_053"
+		},
+		{
+			"mLabel": "PartnerStrayGet_054"
+		},
+		{
+			"mLabel": "PartnerStrayGet_055"
+		},
+		{
+			"mLabel": "PartnerStrayGet_056"
+		},
+		{
+			"mLabel": "PartnerStrayGet_057"
+		},
+		{
+			"mLabel": "PartnerStrayGet_058"
+		},
+		{
+			"mLabel": "PartnerStrayGet_059"
+		},
+		{
+			"mLabel": "PartnerStrayGet_060"
+		},
+		{
+			"mLabel": "PartnerStrayGet_061"
+		},
+		{
+			"mLabel": "S058_SwichFoot"
+		},
+		{
+			"mLabel": "S058_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S016R002_DoorOpen"
+		},
+		{
+			"mLabel": "S016R003_SwitchOn"
+		},
+		{
+			"mLabel": "S016R003_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S016R003_RoomReaching"
+		},
+		{
+			"mLabel": "S064_SwichFoot"
+		},
+		{
+			"mLabel": "S064_SwichFoot_02"
+		},
+		{
+			"mLabel": "S024_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S039_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S035_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S115_R006DoorOpen"
+		},
+		{
+			"mLabel": "S103_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "BS014_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S035R002_DestroyWall"
+		},
+		{
+			"mLabel": "S035R003_DestroyWall"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_001"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_002"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_003"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_004"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_005"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_006"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_007"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_008"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_009"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_010"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_011"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_012"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_013"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_014"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_015"
+		},
+		{
+			"mLabel": "SmallBoundaryWorldOpen_016"
+		},
+		{
+			"mLabel": "S024R001_TreasureBoxOpen_02"
+		},
+		{
+			"mLabel": "S024R001_TreasureDoorOpen_02"
+		},
+		{
+			"mLabel": "S059_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S060_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S061_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S062_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S063_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S064_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S065_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S066_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "WorldGlobeSmallActive_016"
+		},
+		{
+			"mLabel": "S037_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S037_TreasureBoxPop"
+		},
+		{
+			"mLabel": "BS006R001_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S012_R002_RemoveSandpaile"
+		},
+		{
+			"mLabel": "S012_R002DoorOpen"
+		},
+		{
+			"mLabel": "S012_R003TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S021_TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S018_R004TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S023_R002SwitchOn"
+		},
+		{
+			"mLabel": "S023_R002DoorOpen"
+		},
+		{
+			"mLabel": "S023_R003DoorOpen"
+		},
+		{
+			"mLabel": "S023_R004TreasureBoxOpen"
+		},
+		{
+			"mLabel": "S023_R004DoorOpen"
+		},
+		{
+			"mLabel": "S053_HyrulePlains_clear"
+		},
+		{
+			"mLabel": "PartnerStrayGet_062"
+		},
+		{
+			"mLabel": "PartnerStrayGet_064"
+		},
+		{
+			"mLabel": "Tutorial_CopyDictionary"
+		},
+		{
+			"mLabel": "Map_NotOpen"
+		},
+		{
+			"mLabel": "FieldMap_Breakthrough_Open"
+		},
+		{
+			"mLabel": "TutorialInsert_Jump_Bbutton"
+		},
+		{
+			"mLabel": "TutorialInsert_Sword_Ybutton"
+		},
+		{
+			"mLabel": "TutorialInsert_Shield_ZLbutton"
+		},
+		{
+			"mLabel": "TutorialInsert_Remember_Clear"
+		},
+		{
+			"mLabel": "TutorialInsert_PutOut_Clear"
+		},
+		{
+			"mLabel": "TutorialInsert_Erase_Clear"
+		},
+		{
+			"mLabel": "TutorialInsert_OPLink1"
+		},
+		{
+			"mLabel": "TutorialInsert_Remember"
+		},
+		{
+			"mLabel": "TutorialInsert_OPLink2"
+		},
+		{
+			"mLabel": "TutorialInsert_OPLink3"
+		},
+		{
+			"mLabel": "TutorialInsert_PutOut"
+		},
+		{
+			"mLabel": "TutorialInsert_Erase"
+		},
+		{
+			"mLabel": "TutorialInsert_SyncRod"
+		},
+		{
+			"mLabel": "TutorialInsert_SyncRod_Clear"
+		},
+		{
+			"mLabel": "TutorialInsert_CameraRotation"
+		},
+		{
+			"mLabel": "TutorialInsert_CameraRotation_Clear"
+		},
+		{
+			"mLabel": "TutorialModal_ItemOrnamentGet"
+		},
+		{
+			"mLabel": "TutorialInsert_LockOn"
+		},
+		{
+			"mLabel": "TutorialInsert_LockOn_Clear"
+		},
+		{
+			"mLabel": "TutorialInsert_ChangeLinkSword"
+		},
+		{
+			"mLabel": "TutorialInsert_ChangeLinkSword_Clear"
+		},
+		{
+			"mLabel": "MapIcon_00"
+		},
+		{
+			"mLabel": "MapIcon_01"
+		},
+		{
+			"mLabel": "MapIcon_02"
+		},
+		{
+			"mLabel": "MapIcon_03"
+		},
+		{
+			"mLabel": "MapIcon_04"
+		},
+		{
+			"mLabel": "MapIcon_05"
+		},
+		{
+			"mLabel": "MapIcon_06"
+		},
+		{
+			"mLabel": "MapIcon_07"
+		},
+		{
+			"mLabel": "MapIcon_08"
+		},
+		{
+			"mLabel": "MapIcon_09"
+		},
+		{
+			"mLabel": "MapIcon_10"
+		},
+		{
+			"mLabel": "MapIcon_11"
+		},
+		{
+			"mLabel": "MapIcon_12"
+		},
+		{
+			"mLabel": "MapIcon_13"
+		},
+		{
+			"mLabel": "MapIcon_14"
+		},
+		{
+			"mLabel": "MapIcon_15"
+		},
+		{
+			"mLabel": "MapIcon_16"
+		},
+		{
+			"mLabel": "MapIcon_17"
+		},
+		{
+			"mLabel": "MapIcon_18"
+		},
+		{
+			"mLabel": "MapIcon_19"
+		},
+		{
+			"mLabel": "MapIcon_20"
+		},
+		{
+			"mLabel": "MapIcon_21"
+		},
+		{
+			"mLabel": "MapIcon_22"
+		},
+		{
+			"mLabel": "MapIcon_23"
+		},
+		{
+			"mLabel": "FirstPasteModal_Clear"
+		},
+		{
+			"mLabel": "MeetImpaAgainModal_Clear"
+		},
+		{
+			"mLabel": "EvAreaA001Modal_Clear"
+		},
+		{
+			"mLabel": "EvAreaA030Modal_Clear"
+		},
+		{
+			"mLabel": "ChangeLinkSwordModal_Clear"
+		},
+		{
+			"mLabel": "AfterBreakBarricadeModal_Clear"
+		},
+		{
+			"mLabel": "SyncRodReverseModal_Clear"
+		},
+		{
+			"mLabel": "OrnamentModal_Clear"
+		},
+		{
+			"mLabel": "MachineModal_Clear"
+		},
+		{
+			"mLabel": "LinkBowModal_Clear"
+		},
+		{
+			"mLabel": "LinkBombModal_Clear"
+		},
+		{
+			"mLabel": "AmiiboAnnouncement_00"
+		},
+		{
+			"mLabel": "AmiiboAnnouncement_01"
+		},
+		{
+			"mLabel": "DrinkMenu_Open"
+		},
+		{
+			"mLabel": "AdditionalElementsModal_Clear"
+		},
+		{
+			"mLabel": "FarAwayPaste_Clear"
+		},
+		{
+			"mLabel": "LuberiLvUp_Clear"
+		},
+		{
+			"mLabel": "SyncRodModal_Clear"
+		},
+		{
+			"mLabel": "DungeonMapModal_Clear"
+		},
+		{
+			"mLabel": "MapIcon_24"
+		},
+		{
+			"mLabel": "MapIcon_25"
+		},
+		{
+			"mLabel": "MapIcon_26"
+		},
+		{
+			"mLabel": "MapIcon_27"
+		},
+		{
+			"mLabel": "MapIcon_28"
+		},
+		{
+			"mLabel": "MapIcon_29"
+		},
+		{
+			"mLabel": "Warp_Field_SouthernVillage_001"
+		},
+		{
+			"mLabel": "Warp_Field_Forest_001"
+		},
+		{
+			"mLabel": "Warp_Field_CoastRiver_001"
+		},
+		{
+			"mLabel": "Warp_Field_CoastRiver_002"
+		},
+		{
+			"mLabel": "Warp_Field_CoastRiver_003"
+		},
+		{
+			"mLabel": "Warp_Field_CoastRiver_004"
+		},
+		{
+			"mLabel": "Warp_Field_CoastRiver_005"
+		},
+		{
+			"mLabel": "Warp_Field_Volcano_001"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_002"
+		},
+		{
+			"mLabel": "Warp_L003R003"
+		},
+		{
+			"mLabel": "Warp_L003R006"
+		},
+		{
+			"mLabel": "Warp_L003R016"
+		},
+		{
+			"mLabel": "Warp_L003R020"
+		},
+		{
+			"mLabel": "Warp_FB002"
+		},
+		{
+			"mLabel": "Warp_L002R003"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_003"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_004"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_005"
+		},
+		{
+			"mLabel": "Warp_Field_SouthernVillage_002"
+		},
+		{
+			"mLabel": "Warp_FB004"
+		},
+		{
+			"mLabel": "Warp_L004R001"
+		},
+		{
+			"mLabel": "Warp_L004R005"
+		},
+		{
+			"mLabel": "Warp_L004R011"
+		},
+		{
+			"mLabel": "Warp_Field_Desert_001"
+		},
+		{
+			"mLabel": "Warp_Field_Desert_002"
+		},
+		{
+			"mLabel": "Warp_Field_Desert_003"
+		},
+		{
+			"mLabel": "Warp_Field_Desert_004"
+		},
+		{
+			"mLabel": "Warp_L001R003"
+		},
+		{
+			"mLabel": "Warp_L001R006"
+		},
+		{
+			"mLabel": "L001R020WarpOpen"
+		},
+		{
+			"mLabel": "L001R019WarpOpen"
+		},
+		{
+			"mLabel": "L001R015WarpOpen"
+		},
+		{
+			"mLabel": "Warp_Field_Volcano_002"
+		},
+		{
+			"mLabel": "Warp_Field_Volcano_003"
+		},
+		{
+			"mLabel": "Warp_L002R001"
+		},
+		{
+			"mLabel": "Warp_Field_HyruleLake_001"
+		},
+		{
+			"mLabel": "Warp_Field_Remains_001"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_006"
+		},
+		{
+			"mLabel": "Warp_L005R001"
+		},
+		{
+			"mLabel": "Warp_L005R011"
+		},
+		{
+			"mLabel": "Warp_FB004_002"
+		},
+		{
+			"mLabel": "Warp_Field_HebraMountains_003_001"
+		},
+		{
+			"mLabel": "Warp_Field_HebraMountains_003_002"
+		},
+		{
+			"mLabel": "Warp_Field_HebraMountains_004_001"
+		},
+		{
+			"mLabel": "Warp_Field_HebraMountains_002_001"
+		},
+		{
+			"mLabel": "Warp_Field_HebraMountains_001_001"
+		},
+		{
+			"mLabel": "Warp_Field_HebraMountains_001_002"
+		},
+		{
+			"mLabel": "Warp_FB006_001"
+		},
+		{
+			"mLabel": "Warp_Field_Jungle_001"
+		},
+		{
+			"mLabel": "Warp_Field_Jungle_002"
+		},
+		{
+			"mLabel": "Warp_Field_Jungle_003"
+		},
+		{
+			"mLabel": "Warp_Field_Jungle_004"
+		},
+		{
+			"mLabel": "Warp_Field_Jungle_005"
+		},
+		{
+			"mLabel": "Warp_Field_Jungle_006"
+		},
+		{
+			"mLabel": "Warp_FB006_002"
+		},
+		{
+			"mLabel": "Warp_L006R001"
+		},
+		{
+			"mLabel": "Warp_L006R015"
+		},
+		{
+			"mLabel": "Warp_L006R029"
+		},
+		{
+			"mLabel": "Warp_Field_Desert_005"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_007"
+		},
+		{
+			"mLabel": "Warp_Field_Desert_006"
+		},
+		{
+			"mLabel": "Warp_L003R010"
+		},
+		{
+			"mLabel": "Warp_FB003_001"
+		},
+		{
+			"mLabel": "Warp_FB005_001"
+		},
+		{
+			"mLabel": "Warp_FB005_002"
+		},
+		{
+			"mLabel": "Warp_L005R009"
+		},
+		{
+			"mLabel": "Warp_L005R014"
+		},
+		{
+			"mLabel": "Warp_L005R020"
+		},
+		{
+			"mLabel": "Warp_L005R021"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_008"
+		},
+		{
+			"mLabel": "Warp_Field_Volcano_004"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_009"
+		},
+		{
+			"mLabel": "Warp_Field_NorthForest_001"
+		},
+		{
+			"mLabel": "Warp_Field_NorthForest_002"
+		},
+		{
+			"mLabel": "Warp_Field_HyrulePlains_010"
+		},
+		{
+			"mLabel": "Warp_Field_Volcano_005"
+		},
+		{
+			"mLabel": "GetRupee1"
+		},
+		{
+			"mLabel": "GetRupee5"
+		},
+		{
+			"mLabel": "GetRupee20"
+		},
+		{
+			"mLabel": "GetRupee50"
+		},
+		{
+			"mLabel": "GetRupee100"
+		},
+		{
+			"mLabel": "GetRupee300"
+		},
+		{
+			"mLabel": "GetSmallKey"
+		},
+		{
+			"mLabel": "GetBossKey"
+		},
+		{
+			"mLabel": "GetHeartContainer"
+		},
+		{
+			"mLabel": "GetCopyrod"
+		},
+		{
+			"mLabel": "GetHeartPiece"
+		},
+		{
+			"mLabel": "GetSword"
+		},
+		{
+			"mLabel": "GetSyncrod"
+		},
+		{
+			"mLabel": "ItemDropActivate"
+		},
+		{
+			"mLabel": "GetPastePower"
+		},
+		{
+			"mLabel": "GetExSmoothieFood00"
+		},
+		{
+			"mLabel": "GetExSmoothieFood01"
+		},
+		{
+			"mLabel": "GetExSmoothieFood02"
+		},
+		{
+			"mLabel": "GetExSmoothieFood03"
+		},
+		{
+			"mLabel": "GetExSmoothieFood04"
+		},
+		{
+			"mLabel": "GetFairy"
+		},
+		{
+			"mLabel": "GetHylianCoupon"
+		},
+		{
+			"mLabel": "GetZoraCoupon"
+		},
+		{
+			"mLabel": "GetGerudoCoupon"
+		},
+		{
+			"mLabel": "GetGoronCoupon"
+		},
+		{
+			"mLabel": "GetMachineCoupon"
+		},
+		{
+			"mLabel": "GetSmoothieToppingLow"
+		},
+		{
+			"mLabel": "GetSmoothieToppingHigh"
+		},
+		{
+			"mLabel": "GetMachineMainspring"
+		},
+		{
+			"mLabel": "GetMachineUnlock00"
+		},
+		{
+			"mLabel": "GetMachineUnlock01"
+		},
+		{
+			"mLabel": "GetMachineUnlock02"
+		},
+		{
+			"mLabel": "GetMachineUnlock03"
+		},
+		{
+			"mLabel": "GetIngredient00"
+		},
+		{
+			"mLabel": "GetIngredient01"
+		},
+		{
+			"mLabel": "GetIngredient02"
+		},
+		{
+			"mLabel": "GetIngredient03"
+		},
+		{
+			"mLabel": "GetIngredient04"
+		},
+		{
+			"mLabel": "GetIngredient05"
+		},
+		{
+			"mLabel": "GetIngredient06"
+		},
+		{
+			"mLabel": "GetIngredient07"
+		},
+		{
+			"mLabel": "GetIngredient08"
+		},
+		{
+			"mLabel": "GetIngredient09"
+		},
+		{
+			"mLabel": "GetIngredient10"
+		},
+		{
+			"mLabel": "GetIngredient11"
+		},
+		{
+			"mLabel": "GetIngredient12"
+		},
+		{
+			"mLabel": "GetIngredient13"
+		},
+		{
+			"mLabel": "GetIngredient14"
+		},
+		{
+			"mLabel": "GetStampCard"
+		},
+		{
+			"mLabel": "GetIngredient15"
+		},
+		{
+			"mLabel": "GetDekuMembershipCertificate"
+		},
+		{
+			"mLabel": "GetProofOfDin"
+		},
+		{
+			"mLabel": "GetProofOfFarore"
+		},
+		{
+			"mLabel": "GetProofOfNayru"
+		},
+		{
+			"mLabel": "GetMainspring"
+		},
+		{
+			"mLabel": "Beach_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "SouthernVillage_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "Forest_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "Forest_TreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "Forest_TreasureBoxOpen_003"
+		},
+		{
+			"mLabel": "Forest_TreasureBoxOpen_004"
+		},
+		{
+			"mLabel": "HyrulePlains_WorldGlobePieceGet_001"
+		},
+		{
+			"mLabel": "HyrulePlains_WorldGlobePieceGet_002"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_003"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_004"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_005"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_006"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_007"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_003"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_004"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_005"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_008"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_003"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_004"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_005"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_006"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_007"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_008"
+		},
+		{
+			"mLabel": "S043WallCrackedOpen"
+		},
+		{
+			"mLabel": "S044WallCrackedOpen"
+		},
+		{
+			"mLabel": "Desert_LanmolaDead1"
+		},
+		{
+			"mLabel": "Desert_LanmolaDead2"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxPop_001"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_003"
+		},
+		{
+			"mLabel": "Forest_TreasureBoxPop_001"
+		},
+		{
+			"mLabel": "Forest_TreasureBoxOpen_005"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxPop_001"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpen_009"
+		},
+		{
+			"mLabel": "Jungle_Field001"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_009"
+		},
+		{
+			"mLabel": "Desert_LanmolaItemDrop1"
+		},
+		{
+			"mLabel": "Desert_LanmolaItemDrop2"
+		},
+		{
+			"mLabel": "Jungle_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "Jungle_TreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "Jungle_TreasureBoxOpen_003"
+		},
+		{
+			"mLabel": "Jungle_TreasureBoxOpen_004"
+		},
+		{
+			"mLabel": "Jungle_TreasureBoxOpen_006"
+		},
+		{
+			"mLabel": "Jungle_TreasureBoxOpen_007"
+		},
+		{
+			"mLabel": "Jungle_TreasureBoxOpen_008"
+		},
+		{
+			"mLabel": "HyruleCastleWeatherCock"
+		},
+		{
+			"mLabel": "LanmolaLv2Activate"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_004"
+		},
+		{
+			"mLabel": "NorthForest_StairsOpen"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxPop_001"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_010"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_006"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_007"
+		},
+		{
+			"mLabel": "HyruleLake_TreasureBoxPop_001"
+		},
+		{
+			"mLabel": "HyruleLake_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxPop_003"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxPop_004"
+		},
+		{
+			"mLabel": "HyruleRemains_TreasureBoxPop_001"
+		},
+		{
+			"mLabel": "HyruleRemains_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxPop_008"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_008"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxPop_009"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_009"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxPop_005"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_005"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_001"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_002"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_003"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_004"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_005"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_006"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_007"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_008"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_009"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_010"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_011"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_012"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_013"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_014"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_015"
+		},
+		{
+			"mLabel": "HyruleLake_ItemGet_001"
+		},
+		{
+			"mLabel": "HyruleLake_ItemGet_002"
+		},
+		{
+			"mLabel": "NorthForest_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "NorthForest_TreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_011"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemGet_016"
+		},
+		{
+			"mLabel": "SnowyMountainSnowPileMelt_001"
+		},
+		{
+			"mLabel": "SnowyMountainSnowPileMelt_002"
+		},
+		{
+			"mLabel": "SnowyMountainSnowPileMelt_003"
+		},
+		{
+			"mLabel": "SnowyMountainWallCrackedBroken_001"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_001"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_002"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_003"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_004"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_005"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_006"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_007"
+		},
+		{
+			"mLabel": "FieldBeach_SeaUrchinDead"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxPop_001"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxOpen_001"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxOpen_002"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxOpen_003"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxOpen_004"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxOpen_005"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxOpen_006"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_006"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_007"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_008"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_009"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpen_010"
+		},
+		{
+			"mLabel": "Desert_RemoveSandpaile001"
+		},
+		{
+			"mLabel": "Desert_RemoveRock001"
+		},
+		{
+			"mLabel": "GraveBigMove"
+		},
+		{
+			"mLabel": "NorthForest_LynelFootprints_008"
+		},
+		{
+			"mLabel": "NorthForest_PedestalOn_A"
+		},
+		{
+			"mLabel": "NorthForest_PedestalOn_B"
+		},
+		{
+			"mLabel": "NorthForest_PedestalOn_C"
+		},
+		{
+			"mLabel": "NorthForest_PedestalOn_D"
+		},
+		{
+			"mLabel": "NorthForest_PedestalOn_E"
+		},
+		{
+			"mLabel": "NorthForest_PedestalOn_F"
+		},
+		{
+			"mLabel": "NorthForest_StoneMonumentOn"
+		},
+		{
+			"mLabel": "NorthForest_PedestalOn_All"
+		},
+		{
+			"mLabel": "WeatherUnLock"
+		},
+		{
+			"mLabel": "TimeUnLock"
+		},
+		{
+			"mLabel": "PasteLinkUnLock"
+		},
+		{
+			"mLabel": "CopyDictionary_BoxWooden"
+		},
+		{
+			"mLabel": "CopyDictionary_Zol"
+		},
+		{
+			"mLabel": "CopyDictionary_Signboard"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Dekubaba"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Dosun"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Skulltula"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_TrapBlade"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_FloorAbyss"
+		},
+		{
+			"mLabel": "CopyDictionary_RockCave"
+		},
+		{
+			"mLabel": "CopyDictionary_Rock"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_PartsTerrain"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Spark"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_BlockWater"
+		},
+		{
+			"mLabel": "CopyDictionary_Grass"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Pot"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_ZolFire"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Keese"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Beamos"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_SoldierIronBall"
+		},
+		{
+			"mLabel": "CopyDictionary_Boarblin"
+		},
+		{
+			"mLabel": "CopyDictionary_RockSolid"
+		},
+		{
+			"mLabel": "CopyDictionary_Hidy"
+		},
+		{
+			"mLabel": "CopyDictionary_Test_Tektight"
+		},
+		{
+			"mLabel": "Test_EV001"
+		},
+		{
+			"mLabel": "Test_EV002"
+		},
+		{
+			"mLabel": "Test_EV003"
+		},
+		{
+			"mLabel": "Test_EV004"
+		},
+		{
+			"mLabel": "Test_EV005"
+		},
+		{
+			"mLabel": "Test_EV006"
+		},
+		{
+			"mLabel": "Test_EV007"
+		},
+		{
+			"mLabel": "Test_EV008"
+		},
+		{
+			"mLabel": "Test_EV009"
+		},
+		{
+			"mLabel": "Test_SDungeon001_TreasureBox"
+		},
+		{
+			"mLabel": "Test_FieldBoundary_TreasureBox1"
+		},
+		{
+			"mLabel": "Test_FieldBoundary_TreasureBox2"
+		},
+		{
+			"mLabel": "Test_FieldBoundary_TreasureBox3"
+		},
+		{
+			"mLabel": "Testl002_001"
+		},
+		{
+			"mLabel": "Testl002_002"
+		},
+		{
+			"mLabel": "Testl002_003"
+		},
+		{
+			"mLabel": "Testl002_004"
+		},
+		{
+			"mLabel": "Testl002_005"
+		},
+		{
+			"mLabel": "Testl002_006"
+		},
+		{
+			"mLabel": "Testl002_007"
+		},
+		{
+			"mLabel": "Testl002_008"
+		},
+		{
+			"mLabel": "Testl002_009"
+		},
+		{
+			"mLabel": "Testl002_010"
+		},
+		{
+			"mLabel": "Testl002_011"
+		},
+		{
+			"mLabel": "Testl002_012"
+		},
+		{
+			"mLabel": "Testl002_013"
+		},
+		{
+			"mLabel": "Testl002_014"
+		},
+		{
+			"mLabel": "Testl002_015"
+		},
+		{
+			"mLabel": "Testl002_016"
+		},
+		{
+			"mLabel": "Testl002_017"
+		},
+		{
+			"mLabel": "Testl002_018"
+		},
+		{
+			"mLabel": "TestSDungeon_007_Treasure"
+		},
+		{
+			"mLabel": "TestSDungeon_004_Treasure"
+		},
+		{
+			"mLabel": "TestFieldBeach_EV001"
+		},
+		{
+			"mLabel": "Test_Field_EV01"
+		},
+		{
+			"mLabel": "Test_Field_EV02"
+		},
+		{
+			"mLabel": "Test_Field_EV03"
+		},
+		{
+			"mLabel": "Test_Field_EV04"
+		},
+		{
+			"mLabel": "TestSDungeon_003_TreasureBox2"
+		},
+		{
+			"mLabel": "TestSDungeon_003_Wipeout"
+		},
+		{
+			"mLabel": "TestSDungeon002_TreasureBox"
+		},
+		{
+			"mLabel": "TestFieldBeachTreasureBox002"
+		},
+		{
+			"mLabel": "TestFieldBeachTreasureBox001"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpenH"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpenG"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpenF"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpenE"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpenD"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpenC"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxPopB"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpenB"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxPop"
+		},
+		{
+			"mLabel": "TestFieldTreasureBoxOpen"
+		},
+		{
+			"mLabel": "TestFieldBeachTreasureBox003"
+		},
+		{
+			"mLabel": "TestSDungeon_003_BigRock"
+		},
+		{
+			"mLabel": "Test_FieldBoundary_TreasureBox4"
+		},
+		{
+			"mLabel": "Test_FieldBoundary_TreasureBox5"
+		},
+		{
+			"mLabel": "TestSDungeon_001_BigRock"
+		},
+		{
+			"mLabel": "TestField_Portal_BigRock"
+		},
+		{
+			"mLabel": "TestField_Horse_Panic"
+		},
+		{
+			"mLabel": "TestField_Horse_Rescued"
+		},
+		{
+			"mLabel": "TestField_DirectionsToInsideCastle"
+		},
+		{
+			"mLabel": "TestField_PasteFar_Tute"
+		},
+		{
+			"mLabel": "Testl002_019"
+		},
+		{
+			"mLabel": "Testl002_020"
+		},
+		{
+			"mLabel": "TestFieldH_TreasureBox01"
+		},
+		{
+			"mLabel": "TestFieldH_TreasureBox02"
+		},
+		{
+			"mLabel": "TestWarp_TestL002_R001_Warp"
+		},
+		{
+			"mLabel": "TestWarp_TestL002_R008_Warp"
+		},
+		{
+			"mLabel": "TestWarp_TestFB001_Warp_Start"
+		},
+		{
+			"mLabel": "TestWarp_TestFB001_Warp_SecondFloor"
+		},
+		{
+			"mLabel": "TestWarp_TestFB001_Warp_BossFront"
+		},
+		{
+			"mLabel": "TestWarp_TestFV_Warp_Bridge"
+		},
+		{
+			"mLabel": "TestWarp_TestFV_Warp_FrontCastleTown"
+		},
+		{
+			"mLabel": "TestWarp_TestFV_Warp_MountainTop"
+		},
+		{
+			"mLabel": "TestWarp_TestFV_Warp_Village"
+		},
+		{
+			"mLabel": "TestSDungeonBoundaryTreasureBoxOpen"
+		},
+		{
+			"mLabel": "TestWarp_L009_R001_Warp"
+		},
+		{
+			"mLabel": "TestWarp_L009_R008_Warp"
+		},
+		{
+			"mLabel": "TestWarp_FB001_Warp_Start"
+		},
+		{
+			"mLabel": "TestWarp_FB001_Warp_SecondFloor"
+		},
+		{
+			"mLabel": "TestWarp_FB001_Warp_BossFront"
+		},
+		{
+			"mLabel": "TestWarp_Field_SnowyMountains_002"
+		},
+		{
+			"mLabel": "TestWarp_Field_Jungle_001"
+		},
+		{
+			"mLabel": "TestWarp_Field_Volcano_001"
+		},
+		{
+			"mLabel": "TestWarp_Field_Wildernesst_002"
+		},
+		{
+			"mLabel": "TestWarp_Field_HebraMountains_002"
+		},
+		{
+			"mLabel": "TestWarp_Field_River_001"
+		},
+		{
+			"mLabel": "TestWarp_Field_HyruleCastle_001_Front"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_001"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_002"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_003"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_004"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_005"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_006"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_007"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_008"
+		},
+		{
+			"mLabel": "Test_S_Dungeon101_Open"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_009"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_010"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_011"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_012"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_013"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_014"
+		},
+		{
+			"mLabel": "TestS008TreasureBoxOpen"
+		},
+		{
+			"mLabel": "TestEnemyDefeat_Desert010"
+		},
+		{
+			"mLabel": "TestStampmanTutorial_01"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_015"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_016"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_017"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_018"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_019"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_020"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_021"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_022"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_023"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_024"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_025"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_026"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_027"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_028"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_029"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_030"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_031"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_032"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_033"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_034"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_035"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_036"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_037"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_038"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_039"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_040"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_041"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_042"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_043"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_044"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_045"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_046"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_047"
+		},
+		{
+			"mLabel": "TestPartnerStrayGet_048"
+		},
+		{
+			"mLabel": "HorseRaceNormalUnlock"
+		},
+		{
+			"mLabel": "HorseRaceHardUnlock"
+		},
+		{
+			"mLabel": "PickUpAconsRankA_00"
+		},
+		{
+			"mLabel": "PickUpAconsRankA_01"
+		},
+		{
+			"mLabel": "PickUpAconsRankA_02"
+		},
+		{
+			"mLabel": "PickUpAconsRankA_03"
+		},
+		{
+			"mLabel": "PickUpAconsRankA_04"
+		},
+		{
+			"mLabel": "HorseRaceEasyFastest"
+		},
+		{
+			"mLabel": "HorseRaceNormalFastest"
+		},
+		{
+			"mLabel": "HorseRaceHardFastest"
+		},
+		{
+			"mLabel": "GerudoMiniGameNormalUnlock"
+		},
+		{
+			"mLabel": "GerudoMiniGameHardUnlock"
+		},
+		{
+			"mLabel": "GerudoMiniGameEasyPerfect"
+		},
+		{
+			"mLabel": "GerudoMiniGameNomalPerfect"
+		},
+		{
+			"mLabel": "GerudoMiniGameHardPerfect"
+		},
+		{
+			"mLabel": "AconsBonusGet_00"
+		},
+		{
+			"mLabel": "AconsBonusGet_01"
+		},
+		{
+			"mLabel": "AconsBonusGet_02"
+		},
+		{
+			"mLabel": "AconsBonusGet_03"
+		},
+		{
+			"mLabel": "AconsBonusGet_04"
+		},
+		{
+			"mLabel": "GerudoMiniGameNormalClear"
+		},
+		{
+			"mLabel": "HorseRaceHardClear"
+		},
+		{
+			"mLabel": "GerudoMiniGameEasyClear"
+		},
+		{
+			"mLabel": "GerudoMiniGameHardClear"
+		},
+		{
+			"mLabel": "PickUpAconsRankB_00"
+		},
+		{
+			"mLabel": "PickUpAconsRankB_01"
+		},
+		{
+			"mLabel": "PickUpAconsRankB_02"
+		},
+		{
+			"mLabel": "PickUpAconsRankB_03"
+		},
+		{
+			"mLabel": "PickUpAconsRankB_04"
+		},
+		{
+			"mLabel": "JoinDojo"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock00"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock01"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock02"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock03"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock04"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock05"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock06"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock07"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock08"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock09"
+		},
+		{
+			"mLabel": "PartnerStrayGet_100"
+		},
+		{
+			"mLabel": "PartnerStrayGet_101"
+		},
+		{
+			"mLabel": "PartnerStrayGet_102"
+		},
+		{
+			"mLabel": "PartnerStrayGet_103"
+		},
+		{
+			"mLabel": "PartnerStrayGet_104"
+		},
+		{
+			"mLabel": "PartnerStrayGet_105"
+		},
+		{
+			"mLabel": "PartnerStrayGet_106"
+		},
+		{
+			"mLabel": "S102_MidBoss_Rupee01"
+		},
+		{
+			"mLabel": "S102_MidBoss_Rupee02"
+		},
+		{
+			"mLabel": "S102_MidBoss_Rupee03"
+		},
+		{
+			"mLabel": "S102_MidBoss_Rupee04"
+		},
+		{
+			"mLabel": "S110_MidBoss_Rupee01"
+		},
+		{
+			"mLabel": "S110_MidBoss_Rupee02"
+		},
+		{
+			"mLabel": "S022_MidBoss_Rupee01"
+		},
+		{
+			"mLabel": "S022_MidBoss_Rupee02"
+		},
+		{
+			"mLabel": "S022_MidBoss_Rupee03"
+		},
+		{
+			"mLabel": "S022_MidBoss_Rupee04"
+		},
+		{
+			"mLabel": "S109_OpenDoor"
+		},
+		{
+			"mLabel": "PartnerStrayGet_063"
+		},
+		{
+			"mLabel": "S107_R003_RemoveIceBox_01"
+		},
+		{
+			"mLabel": "S107_R003_RemoveIceBox_02"
+		},
+		{
+			"mLabel": "S107_R003_RemoveIceBox_03"
+		},
+		{
+			"mLabel": "S007_R002_SwitchFoot"
+		},
+		{
+			"mLabel": "S102_R001_BreakWoodenBox"
+		},
+		{
+			"mLabel": "S010_R003_LampUnLightSwitch"
+		},
+		{
+			"mLabel": "amiiboUnlock"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee01"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee02"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss_Rupee01"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss_Rupee02"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss_Rupee03"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss_Rupee04"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss_Rupee05"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss_Rupee06"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss_Rupee07"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss2_Item01"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss2_Item02"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss2_Item03"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss2_Item04"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss2_Item05"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss2_Item06"
+		},
+		{
+			"mLabel": "F_Desert003MidBoss2_Item07"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee03"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee04"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee05"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee06"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee07"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee08"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee09"
+		},
+		{
+			"mLabel": "F_Desert001MidBoss_Rupee10"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxPop_010"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpen_010"
+		},
+		{
+			"mLabel": "F_KakarikoVillage_WellCoverOpen"
+		},
+		{
+			"mLabel": "F_BuriedItem01"
+		},
+		{
+			"mLabel": "F_BuriedItem02"
+		},
+		{
+			"mLabel": "F_BuriedItem03"
+		},
+		{
+			"mLabel": "F_BuriedItem04"
+		},
+		{
+			"mLabel": "F_BuriedItem05"
+		},
+		{
+			"mLabel": "F_BuriedItem06"
+		},
+		{
+			"mLabel": "F_BuriedItem07"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_001"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_002"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_003"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_005"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_006"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_007"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_008"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_009"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_010"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_011"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_012"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_013"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_014"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_015"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_016"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_100"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_101"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_102"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_103"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_104"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_105"
+		},
+		{
+			"mLabel": "PartnerSkillUpdate_106"
+		},
+		{
+			"mLabel": "F_BuriedItem08"
+		},
+		{
+			"mLabel": "F_BuriedItem09"
+		},
+		{
+			"mLabel": "F_BuriedItem10"
+		},
+		{
+			"mLabel": "F_BuriedItem11"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxPop_012"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpen_012"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpenSecond_005"
+		},
+		{
+			"mLabel": "Forest_TreasureBoxOpenSecond_005"
+		},
+		{
+			"mLabel": "HebraMountains_TreasureBoxOpenSecond_001"
+		},
+		{
+			"mLabel": "HyruleLake_TreasureBoxOpenSecond_001"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpenSecond_010"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpenSecond_004"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpenSecond_003"
+		},
+		{
+			"mLabel": "HyrulePlains_TreasureBoxOpenSecond_012"
+		},
+		{
+			"mLabel": "HyruleRemains_TreasureBoxOpenSecond_001"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpenSecond_010"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpenSecond_008"
+		},
+		{
+			"mLabel": "CoastRiverTreasureBoxOpenSecond_009"
+		},
+		{
+			"mLabel": "Volcano_TreasureBoxOpenSecond_009"
+		},
+		{
+			"mLabel": "Desert_TreasureBoxOpenSecond_001"
+		},
+		{
+			"mLabel": "HyrulePlains_ItemDrop_001"
+		},
+		{
+			"mLabel": "AudioIsPlayedHYRULE2BGM"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock10"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock11"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock12"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock13"
+		},
+		{
+			"mLabel": "BattleChallengeUnlock14"
+		},
+		{
+			"mLabel": "BattleChallengeFinalTraining"
+		},
+		{
+			"mLabel": "AfterSnowstorm"
+		},
+		{
+			"mLabel": "GreatFairyFirstTalk"
+		},
+		{
+			"mLabel": "GiveDekuMerchantName"
+		},
+		{
+			"mLabel": "WeaponCapOpenMessage"
+		},
+		{
+			"mLabel": "HebraMountainExamineTomb"
+		},
+		{
+			"mLabel": "yetigoal"
+		},
+		{
+			"mLabel": "yeti10delete"
+		},
+		{
+			"mLabel": "yeti15delete"
+		},
+		{
+			"mLabel": "yetigoal_after"
+		},
+		{
+			"mLabel": "FindDaughter"
+		},
+		{
+			"mLabel": "ShiverInTheCold"
+		},
+		{
+			"mLabel": "GerudoSoldierCatch"
+		},
+		{
+			"mLabel": "BeforeLastBoss"
+		},
+		{
+			"mLabel": "ViewBoundaryWorldAreaH"
+		},
+		{
+			"mLabel": "Deku017GoToCrack"
+		},
+		{
+			"mLabel": "Linkswordlv2"
+		},
+		{
+			"mLabel": "Linkswordlv3"
+		},
+		{
+			"mLabel": "DoorPrizonOpenL2"
+		},
+		{
+			"mLabel": "DoorPrizonOpenR2"
+		},
+		{
+			"mLabel": "BehindJungleStatue"
+		},
+		{
+			"mLabel": "SmoothieComplete"
+		},
+		{
+			"mLabel": "SmoothieCompleteTalkEnd"
+		},
+		{
+			"mLabel": "FrontGoronStonePortrait"
+		},
+		{
+			"mLabel": "ItemHeartContainer4"
+		},
+		{
+			"mLabel": "MapIcon_30"
+		},
+		{
+			"mLabel": "MapIcon_31"
+		},
+		{
+			"mLabel": "MapIcon_32"
+		},
+		{
+			"mLabel": "MapIcon_33"
+		},
+		{
+			"mLabel": "MapIcon_34"
+		},
+		{
+			"mLabel": "MapIcon_35"
+		},
+		{
+			"mLabel": "AudioIsStartedCondesHouse"
+		},
+		{
+			"mLabel": "AudioIsStormSubsidesCondesHouse"
+		},
+		{
+			"mLabel": "AudioIsDoneLastDungeonLastRoom"
+		},
+		{
+			"mLabel": "AudioIsEnemyZeldaDead"
+		}
+	]
+}

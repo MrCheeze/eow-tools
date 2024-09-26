@@ -1,0 +1,94 @@
+{
+	"unk1": 3454676661,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "SkySphere",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mProductionSkySphereName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mCubeMapCaptureSkySphereName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Default",
+			"mProductionSkySphereName": "SkysphereCommon",
+			"mCubeMapCaptureSkySphereName": "DebugSkysphereCommon"
+		},
+		{
+			"mKey": "NoSkySphere",
+			"mProductionSkySphereName": "",
+			"mCubeMapCaptureSkySphereName": "DebugSkysphereCommon"
+		},
+		{
+			"mKey": "IndoorCommon",
+			"mProductionSkySphereName": "",
+			"mCubeMapCaptureSkySphereName": "DebugSkysphereCommon"
+		},
+		{
+			"mKey": "DungeonCommon",
+			"mProductionSkySphereName": "",
+			"mCubeMapCaptureSkySphereName": "DebugSkysphereCommon"
+		},
+		{
+			"mKey": "BoundaryCommon",
+			"mProductionSkySphereName": "SkysphereFieldBoundary",
+			"mCubeMapCaptureSkySphereName": "SkysphereFieldBoundary"
+		},
+		{
+			"mKey": "Boundary_Side",
+			"mProductionSkySphereName": "SkysphereFieldBoundary_Side",
+			"mCubeMapCaptureSkySphereName": "SkysphereFieldBoundary_Side"
+		},
+		{
+			"mKey": "Boundary_Boss",
+			"mProductionSkySphereName": "SkysphereFieldBoundary_Boss",
+			"mCubeMapCaptureSkySphereName": "SkysphereFieldBoundary_Boss"
+		},
+		{
+			"mKey": "BoundaryLast",
+			"mProductionSkySphereName": "SkysphereFieldBoundaryLast",
+			"mCubeMapCaptureSkySphereName": "SkysphereFieldBoundaryLast"
+		},
+		{
+			"mKey": "PartnerSeparate",
+			"mProductionSkySphereName": "SkyspherePartnerSeparate",
+			"mCubeMapCaptureSkySphereName": "SkyspherePartnerSeparate"
+		},
+		{
+			"mKey": "SkysphereGoToRevivingWorld",
+			"mProductionSkySphereName": "SkysphereGoToRevivingWorld",
+			"mCubeMapCaptureSkySphereName": "SkysphereGoToRevivingWorld"
+		}
+	]
+}

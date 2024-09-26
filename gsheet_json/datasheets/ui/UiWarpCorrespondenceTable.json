@@ -1,0 +1,118 @@
+{
+	"unk1": 80243702,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiWarpCorrespondenceTable",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mWarpSet",
+			"typename": "UiWarpSet",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 8,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "TestLDungeon2",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "TestFieldBoundary",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "TestFieldVerification",
+			"mWarpSet": "Field"
+		},
+		{
+			"mKey": "FieldBoundary001",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "FieldBoundary002",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_Dungeon009",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "Field",
+			"mWarpSet": "Field"
+		},
+		{
+			"mKey": "L_Dungeon001",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_Dungeon002",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_Dungeon003",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_Dungeon004",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_Dungeon005",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_Dungeon006",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_DungeonCastle",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "L_DungeonLast",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "FieldBoundaryCastle",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "FieldBoundary004",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "FieldBoundary006_001",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "FieldBoundaryLast",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "FieldBoundary003",
+			"mWarpSet": "Boundary"
+		},
+		{
+			"mKey": "FieldBoundary005",
+			"mWarpSet": "Boundary"
+		}
+	]
+}

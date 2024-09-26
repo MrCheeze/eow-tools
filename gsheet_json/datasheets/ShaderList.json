@@ -1,0 +1,267 @@
+{
+	"unk1": 2392312865,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "ShaderList",
+	"fields": [
+		{
+			"name": "ShaderName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"ShaderName": "M_BoundarySpace"
+		},
+		{
+			"ShaderName": "M_FloorLava"
+		},
+		{
+			"ShaderName": "M_FloorLava_edge"
+		},
+		{
+			"ShaderName": "M_Lava"
+		},
+		{
+			"ShaderName": "M_PBR_Beamos"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_UV01_abyss"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_UV01_m1A"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_UV01_m1A_B"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_WP01_mVC"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_UV01_mVC"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_WP0_UV1_m1A"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_WP0_UV1_mVC"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L2_WP0_UV1_mVCB"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L3_WP02_UV1_m3uv1"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L3_WP0_UV12_m3uv1"
+		},
+		{
+			"ShaderName": "M_PBR_BG_L3_WP02_UV1_m3uv1B"
+		},
+		{
+			"ShaderName": "M_PBR_BG_Orb"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_B"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_Burn"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_MulColor"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_Paste"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_UVanim"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_UVanim_B"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_UVanim_m1A"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_VC"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_VC_alb"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_VC_B"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_B"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_emsUV2"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_Fresnel"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_LavaGeyser"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_Paste"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_UVanim_m0A1"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_Whitish"
+		},
+		{
+			"ShaderName": "M_PBR_BG_SandObstacle"
+		},
+		{
+			"ShaderName": "M_PBR_BG_TentativeModel"
+		},
+		{
+			"ShaderName": "M_PBR_BG_Vegetation"
+		},
+		{
+			"ShaderName": "M_PBR_BG_WP"
+		},
+		{
+			"ShaderName": "M_PBR_BG_WP_B"
+		},
+		{
+			"ShaderName": "M_PBR_Char00"
+		},
+		{
+			"ShaderName": "M_PBR_LastBossMu00"
+		},
+		{
+			"ShaderName": "M_PBR_Rupee"
+		},
+		{
+			"ShaderName": "M_Unlit_alb"
+		},
+		{
+			"ShaderName": "M_Unlit_Abyss"
+		},
+		{
+			"ShaderName": "M_Unlit_BG_Boundary_Inside"
+		},
+		{
+			"ShaderName": "M_Unlit_BG_DFadeRoof"
+		},
+		{
+			"ShaderName": "M_Unlit_BG_EvOPFieldDV"
+		},
+		{
+			"ShaderName": "M_Unlit_BG_EvOPFieldDV_plume"
+		},
+		{
+			"ShaderName": "M_Unlit_CrackInside"
+		},
+		{
+			"ShaderName": "M_Unlit_CrackWall00"
+		},
+		{
+			"ShaderName": "M_Unlit_ElectricLine"
+		},
+		{
+			"ShaderName": "M_Unlit_ItemGet00"
+		},
+		{
+			"ShaderName": "M_Unlit_SkyShpere00"
+		},
+		{
+			"ShaderName": "M_Unlit_Skysphere_FB2"
+		},
+		{
+			"ShaderName": "M_Unlit_Stencil"
+		},
+		{
+			"ShaderName": "M_Unlit_SyncLine"
+		},
+		{
+			"ShaderName": "M_Water"
+		},
+		{
+			"ShaderName": "M_Unlit_WaterBlock"
+		},
+		{
+			"ShaderName": "M_WaterSide"
+		},
+		{
+			"ShaderName": "Mock_Default"
+		},
+		{
+			"ShaderName": "Mock_PBR_ProbeCheck"
+		},
+		{
+			"ShaderName": "Mock_Vegetation"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGB_Paste_Vegetation"
+		},
+		{
+			"ShaderName": "M_PBR_BG_WP_Cover"
+		},
+		{
+			"ShaderName": "M_Unlit_WaterSide"
+		},
+		{
+			"ShaderName": "M_DungeonLast"
+		},
+		{
+			"ShaderName": "M_PBR_BG_LastBossBody"
+		},
+		{
+			"ShaderName": "M_DL_BossWall"
+		},
+		{
+			"ShaderName": "M_DL_BossFloor"
+		},
+		{
+			"ShaderName": "M_Unlit_WhiteFade"
+		},
+		{
+			"ShaderName": "M_Unlit_Decal"
+		},
+		{
+			"ShaderName": "M_WaterGeyser"
+		},
+		{
+			"ShaderName": "M_Unlit_Cloud00"
+		},
+		{
+			"ShaderName": "M_PBR_OceanWaves"
+		},
+		{
+			"ShaderName": "M_Unlit_Cloud01"
+		},
+		{
+			"ShaderName": "M_Unlit_Cloud02"
+		},
+		{
+			"ShaderName": "M_PBR_BG_RGBE_Fresnel2"
+		},
+		{
+			"ShaderName": "M_Unlit_VertexColor"
+		},
+		{
+			"ShaderName": "M_WaterSideBoundary"
+		}
+	]
+}

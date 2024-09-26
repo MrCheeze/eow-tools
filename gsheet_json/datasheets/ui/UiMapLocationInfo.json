@@ -1,0 +1,572 @@
+{
+	"unk1": 3662093337,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapLocationInfo",
+	"fields": [
+		{
+			"name": "partsName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mTraverseInfos",
+			"typename": "__inline_struct_UiMapLocationInfo_mTraverseInfos",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 4,
+			"subfields": [
+				{
+					"name": "mIndex",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"partsName": "L_LocationName_00_00",
+			"mTraverseInfos": [
+				{
+					"mIndex": 437
+				},
+				{
+					"mIndex": 434
+				},
+				{
+					"mIndex": 433
+				},
+				{
+					"mIndex": 439
+				},
+				{
+					"mIndex": 438
+				},
+				{
+					"mIndex": 435
+				},
+				{
+					"mIndex": 436
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_01",
+			"mTraverseInfos": [
+				{
+					"mIndex": 405
+				},
+				{
+					"mIndex": 293
+				},
+				{
+					"mIndex": 294
+				},
+				{
+					"mIndex": 292
+				},
+				{
+					"mIndex": 295
+				},
+				{
+					"mIndex": 289
+				},
+				{
+					"mIndex": 296
+				},
+				{
+					"mIndex": 297
+				},
+				{
+					"mIndex": 291
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_02",
+			"mTraverseInfos": [
+				{
+					"mIndex": 328
+				},
+				{
+					"mIndex": 325
+				},
+				{
+					"mIndex": 327
+				},
+				{
+					"mIndex": 329
+				},
+				{
+					"mIndex": 326
+				},
+				{
+					"mIndex": 330
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_03",
+			"mTraverseInfos": [
+				{
+					"mIndex": 38
+				},
+				{
+					"mIndex": 45
+				},
+				{
+					"mIndex": 41
+				},
+				{
+					"mIndex": 44
+				},
+				{
+					"mIndex": 37
+				},
+				{
+					"mIndex": 40
+				},
+				{
+					"mIndex": 49
+				},
+				{
+					"mIndex": 46
+				},
+				{
+					"mIndex": 47
+				},
+				{
+					"mIndex": 43
+				},
+				{
+					"mIndex": 39
+				},
+				{
+					"mIndex": 50
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_04",
+			"mTraverseInfos": [
+				{
+					"mIndex": 267
+				},
+				{
+					"mIndex": 272
+				},
+				{
+					"mIndex": 256
+				},
+				{
+					"mIndex": 407
+				},
+				{
+					"mIndex": 264
+				},
+				{
+					"mIndex": 255
+				},
+				{
+					"mIndex": 269
+				},
+				{
+					"mIndex": 254
+				},
+				{
+					"mIndex": 263
+				},
+				{
+					"mIndex": 284
+				},
+				{
+					"mIndex": 277
+				},
+				{
+					"mIndex": 278
+				},
+				{
+					"mIndex": 275
+				},
+				{
+					"mIndex": 271
+				},
+				{
+					"mIndex": 404
+				},
+				{
+					"mIndex": 270
+				},
+				{
+					"mIndex": 265
+				},
+				{
+					"mIndex": 276
+				},
+				{
+					"mIndex": 257
+				},
+				{
+					"mIndex": 259
+				},
+				{
+					"mIndex": 274
+				},
+				{
+					"mIndex": 268
+				},
+				{
+					"mIndex": 273
+				},
+				{
+					"mIndex": 281
+				},
+				{
+					"mIndex": 260
+				},
+				{
+					"mIndex": 262
+				},
+				{
+					"mIndex": 280
+				},
+				{
+					"mIndex": 258
+				},
+				{
+					"mIndex": 253
+				},
+				{
+					"mIndex": 282
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_05",
+			"mTraverseInfos": [
+				{
+					"mIndex": 73
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_06",
+			"mTraverseInfos": [
+				{
+					"mIndex": 361
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_07",
+			"mTraverseInfos": [
+				{
+					"mIndex": 218
+				},
+				{
+					"mIndex": 217
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_08",
+			"mTraverseInfos": [
+				{
+					"mIndex": 470
+				},
+				{
+					"mIndex": 196
+				},
+				{
+					"mIndex": 193
+				},
+				{
+					"mIndex": 399
+				},
+				{
+					"mIndex": 191
+				},
+				{
+					"mIndex": 401
+				},
+				{
+					"mIndex": 192
+				},
+				{
+					"mIndex": 469
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_09",
+			"mTraverseInfos": [
+				{
+					"mIndex": 266
+				},
+				{
+					"mIndex": 283
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_10",
+			"mTraverseInfos": [
+				{
+					"mIndex": 0
+				},
+				{
+					"mIndex": 4
+				},
+				{
+					"mIndex": 2
+				},
+				{
+					"mIndex": 1
+				},
+				{
+					"mIndex": 3
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_00_11",
+			"mTraverseInfos": [
+				{
+					"mIndex": 115
+				},
+				{
+					"mIndex": 110
+				},
+				{
+					"mIndex": 111
+				},
+				{
+					"mIndex": 112
+				},
+				{
+					"mIndex": 403
+				},
+				{
+					"mIndex": 114
+				},
+				{
+					"mIndex": 402
+				},
+				{
+					"mIndex": 145
+				},
+				{
+					"mIndex": 147
+				},
+				{
+					"mIndex": 149
+				},
+				{
+					"mIndex": 156
+				},
+				{
+					"mIndex": 151
+				},
+				{
+					"mIndex": 153
+				},
+				{
+					"mIndex": 146
+				},
+				{
+					"mIndex": 155
+				},
+				{
+					"mIndex": 152
+				},
+				{
+					"mIndex": 148
+				},
+				{
+					"mIndex": 154
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_00",
+			"mTraverseInfos": [
+				{
+					"mIndex": 401
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_01",
+			"mTraverseInfos": [
+				{
+					"mIndex": 399
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_02",
+			"mTraverseInfos": [
+				{
+					"mIndex": 397
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_03",
+			"mTraverseInfos": [
+				{
+					"mIndex": 405
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_04",
+			"mTraverseInfos": [
+				{
+					"mIndex": 158
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_05",
+			"mTraverseInfos": [
+				{
+					"mIndex": 403
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_06",
+			"mTraverseInfos": [
+				{
+					"mIndex": 402
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_07",
+			"mTraverseInfos": [
+				{
+					"mIndex": 404
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_08",
+			"mTraverseInfos": [
+				{
+					"mIndex": 181
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_09",
+			"mTraverseInfos": [
+				{
+					"mIndex": 437
+				},
+				{
+					"mIndex": 433
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_10",
+			"mTraverseInfos": [
+				{
+					"mIndex": 73
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_11",
+			"mTraverseInfos": [
+				{
+					"mIndex": 407
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_12",
+			"mTraverseInfos": [
+				{
+					"mIndex": 115
+				},
+				{
+					"mIndex": 110
+				},
+				{
+					"mIndex": 111
+				},
+				{
+					"mIndex": 112
+				},
+				{
+					"mIndex": 403
+				},
+				{
+					"mIndex": 114
+				}
+			]
+		},
+		{
+			"partsName": "L_LocationName_01_13",
+			"mTraverseInfos": [
+				{
+					"mIndex": 402
+				},
+				{
+					"mIndex": 145
+				},
+				{
+					"mIndex": 147
+				},
+				{
+					"mIndex": 149
+				},
+				{
+					"mIndex": 156
+				},
+				{
+					"mIndex": 151
+				},
+				{
+					"mIndex": 153
+				},
+				{
+					"mIndex": 146
+				},
+				{
+					"mIndex": 155
+				},
+				{
+					"mIndex": 152
+				},
+				{
+					"mIndex": 148
+				},
+				{
+					"mIndex": 154
+				}
+			]
+		}
+	]
+}

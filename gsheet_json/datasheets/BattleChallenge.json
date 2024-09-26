@@ -1,0 +1,1193 @@
+{
+	"unk1": 3992256179,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "BattleChallenge",
+	"fields": [
+		{
+			"name": "mMissionLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDetailLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mConditionNumber",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mFlag",
+			"typename": "GlobalFlags",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 8,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLevelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLocatorName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 72,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "LocatorOffset",
+			"typename": "__inline_struct_BattleChallenge_LocatorOffset",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 88,
+			"directsize": 12,
+			"elemsize": 12,
+			"subfields": [
+				{
+					"name": "mX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mZ",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "ReleaseConditions",
+			"typename": "__inline_struct_BattleChallenge_ReleaseConditions",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 104,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mConditionKey",
+					"typename": "Conditions",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mConditionResult",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 1,
+					"elemsize": 1
+				}
+			]
+		},
+		{
+			"name": "Condition",
+			"typename": "__inline_struct_BattleChallenge_Condition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 120,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mDefeat",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mTime",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mNormalRankClearCondition",
+			"typename": "__inline_struct_BattleChallenge_mNormalRankClearCondition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 128,
+			"directsize": 32,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mTime",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mItemKey",
+					"typename": "Items",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mHighRankClearCondition",
+			"typename": "__inline_struct_BattleChallenge_mHighRankClearCondition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 160,
+			"directsize": 32,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mTime",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mItemKey",
+					"typename": "Items",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mSecondHighRankClearCondition",
+			"typename": "__inline_struct_BattleChallenge_mSecondHighRankClearCondition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 192,
+			"directsize": 32,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mTime",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mItemKey",
+					"typename": "Items",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mStartRule",
+			"typename": "__inline_enum_BattleChallenge_mStartRule",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 48,
+			"offset": 224,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mPartnerLevel",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 228,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "ProhibitedRule",
+			"typename": "__inline_struct_BattleChallenge_ProhibitedRule",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 232,
+			"directsize": 16,
+			"elemsize": 16,
+			"subfields": [
+				{
+					"name": "mBombLink",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mArrowLink",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 1,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mSwordLink",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 2,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mItemDrop",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 3,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mUseSyncRod",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mUseCopyRod",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 5,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mUseSpinAction",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 6,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mHeartContainerCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mHeartPieceCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_00",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_00",
+			"mConditionNumber": 4,
+			"mFlag": "BattleChallengeUnlock00",
+			"mLevelName": "BC_001",
+			"mLocatorName": "BC001_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedForest",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 60.0,
+				"mItemKey": "SmoothieIngredient03",
+				"mCount": 5
+			},
+			"mHighRankClearCondition": {
+				"mTime": 40.0,
+				"mItemKey": "SmoothieIngredient05",
+				"mCount": 5
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 40.0,
+				"mItemKey": "SmoothieIngredient05",
+				"mCount": 3
+			},
+			"mStartRule": 0,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": true,
+				"mArrowLink": true,
+				"mSwordLink": true,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_01",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_01",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock01",
+			"mLevelName": "BC_002",
+			"mLocatorName": "BC002_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedForest",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 70.0,
+				"mItemKey": "SmoothieIngredient13",
+				"mCount": 5
+			},
+			"mHighRankClearCondition": {
+				"mTime": 45.0,
+				"mItemKey": "SmoothieIngredient02",
+				"mCount": 3
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 45.0,
+				"mItemKey": "SmoothieIngredient02",
+				"mCount": 1
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_02",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_02",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock02",
+			"mLevelName": "BC_004",
+			"mLocatorName": "BC004_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedSeaRiver",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 90.0,
+				"mItemKey": "SmoothieIngredient00",
+				"mCount": 5
+			},
+			"mHighRankClearCondition": {
+				"mTime": 70.0,
+				"mItemKey": "SmoothieIngredient01",
+				"mCount": 5
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 70.0,
+				"mItemKey": "SmoothieIngredient01",
+				"mCount": 3
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_03",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_03",
+			"mConditionNumber": 4,
+			"mFlag": "BattleChallengeUnlock03",
+			"mLevelName": "BC_003",
+			"mLocatorName": "BC003_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedDesert",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 65.0,
+				"mItemKey": "SmoothieIngredient07",
+				"mCount": 5
+			},
+			"mHighRankClearCondition": {
+				"mTime": 50.0,
+				"mItemKey": "SmoothieIngredient04",
+				"mCount": 5
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 50.0,
+				"mItemKey": "SmoothieIngredient04",
+				"mCount": 3
+			},
+			"mStartRule": 0,
+			"mPartnerLevel": 2,
+			"ProhibitedRule": {
+				"mBombLink": true,
+				"mArrowLink": true,
+				"mSwordLink": true,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 2,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_05",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_05",
+			"mConditionNumber": 1,
+			"mFlag": "BattleChallengeUnlock04",
+			"mLevelName": "BC_BossGolem",
+			"mLocatorName": "BC_BossGolem_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonCleared_SeaRiver_Desert",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 3600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 600.0,
+				"mItemKey": "SmoothieIngredient06",
+				"mCount": 5
+			},
+			"mHighRankClearCondition": {
+				"mTime": 300.0,
+				"mItemKey": "SmoothieIngredient10",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 300.0,
+				"mItemKey": "SmoothieIngredient10",
+				"mCount": 5
+			},
+			"mStartRule": 2,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_06",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_06",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock05",
+			"mLevelName": "BC_005",
+			"mLocatorName": "BC005_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedCastle",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 60.0,
+				"mItemKey": "RupeeRed",
+				"mCount": 1
+			},
+			"mHighRankClearCondition": {
+				"mTime": 35.0,
+				"mItemKey": "ItemMachineCoupon",
+				"mCount": 3
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 35.0,
+				"mItemKey": "ItemMachineCoupon",
+				"mCount": 1
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_07",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_07",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock06",
+			"mLevelName": "BC_012",
+			"mLocatorName": "BC_012",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedVolcano",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 130.0,
+				"mItemKey": "ItemMachineCoupon",
+				"mCount": 3
+			},
+			"mHighRankClearCondition": {
+				"mTime": 90.0,
+				"mItemKey": "SmoothieIngredient08",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 90.0,
+				"mItemKey": "SmoothieIngredient08",
+				"mCount": 5
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_08",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_08",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock07",
+			"mLevelName": "BC_007",
+			"mLocatorName": "BC007_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedJungle",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 100.0,
+				"mItemKey": "SmoothieIngredient12",
+				"mCount": 8
+			},
+			"mHighRankClearCondition": {
+				"mTime": 75.0,
+				"mItemKey": "SmoothieIngredient03",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 75.0,
+				"mItemKey": "SmoothieIngredient03",
+				"mCount": 5
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_09",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_09",
+			"mConditionNumber": 4,
+			"mFlag": "BattleChallengeUnlock08",
+			"mLevelName": "BC_006",
+			"mLocatorName": "BC006_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonClearedSnowMountain",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 105.0,
+				"mItemKey": "SmoothieIngredient10",
+				"mCount": 8
+			},
+			"mHighRankClearCondition": {
+				"mTime": 85.0,
+				"mItemKey": "SmoothieIngredient11",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 85.0,
+				"mItemKey": "SmoothieIngredient11",
+				"mCount": 5
+			},
+			"mStartRule": 0,
+			"mPartnerLevel": 2,
+			"ProhibitedRule": {
+				"mBombLink": true,
+				"mArrowLink": true,
+				"mSwordLink": true,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_10",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_10",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock09",
+			"mLevelName": "BC_015",
+			"mLocatorName": "BC_015_002",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonCleared_Jungle_SnowMountain",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 70.0,
+				"mItemKey": "SmoothieIngredient11",
+				"mCount": 8
+			},
+			"mHighRankClearCondition": {
+				"mTime": 55.0,
+				"mItemKey": "SmoothieIngredient07",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 55.0,
+				"mItemKey": "SmoothieIngredient07",
+				"mCount": 5
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_11",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_11",
+			"mConditionNumber": 4,
+			"mFlag": "BattleChallengeUnlock10",
+			"mLevelName": "BC_013",
+			"mLocatorName": "BC013_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonCleared_Volcano_Jungle",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 120.0,
+				"mItemKey": "SmoothieIngredient15",
+				"mCount": 3
+			},
+			"mHighRankClearCondition": {
+				"mTime": 90.0,
+				"mItemKey": "SmoothieIngredient13",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 90.0,
+				"mItemKey": "SmoothieIngredient13",
+				"mCount": 5
+			},
+			"mStartRule": 0,
+			"mPartnerLevel": 2,
+			"ProhibitedRule": {
+				"mBombLink": true,
+				"mArrowLink": true,
+				"mSwordLink": true,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 5,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_12",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_12",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock11",
+			"mLevelName": "BC_008",
+			"mLocatorName": "BC008_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonCleared_Volcano_SnowMountain",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 55.0,
+				"mItemKey": "SmoothieIngredient15",
+				"mCount": 5
+			},
+			"mHighRankClearCondition": {
+				"mTime": 40.0,
+				"mItemKey": "SmoothieIngredient09",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 40.0,
+				"mItemKey": "SmoothieIngredient09",
+				"mCount": 5
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_13",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_13",
+			"mConditionNumber": 0,
+			"mFlag": "BattleChallengeUnlock12",
+			"mLevelName": "BC_011",
+			"mLocatorName": "BC011",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonCleared_Volcano_Jungle_SnowMountain",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 155.0,
+				"mItemKey": "RupeePurple",
+				"mCount": 1
+			},
+			"mHighRankClearCondition": {
+				"mTime": 130.0,
+				"mItemKey": "SmoothieIngredient12",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 130.0,
+				"mItemKey": "SmoothieIngredient12",
+				"mCount": 5
+			},
+			"mStartRule": 1,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_14",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_14",
+			"mConditionNumber": 2,
+			"mFlag": "BattleChallengeUnlock13",
+			"mLevelName": "BC_BossVolvagia",
+			"mLocatorName": "BC_BossVolvagia_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "DungeonCleared_Volcano_Jungle_SnowMountain",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 3600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 645.0,
+				"mItemKey": "ItemMachineCoupon",
+				"mCount": 5
+			},
+			"mHighRankClearCondition": {
+				"mTime": 525.0,
+				"mItemKey": "SmoothieIngredient06",
+				"mCount": 7
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 525.0,
+				"mItemKey": "SmoothieIngredient06",
+				"mCount": 5
+			},
+			"mStartRule": 2,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		},
+		{
+			"mMissionLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Name_15",
+			"mDetailLabel": "ui/BattleChallengeMenu:BattleChallenge_List_Explanation_15",
+			"mConditionNumber": 3,
+			"mFlag": "BattleChallengeUnlock14",
+			"mLevelName": "BC_BossGolem",
+			"mLocatorName": "BC_BossGolem_Start",
+			"LocatorOffset": {
+				"mX": 0.0,
+				"mY": 0.0,
+				"mZ": 0.0
+			},
+			"ReleaseConditions": [
+				{
+					"mConditionKey": "BattleChallengeFinalTraining_Unlock",
+					"mConditionResult": true
+				}
+			],
+			"Condition": {
+				"mDefeat": true,
+				"mTime": 3600.0
+			},
+			"mNormalRankClearCondition": {
+				"mTime": 950.0,
+				"mItemKey": "ZeldaClothes05",
+				"mCount": 1
+			},
+			"mHighRankClearCondition": {
+				"mTime": 830.0,
+				"mItemKey": "SmoothieIngredient15",
+				"mCount": 2
+			},
+			"mSecondHighRankClearCondition": {
+				"mTime": 830.0,
+				"mItemKey": "SmoothieIngredient15",
+				"mCount": 1
+			},
+			"mStartRule": 2,
+			"mPartnerLevel": 0,
+			"ProhibitedRule": {
+				"mBombLink": false,
+				"mArrowLink": false,
+				"mSwordLink": false,
+				"mItemDrop": true,
+				"mUseSyncRod": false,
+				"mUseCopyRod": false,
+				"mUseSpinAction": false,
+				"mHeartContainerCount": 0,
+				"mHeartPieceCount": 0
+			}
+		}
+	]
+}

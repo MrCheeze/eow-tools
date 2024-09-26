@@ -1,0 +1,54 @@
+{
+	"unk1": 2392312865,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMessageWindow",
+	"fields": [
+		{
+			"name": "symbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"symbol": "Normal"
+		},
+		{
+			"symbol": "Partner"
+		},
+		{
+			"symbol": "Enemy"
+		},
+		{
+			"symbol": "Event"
+		},
+		{
+			"symbol": "Get"
+		},
+		{
+			"symbol": "System"
+		},
+		{
+			"symbol": "SignBoard"
+		},
+		{
+			"symbol": "GoddessDin"
+		},
+		{
+			"symbol": "GoddessNayru"
+		},
+		{
+			"symbol": "GoddessFarore"
+		}
+	]
+}

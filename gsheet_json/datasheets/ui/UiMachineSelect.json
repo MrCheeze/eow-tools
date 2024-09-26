@@ -1,0 +1,154 @@
+{
+	"unk1": 80028271,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMachineSelect",
+	"fields": [
+		{
+			"name": "mSymbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mPriority",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mNameLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mFlavorTextLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mRepairPrice",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mRepairDiscount",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 60,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mRepairPriceCoupon",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 64,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mRepairDiscountCoupon",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 68,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mSymbol": "ZolMachine",
+			"mPriority": 2,
+			"mNameLabel": "glossary/CopyableActor:MachineActor_ZolMachine",
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_ZolMachine",
+			"mRepairPrice": 70,
+			"mRepairDiscount": 35,
+			"mRepairPriceCoupon": 2,
+			"mRepairDiscountCoupon": 1
+		},
+		{
+			"mSymbol": "OctorokMachine",
+			"mPriority": 1,
+			"mNameLabel": "glossary/CopyableActor:MachineActor_OctorokMachine",
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_OctorokMachine",
+			"mRepairPrice": 50,
+			"mRepairDiscount": 25,
+			"mRepairPriceCoupon": 1,
+			"mRepairDiscountCoupon": 1
+		},
+		{
+			"mSymbol": "TektightMachine",
+			"mPriority": 0,
+			"mNameLabel": "glossary/CopyableActor:MachineActor_TektightMachine",
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_TektightMachine",
+			"mRepairPrice": 50,
+			"mRepairDiscount": 25,
+			"mRepairPriceCoupon": 1,
+			"mRepairDiscountCoupon": 1
+		},
+		{
+			"mSymbol": "DekubabaMachine",
+			"mPriority": 3,
+			"mNameLabel": "glossary/CopyableActor:MachineActor_DekubabaMachine",
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_DekubabaMachine",
+			"mRepairPrice": 70,
+			"mRepairDiscount": 35,
+			"mRepairPriceCoupon": 2,
+			"mRepairDiscountCoupon": 1
+		},
+		{
+			"mSymbol": "MoriblinMachine",
+			"mPriority": 4,
+			"mNameLabel": "glossary/CopyableActor:MachineActor_MoriblinMachine",
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_MoriblinMachine",
+			"mRepairPrice": 70,
+			"mRepairDiscount": 35,
+			"mRepairPriceCoupon": 2,
+			"mRepairDiscountCoupon": 1
+		},
+		{
+			"mSymbol": "CrowlyMachine",
+			"mPriority": 5,
+			"mNameLabel": "glossary/CopyableActor:MachineActor_CrowlyMachine",
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_CrowlyMachine",
+			"mRepairPrice": 100,
+			"mRepairDiscount": 50,
+			"mRepairPriceCoupon": 2,
+			"mRepairDiscountCoupon": 1
+		}
+	]
+}

@@ -1,0 +1,98 @@
+{
+	"unk1": 3866486857,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiPageMenu",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mMenuInfo",
+			"typename": "__inline_struct_UiPageMenu_mMenuInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "id",
+					"typename": "UiPageMenuId",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "headerLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "RightMenu",
+			"mMenuInfo": [
+				{
+					"id": 2,
+					"headerLabel": "glossary/Ui:CollectMenu_Header"
+				},
+				{
+					"id": 1,
+					"headerLabel": "glossary/Ui:ItemMenu"
+				},
+				{
+					"id": 8,
+					"headerLabel": "glossary/Ui:DrinkMenu"
+				},
+				{
+					"id": 3,
+					"headerLabel": "glossary/Ui:DressUpMenu"
+				},
+				{
+					"id": 5,
+					"headerLabel": "glossary/Ui:Dictionary"
+				},
+				{
+					"id": 4,
+					"headerLabel": "glossary/Ui:SystemMenu"
+				}
+			]
+		},
+		{
+			"mKey": "LeftMenu",
+			"mMenuInfo": [
+				{
+					"id": 6,
+					"headerLabel": "glossary/Ui:MapMenu"
+				},
+				{
+					"id": 7,
+					"headerLabel": "glossary/Ui:QuestMenu"
+				}
+			]
+		}
+	]
+}

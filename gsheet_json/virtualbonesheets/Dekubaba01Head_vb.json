@@ -1,0 +1,96 @@
+{
+	"unk1": 3417579891,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Dekubaba01Head_vb",
+	"fields": [
+		{
+			"name": "mKeyName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mBoneName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mVirtualBoneInfo",
+			"typename": "__inline_struct_Dekubaba01Head_vb_mVirtualBoneInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16,
+			"subfields": [
+				{
+					"name": "mOffsetMode",
+					"typename": "OffsetMode",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mOffsetX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mOffsetY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mOffsetZ",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKeyName": "DeadPoint",
+			"mBoneName": "caulome_c",
+			"mVirtualBoneInfo": {
+				"mOffsetMode": 1,
+				"mOffsetX": 0.0,
+				"mOffsetY": 0.6,
+				"mOffsetZ": 0.0
+			}
+		}
+	]
+}

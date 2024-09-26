@@ -1,0 +1,2226 @@
+{
+	"unk1": 2390996177,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "PieceOfPowers",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mCount",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mCondition",
+			"typename": "__inline_struct_PieceOfPowers_mCondition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 24,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mStrategy",
+					"typename": "__inline_enum_PieceOfPowers_mCondition.mStrategy",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 48,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mExpressions",
+					"typename": "__inline_struct_PieceOfPowers_mCondition.mExpressions",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mCategory",
+							"typename": "ConditionCategory",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 16,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mParameter",
+							"typename": "string",
+							"typeid": 4,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 16
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "miniMap",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 1,
+			"elemsize": 1
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Piece000",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece001",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 1,
+						"mParameter": "EvE_GanonPasteDead"
+					}
+				]
+			},
+			"miniMap": true
+		},
+		{
+			"mKey": "Piece002",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece003",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece004",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece005",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece006",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece007",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece008",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece009",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": true
+		},
+		{
+			"mKey": "Piece010",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece011",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece012",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece013",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece014",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece015",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece016",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece017",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece018",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece019",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece020",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece021",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece022",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece023",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece024",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece025",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece026",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece027",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece028",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece029",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece030",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece031",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": true
+		},
+		{
+			"mKey": "Piece032",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece033",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece034",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece035",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece036",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece037",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": true
+		},
+		{
+			"mKey": "Piece038",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece039",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece040",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece041",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece042",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece043",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece044",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece045",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece046",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece047",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": true
+		},
+		{
+			"mKey": "Piece048",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece049",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece050",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece051",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece052",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece053",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece054",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece055",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece056",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece057",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece058",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": true
+		},
+		{
+			"mKey": "Piece059",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "GetHorse_Forest010"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece060",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece061",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": true
+		},
+		{
+			"mKey": "Piece062",
+			"mCount": 3,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece063",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece064",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece065",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece066",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 13,
+						"mParameter": "Gliding_Valcano070"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "Gliding_Valcano070"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece067",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 13,
+						"mParameter": "Carry_Valcano010"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "Carry_Valcano010"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece068",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 13,
+						"mParameter": "Bring_Forest040"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "Bring_Forest040"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece069",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 13,
+						"mParameter": "Pehat_HyrulePlains010"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "Pehat_HyrulePlains010"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece070",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 13,
+						"mParameter": "Animal_Coast010"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "Animal_Coast010"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece071",
+			"mCount": 1,
+			"mCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 13,
+						"mParameter": "Enemy_Jungle050"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "Enemy_Jungle050"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece072",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 13,
+						"mParameter": "Carry_Desert010"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "Carry_Desert010"
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece073",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece074",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece075",
+			"mCount": 5,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece076",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece077",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece078",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece079",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece080",
+			"mCount": 5,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece081",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece082",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece083",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece084",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece085",
+			"mCount": 5,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece086",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece087",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece088",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece089",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece090",
+			"mCount": 5,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece091",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece092",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece093",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece094",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece095",
+			"mCount": 5,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece096",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece097",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece098",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece099",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece100",
+			"mCount": 5,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece101",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece102",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece103",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece104",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece105",
+			"mCount": 5,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece106",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece107",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece108",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece109",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece110",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece111",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece112",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece113",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece114",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece115",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece116",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece117",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece118",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece119",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece120",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece121",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece122",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece123",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece124",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece125",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece126",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece127",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece128",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece129",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece130",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece131",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece132",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece133",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece134",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece135",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece136",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece137",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece138",
+			"mCount": 2,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece139",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece140",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece141",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece142",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece143",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece144",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece145",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece146",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece147",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece148",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		},
+		{
+			"mKey": "Piece149",
+			"mCount": 0,
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"miniMap": false
+		}
+	]
+}

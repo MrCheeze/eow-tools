@@ -1,0 +1,802 @@
+{
+	"unk1": 4068765488,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapLine",
+	"fields": [
+		{
+			"name": "mLevelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLineInfos",
+			"typename": "__inline_struct_UiMapLine_mLineInfos",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 48,
+			"subfields": [
+				{
+					"name": "mStartChangeFloorName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mEndChangeFloorName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mCorners",
+					"typename": "__inline_struct_UiMapLine_mLineInfos.mCorners",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 32,
+					"directsize": 16,
+					"elemsize": 8,
+					"subfields": [
+						{
+							"name": "mX",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mY",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 4,
+							"directsize": 4,
+							"elemsize": 4
+						}
+					]
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mLevelName": "L_Dungeon001",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "002_00",
+					"mEndChangeFloorName": "004_00",
+					"mCorners": [
+						{
+							"mX": 42.0,
+							"mY": -750.0
+						},
+						{
+							"mX": 150.0,
+							"mY": -750.0
+						},
+						{
+							"mX": 150.0,
+							"mY": -1140.0
+						},
+						{
+							"mX": -52.0,
+							"mY": -1140.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "004_01",
+					"mEndChangeFloorName": "005_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "008_00",
+					"mEndChangeFloorName": "006_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "006_01",
+					"mEndChangeFloorName": "019_00",
+					"mCorners": [
+						{
+							"mX": -50.0,
+							"mY": 1800.0
+						},
+						{
+							"mX": 200.0,
+							"mY": 1800.0
+						},
+						{
+							"mX": 200.0,
+							"mY": 2800.0
+						},
+						{
+							"mX": -48.0,
+							"mY": 2800.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "010_00",
+					"mEndChangeFloorName": "009_00",
+					"mCorners": [
+						{
+							"mX": 0.3726,
+							"mY": 3600.0
+						},
+						{
+							"mX": 294.0,
+							"mY": 3600.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "009_01",
+					"mEndChangeFloorName": "023_00",
+					"mCorners": [
+						{
+							"mX": 498.0,
+							"mY": 1100.0
+						},
+						{
+							"mX": -500.0,
+							"mY": 1100.0
+						},
+						{
+							"mX": -500.0,
+							"mY": 400.0
+						},
+						{
+							"mX": 66.0,
+							"mY": 400.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "012_00",
+					"mEndChangeFloorName": "021_00",
+					"mCorners": [
+						{
+							"mX": 210.0,
+							"mY": 500.0
+						},
+						{
+							"mX": 422.0,
+							"mY": 500.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "022_00",
+					"mEndChangeFloorName": "017_00",
+					"mCorners": [
+						{
+							"mX": 672.0,
+							"mY": 685.0
+						},
+						{
+							"mX": 186.0,
+							"mY": 685.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"mLevelName": "L_Dungeon002",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "002_00",
+					"mEndChangeFloorName": "008_00",
+					"mCorners": [
+						{
+							"mX": 512.4,
+							"mY": -500.0
+						},
+						{
+							"mX": 302.0,
+							"mY": -500.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "004_00",
+					"mEndChangeFloorName": "005_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "005_01",
+					"mEndChangeFloorName": "006_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "004_01",
+					"mEndChangeFloorName": "009_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "009_01",
+					"mEndChangeFloorName": "020_00",
+					"mCorners": [
+						{
+							"mX": -356.0,
+							"mY": 955.0
+						},
+						{
+							"mX": -418.0,
+							"mY": 955.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "004_02",
+					"mEndChangeFloorName": "015_00",
+					"mCorners": [
+						{
+							"mX": 166.0,
+							"mY": 2170.0
+						},
+						{
+							"mX": 332.0,
+							"mY": 2170.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "015_01",
+					"mEndChangeFloorName": "022_00",
+					"mCorners": []
+				}
+			]
+		},
+		{
+			"mLevelName": "L_Dungeon003",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "001_00",
+					"mEndChangeFloorName": "002_00",
+					"mCorners": [
+						{
+							"mX": -34.0,
+							"mY": -233.0
+						},
+						{
+							"mX": 427.0,
+							"mY": -233.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "002_01",
+					"mEndChangeFloorName": "003_00",
+					"mCorners": [
+						{
+							"mX": 427.0,
+							"mY": 660.0
+						},
+						{
+							"mX": -34.0,
+							"mY": 660.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "016_00",
+					"mEndChangeFloorName": "013_00",
+					"mCorners": [
+						{
+							"mX": -227.5,
+							"mY": 100.0
+						},
+						{
+							"mX": -320.6,
+							"mY": 100.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "013_01",
+					"mEndChangeFloorName": "009_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "024_00",
+					"mEndChangeFloorName": "034_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "034_01",
+					"mEndChangeFloorName": "006_00",
+					"mCorners": [
+						{
+							"mX": 61.6,
+							"mY": 750.0
+						},
+						{
+							"mX": 280.0,
+							"mY": 750.0
+						},
+						{
+							"mX": 280.0,
+							"mY": 1155.0
+						},
+						{
+							"mX": 134.0,
+							"mY": 1155.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"mLevelName": "L_DungeonCastle",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "004_00",
+					"mEndChangeFloorName": "003_00",
+					"mCorners": [
+						{
+							"mX": -261.2,
+							"mY": 3590.0
+						},
+						{
+							"mX": 54.0,
+							"mY": 3590.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "005_00",
+					"mEndChangeFloorName": "004_01",
+					"mCorners": [
+						{
+							"mX": -630.0,
+							"mY": 2340.0
+						},
+						{
+							"mX": -378.8,
+							"mY": 2340.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "017_00",
+					"mEndChangeFloorName": "007_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "010_00",
+					"mEndChangeFloorName": "027_00",
+					"mCorners": [
+						{
+							"mX": -78.0,
+							"mY": 620.0
+						},
+						{
+							"mX": 283.0,
+							"mY": 620.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "014_00",
+					"mEndChangeFloorName": "015_00",
+					"mCorners": [
+						{
+							"mX": -488.0,
+							"mY": -440.0
+						},
+						{
+							"mX": -642.0,
+							"mY": -440.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "014_01",
+					"mEndChangeFloorName": "013_00",
+					"mCorners": [
+						{
+							"mX": -295.4,
+							"mY": -440.0
+						},
+						{
+							"mX": -168.0,
+							"mY": -440.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "018_00",
+					"mEndChangeFloorName": "016_00",
+					"mCorners": [
+						{
+							"mX": 291.8,
+							"mY": 66.0
+						},
+						{
+							"mX": 258.0,
+							"mY": 66.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "018_01",
+					"mEndChangeFloorName": "008_00",
+					"mCorners": [
+						{
+							"mX": 627.8,
+							"mY": -45.0
+						},
+						{
+							"mX": 438.0,
+							"mY": -45.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"mLevelName": "L_Dungeon004",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "006_00",
+					"mEndChangeFloorName": "010_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "022_00",
+					"mEndChangeFloorName": "011_00",
+					"mCorners": [
+						{
+							"mX": 0.0,
+							"mY": 755.0
+						},
+						{
+							"mX": 249.0,
+							"mY": 755.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "004_00",
+					"mEndChangeFloorName": "016_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "012_00",
+					"mEndChangeFloorName": "016_01",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "005_00",
+					"mEndChangeFloorName": "016_02",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "020_00",
+					"mEndChangeFloorName": "016_03",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "012_01",
+					"mEndChangeFloorName": "013_00",
+					"mCorners": [
+						{
+							"mX": -226.0,
+							"mY": 755.0
+						},
+						{
+							"mX": -355.8,
+							"mY": 755.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"mLevelName": "L_Dungeon005",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "001_00",
+					"mEndChangeFloorName": "023_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "005_00",
+					"mEndChangeFloorName": "025_00",
+					"mCorners": [
+						{
+							"mX": -246.0,
+							"mY": 3500.0
+						},
+						{
+							"mX": -505.0,
+							"mY": 3500.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "014_00",
+					"mEndChangeFloorName": "026_00",
+					"mCorners": [
+						{
+							"mX": 282.0,
+							"mY": 780.0
+						},
+						{
+							"mX": 381.0,
+							"mY": 780.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "014_01",
+					"mEndChangeFloorName": "024_00",
+					"mCorners": [
+						{
+							"mX": 294.0,
+							"mY": 1700.0
+						},
+						{
+							"mX": 354.0,
+							"mY": 1700.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "025_01",
+					"mEndChangeFloorName": "009_01",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "020_00",
+					"mEndChangeFloorName": "024_01",
+					"mCorners": [
+						{
+							"mX": 264.0,
+							"mY": 90.0
+						},
+						{
+							"mX": 630.0,
+							"mY": 90.0
+						},
+						{
+							"mX": 630.0,
+							"mY": 1700.0
+						},
+						{
+							"mX": 480.0,
+							"mY": 1700.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "024_02",
+					"mEndChangeFloorName": "003_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "010_00",
+					"mEndChangeFloorName": "026_01",
+					"mCorners": [
+						{
+							"mX": 66.0,
+							"mY": 1100.0
+						},
+						{
+							"mX": 230.0,
+							"mY": 1100.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"mLevelName": "",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "010_00",
+					"mEndChangeFloorName": "026_01",
+					"mCorners": [
+						{
+							"mX": 230.0,
+							"mY": 1100.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"mLevelName": "L_Dungeon006",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "002_00",
+					"mEndChangeFloorName": "046_00",
+					"mCorners": [
+						{
+							"mX": 98.0,
+							"mY": 4290.0
+						},
+						{
+							"mX": -272.0,
+							"mY": 4290.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "005_00",
+					"mEndChangeFloorName": "046_01",
+					"mCorners": [
+						{
+							"mX": 98.0,
+							"mY": 3228.0
+						},
+						{
+							"mX": -86.0,
+							"mY": 3228.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "008_00",
+					"mEndChangeFloorName": "047_00",
+					"mCorners": [
+						{
+							"mX": 86.0,
+							"mY": 3325.0
+						},
+						{
+							"mX": 200.0,
+							"mY": 3325.0
+						},
+						{
+							"mX": 200.0,
+							"mY": 2865.0
+						},
+						{
+							"mX": -473.0,
+							"mY": 2865.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "009_00",
+					"mEndChangeFloorName": "047_01",
+					"mCorners": [
+						{
+							"mX": 84.0,
+							"mY": 2000.0
+						},
+						{
+							"mX": -246.6,
+							"mY": 2000.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "010_00",
+					"mEndChangeFloorName": "023_00",
+					"mCorners": []
+				},
+				{
+					"mStartChangeFloorName": "021_00",
+					"mEndChangeFloorName": "024_00",
+					"mCorners": [
+						{
+							"mX": -72.0,
+							"mY": 2375.0
+						},
+						{
+							"mX": -200.0,
+							"mY": 2375.0
+						},
+						{
+							"mX": -200.0,
+							"mY": 1775.0
+						},
+						{
+							"mX": 46.0,
+							"mY": 1775.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "016_00",
+					"mEndChangeFloorName": "024_01",
+					"mCorners": []
+				}
+			]
+		},
+		{
+			"mLevelName": "L_DungeonLast",
+			"mLineInfos": [
+				{
+					"mStartChangeFloorName": "010_00",
+					"mEndChangeFloorName": "008_00",
+					"mCorners": [
+						{
+							"mX": -76.0,
+							"mY": -230.0
+						},
+						{
+							"mX": -286.0,
+							"mY": -230.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "018_00",
+					"mEndChangeFloorName": "007_00",
+					"mCorners": [
+						{
+							"mX": 176.0,
+							"mY": -75.0
+						},
+						{
+							"mX": 340.0,
+							"mY": -75.0
+						},
+						{
+							"mX": 340.0,
+							"mY": -1030.0
+						},
+						{
+							"mX": 196.0,
+							"mY": -1030.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "013_00",
+					"mEndChangeFloorName": "012_00",
+					"mCorners": [
+						{
+							"mX": 618.0,
+							"mY": 70.0
+						}
+					]
+				},
+				{
+					"mStartChangeFloorName": "010_00",
+					"mEndChangeFloorName": "011_00",
+					"mCorners": [
+						{
+							"mX": -210.0,
+							"mY": -64.0
+						},
+						{
+							"mX": 215.0,
+							"mY": -64.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

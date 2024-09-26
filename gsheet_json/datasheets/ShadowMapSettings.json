@@ -1,0 +1,361 @@
+{
+	"unk1": 891489023,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "ShadowMapSettings",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAabb",
+			"typename": "__inline_struct_ShadowMapSettings_mAabb",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 24,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mMin",
+					"typename": "__inline_struct_ShadowMapSettings_mAabb.mMin",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 12,
+					"elemsize": 12,
+					"subfields": [
+						{
+							"name": "mX",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mY",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 4,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mZ",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 8,
+							"directsize": 4,
+							"elemsize": 4
+						}
+					]
+				},
+				{
+					"name": "mMax",
+					"typename": "__inline_struct_ShadowMapSettings_mAabb.mMax",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 12,
+					"elemsize": 12,
+					"subfields": [
+						{
+							"name": "mX",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mY",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 4,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mZ",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 8,
+							"directsize": 4,
+							"elemsize": 4
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "mDintance",
+			"typename": "__inline_struct_ShadowMapSettings_mDintance",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mBegin",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mEnd",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Default",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 20.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 10.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 1000.0,
+				"mEnd": 1500.0
+			}
+		},
+		{
+			"mKey": "Medium",
+			"mAabb": {
+				"mMin": {
+					"mX": 18.0,
+					"mY": 15.0,
+					"mZ": 30.0
+				},
+				"mMax": {
+					"mX": 18.0,
+					"mY": 15.0,
+					"mZ": 15.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 1000.0,
+				"mEnd": 1500.0
+			}
+		},
+		{
+			"mKey": "Demo_M",
+			"mAabb": {
+				"mMin": {
+					"mX": 20.0,
+					"mY": 15.0,
+					"mZ": 20.0
+				},
+				"mMax": {
+					"mX": 20.0,
+					"mY": 30.0,
+					"mZ": 20.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 50.0,
+				"mEnd": 75.0
+			}
+		},
+		{
+			"mKey": "Demo_L",
+			"mAabb": {
+				"mMin": {
+					"mX": 250.0,
+					"mY": 20.0,
+					"mZ": 250.0
+				},
+				"mMax": {
+					"mX": 60.0,
+					"mY": 60.0,
+					"mZ": 15.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 80.0,
+				"mEnd": 250.0
+			}
+		},
+		{
+			"mKey": "DemoStageCamera",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 40.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 10.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 60.0,
+				"mEnd": 100.0
+			}
+		},
+		{
+			"mKey": "FieldBoundary1",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 180.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 10.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 1000.0,
+				"mEnd": 1500.0
+			}
+		},
+		{
+			"mKey": "FieldBoundary2",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 15.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 10.0,
+					"mZ": 20.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 1000.0,
+				"mEnd": 1500.0
+			}
+		},
+		{
+			"mKey": "BossVolvagia",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 40.0,
+					"mZ": 35.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 10.0,
+					"mZ": 10.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 35.0,
+				"mEnd": 70.0
+			}
+		},
+		{
+			"mKey": "HighCeiling",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 20.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 45.0,
+					"mZ": 10.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 1000.0,
+				"mEnd": 1500.0
+			}
+		},
+		{
+			"mKey": "WorldRepair",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 60.0,
+					"mZ": 60.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 10.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 1000.0,
+				"mEnd": 1500.0
+			}
+		},
+		{
+			"mKey": "Field",
+			"mAabb": {
+				"mMin": {
+					"mX": 15.0,
+					"mY": 20.0,
+					"mZ": 25.0
+				},
+				"mMax": {
+					"mX": 15.0,
+					"mY": 15.0,
+					"mZ": 10.0
+				}
+			},
+			"mDintance": {
+				"mBegin": 50.0,
+				"mEnd": 70.0
+			}
+		}
+	]
+}

@@ -1,0 +1,484 @@
+{
+	"unk1": 3580189000,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "CrowlyList",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mCrowlyDropRupeeCount",
+			"typename": "__inline_struct_CrowlyList_mCrowlyDropRupeeCount",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 20,
+			"subfields": [
+				{
+					"name": "mBlueRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mRedRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPurpleRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mSilverRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mGoldRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mCrowlyMachineDropRupeeCount",
+			"typename": "__inline_struct_CrowlyList_mCrowlyMachineDropRupeeCount",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 20,
+			"subfields": [
+				{
+					"name": "mBlueRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mRedRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPurpleRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mSilverRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mGoldRupeeCount",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "10",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "15",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "20",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "25",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 4,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 4,
+					"mRedRupeeCount": 0,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "30",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "35",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "40",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "45",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 0,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 0,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "50",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "55",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "60",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 3,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 0,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "80",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "85",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 2,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "90",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 4,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 4,
+					"mRedRupeeCount": 1,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "95",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 0,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 0,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		},
+		{
+			"mKey": "100",
+			"mCrowlyDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			],
+			"mCrowlyMachineDropRupeeCount": [
+				{
+					"mBlueRupeeCount": 1,
+					"mRedRupeeCount": 2,
+					"mPurpleRupeeCount": 1,
+					"mSilverRupeeCount": 0,
+					"mGoldRupeeCount": 0
+				}
+			]
+		}
+	]
+}

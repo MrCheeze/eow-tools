@@ -1,0 +1,123 @@
+{
+	"unk1": 3667104279,
+	"unk2": [
+		1,
+		8,
+		4,
+		0
+	],
+	"sheetname": "HorseRegion",
+	"fields": [
+		{
+			"name": "mRegionNameHash",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mRegionNameHash": 1163361378
+		},
+		{
+			"mRegionNameHash": 844123380
+		},
+		{
+			"mRegionNameHash": 618617894
+		},
+		{
+			"mRegionNameHash": 3291009478
+		},
+		{
+			"mRegionNameHash": 1860681931
+		},
+		{
+			"mRegionNameHash": 434171997
+		},
+		{
+			"mRegionNameHash": 2950772218
+		},
+		{
+			"mRegionNameHash": 3577242557
+		},
+		{
+			"mRegionNameHash": 1330498155
+		},
+		{
+			"mRegionNameHash": 3904416277
+		},
+		{
+			"mRegionNameHash": 1888498109
+		},
+		{
+			"mRegionNameHash": 3654639172
+		},
+		{
+			"mRegionNameHash": 177696404
+		},
+		{
+			"mRegionNameHash": 2198709155
+		},
+		{
+			"mRegionNameHash": 506652181
+		},
+		{
+			"mRegionNameHash": 412869982
+		},
+		{
+			"mRegionNameHash": 2159247094
+		},
+		{
+			"mRegionNameHash": 3624910493
+		},
+		{
+			"mRegionNameHash": 3850556054
+		},
+		{
+			"mRegionNameHash": 2108311870
+		},
+		{
+			"mRegionNameHash": 878877540
+		},
+		{
+			"mRegionNameHash": 3139470031
+		},
+		{
+			"mRegionNameHash": 2960344401
+		},
+		{
+			"mRegionNameHash": 3346298311
+		},
+		{
+			"mRegionNameHash": 1585259645
+		},
+		{
+			"mRegionNameHash": 695866603
+		},
+		{
+			"mRegionNameHash": 3072229704
+		},
+		{
+			"mRegionNameHash": 2715205665
+		},
+		{
+			"mRegionNameHash": 2720048203
+		},
+		{
+			"mRegionNameHash": 1597608835
+		},
+		{
+			"mRegionNameHash": 3859452494
+		},
+		{
+			"mRegionNameHash": 969134461
+		},
+		{
+			"mRegionNameHash": 222261183
+		}
+	]
+}

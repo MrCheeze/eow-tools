@@ -1,0 +1,2460 @@
+{
+	"unk1": 2409301483,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapArea",
+	"fields": [
+		{
+			"name": "mAreaName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mPriority",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mPos",
+			"typename": "__inline_struct_UiMapArea_mPos",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mPosX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPosY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mTexScale",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 32,
+			"directsize": 8,
+			"elemsize": 4
+		},
+		{
+			"name": "mFloorInfo",
+			"typename": "__inline_struct_UiMapArea_mFloorInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mFloor",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mHeight",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mChangeTexutreInfo",
+			"typename": "__inline_struct_UiMapArea_mChangeTexutreInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 56,
+			"directsize": 16,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mFlagName",
+					"typename": "GlobalFlags",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mTextureName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mAreaName": "L_Dungeon001_001",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -0.0625,
+				"mPosY": 101.969
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_002",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -3.0,
+				"mPosY": 82.375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L001R002DodgeRock",
+					"mTextureName": "L_Dungeon001_002_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon001_003",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -25.5,
+				"mPosY": 74.8438
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_004",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 11.5,
+				"mPosY": 158.5
+			},
+			"mTexScale": 1.5,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_005",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 30.0625,
+				"mPosY": 45.9375
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_006",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -19.0,
+				"mPosY": 160.0
+			},
+			"mTexScale": 1.5,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_007",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -6.75,
+				"mPosY": 28.75
+			},
+			"mTexScale": 1.05,
+			"mFloorInfo": [
+				{
+					"mFloor": 1.0,
+					"mHeight": 0.0
+				},
+				{
+					"mFloor": 2.0,
+					"mHeight": 21.0
+				}
+			],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_008",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -27.15625,
+				"mPosY": -16.0625
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_009",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 47.25,
+				"mPosY": 161.25
+			},
+			"mTexScale": 1.5,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_010",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -10.5,
+				"mPosY": -81.75
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_012",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 22.5938,
+				"mPosY": -78.1562
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L001R012SwichFoot",
+					"mTextureName": "L_Dungeon001_012_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon001_013",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -20.1562,
+				"mPosY": -80.5
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_014",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -41.125,
+				"mPosY": -78.2812
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L001R014SwitchFoot",
+					"mTextureName": "L_Dungeon001_014_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon001_015",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 0.0,
+				"mPosY": -82.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_016",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -21.6562,
+				"mPosY": -101.062
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_017",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 21.0,
+				"mPosY": -98.6562
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L001R017SwitchFoot",
+					"mTextureName": "L_Dungeon001_017_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon001_018",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 0.03125,
+				"mPosY": -104.719
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_019",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -1.5,
+				"mPosY": -24.0312
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_020",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": -0.09375,
+				"mPosY": 117.969
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_021",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 64.75,
+				"mPosY": 178.8125
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_022",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 96.75,
+				"mPosY": 169.0
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon001_023",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 3.03125,
+				"mPosY": -63.9688
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_001",
+			"mPriority": 9,
+			"mPos": {
+				"mPosX": 4.25,
+				"mPosY": 33.4375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L002R001FloorBreak",
+					"mTextureName": "L_Dungeon002_001_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon002_002",
+			"mPriority": 8,
+			"mPos": {
+				"mPosX": 26.25,
+				"mPosY": 79.25
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_003",
+			"mPriority": 7,
+			"mPos": {
+				"mPosX": 4.25,
+				"mPosY": 13.0625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_004",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 4.25,
+				"mPosY": -11.3125
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [
+				{
+					"mFloor": 2.0,
+					"mHeight": 0.0
+				},
+				{
+					"mFloor": 3.0,
+					"mHeight": 13.0
+				},
+				{
+					"mFloor": 4.0,
+					"mHeight": 22.0
+				}
+			],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_005",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 36.25,
+				"mPosY": 75.5
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_006",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 64.25,
+				"mPosY": -3.75
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_007",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 32.46875,
+				"mPosY": 0.09375
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L002R007FloorShutterOpen",
+					"mTextureName": "L_Dungeon002_007_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon002_008",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 25.375,
+				"mPosY": 21.875
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_009",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -27.0,
+				"mPosY": 77.75
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_010",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -25.5,
+				"mPosY": 3.6875
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L002R010FloorShutterOpen",
+					"mTextureName": "L_Dungeon002_010_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon002_011",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -33.09375,
+				"mPosY": -9.75
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_013",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -64.625,
+				"mPosY": -5.46875
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_014",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -30.3125,
+				"mPosY": -15.09375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L002R014FloorShutterOpen",
+					"mTextureName": "L_Dungeon002_014_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon002_015",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 58.25,
+				"mPosY": 84.125
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_016",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 48.15625,
+				"mPosY": -30.4375
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L002R016FloorShutterOpen",
+					"mTextureName": "L_Dungeon002_016_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon002_018",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 4.34375,
+				"mPosY": -35.46875
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_019",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 44.15625,
+				"mPosY": -1.03125
+			},
+			"mTexScale": 1.35,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_020",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -46.25,
+				"mPosY": 3.75
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_021",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -56.5,
+				"mPosY": -15.0625
+			},
+			"mTexScale": 1.35,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon002_022",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 69.0,
+				"mPosY": -30.5
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_001",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -4.25,
+				"mPosY": 39.75
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_002",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 55.0,
+				"mPosY": 66.25
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_003",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": -4.25,
+				"mPosY": 21.03125
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_004",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 15.15625,
+				"mPosY": 20.8438
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_005",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 19.5938,
+				"mPosY": 7.5
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R005DoorRotationOpen",
+					"mTextureName": "L_Dungeon003_005_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_006",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 28.0,
+				"mPosY": -27.25
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_007",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -4.25,
+				"mPosY": 7.375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_008",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -22.0312,
+				"mPosY": 21.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_009",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -23.5312,
+				"mPosY": 6.96875
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_010",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -4.1875,
+				"mPosY": -7.25
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R010SandDown",
+					"mTextureName": "L_Dungeon003_010_c_00"
+				},
+				{
+					"mFlagName": "L003R023SandDown",
+					"mTextureName": "L_Dungeon003_010_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_011",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -23.5312,
+				"mPosY": -5.75
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_012",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -4.1875,
+				"mPosY": -24.8438
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_013",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -33.25,
+				"mPosY": 66.5
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_014",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 32.78125,
+				"mPosY": -10.25
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R021DoorRotationOpen",
+					"mTextureName": "L_Dungeon003_014_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_015",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -41.875,
+				"mPosY": 4.9375
+			},
+			"mTexScale": 1.05,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_016",
+			"mPriority": 4,
+			"mPos": {
+				"mPosX": -22.4375,
+				"mPosY": 9.5
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R016DoorRotationOpen",
+					"mTextureName": "L_Dungeon003_016_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_017",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": -4.46875,
+				"mPosY": 9.625
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R016DoorRotationOpen",
+					"mTextureName": "L_Dungeon003_017_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_018",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -22.0,
+				"mPosY": 23.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_019",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": 13.5,
+				"mPosY": 13.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_020",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 11.9375,
+				"mPosY": -7.40625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_021",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 32.90625,
+				"mPosY": 7.09375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R021DoorRotationOpen",
+					"mTextureName": "L_Dungeon003_021_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_022",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -22.4375,
+				"mPosY": -4.65625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_023",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -4.53125,
+				"mPosY": -6.25
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R023SandDown",
+					"mTextureName": "L_Dungeon003_023_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_024",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -5.90625,
+				"mPosY": -35.8438
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_025",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 19.5938,
+				"mPosY": -5.71875
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L003R005DoorRotationOpen",
+					"mTextureName": "L_Dungeon003_025_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon003_034",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 3.5,
+				"mPosY": 65.8438
+			},
+			"mTexScale": 1.5,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon003_036",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 2.25,
+				"mPosY": -20.46875
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_001",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": 6.625,
+				"mPosY": 34.3438
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_002",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 6.75,
+				"mPosY": 10.1562
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_003",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 6.75,
+				"mPosY": -13.5
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "LCastleR003LadderOpen",
+					"mTextureName": "L_DungeonCastle_003_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_DungeonCastle_004",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -40.0,
+				"mPosY": 96.75
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_005",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -75.75,
+				"mPosY": -20.0
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "LCastleR005DoorRotationOpen",
+					"mTextureName": "L_DungeonCastle_005_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_DungeonCastle_006",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -18.75,
+				"mPosY": -34.5
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_007",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 64.875,
+				"mPosY": -34.1562
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_008",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 54.875,
+				"mPosY": -24.3438
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_009",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 61.6875,
+				"mPosY": 101.71875
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_010",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": 3.75,
+				"mPosY": 63.6875
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_011",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 6.875,
+				"mPosY": 12.9375
+			},
+			"mTexScale": 1.02,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_012",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 6.75,
+				"mPosY": -36.3125
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_013",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -19.375,
+				"mPosY": -36.2812
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_014",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -49.0,
+				"mPosY": 113.96875
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_015",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -59.875,
+				"mPosY": -42.15625
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_016",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 32.3438,
+				"mPosY": -30.3438
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "LCastleR016WallCrackedOpen",
+					"mTextureName": "L_DungeonCastle_016_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_DungeonCastle_017",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 82.75,
+				"mPosY": 96.0
+			},
+			"mTexScale": 1.55,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_018",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 58.0,
+				"mPosY": 108.25
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_019",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 54.8125,
+				"mPosY": -40.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_020",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 54.8438,
+				"mPosY": -56.5625
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_021",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 38.3438,
+				"mPosY": -45.7188
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_022",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 6.0,
+				"mPosY": -62.5
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_023",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 12.75,
+				"mPosY": 622.25
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_024",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 12.75,
+				"mPosY": 742.25
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_025",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 12.75,
+				"mPosY": 862.25
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_026",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 12.75,
+				"mPosY": 982.25
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_027",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 37.03125,
+				"mPosY": 113.78125
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_028",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 32.1875,
+				"mPosY": -5.4375
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_029",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 26.1875,
+				"mPosY": 3.3125
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonCastle_030",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 27.75,
+				"mPosY": 6.15625
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_001",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": -3.75,
+				"mPosY": 39.125
+			},
+			"mTexScale": 1.26,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_002",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -3.8125,
+				"mPosY": 25.5
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_004",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 0.0,
+				"mPosY": 13.5
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_005",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -32.75,
+				"mPosY": 10.0
+			},
+			"mTexScale": 1.02,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_006",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -22.875,
+				"mPosY": 19.28125
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_008",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 22.9375,
+				"mPosY": 23.3125
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_009",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 18.46875,
+				"mPosY": 11.0625
+			},
+			"mTexScale": 1.14,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_003",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 16.40625,
+				"mPosY": 23.5625
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_010",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -3.875,
+				"mPosY": 73.84375
+			},
+			"mTexScale": 1.45,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_011",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 22.90625,
+				"mPosY": 68.5625
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_012",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -26.0,
+				"mPosY": 7.5
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L004R012LavaLidActive",
+					"mTextureName": "L_Dungeon004_012_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon004_013",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -45.0,
+				"mPosY": 74.25
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L004R012LavaLidActive",
+					"mTextureName": "L_Dungeon004_013_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon004_014",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 29.71875,
+				"mPosY": 84.25
+			},
+			"mTexScale": 1.35,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_015",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -32.84375,
+				"mPosY": -30.15625
+			},
+			"mTexScale": 7.3666596e+31,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_016",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -6.0,
+				"mPosY": 68.5
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_020",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 20.0,
+				"mPosY": 37.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_021",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -3.875,
+				"mPosY": 12.5625
+			},
+			"mTexScale": 7.3666596e+31,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_022",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 0.0,
+				"mPosY": 29.53125
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon004_023",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 52.75,
+				"mPosY": 83.71875
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_001",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 0.75,
+				"mPosY": 0.5
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [
+				{
+					"mFloor": 3.0,
+					"mHeight": -2.0
+				},
+				{
+					"mFloor": 4.0,
+					"mHeight": 2.9
+				}
+			],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_002",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 20.15625,
+				"mPosY": 3.65625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_003",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 38.78125,
+				"mPosY": -3.25
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [
+				{
+					"mFloor": 3.0,
+					"mHeight": -2.0
+				},
+				{
+					"mFloor": 4.0,
+					"mHeight": 2.9
+				}
+			],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_004",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 20.1875,
+				"mPosY": -10.8125
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_005",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -21.75,
+				"mPosY": -10.0625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_006",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -18.75,
+				"mPosY": 4.4375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_007",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 0.71875,
+				"mPosY": -31.5
+			},
+			"mTexScale": 7.3666596e+31,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_008",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 60.0,
+				"mPosY": -25.5
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_009",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -41.34375,
+				"mPosY": 11.90625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L005R009DoorRotationOpen",
+					"mTextureName": "L_Dungeon005_009_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon005_010",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 11.1875,
+				"mPosY": -18.34375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_011",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": 8.90625,
+				"mPosY": 49.1875
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_012",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 54.6875,
+				"mPosY": 22.625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_013",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -18.0,
+				"mPosY": 43.9375
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_014",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 42.75,
+				"mPosY": -13.75
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_015",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -14.28125,
+				"mPosY": -22.0
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_016",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -32.28125,
+				"mPosY": -17.40625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L005R009DoorRotationOpen",
+					"mTextureName": "L_Dungeon005_016_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon005_017",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -25.25,
+				"mPosY": -36.75
+			},
+			"mTexScale": 7.3666596e+31,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_018",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -21.0,
+				"mPosY": 14.5
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_019",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 54.6875,
+				"mPosY": 8.4375
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_020",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 36.75,
+				"mPosY": -25.25
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_021",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -9.0,
+				"mPosY": -34.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_022",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -5.21875,
+				"mPosY": -52.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_023",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -7.25,
+				"mPosY": 79.5
+			},
+			"mTexScale": 1.5,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_024",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 52.125,
+				"mPosY": 82.75
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_025",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -65.25,
+				"mPosY": 80.0
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_026",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 33.5,
+				"mPosY": 81.75
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_027",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 40.5,
+				"mPosY": -49.5
+			},
+			"mTexScale": 1.05,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon005_028",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -26.25,
+				"mPosY": 81.0
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_001",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 12.1875,
+				"mPosY": 20.0312
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_002",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 12.25,
+				"mPosY": 2.75
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R002BigIceMelted",
+					"mTextureName": "L_Dungeon006_002_c_01"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_003",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 33.25,
+				"mPosY": 6.625
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_004",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -5.875,
+				"mPosY": 6.5
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_005",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 8.5,
+				"mPosY": 1.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_006",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 4.78125,
+				"mPosY": -13.4375
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R008PedestalState",
+					"mTextureName": "L_Dungeon006_006_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_007",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 60.0,
+				"mPosY": 3.15625
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_008",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -1.3125,
+				"mPosY": -27.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_009",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 23.25,
+				"mPosY": 26.15625
+			},
+			"mTexScale": 1.4,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_010",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 40.5,
+				"mPosY": 9.75
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R010GimmickClearFlag",
+					"mTextureName": "L_Dungeon006_010_c_01"
+				},
+				{
+					"mFlagName": "L006R010BigIceMelted",
+					"mTextureName": "L_Dungeon006_010_c_02"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_011",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 16.4375,
+				"mPosY": 18.1875
+			},
+			"mTexScale": 7.3666596e+31,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_012",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 31.375,
+				"mPosY": -1.0
+			},
+			"mTexScale": 1.05,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_014",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 16.4688,
+				"mPosY": -2.25
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_015",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -5.3125,
+				"mPosY": -9.375
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_016",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 0.0,
+				"mPosY": -21.1562
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R017PedestalState",
+					"mTextureName": "L_Dungeon006_016_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_017",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 0.0,
+				"mPosY": 3.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R017BigIceMelted",
+					"mTextureName": "L_Dungeon006_017_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_018",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": 0.0,
+				"mPosY": 33.75
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R012PedestalState",
+					"mTextureName": "L_Dungeon006_018_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_019",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -46.5,
+				"mPosY": 28.5312
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_020",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 32.75,
+				"mPosY": 30.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R012PedestalState",
+					"mTextureName": "L_Dungeon006_020_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_021",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -9.0625,
+				"mPosY": -26.2812
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_023",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 41.75,
+				"mPosY": 67.0
+			},
+			"mTexScale": 1.7,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_024",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 2.5,
+				"mPosY": 67.75
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_025",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 0.0,
+				"mPosY": 18.0
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_026",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -24.0,
+				"mPosY": 27.0
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": [
+				{
+					"mFlagName": "L006R019PedestalState",
+					"mTextureName": "L_Dungeon006_026_c_00"
+				}
+			]
+		},
+		{
+			"mAreaName": "L_Dungeon006_027",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": -28.5,
+				"mPosY": 10.1562
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_028",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -29.25,
+				"mPosY": -11.3438
+			},
+			"mTexScale": 1.2,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_029",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 3.0,
+				"mPosY": -10.75
+			},
+			"mTexScale": 1.3,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_045",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 0.75,
+				"mPosY": -28.75
+			},
+			"mTexScale": 1.15,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_046",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -22.5,
+				"mPosY": 60.75
+			},
+			"mTexScale": 1.6,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_Dungeon006_047",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -45.0,
+				"mPosY": 64.0
+			},
+			"mTexScale": 1.6,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_001",
+			"mPriority": 8,
+			"mPos": {
+				"mPosX": -14.03125,
+				"mPosY": 107.21875
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_002",
+			"mPriority": 6,
+			"mPos": {
+				"mPosX": 11.40625,
+				"mPosY": 60.3125
+			},
+			"mTexScale": 1.05,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_003",
+			"mPriority": 5,
+			"mPos": {
+				"mPosX": 16.03125,
+				"mPosY": 43.15625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_005",
+			"mPriority": 4,
+			"mPos": {
+				"mPosX": 20.5625,
+				"mPosY": 27.59375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_006",
+			"mPriority": 3,
+			"mPos": {
+				"mPosX": 16.71875,
+				"mPosY": 14.09375
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_007",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 13.5,
+				"mPosY": 144.25
+			},
+			"mTexScale": 1.6,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_008",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -24.5,
+				"mPosY": 147.9375
+			},
+			"mTexScale": 1.25,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_010",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": -9.4375,
+				"mPosY": 0.65625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_011",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 3.1875,
+				"mPosY": -99.90625
+			},
+			"mTexScale": 1.65,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_013",
+			"mPriority": 7,
+			"mPos": {
+				"mPosX": -1.1875,
+				"mPosY": 84.5625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_014",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -2.5,
+				"mPosY": 41.25
+			},
+			"mTexScale": 7.3666596e+31,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_015",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": -52.0,
+				"mPosY": 70.5
+			},
+			"mTexScale": 7.3666596e+31,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_016",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 5.53125,
+				"mPosY": -1.78125
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_017",
+			"mPriority": 1,
+			"mPos": {
+				"mPosX": 3.125,
+				"mPosY": -17.5625
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_018",
+			"mPriority": 2,
+			"mPos": {
+				"mPosX": 21.28125,
+				"mPosY": 0.96875
+			},
+			"mTexScale": 1.1,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		},
+		{
+			"mAreaName": "L_DungeonLast_020",
+			"mPriority": 0,
+			"mPos": {
+				"mPosX": 3.15625,
+				"mPosY": -57.625
+			},
+			"mTexScale": 1.02,
+			"mFloorInfo": [],
+			"mChangeTexutreInfo": []
+		}
+	]
+}

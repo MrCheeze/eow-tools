@@ -1,0 +1,5252 @@
+{
+	"unk1": 2507556412,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Weather",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLightAnimationName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDepthFogAnimationName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mHeightFogAnimationName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mHeightFogRelative",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 64,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "WeatherRate",
+			"typename": "__inline_struct_Weather_WeatherRate",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 68,
+			"directsize": 20,
+			"elemsize": 20,
+			"subfields": [
+				{
+					"name": "mRainy",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mThunder",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mSandStorm",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mSnowy",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mBlizzard",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "Timespan",
+			"typename": "__inline_struct_Weather_Timespan",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 88,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mMin",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mMax",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mCloudyTimespan",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 96,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mRainSingDuration",
+			"typename": "RainSingDuration",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 100,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mTemperatureLevel",
+			"typename": "__inline_struct_Weather_mTemperatureLevel",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 104,
+			"directsize": 16,
+			"elemsize": 16,
+			"subfields": [
+				{
+					"name": "mMorning",
+					"typename": "TemperatureLevel",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAfternoon",
+					"typename": "TemperatureLevel",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mEvening",
+					"typename": "TemperatureLevel",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mNight",
+					"typename": "TemperatureLevel",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "OverwriteConditions",
+			"typename": "__inline_struct_Weather_OverwriteConditions",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 120,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mConditionKey",
+					"typename": "Conditions",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mConditionResult",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mWeatherType",
+					"typename": "WeatherType",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 20,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Common",
+			"mLightAnimationName": "Common",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "TestBoundary",
+			"mLightAnimationName": "TestBoundary",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "TestDeepSea",
+			"mLightAnimationName": "TestDeepSea",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "TestLanmola",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 100.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 3,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "TestVerticalLight",
+			"mLightAnimationName": "TestVerticalLight",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 0,
+				"mAfternoon": 1,
+				"mEvening": 0,
+				"mNight": 0
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Boundary",
+			"mLightAnimationName": "Boundary",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Boundary_River",
+			"mLightAnimationName": "Boundary_River",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Boundary_Side",
+			"mLightAnimationName": "Boundary_Side",
+			"mDepthFogAnimationName": "FogBoundarySide",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Boundary_Lava",
+			"mLightAnimationName": "Boundary_Lava",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Boundary_Rain",
+			"mLightAnimationName": "Boundary",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 3,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Boundary_Rain_Boss",
+			"mLightAnimationName": "BoundaryGhoma",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 3,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon005_Boundary_Sunny",
+			"mLightAnimationName": "Boundary",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 3,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BoundaryGhoma",
+			"mLightAnimationName": "BoundaryGhoma",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BoundaryEnemyZelda",
+			"mLightAnimationName": "BoundaryEnemyZelda",
+			"mDepthFogAnimationName": "FogDepthBoundary",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Boundary_EV_GoToRevivingWorld",
+			"mLightAnimationName": "Boundary",
+			"mDepthFogAnimationName": "FogBoundarySide",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldCommon",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock",
+					"mConditionResult": true,
+					"mWeatherType": 0
+				}
+			]
+		},
+		{
+			"mKey": "DungeonCommon",
+			"mLightAnimationName": "DungeonCommon",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "IndoorCommon",
+			"mLightAnimationName": "IndoorCommon",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "IndoorBoundary",
+			"mLightAnimationName": "IndoorBoundary",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SideCommon",
+			"mLightAnimationName": "SideCommon",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastle",
+			"mLightAnimationName": "HyruleCastle",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastlePrison",
+			"mLightAnimationName": "HyruleCastlePrison",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastleCourt",
+			"mLightAnimationName": "HyruleCastleCourt",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastle_Entrance",
+			"mLightAnimationName": "HyruleCastle_Entrance",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastle_Flower",
+			"mLightAnimationName": "HyruleCastle_Flower",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastle_Throne",
+			"mLightAnimationName": "HyruleCastle_Throne",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastle_Aisle",
+			"mLightAnimationName": "HyruleCastle",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastle_Bedroom",
+			"mLightAnimationName": "HyruleCastle_Bedroom",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleWaterway_Top",
+			"mLightAnimationName": "HyruleWaterway_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleWaterway_Side",
+			"mLightAnimationName": "HyruleWaterway_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "OPField",
+			"mLightAnimationName": "OPField",
+			"mDepthFogAnimationName": "FogDepthOPField",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldForest",
+			"mLightAnimationName": "FieldForest",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldJungle",
+			"mLightAnimationName": "FieldJungle",
+			"mDepthFogAnimationName": "FogDepthJangle",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 3,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldJungle_EV",
+			"mLightAnimationName": "FieldJungle",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 3,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "EV_FieldJungle_CopiedZelda_01",
+			"mLightAnimationName": "EvCopiedZleda_Jangle01",
+			"mDepthFogAnimationName": "FogDepthEvCopiedZleda_Jangle02",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 3,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "EV_FieldJungle_CopiedZelda_02",
+			"mLightAnimationName": "FieldJungle",
+			"mDepthFogAnimationName": "FogDepthEvCopiedZleda_Jangle02",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 3,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldNorthForest",
+			"mLightAnimationName": "FieldNorthForest",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldCoast",
+			"mLightAnimationName": "FieldCoast",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldDesert",
+			"mLightAnimationName": "FieldDesert",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldHebraMountains",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 100.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 0,
+				"mAfternoon": 0,
+				"mEvening": 0,
+				"mNight": 0
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock_SnowyMountain",
+					"mConditionResult": false,
+					"mWeatherType": 6
+				}
+			]
+		},
+		{
+			"mKey": "FieldHebraMountainsTop",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 0,
+				"mAfternoon": 0,
+				"mEvening": 0,
+				"mNight": 0
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock_SnowyMountain",
+					"mConditionResult": false,
+					"mWeatherType": 6
+				}
+			]
+		},
+		{
+			"mKey": "EV_FieldHebraMountainsTop_CopiedZelda_01",
+			"mLightAnimationName": "EvCopiedZleda_HebraMounains01",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 0,
+				"mAfternoon": 0,
+				"mEvening": 0,
+				"mNight": 0
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock_SnowyMountain",
+					"mConditionResult": false,
+					"mWeatherType": 6
+				}
+			]
+		},
+		{
+			"mKey": "FieldHyruleCastle",
+			"mLightAnimationName": "FieldHyruleCastle",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock",
+					"mConditionResult": true,
+					"mWeatherType": 0
+				}
+			]
+		},
+		{
+			"mKey": "FieldHyruleLake",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldHyrulePlains",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock",
+					"mConditionResult": true,
+					"mWeatherType": 0
+				}
+			]
+		},
+		{
+			"mKey": "FieldHyrulePlainsSouthernVillage",
+			"mLightAnimationName": "FieldHyrulePlainsSouthernVillage",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock",
+					"mConditionResult": true,
+					"mWeatherType": 0
+				}
+			]
+		},
+		{
+			"mKey": "FieldRemains",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldRiver",
+			"mLightAnimationName": "FieldRiver",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldSnowyMountains",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 100.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 30.0,
+				"mMax": 90.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 0,
+				"mAfternoon": 0,
+				"mEvening": 0,
+				"mNight": 0
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldHeavySnow",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 100.0
+			},
+			"Timespan": {
+				"mMin": 30.0,
+				"mMax": 90.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 0,
+				"mAfternoon": 0,
+				"mEvening": 0,
+				"mNight": 0
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldSouthernVillage",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock",
+					"mConditionResult": true,
+					"mWeatherType": 0
+				}
+			]
+		},
+		{
+			"mKey": "FieldVolcano",
+			"mLightAnimationName": "FieldVolcano",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "EV_FieldVolcano_CopiedZelda_01",
+			"mLightAnimationName": "EvCopiedZleda_Volcano01",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldVolcanoHigh",
+			"mLightAnimationName": "FieldVolcanoHigh",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldVolcanoSummit",
+			"mLightAnimationName": "FieldVolcanoSummit",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldWildernesst",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldBeach",
+			"mLightAnimationName": "FieldBeach",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "WeatherUnlock",
+					"mConditionResult": true,
+					"mWeatherType": 0
+				}
+			]
+		},
+		{
+			"mKey": "FieldDesertLanmolaWest",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "LanmolaSandStormWest",
+					"mConditionResult": true,
+					"mWeatherType": 5
+				}
+			]
+		},
+		{
+			"mKey": "FieldDesertLanmolaEast",
+			"mLightAnimationName": "FieldCommon",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": [
+				{
+					"mConditionKey": "LanmolaSandStormEast",
+					"mConditionResult": true,
+					"mWeatherType": 5
+				}
+			]
+		},
+		{
+			"mKey": "FieldKakarikoVillage",
+			"mLightAnimationName": "FieldKakarikoVillage",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "FieldRanch",
+			"mLightAnimationName": "FieldRanch",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "DekuTreeArea",
+			"mLightAnimationName": "DekuTreeArea",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogFieldCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 2,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "EV_LinkAdventure",
+			"mLightAnimationName": "EV_LinkAdventure",
+			"mDepthFogAnimationName": "OPDungeonFinalStage",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "OPDungeon",
+			"mLightAnimationName": "OPDungeonCommon",
+			"mDepthFogAnimationName": "OPDungeonFinalStage",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "OPDungeonFinalStage",
+			"mLightAnimationName": "OPDungeonFinalStage",
+			"mDepthFogAnimationName": "OPDungeonFinalStage",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon001",
+			"mLightAnimationName": "SDungeon001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon002",
+			"mLightAnimationName": "SDungeon002",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon006",
+			"mLightAnimationName": "SDungeon006",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon014",
+			"mLightAnimationName": "SDungeon014",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon023",
+			"mLightAnimationName": "SDungeon023",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon024_Side",
+			"mLightAnimationName": "SDungeon024_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon034",
+			"mLightAnimationName": "SDungeon034",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon042",
+			"mLightAnimationName": "SDungeon042",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon046",
+			"mLightAnimationName": "SDungeon046",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon102_Top",
+			"mLightAnimationName": "SDungeon102_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon102_TopWater",
+			"mLightAnimationName": "SDungeon102_TopWater",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon109_Top",
+			"mLightAnimationName": "SDungeon109_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon110_Top",
+			"mLightAnimationName": "SDungeon110_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon110_Side",
+			"mLightAnimationName": "SDungeon110_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeon110_SideWater",
+			"mLightAnimationName": "SDungeon110_SideWater",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonForest_Top",
+			"mLightAnimationName": "SDungeonForest_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonForest_Side",
+			"mLightAnimationName": "SDungeonForest_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonRiver_Top",
+			"mLightAnimationName": "SDungeonRiver_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonRiver_Top_Water",
+			"mLightAnimationName": "SDungeonRiver_Top_Water",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonRiver_Side_Water",
+			"mLightAnimationName": "SDungeonRiver_Side_Water",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonDesert_Top",
+			"mLightAnimationName": "SDungeonDesert_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonDesert_Top_RedClay",
+			"mLightAnimationName": "SDungeonDesert_Top_RedClay",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonDesert_TopSlightlyBright",
+			"mLightAnimationName": "SDungeonDesert_TopSlightlyBright",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonDesert_Side",
+			"mLightAnimationName": "SDungeonDesert_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonVolcano_Top",
+			"mLightAnimationName": "SDungeonVolcano_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonVolcano_Top_BlackClay",
+			"mLightAnimationName": "SDungeonVolcano_Top_BlackClay",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonVolcano_TopOut_Lava",
+			"mLightAnimationName": "SDungeonVolcano_TopOut_Lava",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 1,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonVolcano_Top_Lava",
+			"mLightAnimationName": "SDungeonVolcano_Top_Lava",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonVolcano_Top_HotFloor",
+			"mLightAnimationName": "SDungeonVolcano_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 3,
+				"mAfternoon": 3,
+				"mEvening": 3,
+				"mNight": 3
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonVolcano_Side",
+			"mLightAnimationName": "SDungeonVolcano_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonVolcano_Side_Lava",
+			"mLightAnimationName": "SDungeonVolcano_Side_Lava",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonJungle_Top",
+			"mLightAnimationName": "SDungeonJungle_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonJungle_Top_RedClay",
+			"mLightAnimationName": "SDungeonJungle_Top_RedClay",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonJungle_Top_RedClay_SlightlyBright",
+			"mLightAnimationName": "SDungeonJungle_Top_RedClay_SlightlyBright",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonJungle_TopDark_RedClay",
+			"mLightAnimationName": "SDungeonJungle_TopDark_RedClay",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonJungle_Side",
+			"mLightAnimationName": "SDungeonJungle_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonJungle_SideWater",
+			"mLightAnimationName": "SDungeonJungle_SideWater",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonIce_Top",
+			"mLightAnimationName": "SDungeonIce_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 1,
+				"mAfternoon": 1,
+				"mEvening": 1,
+				"mNight": 1
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonIce_Side",
+			"mLightAnimationName": "SDungeonIce_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 1,
+				"mAfternoon": 1,
+				"mEvening": 1,
+				"mNight": 1
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonPlane_Top",
+			"mLightAnimationName": "SDungeonPlane_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonPlane_Side",
+			"mLightAnimationName": "SDungeonPlane_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonPlane_Side_Water",
+			"mLightAnimationName": "SDungeonPlane_Side_Water",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SDungeonPlane_Side_SD035",
+			"mLightAnimationName": "SDungeonPlane_Side_SD035",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon001_Top",
+			"mLightAnimationName": "LDungeon001_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon001_Side",
+			"mLightAnimationName": "LDungeon001_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_Top",
+			"mLightAnimationName": "LDungeon002_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_TopSlightlyBright",
+			"mLightAnimationName": "LDungeon002_TopSlightlyBright",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_TopDark",
+			"mLightAnimationName": "LDungeon002_TopDark",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_TopWater",
+			"mLightAnimationName": "LDungeon002_TopWater",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_Side",
+			"mLightAnimationName": "LDungeon002_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_SideDark",
+			"mLightAnimationName": "LDungeon002_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_SideWater",
+			"mLightAnimationName": "LDungeon002_SideWater",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon002_SideWaterDark",
+			"mLightAnimationName": "LDungeon002_SideWaterDark",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon003_Top",
+			"mLightAnimationName": "LDungeon003_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon003_TopBlue",
+			"mLightAnimationName": "LDungeon003_TopBlue",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon003_Side",
+			"mLightAnimationName": "LDungeon003_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BossMogriffon",
+			"mLightAnimationName": "TestVerticalLight",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogBossMogriffon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon004_Top",
+			"mLightAnimationName": "LDungeon004_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon004_Top_Lava",
+			"mLightAnimationName": "LDungeon004_Top_Lava",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon004_Top_HotFloor",
+			"mLightAnimationName": "LDungeon004_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 3,
+				"mAfternoon": 3,
+				"mEvening": 3,
+				"mNight": 3
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon004_Side",
+			"mLightAnimationName": "LDungeon004_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon004_Side_Lava",
+			"mLightAnimationName": "LDungeon004_Side_Lava",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BossVolvagia",
+			"mLightAnimationName": "BossVolvagia",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogBoundaryCommon",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 4,
+				"mAfternoon": 4,
+				"mEvening": 4,
+				"mNight": 4
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon005_Top",
+			"mLightAnimationName": "LDungeon005_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon005_TopDark",
+			"mLightAnimationName": "LDungeon005_TopDark",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon005_TopSlightlyBright",
+			"mLightAnimationName": "LDungeon005_TopSlightlyBright",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon005_Side",
+			"mLightAnimationName": "LDungeon005_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon005_SideWater",
+			"mLightAnimationName": "LDungeon005_SideWater",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon006_Top",
+			"mLightAnimationName": "LDungeon006_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon006_Side",
+			"mLightAnimationName": "LDungeon006_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeon006_SideSlightlyBright",
+			"mLightAnimationName": "LDungeon006_SideSlightlyBright",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BossDeguZol",
+			"mLightAnimationName": "BossDeguZol",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 1,
+				"mAfternoon": 1,
+				"mEvening": 1,
+				"mNight": 1
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeonCastle_Top",
+			"mLightAnimationName": "LDungeonCastle_Top",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastlePrison_Boundary",
+			"mLightAnimationName": "HyruleCastlePrison_Boundary",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleCastle_Boundary",
+			"mLightAnimationName": "HyruleCastle_Boundary",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeonCastle_Side",
+			"mLightAnimationName": "LDungeonCastle_Side",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeonCastle_SideWater",
+			"mLightAnimationName": "LDungeonCastle_SideWater",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeonLast_Top",
+			"mLightAnimationName": "LDungeonLast_Top",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LDungeonLast_Side",
+			"mLightAnimationName": "LDungeonLast_Side",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BossMuPhase1",
+			"mLightAnimationName": "BossMuPhase1",
+			"mDepthFogAnimationName": "LastBossAppear_DepthOff",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Ev_Appear_01",
+			"mLightAnimationName": "LastBossAppear_01",
+			"mDepthFogAnimationName": "LastBossAppear_01_depth",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Ev_Appear_02",
+			"mLightAnimationName": "LastBossAppear_01",
+			"mDepthFogAnimationName": "LastBossAppear_02_depth",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Ev_Appear_03",
+			"mLightAnimationName": "LastBossAppear_03",
+			"mDepthFogAnimationName": "LastBossAppear_03_depth",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BossMuPhase2",
+			"mLightAnimationName": "BossMuPhase2",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BossMuPhase3",
+			"mLightAnimationName": "BossMuPhase3",
+			"mDepthFogAnimationName": "FogDepthOff",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoHouse001",
+			"mLightAnimationName": "GerudoHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoHouse002",
+			"mLightAnimationName": "GerudoHouse002",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoHouse003",
+			"mLightAnimationName": "GerudoHouse003",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoHouse004",
+			"mLightAnimationName": "GerudoHouse004",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoWareHouse001",
+			"mLightAnimationName": "GerudoWareHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoWareHouse002",
+			"mLightAnimationName": "GerudoWareHouse002",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoPalace",
+			"mLightAnimationName": "GerudoPalace001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GerudoMiniGame",
+			"mLightAnimationName": "GerudoMiniGame",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GoronVillage",
+			"mLightAnimationName": "GoronVillage001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "GreatFairyFountain",
+			"mLightAnimationName": "GreatFairyFountain",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleHouse",
+			"mLightAnimationName": "HyruleHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleHouse_Stove",
+			"mLightAnimationName": "HyruleHouse001_Stove",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "HyruleHouse_Boundary",
+			"mLightAnimationName": "HyruleHouse001_Boundary",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "DekuHouse",
+			"mLightAnimationName": "DekuHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "SeasideHouse",
+			"mLightAnimationName": "SeasideHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "VillageHouse",
+			"mLightAnimationName": "VillageHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "KakarikoHouse",
+			"mLightAnimationName": "KakarikoHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LinkHouse",
+			"mLightAnimationName": "LinkHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LuberiHouse001",
+			"mLightAnimationName": "LuberiHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "LuberiHouse002",
+			"mLightAnimationName": "LuberiHouse002",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "MachineEngineerHouse",
+			"mLightAnimationName": "MachineEngineerHouse",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "OasisTent",
+			"mLightAnimationName": "OasisTent",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Ranch",
+			"mLightAnimationName": "Ranch001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "CuccoHouse",
+			"mLightAnimationName": "CuccoHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "Church",
+			"mLightAnimationName": "Church",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "YetiHouse001",
+			"mLightAnimationName": "YetiHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "ZoraRiverHouse",
+			"mLightAnimationName": "ZoraRiverHouse001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "ZoraSeaVillage",
+			"mLightAnimationName": "ZoraSeaVillage001",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "BattleChallengeRoom",
+			"mLightAnimationName": "BattleChallengeRoom",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "TriForceRemains01",
+			"mLightAnimationName": "TriForceRemains01",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "TriForceRemains02",
+			"mLightAnimationName": "TriForceRemains02",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		},
+		{
+			"mKey": "EV_Goddess",
+			"mLightAnimationName": "DungeonCommon",
+			"mDepthFogAnimationName": "",
+			"mHeightFogAnimationName": "FogOff",
+			"mHeightFogRelative": 0,
+			"WeatherRate": {
+				"mRainy": 0.0,
+				"mThunder": 0.0,
+				"mSandStorm": 0.0,
+				"mSnowy": 0.0,
+				"mBlizzard": 0.0
+			},
+			"Timespan": {
+				"mMin": 0.0,
+				"mMax": 0.0
+			},
+			"mCloudyTimespan": 3.0,
+			"mRainSingDuration": 0,
+			"mTemperatureLevel": {
+				"mMorning": 2,
+				"mAfternoon": 2,
+				"mEvening": 2,
+				"mNight": 2
+			},
+			"OverwriteConditions": []
+		}
+	]
+}

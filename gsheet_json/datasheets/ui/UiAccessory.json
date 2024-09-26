@@ -1,0 +1,184 @@
+{
+	"unk1": 726802836,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiAccessory",
+	"fields": [
+		{
+			"name": "symbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "nameLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "explanationLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"symbol": "FastSwimming",
+			"nameLabel": "glossary/Item:Item435",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_20"
+		},
+		{
+			"symbol": "ZorasScales",
+			"nameLabel": "glossary/Item:Item335",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_00"
+		},
+		{
+			"symbol": "ResistQuickSand",
+			"nameLabel": "glossary/Item:Item420",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_17"
+		},
+		{
+			"symbol": "ResistWind",
+			"nameLabel": "glossary/Item:Item460",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_25"
+		},
+		{
+			"symbol": "FastClimbing",
+			"nameLabel": "glossary/Item:Item440",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_21"
+		},
+		{
+			"symbol": "GoronBracelet",
+			"nameLabel": "glossary/Item:Item345",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_02"
+		},
+		{
+			"symbol": "KnockBackSpin",
+			"nameLabel": "glossary/Item:Item455",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_24"
+		},
+		{
+			"symbol": "IceSlipReduce",
+			"nameLabel": "glossary/Item:Item450",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_23"
+		},
+		{
+			"symbol": "HiJump",
+			"nameLabel": "glossary/Item:Item340",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_01"
+		},
+		{
+			"symbol": "HorseAcceleAttack",
+			"nameLabel": "glossary/Item:Item425",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_18"
+		},
+		{
+			"symbol": "KnockBackReduce",
+			"nameLabel": "glossary/Item:Item430",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_19"
+		},
+		{
+			"symbol": "FastWinding",
+			"nameLabel": "glossary/Item:Item445",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_22"
+		},
+		{
+			"symbol": "MorphEnergySavingLv1",
+			"nameLabel": "glossary/Item:Item465",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_27"
+		},
+		{
+			"symbol": "MorphEnergySavingLv2",
+			"nameLabel": "glossary/Item:Item466",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_28"
+		},
+		{
+			"symbol": "MorphEnergySavingLv3",
+			"nameLabel": "glossary/Item:Item469",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_31"
+		},
+		{
+			"symbol": "PieceOfPowerDiscovery",
+			"nameLabel": "glossary/Item:Item415",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_16"
+		},
+		{
+			"symbol": "DropMoreHeartLv1",
+			"nameLabel": "glossary/Item:Item350",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_03"
+		},
+		{
+			"symbol": "DropMoreHeartLv2",
+			"nameLabel": "glossary/Item:Item355",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_04"
+		},
+		{
+			"symbol": "DropMoreRupeeLv1",
+			"nameLabel": "glossary/Item:Item360",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_05"
+		},
+		{
+			"symbol": "DropMoreRupeeLv2",
+			"nameLabel": "glossary/Item:Item365",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_06"
+		},
+		{
+			"symbol": "DropMoreMorphEnergyLv1",
+			"nameLabel": "glossary/Item:Item370",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_07"
+		},
+		{
+			"symbol": "DropMoreMorphEnergyLv2",
+			"nameLabel": "glossary/Item:Item375",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_08"
+		},
+		{
+			"symbol": "DropMoreCouponLv1",
+			"nameLabel": "glossary/Item:Item380",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_09"
+		},
+		{
+			"symbol": "DropMoreCouponLv2",
+			"nameLabel": "glossary/Item:Item385",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_10"
+		},
+		{
+			"symbol": "DropMoreFairyLv1",
+			"nameLabel": "glossary/Item:Item390",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_11"
+		},
+		{
+			"symbol": "DropMoreFairyLv2",
+			"nameLabel": "glossary/Item:Item395",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_12"
+		},
+		{
+			"symbol": "DamageReduceLv1",
+			"nameLabel": "glossary/Item:Item400",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_13"
+		},
+		{
+			"symbol": "DamageReduceLv2",
+			"nameLabel": "glossary/Item:Item405",
+			"explanationLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_14"
+		}
+	]
+}

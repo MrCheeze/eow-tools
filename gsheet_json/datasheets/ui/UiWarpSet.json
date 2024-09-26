@@ -1,0 +1,710 @@
+{
+	"unk1": 2261980474,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiWarpSet",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mWarpDestInfo",
+			"typename": "__inline_struct_UiWarpSet_mWarpDestInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 56,
+			"subfields": [
+				{
+					"name": "mLevelName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mLocation",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mGameFlag",
+					"typename": "GlobalFlags",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 9,
+					"offset": 32,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mReportId",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 48,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Boundary",
+			"mWarpDestInfo": [
+				{
+					"mLevelName": "TestLDungeon2",
+					"mLocation": "TestL002_R001_Warp",
+					"mGameFlag": "TestWarp_TestL002_R001_Warp",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "TestLDungeon2",
+					"mLocation": "TestL002_R008_Warp",
+					"mGameFlag": "TestWarp_TestL002_R008_Warp",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "TestFieldBoundary",
+					"mLocation": "TestFB001_Warp_Start",
+					"mGameFlag": "TestWarp_TestFB001_Warp_Start",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "TestFieldBoundary",
+					"mLocation": "TestFB001_Warp_SecondFloor",
+					"mGameFlag": "TestWarp_TestFB001_Warp_SecondFloor",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "TestFieldBoundary",
+					"mLocation": "TestFB001_Warp_BossFront",
+					"mGameFlag": "TestWarp_TestFB001_Warp_BossFront",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "L_Dungeon001",
+					"mLocation": "L001_R015_Warp",
+					"mGameFlag": "L001R015WarpOpen",
+					"mReportId": 101
+				},
+				{
+					"mLevelName": "L_Dungeon001",
+					"mLocation": "L001_R019_Warp",
+					"mGameFlag": "L001R019WarpOpen",
+					"mReportId": 102
+				},
+				{
+					"mLevelName": "L_Dungeon001",
+					"mLocation": "L001_R020_Warp",
+					"mGameFlag": "L001R020WarpOpen",
+					"mReportId": 103
+				},
+				{
+					"mLevelName": "L_Dungeon002",
+					"mLocation": "L002_R001_Warp",
+					"mGameFlag": "Warp_L002R001",
+					"mReportId": 201
+				},
+				{
+					"mLevelName": "L_Dungeon002",
+					"mLocation": "L002_R003_Warp",
+					"mGameFlag": "Warp_L002R003",
+					"mReportId": 202
+				},
+				{
+					"mLevelName": "L_Dungeon003",
+					"mLocation": "L003_R003_Warp",
+					"mGameFlag": "Warp_L003R003",
+					"mReportId": 301
+				},
+				{
+					"mLevelName": "L_Dungeon003",
+					"mLocation": "L003_R006_Warp",
+					"mGameFlag": "Warp_L003R006",
+					"mReportId": 302
+				},
+				{
+					"mLevelName": "L_Dungeon003",
+					"mLocation": "L003_R016_Warp",
+					"mGameFlag": "Warp_L003R016",
+					"mReportId": 303
+				},
+				{
+					"mLevelName": "L_Dungeon003",
+					"mLocation": "L003_R020_Warp",
+					"mGameFlag": "Warp_L003R020",
+					"mReportId": 304
+				},
+				{
+					"mLevelName": "L_Dungeon003",
+					"mLocation": "L003_R010_Warp",
+					"mGameFlag": "Warp_L003R010",
+					"mReportId": 305
+				},
+				{
+					"mLevelName": "L_DungeonCastle",
+					"mLocation": "LCastle_R001_Warp",
+					"mGameFlag": "LcastleWarpOpen01",
+					"mReportId": 401
+				},
+				{
+					"mLevelName": "L_DungeonCastle",
+					"mLocation": "LCastle_R006_Warp",
+					"mGameFlag": "LcastleWarpOpen02",
+					"mReportId": 402
+				},
+				{
+					"mLevelName": "L_DungeonCastle",
+					"mLocation": "LCastle_R007_Warp",
+					"mGameFlag": "LcastleWarpOpen03",
+					"mReportId": 403
+				},
+				{
+					"mLevelName": "L_DungeonCastle",
+					"mLocation": "LCastle_R012_Warp",
+					"mGameFlag": "LcastleWarpOpen04",
+					"mReportId": 404
+				},
+				{
+					"mLevelName": "L_Dungeon004",
+					"mLocation": "L004_R001_Warp",
+					"mGameFlag": "Warp_L004R001",
+					"mReportId": 501
+				},
+				{
+					"mLevelName": "L_Dungeon004",
+					"mLocation": "L004_R005_Warp",
+					"mGameFlag": "Warp_L004R005",
+					"mReportId": 502
+				},
+				{
+					"mLevelName": "L_Dungeon004",
+					"mLocation": "L004_R011_Warp",
+					"mGameFlag": "Warp_L004R011",
+					"mReportId": 503
+				},
+				{
+					"mLevelName": "L_Dungeon005",
+					"mLocation": "L005_R001_Warp",
+					"mGameFlag": "Warp_L005R001",
+					"mReportId": 601
+				},
+				{
+					"mLevelName": "L_Dungeon005",
+					"mLocation": "L005_R011_Warp",
+					"mGameFlag": "Warp_L005R011",
+					"mReportId": 602
+				},
+				{
+					"mLevelName": "L_Dungeon005",
+					"mLocation": "L005_R009_Warp",
+					"mGameFlag": "Warp_L005R009",
+					"mReportId": 603
+				},
+				{
+					"mLevelName": "L_Dungeon005",
+					"mLocation": "L005_R014_Warp",
+					"mGameFlag": "Warp_L005R014",
+					"mReportId": 604
+				},
+				{
+					"mLevelName": "L_Dungeon005",
+					"mLocation": "L005_R020_Warp",
+					"mGameFlag": "Warp_L005R020",
+					"mReportId": 605
+				},
+				{
+					"mLevelName": "L_Dungeon005",
+					"mLocation": "L005_R021_Warp",
+					"mGameFlag": "Warp_L005R021",
+					"mReportId": 606
+				},
+				{
+					"mLevelName": "L_Dungeon006",
+					"mLocation": "L006_R001_Warp",
+					"mGameFlag": "Warp_L006R001",
+					"mReportId": 801
+				},
+				{
+					"mLevelName": "L_Dungeon006",
+					"mLocation": "L006_R015_Warp",
+					"mGameFlag": "Warp_L006R015",
+					"mReportId": 802
+				},
+				{
+					"mLevelName": "L_Dungeon006",
+					"mLocation": "L006_R029_Warp",
+					"mGameFlag": "Warp_L006R029",
+					"mReportId": 803
+				},
+				{
+					"mLevelName": "L_DungeonLast",
+					"mLocation": "Last_R001_Warp",
+					"mGameFlag": "L008R001WarpOpen",
+					"mReportId": 701
+				},
+				{
+					"mLevelName": "L_DungeonLast",
+					"mLocation": "Last_R017_Warp",
+					"mGameFlag": "L008R017WarpOpen",
+					"mReportId": 702
+				},
+				{
+					"mLevelName": "L_DungeonLast",
+					"mLocation": "Last_R013_Warp",
+					"mGameFlag": "L008R013WarpOpen",
+					"mReportId": 703
+				},
+				{
+					"mLevelName": "L_DungeonLast",
+					"mLocation": "Last_R015_Warp",
+					"mGameFlag": "L008R015WarpOpen",
+					"mReportId": 704
+				},
+				{
+					"mLevelName": "FieldBoundary001",
+					"mLocation": "FB001_Warp_Start",
+					"mGameFlag": "TestWarp_FB001_Warp_Start",
+					"mReportId": 151
+				},
+				{
+					"mLevelName": "FieldBoundary001",
+					"mLocation": "FB001_Warp_SecondFloor",
+					"mGameFlag": "TestWarp_FB001_Warp_SecondFloor",
+					"mReportId": 152
+				},
+				{
+					"mLevelName": "FieldBoundary001",
+					"mLocation": "FB001_Warp_BossFront",
+					"mGameFlag": "TestWarp_FB001_Warp_BossFront",
+					"mReportId": 153
+				},
+				{
+					"mLevelName": "FieldBoundary002",
+					"mLocation": "FB002_Warp_Start",
+					"mGameFlag": "Warp_FB002",
+					"mReportId": 251
+				},
+				{
+					"mLevelName": "FieldBoundary003",
+					"mLocation": "FB003_Warp_Start",
+					"mGameFlag": "Warp_FB003_001",
+					"mReportId": 351
+				},
+				{
+					"mLevelName": "FieldBoundaryCastle",
+					"mLocation": "FBCastle_WarpStart_001",
+					"mGameFlag": "FBCastleWarpOpen01",
+					"mReportId": 451
+				},
+				{
+					"mLevelName": "FieldBoundaryCastle",
+					"mLocation": "FBCastle_WarpStart_002",
+					"mGameFlag": "FBCastleWarpOpen02",
+					"mReportId": 452
+				},
+				{
+					"mLevelName": "FieldBoundary004",
+					"mLocation": "FB004_Warp_Start",
+					"mGameFlag": "Warp_FB004",
+					"mReportId": 551
+				},
+				{
+					"mLevelName": "FieldBoundary004",
+					"mLocation": "FB004_Warp_Start_002",
+					"mGameFlag": "Warp_FB004_002",
+					"mReportId": 552
+				},
+				{
+					"mLevelName": "FieldBoundary005",
+					"mLocation": "FB005_Warp_Start_001",
+					"mGameFlag": "Warp_FB005_001",
+					"mReportId": 851
+				},
+				{
+					"mLevelName": "FieldBoundary005",
+					"mLocation": "FB005_Warp_Start_002",
+					"mGameFlag": "Warp_FB005_002",
+					"mReportId": 852
+				},
+				{
+					"mLevelName": "FieldBoundary006_001",
+					"mLocation": "FB006_Warp_Start_001",
+					"mGameFlag": "Warp_FB006_001",
+					"mReportId": 651
+				},
+				{
+					"mLevelName": "FieldBoundary006_001",
+					"mLocation": "FB006_Warp_Start_002",
+					"mGameFlag": "Warp_FB006_002",
+					"mReportId": 652
+				},
+				{
+					"mLevelName": "FieldBoundaryLast",
+					"mLocation": "FBLast_Warp_Start_001",
+					"mGameFlag": "L008BoundaryWarpOpen1",
+					"mReportId": 751
+				},
+				{
+					"mLevelName": "FieldBoundaryLast",
+					"mLocation": "FBLast_Warp_Start_002",
+					"mGameFlag": "L008BoundaryWarpOpen2",
+					"mReportId": 752
+				},
+				{
+					"mLevelName": "FieldBoundaryLast",
+					"mLocation": "FBLast_Warp_Start_003",
+					"mGameFlag": "L008BoundaryWarpOpen3",
+					"mReportId": 753
+				}
+			]
+		},
+		{
+			"mKey": "Field",
+			"mWarpDestInfo": [
+				{
+					"mLevelName": "TestFieldVerification",
+					"mLocation": "TestFieldVerification_Warp_Bridge",
+					"mGameFlag": "TestWarp_TestFV_Warp_Bridge",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "TestFieldVerification",
+					"mLocation": "TestFieldVerification_Warp_FrontCastleTown",
+					"mGameFlag": "TestWarp_TestFV_Warp_FrontCastleTown",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "TestFieldVerification",
+					"mLocation": "TestFieldVerification_Warp_MountainTop",
+					"mGameFlag": "TestWarp_TestFV_Warp_MountainTop",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "TestFieldVerification",
+					"mLocation": "TestFieldVerification_Warp_Village",
+					"mGameFlag": "TestWarp_TestFV_Warp_Village",
+					"mReportId": 0
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_SnowyMountains_Warp_001",
+					"mGameFlag": "TestWarp_Field_SnowyMountains_002",
+					"mReportId": 1
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Jungle_Warp_001",
+					"mGameFlag": "TestWarp_Field_Jungle_001",
+					"mReportId": 2
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Volcano_Warp_001",
+					"mGameFlag": "Warp_Field_Volcano_001",
+					"mReportId": 3
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Volcano_Warp_002",
+					"mGameFlag": "Warp_Field_Volcano_002",
+					"mReportId": 4
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Volcano_Warp_003",
+					"mGameFlag": "Warp_Field_Volcano_003",
+					"mReportId": 5
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Volcano_Warp_004",
+					"mGameFlag": "Warp_Field_Volcano_004",
+					"mReportId": 44
+				},
+				{
+					"mLevelName": "S_Dungeon018",
+					"mLocation": "F_Volcano_Warp_005",
+					"mGameFlag": "Warp_Field_Volcano_005",
+					"mReportId": 49
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Wildernesst_Warp_001",
+					"mGameFlag": "TestWarp_Field_Wildernesst_002",
+					"mReportId": 6
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HebraMountains_Warp_001",
+					"mGameFlag": "TestWarp_Field_HebraMountains_002",
+					"mReportId": 7
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_CoastRiver_Warp_001",
+					"mGameFlag": "Warp_Field_CoastRiver_001",
+					"mReportId": 8
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_CoastRiver_Warp_002",
+					"mGameFlag": "Warp_Field_CoastRiver_002",
+					"mReportId": 9
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_CoastRiver_Warp_003",
+					"mGameFlag": "Warp_Field_CoastRiver_003",
+					"mReportId": 10
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_CoastRiver_Warp_004",
+					"mGameFlag": "Warp_Field_CoastRiver_004",
+					"mReportId": 11
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_CoastRiver_Warp_005",
+					"mGameFlag": "Warp_Field_CoastRiver_005",
+					"mReportId": 12
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Jungle_Warp_001",
+					"mGameFlag": "Warp_Field_Jungle_001",
+					"mReportId": 13
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Jungle_Warp_002",
+					"mGameFlag": "Warp_Field_Jungle_002",
+					"mReportId": 14
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Jungle_Warp_003",
+					"mGameFlag": "Warp_Field_Jungle_003",
+					"mReportId": 15
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Jungle_Warp_004",
+					"mGameFlag": "Warp_Field_Jungle_004",
+					"mReportId": 16
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Jungle_Warp_005",
+					"mGameFlag": "Warp_Field_Jungle_005",
+					"mReportId": 17
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Jungle_Warp_006",
+					"mGameFlag": "Warp_Field_Jungle_006",
+					"mReportId": 18
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyruleCastle_Warp_001",
+					"mGameFlag": "TestWarp_Field_HyruleCastle_001_Front",
+					"mReportId": 19
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_SouthernVillage_Warp_001",
+					"mGameFlag": "Warp_Field_SouthernVillage_001",
+					"mReportId": 20
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Forest_Warp_001",
+					"mGameFlag": "Warp_Field_Forest_001",
+					"mReportId": 21
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyruleLake_Warp_001",
+					"mGameFlag": "Warp_Field_HyruleLake_001",
+					"mReportId": 22
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_002_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_002",
+					"mReportId": 23
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_014_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_003",
+					"mReportId": 24
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_012_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_004",
+					"mReportId": 25
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_004_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_005",
+					"mReportId": 26
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_006_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_006",
+					"mReportId": 27
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_017_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_007",
+					"mReportId": 41
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_009_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_008",
+					"mReportId": 43
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_012_Warp_002",
+					"mGameFlag": "Warp_Field_HyrulePlains_009",
+					"mReportId": 45
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_HyrulePlains_016_Warp_001",
+					"mGameFlag": "Warp_Field_HyrulePlains_010",
+					"mReportId": 48
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Remains_Warp_001",
+					"mGameFlag": "Warp_Field_Remains_001",
+					"mReportId": 28
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Desert_Warp_001",
+					"mGameFlag": "Warp_Field_Desert_001",
+					"mReportId": 29
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Desert_Warp_002",
+					"mGameFlag": "Warp_Field_Desert_002",
+					"mReportId": 30
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Desert_Warp_003",
+					"mGameFlag": "Warp_Field_Desert_003",
+					"mReportId": 31
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Desert_Warp_004",
+					"mGameFlag": "Warp_Field_Desert_004",
+					"mReportId": 32
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Desert_Warp_005",
+					"mGameFlag": "Warp_Field_Desert_005",
+					"mReportId": 40
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_Desert_Warp_006",
+					"mGameFlag": "Warp_Field_Desert_006",
+					"mReportId": 42
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_SouthernVillage_Warp_002",
+					"mGameFlag": "Warp_Field_SouthernVillage_002",
+					"mReportId": 33
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "Field_SnowyMountainWarp001",
+					"mGameFlag": "Warp_Field_HebraMountains_003_001",
+					"mReportId": 34
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "Field_SnowyMountainWarp002",
+					"mGameFlag": "Warp_Field_HebraMountains_003_002",
+					"mReportId": 35
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "Field_SnowyMountainWarp003",
+					"mGameFlag": "Warp_Field_HebraMountains_004_001",
+					"mReportId": 36
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "Field_SnowyMountainWarp004",
+					"mGameFlag": "Warp_Field_HebraMountains_002_001",
+					"mReportId": 37
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "Field_SnowyMountainWarp005a",
+					"mGameFlag": "Warp_Field_HebraMountains_001_001",
+					"mReportId": 38
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "Field_SnowyMountainWarp006",
+					"mGameFlag": "Warp_Field_HebraMountains_001_002",
+					"mReportId": 39
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_NorthForest_002_Warp_001",
+					"mGameFlag": "Warp_Field_NorthForest_001",
+					"mReportId": 46
+				},
+				{
+					"mLevelName": "Field",
+					"mLocation": "F_NorthForest_002_Warp_002",
+					"mGameFlag": "Warp_Field_NorthForest_002",
+					"mReportId": 47
+				}
+			]
+		}
+	]
+}

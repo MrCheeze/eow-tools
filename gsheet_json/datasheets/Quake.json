@@ -1,0 +1,134 @@
+{
+	"unk1": 1823327757,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Quake",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "Conditions",
+			"typename": "__inline_struct_Quake_Conditions",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mConditionKey",
+					"typename": "Conditions",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mConditionResult",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 1,
+					"elemsize": 1
+				}
+			]
+		},
+		{
+			"name": "mInitialQuakeLevel",
+			"typename": "QuakeLevel",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mTargetQuakeLevel",
+			"typename": "QuakeLevel",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mDuration",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mAmbientNoise",
+			"typename": "__inline_struct_Quake_mAmbientNoise",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 24,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mFadeoutTime",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "OP_Dungeon_Quake",
+			"Conditions": [
+				{
+					"mConditionKey": "OpDungeonEscaping",
+					"mConditionResult": true
+				}
+			],
+			"mInitialQuakeLevel": 1,
+			"mTargetQuakeLevel": 1,
+			"mDuration": 20.0,
+			"mAmbientNoise": {
+				"mLabel": "SE_AMB_OP_DUNGEON_COLLAPSE",
+				"mFadeoutTime": 1.0
+			}
+		}
+	]
+}

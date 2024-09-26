@@ -1,0 +1,2656 @@
+{
+	"unk1": 3117758141,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "ItemDrop",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mKodamaKey",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mLotTable",
+			"typename": "__inline_struct_ItemDrop_mLotTable",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mType",
+					"typename": "Items",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 9,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mCookie",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mWeight",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 20,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mPinchKey",
+			"typename": "ItemDrop",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 9,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAllowBuffReplace",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mAllowRupeeReplace",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 57,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mRefsAreaHistory",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 58,
+			"directsize": 1,
+			"elemsize": 1
+		}
+	],
+	"rows": [
+		{
+			"mKey": "None",
+			"mKodamaKey": 0,
+			"mLotTable": [
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "NormalLow",
+			"mKodamaKey": 1,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 97
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "NormalMid",
+			"mKodamaKey": 2,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 90
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 5
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "NormalHigh",
+			"mKodamaKey": 3,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 6
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 87
+				},
+				{
+					"mType": "RupeeRed",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "SmoothieIngredient15",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 3
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "RupeeLow",
+			"mKodamaKey": 4,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 15
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 5
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 80
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "RupeeMid",
+			"mKodamaKey": 5,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 25
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeRed",
+					"mCookie": 0,
+					"mWeight": 0
+				},
+				{
+					"mType": "RupeePurple",
+					"mCookie": 0,
+					"mWeight": 0
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 65
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "RupeeHigh",
+			"mKodamaKey": 6,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 40
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 20
+				},
+				{
+					"mType": "RupeeRed",
+					"mCookie": 0,
+					"mWeight": 0
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 40
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Heart",
+			"mKodamaKey": 7,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "RupeeGreen",
+			"mKodamaKey": 8,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "RupeeBlue",
+			"mKodamaKey": 9,
+			"mLotTable": [
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "RupeeRed",
+			"mKodamaKey": 10,
+			"mLotTable": [
+				{
+					"mType": "RupeeRed",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "RupeePurple",
+			"mKodamaKey": 11,
+			"mLotTable": [
+				{
+					"mType": "RupeePurple",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "RupeeSilver",
+			"mKodamaKey": 12,
+			"mLotTable": [
+				{
+					"mType": "RupeeSilver",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "RupeeGold",
+			"mKodamaKey": 13,
+			"mLotTable": [
+				{
+					"mType": "RupeeGold",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "Fairy",
+			"mKodamaKey": 14,
+			"mLotTable": [
+				{
+					"mType": "Fairy",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "Bomb",
+			"mKodamaKey": 15,
+			"mLotTable": [
+				{
+					"mType": "Bomb",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "Arrow",
+			"mKodamaKey": 16,
+			"mLotTable": [
+				{
+					"mType": "Arrow",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": true
+		},
+		{
+			"mKey": "Grass",
+			"mKodamaKey": 17,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 189
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Ghini",
+			"mKodamaKey": 20,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 33
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 34
+				},
+				{
+					"mType": "Arrow",
+					"mCookie": 1,
+					"mWeight": 33
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 0
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Tree",
+			"mKodamaKey": 21,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 3,
+					"mWeight": 20
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 6,
+					"mWeight": 20
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 3,
+					"mWeight": 10
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 50
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Pinch",
+			"mKodamaKey": 22,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 15
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 84
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Pot",
+			"mKodamaKey": 23,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 65
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 34
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "PastePowerLow",
+			"mKodamaKey": 24,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 95
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 3,
+					"mWeight": 5
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "PastePowerMid",
+			"mKodamaKey": 25,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 3,
+					"mWeight": 65
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 5,
+					"mWeight": 35
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "PastePowerHigh",
+			"mKodamaKey": 26,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 5,
+					"mWeight": 30
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 8,
+					"mWeight": 70
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "OPDungeon",
+			"mKodamaKey": 27,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 20
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 80
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L001BossPot",
+			"mKodamaKey": 28,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "L001BossPinch",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L001BossPinch",
+			"mKodamaKey": 29,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HeartContainer2",
+			"mKodamaKey": 30,
+			"mLotTable": [
+				{
+					"mType": "HeartContainer",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HeartContainer3",
+			"mKodamaKey": 31,
+			"mLotTable": [
+				{
+					"mType": "HeartContainer",
+					"mCookie": 2,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HeartContainer4",
+			"mKodamaKey": 32,
+			"mLotTable": [
+				{
+					"mType": "HeartContainer",
+					"mCookie": 3,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HeartContainer5",
+			"mKodamaKey": 33,
+			"mLotTable": [
+				{
+					"mType": "HeartContainer",
+					"mCookie": 4,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HeartContainer6",
+			"mKodamaKey": 34,
+			"mLotTable": [
+				{
+					"mType": "HeartContainer",
+					"mCookie": 5,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "PastePowerMid2",
+			"mKodamaKey": 35,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 2,
+					"mWeight": 70
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LanmolaRock",
+			"mKodamaKey": 36,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 90
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LanmolaPot",
+			"mKodamaKey": 37,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LanmolaEnemy",
+			"mKodamaKey": 38,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 20
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 80
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L002BossCrack",
+			"mKodamaKey": 39,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 50
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 2,
+					"mWeight": 20
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe38",
+			"mKodamaKey": 40,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 38,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe39",
+			"mKodamaKey": 41,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 39,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ForestGrass",
+			"mKodamaKey": 42,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 189
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L003BossSand",
+			"mKodamaKey": 43,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 40
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 40
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 2,
+					"mWeight": 0
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 20
+				}
+			],
+			"mPinchKey": "L003BossSandP",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L003BossSandB",
+			"mKodamaKey": 44,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 3,
+					"mWeight": 50
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 20
+				}
+			],
+			"mPinchKey": "L003BossSandBP",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L003BossSandP",
+			"mKodamaKey": 45,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 80
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 20
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L003BossSandBP",
+			"mKodamaKey": 46,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 80
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 3,
+					"mWeight": 20
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LawnVolcano",
+			"mKodamaKey": 47,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 189
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe37",
+			"mKodamaKey": 48,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 37,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LinkBarricade",
+			"mKodamaKey": 49,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 5,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe59",
+			"mKodamaKey": 50,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 59,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe02",
+			"mKodamaKey": 51,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 2,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe35",
+			"mKodamaKey": 52,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 35,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemQuest00",
+			"mKodamaKey": 53,
+			"mLotTable": [
+				{
+					"mType": "ItemQuest00",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "GanonOPFirebat",
+			"mKodamaKey": 54,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "GanonFirebat",
+			"mKodamaKey": 55,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe45",
+			"mKodamaKey": 56,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 45,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe36",
+			"mKodamaKey": 57,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 36,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe41",
+			"mKodamaKey": 58,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 41,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe46",
+			"mKodamaKey": 59,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 46,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe44",
+			"mKodamaKey": 60,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 44,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "L004BlockCrack",
+			"mKodamaKey": 61,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 7
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 2,
+					"mWeight": 10
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 70
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe43",
+			"mKodamaKey": 62,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 43,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemQuest01",
+			"mKodamaKey": 63,
+			"mLotTable": [
+				{
+					"mType": "ItemQuest01",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemQuest02",
+			"mKodamaKey": 64,
+			"mLotTable": [
+				{
+					"mType": "ItemQuest02",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemQuest03",
+			"mKodamaKey": 65,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemQuest04",
+			"mKodamaKey": 66,
+			"mLotTable": [
+				{
+					"mType": "ItemQuest04",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemQuest05",
+			"mKodamaKey": 67,
+			"mLotTable": [
+				{
+					"mType": "ItemQuest05",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemQuest06",
+			"mKodamaKey": 68,
+			"mLotTable": [
+				{
+					"mType": "ItemQuest06",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LinkArcherDrop",
+			"mKodamaKey": 70,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 4,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Volvagia",
+			"mKodamaKey": 71,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 3,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe19",
+			"mKodamaKey": 72,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 19,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "DeguZolRock",
+			"mKodamaKey": 73,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 70
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "DeguZolDead",
+			"mKodamaKey": 74,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 2,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe65",
+			"mKodamaKey": 75,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 65,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe32",
+			"mKodamaKey": 76,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 32,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "GoodItem",
+			"mKodamaKey": 77,
+			"mLotTable": [
+				{
+					"mType": "RupeeRed",
+					"mCookie": 1,
+					"mWeight": 60
+				},
+				{
+					"mType": "RupeePurple",
+					"mCookie": 1,
+					"mWeight": 40
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "FreblazeDrop",
+			"mKodamaKey": 78,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 4,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe66",
+			"mKodamaKey": 79,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 66,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe67",
+			"mKodamaKey": 80,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 67,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe68",
+			"mKodamaKey": 81,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 68,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HeartPiece38",
+			"mKodamaKey": 82,
+			"mLotTable": [
+				{
+					"mType": "HeartPiece",
+					"mCookie": 38,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe69",
+			"mKodamaKey": 83,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 69,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Pot_LF010",
+			"mKodamaKey": 84,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 65
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 4,
+					"mWeight": 35
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "GerudoCityPot",
+			"mKodamaKey": 85,
+			"mLotTable": [
+				{
+					"mType": "SmoothieIngredient04",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "OBJ",
+			"mKodamaKey": 86,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 16
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "SmoothieIngredient02",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "SmoothieIngredient03",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "SmoothieIngredient05",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 295
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "SeaRiverEnemy",
+			"mKodamaKey": 87,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 64
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "SmoothieIngredient00",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "DesertEnemy",
+			"mKodamaKey": 88,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 64
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "SmoothieIngredient04",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Cactus",
+			"mKodamaKey": 89,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 46
+				},
+				{
+					"mType": "SmoothieIngredient07",
+					"mCookie": 1,
+					"mWeight": 51
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "VolcanoEnemy",
+			"mKodamaKey": 90,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 64
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "SmoothieIngredient08",
+					"mCookie": 1,
+					"mWeight": 15
+				},
+				{
+					"mType": "SmoothieIngredient09",
+					"mCookie": 1,
+					"mWeight": 15
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "JungleEnemy",
+			"mKodamaKey": 91,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 64
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "SmoothieIngredient03",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HebraEnemy",
+			"mKodamaKey": 92,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 64
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "SmoothieIngredient11",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "MoriblinLv1",
+			"mKodamaKey": 93,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 66
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "SmoothieIngredient12",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "SmoothieIngredient13",
+					"mCookie": 1,
+					"mWeight": 25
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "MoriblinLv2",
+			"mKodamaKey": 94,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 65
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "SmoothieIngredient12",
+					"mCookie": 1,
+					"mWeight": 5
+				},
+				{
+					"mType": "SmoothieIngredient13",
+					"mCookie": 1,
+					"mWeight": 25
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "MachineEnemy",
+			"mKodamaKey": 95,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 94
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 2
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Seaweed",
+			"mKodamaKey": 96,
+			"mLotTable": [
+				{
+					"mType": "SmoothieIngredient00",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 159
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe20",
+			"mKodamaKey": 97,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 20,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe29",
+			"mKodamaKey": 98,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 29,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe34",
+			"mKodamaKey": 99,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 34,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe49",
+			"mKodamaKey": 100,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 49,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LastBossMu00",
+			"mKodamaKey": 101,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 20
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 20
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LastBossMu02",
+			"mKodamaKey": 102,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 20
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 20
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "ItemMachine",
+			"mKodamaKey": 103,
+			"mLotTable": [
+				{
+					"mType": "ItemMainspring",
+					"mCookie": 1,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LastBossMu01",
+			"mKodamaKey": 104,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 50
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 50
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "EnemyZelda",
+			"mKodamaKey": 106,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 30
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "Rock",
+			"mKodamaKey": 107,
+			"mLotTable": [
+				{
+					"mType": "SmoothieIngredient09",
+					"mCookie": 1,
+					"mWeight": 30
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 158
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "GrassHeart",
+			"mKodamaKey": 108,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 5
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 184
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "GrassFairy",
+			"mKodamaKey": 109,
+			"mLotTable": [
+				{
+					"mType": "Fairy",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 186
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "GrassHeartFairy",
+			"mKodamaKey": 110,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 5
+				},
+				{
+					"mType": "Fairy",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 181
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "OBJ_Early",
+			"mKodamaKey": 111,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 188
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "OBJ_Sea",
+			"mKodamaKey": 112,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 16
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "SmoothieIngredient02",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "SmoothieIngredient03",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "SmoothieIngredient00",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 295
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "OBJ_Desert",
+			"mKodamaKey": 113,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 16
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "SmoothieIngredient02",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "SmoothieIngredient03",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "SmoothieIngredient04",
+					"mCookie": 1,
+					"mWeight": 28
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 295
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "HeartLow",
+			"mKodamaKey": 114,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 99
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "JabujabuExpDown",
+			"mKodamaKey": 115,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 3,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "MoriblinLv3",
+			"mKodamaKey": 116,
+			"mLotTable": [
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 55
+				},
+				{
+					"mType": "RupeeRed",
+					"mCookie": 1,
+					"mWeight": 5
+				},
+				{
+					"mType": "SmoothieIngredient15",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "SmoothieIngredient12",
+					"mCookie": 1,
+					"mWeight": 8
+				},
+				{
+					"mType": "SmoothieIngredient13",
+					"mCookie": 1,
+					"mWeight": 25
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 3
+				}
+			],
+			"mPinchKey": "Pinch",
+			"mAllowBuffReplace": true,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "PittyDig",
+			"mKodamaKey": 117,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 10
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 5
+				},
+				{
+					"mType": "RupeeRed",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "SmoothieIngredient08",
+					"mCookie": 1,
+					"mWeight": 192
+				},
+				{
+					"mType": "SmoothieIngredient09",
+					"mCookie": 1,
+					"mWeight": 191
+				},
+				{
+					"mType": "SmoothieIngredient13",
+					"mCookie": 1,
+					"mWeight": 1
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "WorldGlobe55",
+			"mKodamaKey": 118,
+			"mLotTable": [
+				{
+					"mType": "WorldGlobePiece",
+					"mCookie": 55,
+					"mWeight": 100
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LanmolaRock2",
+			"mKodamaKey": 119,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 7
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 93
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "LanmolaRock3",
+			"mKodamaKey": 120,
+			"mLotTable": [
+				{
+					"mType": "PastePowerLow",
+					"mCookie": 1,
+					"mWeight": 3
+				},
+				{
+					"mType": "",
+					"mCookie": 0,
+					"mWeight": 97
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": false,
+			"mRefsAreaHistory": false
+		},
+		{
+			"mKey": "OBJ_Hebra",
+			"mKodamaKey": 121,
+			"mLotTable": [
+				{
+					"mType": "RupeeGreen",
+					"mCookie": 1,
+					"mWeight": 27
+				},
+				{
+					"mType": "RupeeBlue",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "SmoothieIngredient02",
+					"mCookie": 1,
+					"mWeight": 27
+				},
+				{
+					"mType": "SmoothieIngredient03",
+					"mCookie": 1,
+					"mWeight": 27
+				},
+				{
+					"mType": "SmoothieIngredient11",
+					"mCookie": 1,
+					"mWeight": 54
+				},
+				{
+					"mType": "ItemMachineCoupon",
+					"mCookie": 1,
+					"mWeight": 1
+				},
+				{
+					"mType": "RecoveryHeart",
+					"mCookie": 1,
+					"mWeight": 2
+				},
+				{
+					"mType": "",
+					"mCookie": 1,
+					"mWeight": 260
+				}
+			],
+			"mPinchKey": "",
+			"mAllowBuffReplace": false,
+			"mAllowRupeeReplace": true,
+			"mRefsAreaHistory": false
+		}
+	]
+}

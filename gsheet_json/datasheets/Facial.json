@@ -1,0 +1,10290 @@
+{
+	"unk1": 3703588375,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Facial",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mMaterialAnimNames",
+			"typename": "__inline_struct_Facial_mMaterialAnimNames",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 48,
+			"elemsize": 48,
+			"subfields": [
+				{
+					"name": "mEye",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mMouth",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mOthers",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 32,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		},
+		{
+			"name": "mExpressions",
+			"typename": "__inline_struct_Facial_mExpressions",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 96,
+			"subfields": [
+				{
+					"name": "mLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mEyeFrame",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mMouthFrame",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 20,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mOtherFrames",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 24,
+					"directsize": 16,
+					"elemsize": 4
+				},
+				{
+					"name": "mEyeLength",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 40,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mMouthLength",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 44,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mOtherLengths",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 48,
+					"directsize": 16,
+					"elemsize": 4
+				},
+				{
+					"name": "mEyeBlinkFrame",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 64,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mEyeBlinkSettings",
+					"typename": "FacialSettings",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 1,
+					"offset": 72,
+					"directsize": 8,
+					"elemsize": 32,
+					"subfields": [
+						{
+							"name": "mKey",
+							"typename": "string",
+							"typeid": 4,
+							"typeflags1": 2,
+							"typeflags2": 4,
+							"offset": 0,
+							"directsize": 16,
+							"elemsize": 16
+						},
+						{
+							"name": "mOpen",
+							"typename": "__inline_struct_FacialSettings_mOpen",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 16,
+							"directsize": 8,
+							"elemsize": 8,
+							"subfields": [
+								{
+									"name": "mMin",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mRange",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 4,
+									"directsize": 4,
+									"elemsize": 4
+								}
+							]
+						},
+						{
+							"name": "mClose",
+							"typename": "__inline_struct_FacialSettings_mClose",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 24,
+							"directsize": 8,
+							"elemsize": 8,
+							"subfields": [
+								{
+									"name": "mMin",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mRange",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 4,
+									"directsize": 4,
+									"elemsize": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "mLipSyncCloseFrame",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 80,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mLipSyncOpenFrame",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 84,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mLipSyncSettings",
+					"typename": "FacialSettings",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 1,
+					"offset": 88,
+					"directsize": 8,
+					"elemsize": 32,
+					"subfields": [
+						{
+							"name": "mKey",
+							"typename": "string",
+							"typeid": 4,
+							"typeflags1": 2,
+							"typeflags2": 4,
+							"offset": 0,
+							"directsize": 16,
+							"elemsize": 16
+						},
+						{
+							"name": "mOpen",
+							"typename": "__inline_struct_FacialSettings_mOpen",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 16,
+							"directsize": 8,
+							"elemsize": 8,
+							"subfields": [
+								{
+									"name": "mMin",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mRange",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 4,
+									"directsize": 4,
+									"elemsize": 4
+								}
+							]
+						},
+						{
+							"name": "mClose",
+							"typename": "__inline_struct_FacialSettings_mClose",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 24,
+							"directsize": 8,
+							"elemsize": 8,
+							"subfields": [
+								{
+									"name": "mMin",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mRange",
+									"typename": "int",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 4,
+									"directsize": 4,
+									"elemsize": 4
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Link",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": [
+					"ear"
+				]
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "damage",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 4,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "get",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "attack_cm",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "attack_om",
+					"mEyeFrame": 10,
+					"mMouthFrame": 1,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "abyss",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 5,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 1,
+					"mMouthFrame": 1,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "d_jump",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "eat",
+					"mEyeFrame": 7,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 7,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "jump",
+					"mEyeFrame": 0,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "no_lift",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [
+						1
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 8,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "poke_enemy",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "powder",
+					"mEyeFrame": 0,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "pull_lp",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [
+						1
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 8,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "push",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 10,
+					"mMouthFrame": 10,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "vacant",
+					"mEyeFrame": 11,
+					"mMouthFrame": 11,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "depress",
+					"mEyeFrame": 12,
+					"mMouthFrame": 12,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "scared",
+					"mEyeFrame": 5,
+					"mMouthFrame": 3,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 5,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 3,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "excite",
+					"mEyeFrame": 13,
+					"mMouthFrame": 13,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "wakeup",
+					"mEyeFrame": 11,
+					"mMouthFrame": 9,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 11,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 9,
+					"mLipSyncOpenFrame": 9,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "dream",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 14,
+					"mMouthFrame": 4,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 14,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 0,
+					"mMouthFrame": 9,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "normal_talk",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Zelda",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": [
+					"ear"
+				]
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "damage",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 4,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "get",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "attack_cm",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "attack_om",
+					"mEyeFrame": 10,
+					"mMouthFrame": 1,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "abyss",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 5,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 1,
+					"mMouthFrame": 1,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "d_jump",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "eat",
+					"mEyeFrame": 7,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 7,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "jump",
+					"mEyeFrame": 0,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "no_lift",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [
+						1
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 8,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "poke_enemy",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "powder",
+					"mEyeFrame": 0,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "pull_lp",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [
+						1
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 8,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "push",
+					"mEyeFrame": 10,
+					"mMouthFrame": 2,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 10,
+					"mMouthFrame": 10,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 16,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "vacant",
+					"mEyeFrame": 11,
+					"mMouthFrame": 11,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "depress",
+					"mEyeFrame": 12,
+					"mMouthFrame": 12,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "scared",
+					"mEyeFrame": 5,
+					"mMouthFrame": 3,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 5,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 3,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "excite",
+					"mEyeFrame": 13,
+					"mMouthFrame": 13,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "wakeup",
+					"mEyeFrame": 11,
+					"mMouthFrame": 9,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 11,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 9,
+					"mLipSyncOpenFrame": 9,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "dream",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "slightly_om",
+					"mEyeFrame": 0,
+					"mMouthFrame": 18,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 14,
+					"mMouthFrame": 4,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 14,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "hot",
+					"mEyeFrame": 16,
+					"mMouthFrame": 6,
+					"mOtherFrames": [
+						1
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 16,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 6,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "cold",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 6,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 6,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "warm",
+					"mEyeFrame": 1,
+					"mMouthFrame": 7,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 7,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "anxiety_cm",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 6,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 6,
+					"mLipSyncOpenFrame": 18,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "anxiety_om",
+					"mEyeFrame": 12,
+					"mMouthFrame": 11,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 12,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 6,
+					"mLipSyncOpenFrame": 11,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "smile_noOpen",
+					"mEyeFrame": 0,
+					"mMouthFrame": 12,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 15,
+					"mMouthFrame": 15,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "serious_few",
+					"mEyeFrame": 0,
+					"mMouthFrame": 13,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "ed_smile_talk",
+					"mEyeFrame": 0,
+					"mMouthFrame": 7,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 17,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "ending_smile",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 7,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 17,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise_cm",
+					"mEyeFrame": 18,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 18,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "normal_om",
+					"mEyeFrame": 0,
+					"mMouthFrame": 16,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 16,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "farewell_om",
+					"mEyeFrame": 12,
+					"mMouthFrame": 18,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 12,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 18,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sadsmile",
+					"mEyeFrame": 6,
+					"mMouthFrame": 12,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 6,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 12,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Hylian",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 6,
+					"mMouthFrame": 8,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Goron",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth|Facial",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 9,
+					"mLipSyncOpenFrame": 10,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Gerudo",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "wink",
+					"mEyeFrame": 7,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "ZoraSea",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "ZoraRiver",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "MinisterRight",
+			"mMaterialAnimNames": {
+				"mEye": "eye|Facial",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 9,
+					"mLipSyncOpenFrame": 10,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 9,
+					"mMouthFrame": 10,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "MinisterLeft",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 9,
+					"mLipSyncOpenFrame": 10,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 9,
+					"mMouthFrame": 10,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "HyruleKing",
+			"mMaterialAnimNames": {
+				"mEye": "eye|Facial",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 5,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 7,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 8,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 9,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "think",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 8,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "imposter_normal",
+					"mEyeFrame": 10,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "imposter_smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "imposter_angry",
+					"mEyeFrame": 11,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Impa",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 4,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 5,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 6,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GerudoChief",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 10,
+					"mLipSyncOpenFrame": 9,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "think",
+					"mEyeFrame": 11,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GerudoChiefsDaughter",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 10,
+					"mLipSyncOpenFrame": 9,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "ZoraSeaChief",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 10,
+					"mLipSyncOpenFrame": 9,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "trollface",
+					"mEyeFrame": 11,
+					"mMouthFrame": 11,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 11,
+					"mLipSyncOpenFrame": 12,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "play",
+					"mEyeFrame": 13,
+					"mMouthFrame": 13,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "ZoraRiverChief",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "rage",
+					"mEyeFrame": 7,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "trollface",
+					"mEyeFrame": 8,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "play",
+					"mEyeFrame": 9,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GreatFairy",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprize",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 5,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "big_laugh",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "scornful_eyes",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 7,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "grin",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GoronChief",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth|Facial",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sadNoLipSync",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 9,
+					"mLipSyncOpenFrame": 10,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 9,
+					"mMouthFrame": 12,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "frown",
+					"mEyeFrame": 0,
+					"mMouthFrame": 11,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 11,
+					"mLipSyncOpenFrame": 11,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GoronOldChief",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth|Facial",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "bigsmile",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 7,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 9,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 9,
+					"mLipSyncOpenFrame": 9,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 11,
+					"mMouthFrame": 11,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 10,
+					"mLipSyncOpenFrame": 11,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GerudoAide000",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 6,
+					"mLipSyncOpenFrame": 7,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 8,
+					"mMouthFrame": 9,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GerudoAide001",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 6,
+					"mLipSyncOpenFrame": 7,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "GerudoAide002",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 4,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 6,
+					"mLipSyncOpenFrame": 7,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 8,
+					"mMouthFrame": 8,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 8,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "down",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "freeze",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat000A",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat000B",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 3,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 4,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 4,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat000C",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 7,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 7,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 6,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat000D",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 9,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 10,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 9,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat000E",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 12,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 13,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 13,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 12,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat000F",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 15,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 16,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 16,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 15,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat001A",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat001B",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 3,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 4,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 4,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat001C",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 7,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 7,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 6,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Cat001D",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 9,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 10,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 10,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 9,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Mouse",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "DekuMerchant",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "StampMan",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "mouth",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 3,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 3,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 4,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 4,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 5,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 5,
+					"mLipSyncOpenFrame": 1,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 6,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 6,
+					"mLipSyncSettings": {
+						"mKey": "StandardLipSync",
+						"mOpen": {
+							"mMin": 5,
+							"mRange": 5
+						},
+						"mClose": {
+							"mMin": 15,
+							"mRange": 5
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 1,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "wink",
+					"mEyeFrame": 7,
+					"mMouthFrame": 7,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 1,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "MachineEngineer",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": [
+					"ear"
+				]
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sad",
+					"mEyeFrame": 4,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "angry",
+					"mEyeFrame": 5,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						1
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "surprise",
+					"mEyeFrame": 6,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [
+						0
+					],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [
+						1
+					],
+					"mEyeBlinkFrame": 0,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		},
+		{
+			"mKey": "Yeti000",
+			"mMaterialAnimNames": {
+				"mEye": "eye",
+				"mMouth": "",
+				"mOthers": []
+			},
+			"mExpressions": [
+				{
+					"mLabel": "normal",
+					"mEyeFrame": 0,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "StandardEyeBlink",
+						"mOpen": {
+							"mMin": 180,
+							"mRange": 30
+						},
+						"mClose": {
+							"mMin": 4,
+							"mRange": 6
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "smile",
+					"mEyeFrame": 3,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 3,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				},
+				{
+					"mLabel": "sleep",
+					"mEyeFrame": 1,
+					"mMouthFrame": 0,
+					"mOtherFrames": [],
+					"mEyeLength": 1,
+					"mMouthLength": 0,
+					"mOtherLengths": [],
+					"mEyeBlinkFrame": 1,
+					"mEyeBlinkSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					},
+					"mLipSyncCloseFrame": 0,
+					"mLipSyncOpenFrame": 0,
+					"mLipSyncSettings": {
+						"mKey": "",
+						"mOpen": {
+							"mMin": 4464,
+							"mRange": 0
+						},
+						"mClose": {
+							"mMin": 3,
+							"mRange": 32
+						}
+					}
+				}
+			]
+		}
+	]
+}

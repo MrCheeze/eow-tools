@@ -1,0 +1,90 @@
+{
+	"unk1": 4146422249,
+	"unk2": [
+		1,
+		8,
+		4,
+		0
+	],
+	"sheetname": "UiSmoothieShops",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "SmoothieShopKind",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 20,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mShopSmoothieKind01",
+			"typename": "SmoothieKind",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 4,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mShopSmoothieKind02",
+			"typename": "SmoothieKind",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 8,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mShopSmoothieKind03",
+			"typename": "SmoothieKind",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 12,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mKey": 0,
+			"mShopSmoothieKind01": 49,
+			"mShopSmoothieKind02": 20,
+			"mShopSmoothieKind03": 70
+		},
+		{
+			"mKey": 1,
+			"mShopSmoothieKind01": 13,
+			"mShopSmoothieKind02": 70,
+			"mShopSmoothieKind03": 70
+		},
+		{
+			"mKey": 2,
+			"mShopSmoothieKind01": 31,
+			"mShopSmoothieKind02": 70,
+			"mShopSmoothieKind03": 70
+		},
+		{
+			"mKey": 3,
+			"mShopSmoothieKind01": 42,
+			"mShopSmoothieKind02": 70,
+			"mShopSmoothieKind03": 70
+		},
+		{
+			"mKey": 4,
+			"mShopSmoothieKind01": 7,
+			"mShopSmoothieKind02": 70,
+			"mShopSmoothieKind03": 70
+		},
+		{
+			"mKey": 5,
+			"mShopSmoothieKind01": 27,
+			"mShopSmoothieKind02": 70,
+			"mShopSmoothieKind03": 70
+		}
+	]
+}

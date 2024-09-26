@@ -1,0 +1,921 @@
+{
+	"unk1": 1269932240,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiOperation",
+	"fields": [
+		{
+			"name": "symbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "isEnable",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "operations",
+			"typename": "__inline_struct_UiOperation_operations",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "buttonType",
+					"typename": "DoActionButtonType",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "labelName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"symbol": "Blank",
+			"isEnable": true,
+			"operations": []
+		},
+		{
+			"symbol": "Carry",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Put"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Throw"
+				}
+			]
+		},
+		{
+			"symbol": "HorseGetOff",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_GetOff"
+				}
+			]
+		},
+		{
+			"symbol": "HorseAccel",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Acceleration"
+				}
+			]
+		},
+		{
+			"symbol": "HorseGetOffAndSync",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_UnSync"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_GetOff"
+				}
+			]
+		},
+		{
+			"symbol": "HorseAccelAndSync",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_UnSync"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Acceleration"
+				}
+			]
+		},
+		{
+			"symbol": "Pot",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 8,
+					"labelName": "ui/Operation:Operation_Move"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Out"
+				}
+			]
+		},
+		{
+			"symbol": "CopyDictionary",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "SwimTop",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Rise"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Dive"
+				}
+			]
+		},
+		{
+			"symbol": "Itemlist",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "Copylist",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 10,
+					"labelName": "ui/Operation:Operation_Dictionary"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "Sync",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_UnSync"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_SyncConfirmed"
+				}
+			]
+		},
+		{
+			"symbol": "SyncConfirmed",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_UnSync"
+				},
+				{
+					"buttonType": 9,
+					"labelName": "ui/Operation:Operation_SyncSwitch"
+				}
+			]
+		},
+		{
+			"symbol": "SyncUnopened",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_UnSync"
+				}
+			]
+		},
+		{
+			"symbol": "InSync",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_UnSync"
+				},
+				{
+					"buttonType": 5,
+					"labelName": "ui/Operation:Operation_SyncSwitch"
+				}
+			]
+		},
+		{
+			"symbol": "SyncReturn",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_UnSync"
+				},
+				{
+					"buttonType": 5,
+					"labelName": "ui/Operation:Operation_SyncSwitch_Return"
+				}
+			]
+		},
+		{
+			"symbol": "DungeonMap",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 17,
+					"labelName": "ui/Operation:Operation_ToTheOriginalWorld"
+				},
+				{
+					"buttonType": 16,
+					"labelName": "ui/Operation:Operation_Map_Zoom"
+				},
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_Filter"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_MapPin"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "FieldMap",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 16,
+					"labelName": "ui/Operation:Operation_Map_Zoom"
+				},
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_Filter"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_MapPin"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "ItemMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "CollectMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "DrinkMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "PrologueItemMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "Hanging",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Release"
+				}
+			]
+		},
+		{
+			"symbol": "ActorSelect",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 10,
+					"labelName": "ui/Operation:Operation_GoToDictionary"
+				},
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_Sort"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "ActorSelectDontReturn",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 10,
+					"labelName": "ui/Operation:Operation_GoToDictionary"
+				},
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_Sort"
+				}
+			]
+		},
+		{
+			"symbol": "Bed",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_GetUp"
+				}
+			]
+		},
+		{
+			"symbol": "DictionaryList",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Select"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "DictionaryExplanation",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 9,
+					"labelName": "ui/Operation:Operation_Dictionary_Rotate"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Dictionary_Reaction"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "Grasp",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 12,
+					"labelName": "ui/Operation:Operation_Turn"
+				}
+			]
+		},
+		{
+			"symbol": "GraspLever",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 20,
+					"labelName": "ui/Operation:Operation_Pull"
+				}
+			]
+		},
+		{
+			"symbol": "QuestMenu00",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_QuestMenu_SetDestination"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "DressUpMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "SkillMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "LongPressPasteCancel",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_Cancel"
+				}
+			]
+		},
+		{
+			"symbol": "DeleteAllCancel",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Cancel"
+				}
+			]
+		},
+		{
+			"symbol": "LongPressSyncCancel",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 7,
+					"labelName": "ui/Operation:Operation_Cancel"
+				}
+			]
+		},
+		{
+			"symbol": "TutorialModalOnly",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_TutorialModal_CloseUp"
+				}
+			]
+		},
+		{
+			"symbol": "TutorialModalPage1",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_TutorialModal_SendPage"
+				}
+			]
+		},
+		{
+			"symbol": "TutorialModalPage2",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_TutorialModal_SendPage"
+				}
+			]
+		},
+		{
+			"symbol": "TutorialModalPage3",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_TutorialModal_CloseUp"
+				}
+			]
+		},
+		{
+			"symbol": "QuestMenu01",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "SystemMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_OperationSwitching"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "SaveMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "LoadMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "OptionMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_OptionReset"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "TutorialMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "MachineSelect",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 10,
+					"labelName": "ui/Operation:Operation_GoToDictionary"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "MachineSelectDontReturn",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 10,
+					"labelName": "ui/Operation:Operation_GoToDictionary"
+				}
+			]
+		},
+		{
+			"symbol": "SmoothieMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_SelectRecipe"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "RecipeMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_MakeSmoothieMyself"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "SaveSlotMenu00",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 2,
+					"labelName": "ui/Operation:Operation_SaveSlot_Delete"
+				},
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_SaveSlot_Copy"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "SaveSlotMenu01",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 3,
+					"labelName": "ui/Operation:Operation_SaveSlot_Copy"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "SaveSlotMenu02",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				}
+			]
+		},
+		{
+			"symbol": "SaveSlotMenu03",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "MapPinSelect",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "MachineRepairSelect",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "AmiiboMenu",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "GeneralPurpose00",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				}
+			]
+		},
+		{
+			"symbol": "GeneralPurpose01",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "GeneralPurpose02",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "FieldMapFilter",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_Decision"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "DressUpMenuEquipment",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/DressUpMenu:DressUpMenu_Dialog_Equipment"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "DressUpMenuRemove",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 0,
+					"labelName": "ui/DressUpMenu:DressUpMenu_Dialog_Remove"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		},
+		{
+			"symbol": "LastDungeonMap",
+			"isEnable": true,
+			"operations": [
+				{
+					"buttonType": 16,
+					"labelName": "ui/Operation:Operation_Map_Zoom"
+				},
+				{
+					"buttonType": 0,
+					"labelName": "ui/Operation:Operation_MapPin"
+				},
+				{
+					"buttonType": 1,
+					"labelName": "ui/Operation:Operation_Return"
+				}
+			]
+		}
+	]
+}

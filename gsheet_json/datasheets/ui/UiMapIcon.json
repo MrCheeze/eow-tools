@@ -1,0 +1,618 @@
+{
+	"unk1": 3020768622,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIcon",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "UiMapIconType",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 20,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mLayoutName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 8,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAttachPaneName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mViewZoomLevel",
+			"typename": "UiMapIconViewZoomLevel",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 40,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mIsCursorOver",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 44,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mIsEnableSelect",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 45,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mSandStormStatus",
+			"typename": "UiMapIconSandStormStatus",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 48,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mScaleField",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 56,
+			"directsize": 16,
+			"elemsize": 4
+		},
+		{
+			"name": "mScaleDungeon",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 72,
+			"directsize": 16,
+			"elemsize": 4
+		},
+		{
+			"name": "mScaleBoundary",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 88,
+			"directsize": 16,
+			"elemsize": 4
+		},
+		{
+			"name": "mScaleMiniBoundary",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 104,
+			"directsize": 16,
+			"elemsize": 4
+		},
+		{
+			"name": "mDoActionLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 120,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mNameLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 136,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mOffsetY",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 152,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mKey": 3,
+			"mLayoutName": "MapIcon_Player.bflyt",
+			"mAttachPaneName": "N_Player_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": true,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.1,
+				1.05,
+				1.0
+			],
+			"mScaleDungeon": [
+				1.1,
+				1.05,
+				1.0
+			],
+			"mScaleBoundary": [
+				1.1,
+				1.05,
+				1.0
+			],
+			"mScaleMiniBoundary": [
+				1.1,
+				1.05,
+				1.0
+			],
+			"mDoActionLabel": "ui/Map:MapPin_DoAction_Put",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 9,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_GameOver_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mScaleDungeon": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mScaleBoundary": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mScaleMiniBoundary": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "ui/Map:MapIcon_Text25",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 1,
+			"mLayoutName": "MapIcon_CheckPoint.bflyt",
+			"mAttachPaneName": "N_CheckPoint_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": true,
+			"mSandStormStatus": 1,
+			"mScaleField": [
+				1.0,
+				1.1,
+				1.2
+			],
+			"mScaleDungeon": [
+				1.0,
+				1.1,
+				1.2
+			],
+			"mScaleBoundary": [
+				1.0,
+				1.1,
+				1.2
+			],
+			"mScaleMiniBoundary": [
+				1.0,
+				1.1,
+				1.2
+			],
+			"mDoActionLabel": "ui/Map:Map_OpenMenu",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 13,
+			"mLayoutName": "MapIcon_Flag.bflyt",
+			"mAttachPaneName": "N_Flag_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": true,
+			"mSandStormStatus": 1,
+			"mScaleField": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mScaleDungeon": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mScaleBoundary": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mScaleMiniBoundary": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mDoActionLabel": "ui/Map:MapPin_DoAction_Edit",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 10,
+			"mLayoutName": "MapIcon_Pin.bflyt",
+			"mAttachPaneName": "N_Pin_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": true,
+			"mSandStormStatus": 1,
+			"mScaleField": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mScaleDungeon": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mScaleBoundary": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mScaleMiniBoundary": [
+				0.9,
+				1.0,
+				1.1
+			],
+			"mDoActionLabel": "ui/Map:MapPin_DoAction_Edit",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 4,
+			"mLayoutName": "MapIcon_WarpPoint.bflyt",
+			"mAttachPaneName": "N_Warp_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": true,
+			"mSandStormStatus": 1,
+			"mScaleField": [
+				0.9,
+				1.1,
+				1.2
+			],
+			"mScaleDungeon": [
+				0.9,
+				1.1,
+				1.2
+			],
+			"mScaleBoundary": [
+				0.9,
+				1.1,
+				1.2
+			],
+			"mScaleMiniBoundary": [
+				0.9,
+				1.1,
+				1.2
+			],
+			"mDoActionLabel": "ui/Map:MapWarp_Abutton",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 11,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_Horse_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [],
+			"mScaleDungeon": [],
+			"mScaleBoundary": [],
+			"mScaleMiniBoundary": [],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 14,
+			"mLayoutName": "MapIcon_WorldGlobePieceSensor.bflyt",
+			"mAttachPaneName": "N_WGPSensor_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": false,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.0,
+				1.2,
+				1.4
+			],
+			"mScaleDungeon": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mScaleBoundary": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mScaleMiniBoundary": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 2,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_Land_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.1,
+				1.3,
+				1.4
+			],
+			"mScaleDungeon": [
+				1.0,
+				1.2,
+				1.5
+			],
+			"mScaleBoundary": [
+				1.0,
+				1.2,
+				1.5
+			],
+			"mScaleMiniBoundary": [
+				1.0,
+				1.2,
+				1.5
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 12,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_Item_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": false,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 1,
+			"mScaleField": [
+				1.0,
+				1.2,
+				1.4
+			],
+			"mScaleDungeon": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mScaleBoundary": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mScaleMiniBoundary": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 0,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_Actor_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": false,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.0,
+				1.2,
+				1.4
+			],
+			"mScaleDungeon": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mScaleBoundary": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mScaleMiniBoundary": [
+				1.2,
+				1.2,
+				1.4
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 8,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_Actor_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": false,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mScaleDungeon": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mScaleBoundary": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mScaleMiniBoundary": [
+				1.1,
+				1.2,
+				1.3
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 5,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_FloorChange_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": false,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.2,
+				1.3,
+				1.4
+			],
+			"mScaleDungeon": [
+				1.2,
+				1.3,
+				1.4
+			],
+			"mScaleBoundary": [
+				1.2,
+				1.3,
+				1.4
+			],
+			"mScaleMiniBoundary": [
+				1.2,
+				1.3,
+				1.4
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 6,
+			"mLayoutName": "MapIcon_Base.bflyt",
+			"mAttachPaneName": "N_LevelOpen_00",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": true,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 0,
+			"mScaleField": [
+				1.1,
+				1.3,
+				1.4
+			],
+			"mScaleDungeon": [
+				1.2,
+				1.3,
+				1.4
+			],
+			"mScaleBoundary": [
+				1.2,
+				1.3,
+				1.4
+			],
+			"mScaleMiniBoundary": [
+				1.2,
+				1.3,
+				1.4
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": 7,
+			"mLayoutName": "MapIcon_CrackActor.bflyt",
+			"mAttachPaneName": "",
+			"mViewZoomLevel": 0,
+			"mIsCursorOver": false,
+			"mIsEnableSelect": false,
+			"mSandStormStatus": 1,
+			"mScaleField": [
+				1.3,
+				1.4,
+				1.5
+			],
+			"mScaleDungeon": [
+				1.3,
+				1.4,
+				1.5
+			],
+			"mScaleBoundary": [
+				1.3,
+				1.4,
+				1.5
+			],
+			"mScaleMiniBoundary": [
+				1.3,
+				1.4,
+				1.5
+			],
+			"mDoActionLabel": "",
+			"mNameLabel": "",
+			"mOffsetY": 0.0
+		}
+	]
+}

@@ -1,0 +1,959 @@
+{
+	"unk1": 3662093337,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "EventVariables",
+	"fields": [
+		{
+			"name": "mLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mValues",
+			"typename": "__inline_struct_EventVariables_mValues",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 4,
+			"subfields": [
+				{
+					"name": "mLabel",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mLabel": "TEST1",
+			"mValues": [
+				{
+					"mLabel": 1760558932
+				},
+				{
+					"mLabel": 69690105
+				},
+				{
+					"mLabel": 2786264392
+				},
+				{
+					"mLabel": 3110174621
+				}
+			]
+		},
+		{
+			"mLabel": "OP_Dungeon",
+			"mValues": [
+				{
+					"mLabel": 955335550
+				},
+				{
+					"mLabel": 1281385200
+				},
+				{
+					"mLabel": 1279525274
+				},
+				{
+					"mLabel": 531802941
+				},
+				{
+					"mLabel": 2526625780
+				},
+				{
+					"mLabel": 1101033480
+				},
+				{
+					"mLabel": 3246976351
+				},
+				{
+					"mLabel": 3547397471
+				}
+			]
+		},
+		{
+			"mLabel": "HyruleCastle_LuberiHouse",
+			"mValues": [
+				{
+					"mLabel": 2553344500
+				},
+				{
+					"mLabel": 346028866
+				},
+				{
+					"mLabel": 3922121741
+				},
+				{
+					"mLabel": 2811354988
+				},
+				{
+					"mLabel": 2206281318
+				},
+				{
+					"mLabel": 478259525
+				},
+				{
+					"mLabel": 1841605288
+				},
+				{
+					"mLabel": 425213136
+				},
+				{
+					"mLabel": 3398887262
+				},
+				{
+					"mLabel": 2529992941
+				},
+				{
+					"mLabel": 361887586
+				},
+				{
+					"mLabel": 2384585407
+				},
+				{
+					"mLabel": 1084296349
+				},
+				{
+					"mLabel": 178609646
+				},
+				{
+					"mLabel": 2477526100
+				},
+				{
+					"mLabel": 3883717884
+				},
+				{
+					"mLabel": 35784108
+				},
+				{
+					"mLabel": 3287624113
+				},
+				{
+					"mLabel": 2094612789
+				},
+				{
+					"mLabel": 3008298474
+				},
+				{
+					"mLabel": 1530784116
+				},
+				{
+					"mLabel": 3115678743
+				},
+				{
+					"mLabel": 1290795765
+				},
+				{
+					"mLabel": 3666267468
+				},
+				{
+					"mLabel": 1055863140
+				},
+				{
+					"mLabel": 2882514372
+				},
+				{
+					"mLabel": 430356480
+				},
+				{
+					"mLabel": 3870260017
+				},
+				{
+					"mLabel": 404754367
+				}
+			]
+		},
+		{
+			"mLabel": "LuberiLvUpTalk",
+			"mValues": [
+				{
+					"mLabel": 2018833817
+				},
+				{
+					"mLabel": 788313743
+				},
+				{
+					"mLabel": 2848816309
+				}
+			]
+		},
+		{
+			"mLabel": "Desert",
+			"mValues": [
+				{
+					"mLabel": 3290227544
+				},
+				{
+					"mLabel": 2532035550
+				},
+				{
+					"mLabel": 3865206084
+				},
+				{
+					"mLabel": 2615099305
+				},
+				{
+					"mLabel": 1044197040
+				},
+				{
+					"mLabel": 2880710370
+				},
+				{
+					"mLabel": 3662817249
+				},
+				{
+					"mLabel": 50353145
+				},
+				{
+					"mLabel": 1934222219
+				},
+				{
+					"mLabel": 2558417032
+				},
+				{
+					"mLabel": 2008822710
+				},
+				{
+					"mLabel": 2078968925
+				},
+				{
+					"mLabel": 3490247671
+				},
+				{
+					"mLabel": 3585001119
+				},
+				{
+					"mLabel": 2785709393
+				},
+				{
+					"mLabel": 1979900250
+				},
+				{
+					"mLabel": 3890968399
+				},
+				{
+					"mLabel": 930187744
+				},
+				{
+					"mLabel": 1706005665
+				},
+				{
+					"mLabel": 58883905
+				},
+				{
+					"mLabel": 234374163
+				},
+				{
+					"mLabel": 1842242732
+				},
+				{
+					"mLabel": 745066307
+				},
+				{
+					"mLabel": 1043822324
+				},
+				{
+					"mLabel": 1443110790
+				}
+			]
+		},
+		{
+			"mLabel": "Desert_Crack_A",
+			"mValues": [
+				{
+					"mLabel": 407468483
+				},
+				{
+					"mLabel": 2737680573
+				},
+				{
+					"mLabel": 1209666494
+				}
+			]
+		},
+		{
+			"mLabel": "Desert_Crack_B",
+			"mValues": [
+				{
+					"mLabel": 2665286509
+				},
+				{
+					"mLabel": 986699452
+				},
+				{
+					"mLabel": 3522719167
+				},
+				{
+					"mLabel": 1043990145
+				}
+			]
+		},
+		{
+			"mLabel": "Desert_Crack_C",
+			"mValues": [
+				{
+					"mLabel": 1434573000
+				},
+				{
+					"mLabel": 4215343484
+				},
+				{
+					"mLabel": 276214399
+				}
+			]
+		},
+		{
+			"mLabel": "Coast_River",
+			"mValues": [
+				{
+					"mLabel": 2075186051
+				},
+				{
+					"mLabel": 1445080319
+				},
+				{
+					"mLabel": 1005827274
+				},
+				{
+					"mLabel": 3080686713
+				},
+				{
+					"mLabel": 3979756810
+				},
+				{
+					"mLabel": 276104939
+				},
+				{
+					"mLabel": 268800698
+				},
+				{
+					"mLabel": 2355312423
+				},
+				{
+					"mLabel": 3595934189
+				},
+				{
+					"mLabel": 2122875373
+				},
+				{
+					"mLabel": 2364775705
+				},
+				{
+					"mLabel": 1333737924
+				},
+				{
+					"mLabel": 2910472641
+				},
+				{
+					"mLabel": 1775022245
+				},
+				{
+					"mLabel": 2522966870
+				},
+				{
+					"mLabel": 138066480
+				},
+				{
+					"mLabel": 2098385247
+				},
+				{
+					"mLabel": 3390082581
+				},
+				{
+					"mLabel": 4035478163
+				},
+				{
+					"mLabel": 3171885588
+				},
+				{
+					"mLabel": 17648280
+				},
+				{
+					"mLabel": 2197812480
+				},
+				{
+					"mLabel": 4287266681
+				},
+				{
+					"mLabel": 4018665463
+				},
+				{
+					"mLabel": 4211698231
+				}
+			]
+		},
+		{
+			"mLabel": "Calamity_Coast",
+			"mValues": [
+				{
+					"mLabel": 3136974174
+				},
+				{
+					"mLabel": 928336285
+				},
+				{
+					"mLabel": 1451185699
+				},
+				{
+					"mLabel": 2290931515
+				},
+				{
+					"mLabel": 72847901
+				},
+				{
+					"mLabel": 3500809225
+				}
+			]
+		},
+		{
+			"mLabel": "Calamity_River",
+			"mValues": [
+				{
+					"mLabel": 2779090137
+				},
+				{
+					"mLabel": 2737573220
+				},
+				{
+					"mLabel": 3255177946
+				},
+				{
+					"mLabel": 1011063871
+				},
+				{
+					"mLabel": 2418988772
+				},
+				{
+					"mLabel": 1439233498
+				}
+			]
+		},
+		{
+			"mLabel": "Volcano",
+			"mValues": [
+				{
+					"mLabel": 527937337
+				},
+				{
+					"mLabel": 462064560
+				},
+				{
+					"mLabel": 3637142808
+				},
+				{
+					"mLabel": 1185195103
+				},
+				{
+					"mLabel": 2252136208
+				},
+				{
+					"mLabel": 1354458768
+				},
+				{
+					"mLabel": 1172601107
+				},
+				{
+					"mLabel": 4182818630
+				},
+				{
+					"mLabel": 1727991118
+				},
+				{
+					"mLabel": 833297561
+				},
+				{
+					"mLabel": 3354662517
+				},
+				{
+					"mLabel": 3410281107
+				},
+				{
+					"mLabel": 1507786808
+				},
+				{
+					"mLabel": 2724487074
+				},
+				{
+					"mLabel": 3860383934
+				},
+				{
+					"mLabel": 1234858987
+				},
+				{
+					"mLabel": 101165827
+				},
+				{
+					"mLabel": 1816244391
+				},
+				{
+					"mLabel": 103143046
+				},
+				{
+					"mLabel": 333782485
+				},
+				{
+					"mLabel": 3953606418
+				},
+				{
+					"mLabel": 637182965
+				},
+				{
+					"mLabel": 1474105390
+				}
+			]
+		},
+		{
+			"mLabel": "VolcanoPointA",
+			"mValues": [
+				{
+					"mLabel": 2787867768
+				},
+				{
+					"mLabel": 3399862492
+				},
+				{
+					"mLabel": 3278417433
+				},
+				{
+					"mLabel": 2357603538
+				},
+				{
+					"mLabel": 1729718027
+				},
+				{
+					"mLabel": 1716781276
+				},
+				{
+					"mLabel": 36325163
+				}
+			]
+		},
+		{
+			"mLabel": "VolcanoPointB",
+			"mValues": [
+				{
+					"mLabel": 549392086
+				},
+				{
+					"mLabel": 4216181313
+				},
+				{
+					"mLabel": 1909955747
+				},
+				{
+					"mLabel": 541829843
+				},
+				{
+					"mLabel": 1791522085
+				},
+				{
+					"mLabel": 2281334597
+				},
+				{
+					"mLabel": 1518538330
+				},
+				{
+					"mLabel": 1166687739
+				}
+			]
+		},
+		{
+			"mLabel": "LanmolaLevel",
+			"mValues": [
+				{
+					"mLabel": 964892126
+				},
+				{
+					"mLabel": 2693416036
+				},
+				{
+					"mLabel": 3616371954
+				},
+				{
+					"mLabel": 3521512674
+				}
+			]
+		},
+		{
+			"mLabel": "Midpoint",
+			"mValues": [
+				{
+					"mLabel": 3048836015
+				},
+				{
+					"mLabel": 1333872236
+				},
+				{
+					"mLabel": 2815898635
+				},
+				{
+					"mLabel": 4221713223
+				},
+				{
+					"mLabel": 2319019637
+				},
+				{
+					"mLabel": 855587140
+				},
+				{
+					"mLabel": 2930961825
+				},
+				{
+					"mLabel": 1575969516
+				},
+				{
+					"mLabel": 3289377397
+				},
+				{
+					"mLabel": 2223612379
+				},
+				{
+					"mLabel": 1007394733
+				},
+				{
+					"mLabel": 2052037484
+				},
+				{
+					"mLabel": 3613805900
+				},
+				{
+					"mLabel": 2895641642
+				},
+				{
+					"mLabel": 1241305819
+				},
+				{
+					"mLabel": 3868392447
+				},
+				{
+					"mLabel": 3945920652
+				},
+				{
+					"mLabel": 2082813777
+				},
+				{
+					"mLabel": 2412815200
+				},
+				{
+					"mLabel": 1911838744
+				},
+				{
+					"mLabel": 1048050120
+				},
+				{
+					"mLabel": 2478168384
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceDifficulty",
+			"mValues": [
+				{
+					"mLabel": 3914347945
+				},
+				{
+					"mLabel": 640249298
+				},
+				{
+					"mLabel": 1629991148
+				}
+			]
+		},
+		{
+			"mLabel": "HorseRaceCheckpoint",
+			"mValues": [
+				{
+					"mLabel": 2832220781
+				},
+				{
+					"mLabel": 4192740561
+				},
+				{
+					"mLabel": 2398032967
+				},
+				{
+					"mLabel": 400967165
+				},
+				{
+					"mLabel": 1625388395
+				},
+				{
+					"mLabel": 4270186696
+				},
+				{
+					"mLabel": 2307051614
+				},
+				{
+					"mLabel": 277578212
+				},
+				{
+					"mLabel": 1737273714
+				},
+				{
+					"mLabel": 4147358947
+				},
+				{
+					"mLabel": 2150931573
+				},
+				{
+					"mLabel": 3774027152
+				}
+			]
+		},
+		{
+			"mLabel": "MiniGameAcornProgress",
+			"mValues": [
+				{
+					"mLabel": 3751981041
+				},
+				{
+					"mLabel": 499806853
+				},
+				{
+					"mLabel": 951154001
+				}
+			]
+		},
+		{
+			"mLabel": "MiniGameAcornsNum",
+			"mValues": [
+				{
+					"mLabel": 3291149245
+				},
+				{
+					"mLabel": 3006120747
+				},
+				{
+					"mLabel": 707039889
+				},
+				{
+					"mLabel": 1562616327
+				},
+				{
+					"mLabel": 3276224420
+				},
+				{
+					"mLabel": 3024095026
+				},
+				{
+					"mLabel": 759781000
+				},
+				{
+					"mLabel": 1515087390
+				},
+				{
+					"mLabel": 3404823439
+				},
+				{
+					"mLabel": 3187034905
+				},
+				{
+					"mLabel": 3711025916
+				},
+				{
+					"mLabel": 2855727722
+				},
+				{
+					"mLabel": 859808720
+				},
+				{
+					"mLabel": 1144558406
+				},
+				{
+					"mLabel": 3663464165
+				},
+				{
+					"mLabel": 2908436083
+				},
+				{
+					"mLabel": 877815753
+				},
+				{
+					"mLabel": 1129666399
+				},
+				{
+					"mLabel": 3555347150
+				},
+				{
+					"mLabel": 2767026776
+				}
+			]
+		},
+		{
+			"mLabel": "GerudoMiniGameDifficulty",
+			"mValues": [
+				{
+					"mLabel": 2913760288
+				},
+				{
+					"mLabel": 2569969216
+				},
+				{
+					"mLabel": 3901828969
+				},
+				{
+					"mLabel": 291052293
+				}
+			]
+		},
+		{
+			"mLabel": "GerudoMiniGameScore",
+			"mValues": [
+				{
+					"mLabel": 3810815734
+				},
+				{
+					"mLabel": 3597973756
+				},
+				{
+					"mLabel": 2733330959
+				}
+			]
+		},
+		{
+			"mLabel": "SnowyMountains",
+			"mValues": [
+				{
+					"mLabel": 2518263769
+				},
+				{
+					"mLabel": 2340887167
+				},
+				{
+					"mLabel": 472473448
+				},
+				{
+					"mLabel": 466449466
+				},
+				{
+					"mLabel": 3942518967
+				}
+			]
+		},
+		{
+			"mLabel": "Jungle",
+			"mValues": [
+				{
+					"mLabel": 4046942846
+				},
+				{
+					"mLabel": 2625441197
+				},
+				{
+					"mLabel": 131701000
+				},
+				{
+					"mLabel": 1409972566
+				},
+				{
+					"mLabel": 425818924
+				}
+			]
+		},
+		{
+			"mLabel": "WarpCount",
+			"mValues": [
+				{
+					"mLabel": 3405890653
+				},
+				{
+					"mLabel": 3486035895
+				},
+				{
+					"mLabel": 1455554061
+				},
+				{
+					"mLabel": 566677147
+				},
+				{
+					"mLabel": 3215088440
+				},
+				{
+					"mLabel": 3366284206
+				},
+				{
+					"mLabel": 2592511565
+				}
+			]
+		},
+		{
+			"mLabel": "LastDungeon",
+			"mValues": [
+				{
+					"mLabel": 180461888
+				},
+				{
+					"mLabel": 1973410502
+				},
+				{
+					"mLabel": 868176213
+				},
+				{
+					"mLabel": 3474672201
+				},
+				{
+					"mLabel": 324930744
+				},
+				{
+					"mLabel": 721740190
+				},
+				{
+					"mLabel": 3401986107
+				},
+				{
+					"mLabel": 1367956526
+				},
+				{
+					"mLabel": 4054912678
+				},
+				{
+					"mLabel": 1511324440
+				},
+				{
+					"mLabel": 484825290
+				},
+				{
+					"mLabel": 929402173
+				},
+				{
+					"mLabel": 928406339
+				},
+				{
+					"mLabel": 1355103998
+				},
+				{
+					"mLabel": 2534190080
+				},
+				{
+					"mLabel": 1215263039
+				},
+				{
+					"mLabel": 637992014
+				},
+				{
+					"mLabel": 1388816485
+				},
+				{
+					"mLabel": 1006510195
+				}
+			]
+		}
+	]
+}

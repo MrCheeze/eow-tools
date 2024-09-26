@@ -1,0 +1,74 @@
+{
+	"unk1": 1986958911,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "RegionItemDrop",
+	"fields": [
+		{
+			"name": "mRegion",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDropTableKeyPot",
+			"typename": "ItemDrop",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 9,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDropTableKeyBoxWooden",
+			"typename": "ItemDrop",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 9,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mRegion": "NoEffect",
+			"mDropTableKeyPot": "",
+			"mDropTableKeyBoxWooden": ""
+		},
+		{
+			"mRegion": "Forest",
+			"mDropTableKeyPot": "NormalLow",
+			"mDropTableKeyBoxWooden": "NormalLow"
+		},
+		{
+			"mRegion": "Sea",
+			"mDropTableKeyPot": "OBJ_Sea",
+			"mDropTableKeyBoxWooden": "OBJ_Sea"
+		},
+		{
+			"mRegion": "Desert",
+			"mDropTableKeyPot": "OBJ_Desert",
+			"mDropTableKeyBoxWooden": "OBJ_Desert"
+		},
+		{
+			"mRegion": "Early",
+			"mDropTableKeyPot": "OBJ_Early",
+			"mDropTableKeyBoxWooden": "OBJ_Early"
+		},
+		{
+			"mRegion": "Hebra",
+			"mDropTableKeyPot": "OBJ_Hebra",
+			"mDropTableKeyBoxWooden": "OBJ_Hebra"
+		}
+	]
+}

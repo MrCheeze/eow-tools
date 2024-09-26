@@ -1,0 +1,1051 @@
+{
+	"unk1": 3400388469,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "PartnerPhotons",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mPartnerPhotonsTable",
+			"typename": "__inline_struct_PartnerPhotons_mPartnerPhotonsTable",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mIndex",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mNumOfRelease",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mFlag",
+					"typename": "GlobalFlags",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		},
+		{
+			"name": "mClearFlag",
+			"typename": "GlobalFlags",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 8,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEntryPointNameFirst",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEntryPointNameInfomation",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEntryPointNameComplete",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 80,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEntryPointNameCompleteImmediate",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 96,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEntryPointNameCleared",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 112,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mUiTitleLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 128,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mUiCaptionLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 144,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mUiTextureName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 160,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mGaugeStartFlag",
+			"typename": "GlobalFlags",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 8,
+			"offset": 176,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mGaugeEnabledLevels",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 192,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mWarpLevelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 208,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mWarpLocationName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 224,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "isBoss",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 240,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mPlayReportIndex",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 244,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mKey": "S101",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 1,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_001"
+				},
+				{
+					"mIndex": 2,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_002"
+				},
+				{
+					"mIndex": 3,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_003"
+				},
+				{
+					"mIndex": 4,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_004"
+				},
+				{
+					"mIndex": 5,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_005"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_001",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_river",
+			"mEntryPointNameCompleteImmediate": "Retern_S101",
+			"mEntryPointNameCleared": "Complete_river",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_000",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_000",
+			"mUiTextureName": "QuestPartner_00",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_001",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon101",
+				"BS_Dungeon003"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "SolvingCalamity_River",
+			"isBoss": false,
+			"mPlayReportIndex": 0
+		},
+		{
+			"mKey": "S103",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 6,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_006"
+				},
+				{
+					"mIndex": 7,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_007"
+				},
+				{
+					"mIndex": 8,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_008"
+				},
+				{
+					"mIndex": 60,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_060"
+				},
+				{
+					"mIndex": 62,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_062"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_002",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_desert",
+			"mEntryPointNameCompleteImmediate": "Retern_S103",
+			"mEntryPointNameCleared": "Complete_desert",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_001",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_001",
+			"mUiTextureName": "QuestPartner_01",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_002",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon103",
+				"BS_Dungeon018"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "DesertMIniBoundary",
+			"isBoss": false,
+			"mPlayReportIndex": 1
+		},
+		{
+			"mKey": "S105",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 9,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_009"
+				},
+				{
+					"mIndex": 10,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_010"
+				},
+				{
+					"mIndex": 11,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_011"
+				},
+				{
+					"mIndex": 61,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_061"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_003",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_volcano",
+			"mEntryPointNameCompleteImmediate": "Retern_S105",
+			"mEntryPointNameCleared": "Complete_volcano",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_002",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_002",
+			"mUiTextureName": "QuestPartner_02",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_003",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon105",
+				"BS_Dungeon004"
+			],
+			"mWarpLevelName": "GoronVillage",
+			"mWarpLocationName": "DepartureGoronChief",
+			"isBoss": false,
+			"mPlayReportIndex": 2
+		},
+		{
+			"mKey": "S056",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 15,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_015"
+				},
+				{
+					"mIndex": 16,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_016"
+				},
+				{
+					"mIndex": 17,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_017"
+				},
+				{
+					"mIndex": 18,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_018"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_005",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_Firstforest",
+			"mEntryPointNameCompleteImmediate": "Retern_S056",
+			"mEntryPointNameCleared": "Complete_Firstforest",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_004",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_004",
+			"mUiTextureName": "QuestPartner_04",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_005",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon056"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "F_Forest_007_warp",
+			"isBoss": false,
+			"mPlayReportIndex": 3
+		},
+		{
+			"mKey": "S053",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 19,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_019"
+				},
+				{
+					"mIndex": 20,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_020"
+				},
+				{
+					"mIndex": 21,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_021"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_006",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S053",
+			"mEntryPointNameCompleteImmediate": "Retern_S053",
+			"mEntryPointNameCleared": "Complete_S053",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_005",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_005",
+			"mUiTextureName": "QuestPartner_05",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_006",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon053",
+				"SDungeon053House"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "Field_HyrulePlains_S053clear",
+			"isBoss": false,
+			"mPlayReportIndex": 4
+		},
+		{
+			"mKey": "S052",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 22,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_022"
+				},
+				{
+					"mIndex": 23,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_023"
+				},
+				{
+					"mIndex": 24,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_024"
+				},
+				{
+					"mIndex": 63,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_063"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_007",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S052",
+			"mEntryPointNameCompleteImmediate": "Retern_S052",
+			"mEntryPointNameCleared": "Complete_S052",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_006",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_006",
+			"mUiTextureName": "QuestPartner_06",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_007",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon052",
+				"BS_Dungeon015",
+				"BS_Dungeon014"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "EV_Field_GetHorse_Forest010_040",
+			"isBoss": false,
+			"mPlayReportIndex": 5
+		},
+		{
+			"mKey": "S030",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 25,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_025"
+				},
+				{
+					"mIndex": 26,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_026"
+				},
+				{
+					"mIndex": 27,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_027"
+				},
+				{
+					"mIndex": 28,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_028"
+				},
+				{
+					"mIndex": 29,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_029"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_008",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S030",
+			"mEntryPointNameCompleteImmediate": "Retern_S030",
+			"mEntryPointNameCleared": "Complete_S030",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_007",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_007",
+			"mUiTextureName": "QuestPartner_07",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_008",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon030",
+				"BS_Dungeon008"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "Ev_SolutionIncorrectCrackB",
+			"isBoss": false,
+			"mPlayReportIndex": 6
+		},
+		{
+			"mKey": "S029",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 30,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_030"
+				},
+				{
+					"mIndex": 31,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_031"
+				},
+				{
+					"mIndex": 32,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_032"
+				},
+				{
+					"mIndex": 33,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_033"
+				},
+				{
+					"mIndex": 34,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_034"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_009",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S029",
+			"mEntryPointNameCompleteImmediate": "Retern_S029",
+			"mEntryPointNameCleared": "Complete_S029",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_008",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_008",
+			"mUiTextureName": "QuestPartner_08",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_009",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon029",
+				"BS_Dungeon007"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "Ev_DekusAngry",
+			"isBoss": false,
+			"mPlayReportIndex": 7
+		},
+		{
+			"mKey": "S050",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 35,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_035"
+				},
+				{
+					"mIndex": 36,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_036"
+				},
+				{
+					"mIndex": 37,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_037"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_010",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S050",
+			"mEntryPointNameCompleteImmediate": "Retern_S050",
+			"mEntryPointNameCleared": "Complete_S050",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_009",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_009",
+			"mUiTextureName": "QuestPartner_09",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_010",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon050"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "Field_HyruleLake_006_warp",
+			"isBoss": false,
+			"mPlayReportIndex": 8
+		},
+		{
+			"mKey": "S108",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 38,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_038"
+				},
+				{
+					"mIndex": 39,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_039"
+				},
+				{
+					"mIndex": 40,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_040"
+				},
+				{
+					"mIndex": 41,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_041"
+				},
+				{
+					"mIndex": 42,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_042"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_011",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S108",
+			"mEntryPointNameCompleteImmediate": "Retern_S108",
+			"mEntryPointNameCleared": "Complete_S108",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_010",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_010",
+			"mUiTextureName": "QuestPartner_10",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_011",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon108"
+			],
+			"mWarpLevelName": "S_Dungeon107",
+			"mWarpLocationName": "HelpConde",
+			"isBoss": false,
+			"mPlayReportIndex": 9
+		},
+		{
+			"mKey": "S057",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 43,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_043"
+				},
+				{
+					"mIndex": 44,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_044"
+				},
+				{
+					"mIndex": 45,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_045"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_012",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S057",
+			"mEntryPointNameCompleteImmediate": "Retern_S057",
+			"mEntryPointNameCleared": "Complete_S057",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_011",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_011",
+			"mUiTextureName": "QuestPartner_11",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_012",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon057"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "Field_SnowyMountain_MiniBoundary057_warp",
+			"isBoss": false,
+			"mPlayReportIndex": 10
+		},
+		{
+			"mKey": "S055",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 46,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_046"
+				},
+				{
+					"mIndex": 47,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_047"
+				},
+				{
+					"mIndex": 48,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_048"
+				},
+				{
+					"mIndex": 64,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_064"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_013",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S055",
+			"mEntryPointNameCompleteImmediate": "Retern_S055",
+			"mEntryPointNameCleared": "Complete_S055",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_012",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_012",
+			"mUiTextureName": "QuestPartner_12",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_013",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon055",
+				"BS_Dungeon019"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "DesertFB1_warp",
+			"isBoss": false,
+			"mPlayReportIndex": 11
+		},
+		{
+			"mKey": "S054",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 49,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_049"
+				},
+				{
+					"mIndex": 50,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_050"
+				},
+				{
+					"mIndex": 51,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_051"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_014",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S054",
+			"mEntryPointNameCompleteImmediate": "Retern_S054",
+			"mEntryPointNameCleared": "Complete_S054",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_013",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_013",
+			"mUiTextureName": "QuestPartner_13",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_014",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon054",
+				"BS_Dungeon016"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "F_River002_S054_warp",
+			"isBoss": false,
+			"mPlayReportIndex": 12
+		},
+		{
+			"mKey": "S111",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 52,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_052"
+				},
+				{
+					"mIndex": 53,
+					"mNumOfRelease": 3,
+					"mFlag": "PartnerStrayGet_053"
+				},
+				{
+					"mIndex": 54,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_054"
+				},
+				{
+					"mIndex": 55,
+					"mNumOfRelease": 8,
+					"mFlag": "PartnerStrayGet_055"
+				},
+				{
+					"mIndex": 56,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_056"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_015",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S111",
+			"mEntryPointNameCompleteImmediate": "Retern_S111",
+			"mEntryPointNameCleared": "Complete_S111",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_014",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_014",
+			"mUiTextureName": "QuestPartner_14",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_015",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon111",
+				"BS_Dungeon017"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "Field_Volcano_011_warp",
+			"isBoss": false,
+			"mPlayReportIndex": 13
+		},
+		{
+			"mKey": "S051",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 57,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_057"
+				},
+				{
+					"mIndex": 58,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_058"
+				},
+				{
+					"mIndex": 59,
+					"mNumOfRelease": 5,
+					"mFlag": "PartnerStrayGet_059"
+				}
+			],
+			"mClearFlag": "WorldGlobeSmallActive_016",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Retern_S051",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess_004",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "Field",
+			"mWarpLocationName": "Field_NorthForest_002_warp",
+			"isBoss": false,
+			"mPlayReportIndex": 14
+		},
+		{
+			"mKey": "L001",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 100,
+					"mNumOfRelease": 100,
+					"mFlag": "PartnerStrayGet_100"
+				}
+			],
+			"mClearFlag": "PartnerStrayGet_100",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Complete",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "",
+			"mWarpLocationName": "",
+			"isBoss": true,
+			"mPlayReportIndex": 4294967295
+		},
+		{
+			"mKey": "L002",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 101,
+					"mNumOfRelease": 100,
+					"mFlag": "PartnerStrayGet_101"
+				}
+			],
+			"mClearFlag": "PartnerStrayGet_101",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Complete",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "",
+			"mWarpLocationName": "",
+			"isBoss": true,
+			"mPlayReportIndex": 4294967295
+		},
+		{
+			"mKey": "L003",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 102,
+					"mNumOfRelease": 100,
+					"mFlag": "PartnerStrayGet_102"
+				}
+			],
+			"mClearFlag": "PartnerStrayGet_102",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Complete",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "",
+			"mWarpLocationName": "",
+			"isBoss": true,
+			"mPlayReportIndex": 4294967295
+		},
+		{
+			"mKey": "L004",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 103,
+					"mNumOfRelease": 100,
+					"mFlag": "PartnerStrayGet_103"
+				}
+			],
+			"mClearFlag": "PartnerStrayGet_103",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Complete",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "",
+			"mWarpLocationName": "",
+			"isBoss": true,
+			"mPlayReportIndex": 4294967295
+		},
+		{
+			"mKey": "L005",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 104,
+					"mNumOfRelease": 100,
+					"mFlag": "PartnerStrayGet_104"
+				}
+			],
+			"mClearFlag": "PartnerStrayGet_104",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Complete",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "",
+			"mWarpLocationName": "",
+			"isBoss": true,
+			"mPlayReportIndex": 4294967295
+		},
+		{
+			"mKey": "L006",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 105,
+					"mNumOfRelease": 100,
+					"mFlag": "PartnerStrayGet_105"
+				}
+			],
+			"mClearFlag": "PartnerStrayGet_105",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Complete",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "",
+			"mWarpLocationName": "",
+			"isBoss": true,
+			"mPlayReportIndex": 4294967295
+		},
+		{
+			"mKey": "LCastle",
+			"mPartnerPhotonsTable": [
+				{
+					"mIndex": 106,
+					"mNumOfRelease": 100,
+					"mFlag": "PartnerStrayGet_106"
+				}
+			],
+			"mClearFlag": "PartnerStrayGet_106",
+			"mEntryPointNameFirst": "First",
+			"mEntryPointNameInfomation": "Information",
+			"mEntryPointNameComplete": "Complete_S051",
+			"mEntryPointNameCompleteImmediate": "Complete",
+			"mEntryPointNameCleared": "Complete_S051",
+			"mUiTitleLabel": "ui/MiniBoundary:BoundaryTitle_015",
+			"mUiCaptionLabel": "ui/MiniBoundary:BoundaryExplanation_015",
+			"mUiTextureName": "QuestPartner_15",
+			"mGaugeStartFlag": "WorldGlobeSmallAccess",
+			"mGaugeEnabledLevels": [
+				"S_Dungeon051"
+			],
+			"mWarpLevelName": "",
+			"mWarpLocationName": "",
+			"isBoss": true,
+			"mPlayReportIndex": 4294967295
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"unk1": 726802836,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Resolution",
+	"fields": [
+		{
+			"name": "mLevelname",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mConsoleResolution",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mHandheldResolution",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mLevelname": "Default",
+			"mConsoleResolution": "1408x792",
+			"mHandheldResolution": "1024x576"
+		}
+	]
+}

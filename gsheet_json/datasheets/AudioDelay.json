@@ -1,0 +1,102 @@
+{
+	"unk1": 1033577962,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "AudioDelay",
+	"fields": [
+		{
+			"name": "mPreset",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDelayTimeMax",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mFeedbackGain",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mDelayTime",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mInGain",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 28,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mDryGain",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mLowPassAmount",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mPreset": "DELAY_PRESET_00",
+			"mDelayTimeMax": 2500,
+			"mFeedbackGain": 0.6,
+			"mDelayTime": 160,
+			"mInGain": 0.6,
+			"mDryGain": 0.4,
+			"mLowPassAmount": 0.7
+		},
+		{
+			"mPreset": "DELAY_PRESET_01",
+			"mDelayTimeMax": 2000,
+			"mFeedbackGain": 0.4,
+			"mDelayTime": 250,
+			"mInGain": 0.4,
+			"mDryGain": 0.2,
+			"mLowPassAmount": 0.2
+		}
+	]
+}
