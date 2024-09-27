@@ -17,9 +17,9 @@ def assertZero(xs):
         assert x == 0
 
 sectionSpecs = [
-    {'name':'actors','itemsize':0x7C,'endalignment':True,'fields':'<fffhhfffffffffhhhhhhhhhhhhhhhhiiIhhhhhhhhhhhhhh'},
+    {'name':'actors','itemsize':0x7C,'endalignment':True,'fields':'<fffhhfffffffffhhhhhhhhhhhhhhhhihbbIhhhhhhhhhhhhbbh'},
     {'name':'empty1','itemsize':-1,'endalignment':True},
-    {'name':'unk2','itemsize':4,'endalignment':True},
+    {'name':'unk2','itemsize':4,'endalignment':True,'fields':'<I'},
     {'name':'unk3','itemsize':2,'endalignment':True,'fields':'<h'},
     {'name':'unk4','itemsize':0x18,'endalignment':True},
     {'name':'unk5','itemsize':0xC,'endalignment':True},
@@ -27,7 +27,7 @@ sectionSpecs = [
     {'name':'unk7','itemsize':0x30,'endalignment':True},
     {'name':'unk8','itemsize':0x30,'endalignment':True},
     {'name':'unk9','itemsize':4,'endalignment':True},
-    {'name':'unk10','itemsize':8,'endalignment':True},
+    {'name':'unk10','itemsize':8,'endalignment':True,'fields':'<hhi'},
     {'name':'unk11','itemsize':4,'endalignment':True},
     {'name':'unk12','itemsize':0x30,'endalignment':True},
     {'name':'unk13','itemsize':0xC,'endalignment':True},
@@ -53,13 +53,11 @@ sectionSpecs = [
 
 hashes = {}
 
-for line in open('strings_ActorProfile.txt'):
+for line in open('strings_exefs.txt'):
     line = line.strip()
     hashes[binascii.crc32(line.encode('ascii'))] = line
     for line2 in re.split('[^a-zA-Z]', line):
         hashes[binascii.crc32(line2.encode('ascii'))] = line2
-
-printed = set()
 
 for fname in glob.glob("level/**/*.elo", recursive=True):
     print(fname)
@@ -128,7 +126,7 @@ for fname in glob.glob("level/**/*.elo", recursive=True):
 
     for i,item in enumerate(output[26]):
         assert item[0] <= 4
-        if item[0] == 0: # struct? (always null)
+        if item[0] == 0: # null
             assert item[1] == b'\x00\x00\x00\x00'
             output[26][i] = None
         elif item[0] == 1: # bool
@@ -141,20 +139,28 @@ for fname in glob.glob("level/**/*.elo", recursive=True):
             output[26][i] = output[31][struct.unpack('<i', item[1])[0]]
             
     for i,item in enumerate(output[0]):
-        item[32] = hashes[item[32]]
+        item[34] = hashes[item[34]]
         params = []
         for j in range(8):
             params.append(output[26][item[22+j]])
         while len(params) > 0 and params[-1] is None:
             params.pop()
-        output[0][i] = item[:22] + [params] + item[30:] # group the params
+        params0 = []
+        for j in range(0,8,2):
+            assert item[14+j+1] <= 4
+            params0.append((output[26][item[14+j]], item[14+j+1]))
+        while len(params0) > 0 and params0[-1] == (None, 4):
+            params0.pop()
+        output[0][i] = [item[:3]] + item[3:14] + [params0] + [params] + item[30:] # group the params
+        
+    for i,item in enumerate(output[2]):
+        output[2][i] = hashes[item]
 
     fname2 = fname.replace("level"+os.sep,"level_json"+os.sep).replace(".elo",".json")
     assert fname2 != fname
     
     #pprint.pprint(output, width=400, sort_dicts=False)
     f2 = open(fname2, 'w')
-    #json.dump(output, f2, indent='\t')
     f2.write('{\n')
     for i in range(32):
         f2.write('\t"%s": [\n'%sectionSpecs[i]['name'])
