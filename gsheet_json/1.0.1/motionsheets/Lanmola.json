@@ -1,0 +1,357 @@
+{
+	"unk1": 1207917051,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Lanmola",
+	"fields": [
+		{
+			"name": "mMotionName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDataName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAnimPolicy",
+			"typename": "AnimPolicy",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mInterpolateSeconds",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mNextMotionName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mRootMotionOffset",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mBoneInfo",
+			"typename": "__inline_struct_Lanmola_mBoneInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mBoneName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 1,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mAngleX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAngleY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 20,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAngleZ",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mFacialName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 80,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mMotionName": "wait",
+			"mDataName": "wait",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.25,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead",
+			"mDataName": "dead",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage",
+			"mDataName": "damage",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "down_st",
+			"mDataName": "down_st",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.15,
+			"mNextMotionName": "down_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "down_lp",
+			"mDataName": "down_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "down_ed",
+			"mDataName": "down_ed",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.15,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_st_head",
+			"mDataName": "sync_st_head",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "sync_lp_head",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_lp_head",
+			"mDataName": "sync_lp_head",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_burst_head",
+			"mDataName": "sync_burst_head",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_st_tail",
+			"mDataName": "sync_st_tail",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "sync_lp_tail",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_lp_tail",
+			"mDataName": "sync_lp_tail",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_burst_tail",
+			"mDataName": "sync_burst_tail",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "down_st_tail",
+			"mDataName": "down_st_tail",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.15,
+			"mNextMotionName": "down_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		}
+	]
+}

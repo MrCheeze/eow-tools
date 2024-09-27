@@ -1,0 +1,158 @@
+{
+	"unk1": 3113884469,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapLevelDefine",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLevelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "S_Dungeon006",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "Desert_LDungeonEntrance",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "GollonVillage",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "S_Dungeon034",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "S_Dungeon042",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "S_Dungeon107",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "TriForceRemains",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "DekuTreeArea",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "S_Dungeon018",
+			"mLevelName": "Field"
+		},
+		{
+			"mKey": "BS_Dungeon001",
+			"mLevelName": "FieldBoundary001"
+		},
+		{
+			"mKey": "BS_Dungeon002",
+			"mLevelName": "FieldBoundary001"
+		},
+		{
+			"mKey": "BS_Dungeon003",
+			"mLevelName": "S_Dungeon101"
+		},
+		{
+			"mKey": "BS_Dungeon004",
+			"mLevelName": "S_Dungeon105"
+		},
+		{
+			"mKey": "BS_Dungeon005",
+			"mLevelName": "FieldBoundaryCastle"
+		},
+		{
+			"mKey": "BS_Dungeon006",
+			"mLevelName": "FieldBoundaryCastle"
+		},
+		{
+			"mKey": "BoundaryHyruleHouse002",
+			"mLevelName": "FieldBoundaryCastle"
+		},
+		{
+			"mKey": "BoundaryHyruleHouse003",
+			"mLevelName": "FieldBoundaryCastle"
+		},
+		{
+			"mKey": "BoundaryHyruleHouse004",
+			"mLevelName": "FieldBoundaryCastle"
+		},
+		{
+			"mKey": "BS_Dungeon007",
+			"mLevelName": "S_Dungeon029"
+		},
+		{
+			"mKey": "BS_Dungeon008",
+			"mLevelName": "S_Dungeon030"
+		},
+		{
+			"mKey": "BS_Dungeon009",
+			"mLevelName": "FieldBoundary005"
+		},
+		{
+			"mKey": "BS_Dungeon010",
+			"mLevelName": "FieldBoundary006_001"
+		},
+		{
+			"mKey": "BS_Dungeon011",
+			"mLevelName": "FieldBoundary006_001"
+		},
+		{
+			"mKey": "BS_Dungeon013",
+			"mLevelName": "FieldBoundary006_001"
+		},
+		{
+			"mKey": "BS_Dungeon014",
+			"mLevelName": "S_Dungeon052"
+		},
+		{
+			"mKey": "BS_Dungeon015",
+			"mLevelName": "S_Dungeon052"
+		},
+		{
+			"mKey": "BS_Dungeon016",
+			"mLevelName": "S_Dungeon054"
+		},
+		{
+			"mKey": "BS_Dungeon017",
+			"mLevelName": "S_Dungeon111"
+		},
+		{
+			"mKey": "BS_Dungeon018",
+			"mLevelName": "S_Dungeon103"
+		},
+		{
+			"mKey": "BS_Dungeon019",
+			"mLevelName": "S_Dungeon055"
+		},
+		{
+			"mKey": "SDungeon053House",
+			"mLevelName": "S_Dungeon053"
+		}
+	]
+}

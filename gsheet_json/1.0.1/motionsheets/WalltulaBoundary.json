@@ -1,0 +1,850 @@
+{
+	"unk1": 1207917051,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "WalltulaBoundary",
+	"fields": [
+		{
+			"name": "mMotionName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDataName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAnimPolicy",
+			"typename": "AnimPolicy",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mInterpolateSeconds",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mNextMotionName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mRootMotionOffset",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mBoneInfo",
+			"typename": "__inline_struct_WalltulaBoundary_mBoneInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mBoneName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 1,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mAngleX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAngleY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 20,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAngleZ",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mFacialName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 80,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mMotionName": "attack_rush",
+			"mDataName": "attack_rush",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage",
+			"mDataName": "damage",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_burn",
+			"mDataName": "damage",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_electric",
+			"mDataName": "damage_electric",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_position",
+			"mDataName": "damage_position",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead",
+			"mDataName": "dead",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_position",
+			"mDataName": "dead_position",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dropoff",
+			"mDataName": "dropoff",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "find",
+			"mDataName": "find",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "wait_find",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "interest",
+			"mDataName": "Interest",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "move",
+			"mDataName": "move",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "pose_copyobject",
+			"mDataName": "pose_copyobject",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "search",
+			"mDataName": "search",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "struggle",
+			"mDataName": "struggle",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "struggle_position",
+			"mDataName": "struggle_position",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "stun",
+			"mDataName": "stun",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "turnover",
+			"mDataName": "turnover",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.15,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "turnover_ed",
+			"mDataName": "turnover_ed",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "wait",
+			"mDataName": "wait",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "wait_find",
+			"mDataName": "wait_find",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_press_st",
+			"mDataName": "damage_press_st",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "damage_press_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_press_lp",
+			"mDataName": "damage_press_lp",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_press_ed",
+			"mDataName": "damage_press_ed",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_freeze",
+			"mDataName": "damage_freeze",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_bomb",
+			"mDataName": "damage_bomb",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_blowaway_lp",
+			"mDataName": "damage_blowaway_lp",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_blowaway_ed",
+			"mDataName": "damage_blowaway_ed",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_burn",
+			"mDataName": "dead_burn",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_burn_position",
+			"mDataName": "dead_burn",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_electric",
+			"mDataName": "dead_electric",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_bomb",
+			"mDataName": "dead_bomb",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fear_lp",
+			"mDataName": "fear_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_inhaled",
+			"mDataName": "damage_inhaled",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_abyss_lp",
+			"mDataName": "fall_abyss_lp",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_water_lp",
+			"mDataName": "fall_water_lp",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_lava_lp",
+			"mDataName": "fall_lava_lp",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_quicksand_lp",
+			"mDataName": "fall_quicksand_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_lp",
+			"mDataName": "fall_lp",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "land",
+			"mDataName": "land",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "thrown_lp",
+			"mDataName": "thrown_lp",
+			"mAnimPolicy": 1,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "thrown_ed",
+			"mDataName": "thrown_ed",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_burst",
+			"mDataName": "sync_burst",
+			"mAnimPolicy": 0,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		}
+	]
+}

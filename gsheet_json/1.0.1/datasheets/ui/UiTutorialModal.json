@@ -1,0 +1,338 @@
+{
+	"unk1": 3486738202,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiTutorialModal",
+	"fields": [
+		{
+			"name": "symbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mSaveIndex",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "titleLabelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "eventFlag",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "pageInfo",
+			"typename": "__inline_struct_UiTutorialModal_pageInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 56,
+			"directsize": 16,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "stillName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "labelName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"symbol": "FirstPasteModal",
+			"mSaveIndex": 0,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_CopyRod",
+			"eventFlag": "FirstPasteModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_CopyRod00"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_CopyRod01"
+				}
+			]
+		},
+		{
+			"symbol": "MeetImpaAgainModal",
+			"mSaveIndex": 1,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_MeetImpaAgain",
+			"eventFlag": "MeetImpaAgainModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_MeetImpaAgain00"
+				}
+			]
+		},
+		{
+			"symbol": "EvAreaA001Modal",
+			"mSaveIndex": 2,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_Map",
+			"eventFlag": "EvAreaA001Modal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "Tutorial_010",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_EvAreaA001"
+				}
+			]
+		},
+		{
+			"symbol": "CopyRod_Enemy",
+			"mSaveIndex": 12,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_CopyRod_Enemy",
+			"eventFlag": "TutorialModal_Title_CopyRod_Enemy",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Title_CopyRod_Enemy_00"
+				}
+			]
+		},
+		{
+			"symbol": "EvAreaA030Modal",
+			"mSaveIndex": 3,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_WarpStatue",
+			"eventFlag": "EvAreaA030Modal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "Tutorial_020",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_EvFirstWarpSucces00"
+				}
+			]
+		},
+		{
+			"symbol": "SyncRodModal",
+			"mSaveIndex": 16,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_SyncRod",
+			"eventFlag": "SyncRodModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_SyncRod_00"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_SyncRod_01"
+				}
+			]
+		},
+		{
+			"symbol": "DungeonMapModal",
+			"mSaveIndex": 17,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_DungeonMap",
+			"eventFlag": "DungeonMapModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_DungeonMap"
+				}
+			]
+		},
+		{
+			"symbol": "ChangeLinkSwordModal",
+			"mSaveIndex": 4,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_ChangeLinkSword",
+			"eventFlag": "ChangeLinkSwordModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_ChangeLinkSword00"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_ChangeLinkSword01"
+				}
+			]
+		},
+		{
+			"symbol": "AfterBreakBarricadeModal",
+			"mSaveIndex": 5,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_AfterBreakBarricade",
+			"eventFlag": "AfterBreakBarricadeModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_AfterBreakBarricade_00"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_AfterBreakBarricade_01"
+				}
+			]
+		},
+		{
+			"symbol": "SyncRodReverseModal",
+			"mSaveIndex": 6,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_SyncRodReverse",
+			"eventFlag": "SyncRodReverseModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_SyncRodReverse_00"
+				}
+			]
+		},
+		{
+			"symbol": "LuberiLvUp",
+			"mSaveIndex": 15,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_LuberiLvUp",
+			"eventFlag": "LuberiLvUp_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_LuberiLvUp"
+				}
+			]
+		},
+		{
+			"symbol": "OrnamentModal",
+			"mSaveIndex": 7,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_Ornament",
+			"eventFlag": "OrnamentModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_Ornament00"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_Ornament01"
+				}
+			]
+		},
+		{
+			"symbol": "HorseModal",
+			"mSaveIndex": 11,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_Horse",
+			"eventFlag": "EventHorseTuto",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_Horse"
+				}
+			]
+		},
+		{
+			"symbol": "LinkBowModal",
+			"mSaveIndex": 9,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_LinkBow",
+			"eventFlag": "LinkBowModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_LinkBow"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_LinkBow01"
+				}
+			]
+		},
+		{
+			"symbol": "FarAwayPaste",
+			"mSaveIndex": 14,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_FarAwayPaste",
+			"eventFlag": "FarAwayPaste_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Title_FarAwayPaste00"
+				}
+			]
+		},
+		{
+			"symbol": "MachineModal",
+			"mSaveIndex": 8,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_Machine",
+			"eventFlag": "MachineModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_Machine00"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_Machine01"
+				}
+			]
+		},
+		{
+			"symbol": "LinkBombModal",
+			"mSaveIndex": 10,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_LinkBomb",
+			"eventFlag": "LinkBombModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_LinkBomb"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_LinkBomb01"
+				}
+			]
+		},
+		{
+			"symbol": "AdditionalElementsModal",
+			"mSaveIndex": 13,
+			"titleLabelName": "ui/Tutorial:TutorialModal_Title_AdditionalElements",
+			"eventFlag": "AdditionalElementsModal_Clear",
+			"pageInfo": [
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_AdditionalElements_00"
+				},
+				{
+					"stillName": "",
+					"labelName": "ui/Tutorial:TutorialModal_Explanation_AdditionalElements_01"
+				}
+			]
+		}
+	]
+}

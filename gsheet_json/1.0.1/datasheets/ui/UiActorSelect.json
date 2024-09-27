@@ -1,0 +1,679 @@
+{
+	"unk1": 129805691,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiActorSelect",
+	"fields": [
+		{
+			"name": "mSymbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mPriority",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mFlavorTextLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mSymbol": "Bonfire",
+			"mPriority": 39,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Bonfire"
+		},
+		{
+			"mSymbol": "Firework",
+			"mPriority": 37,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Firework"
+		},
+		{
+			"mSymbol": "ZoroZoroHill",
+			"mPriority": 36,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_ZoroZoroHill"
+		},
+		{
+			"mSymbol": "RollingPole",
+			"mPriority": 35,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_RollingPole"
+		},
+		{
+			"mSymbol": "Cloud",
+			"mPriority": 34,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Cloud"
+		},
+		{
+			"mSymbol": "FlyingTile",
+			"mPriority": 33,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_FlyingTile"
+		},
+		{
+			"mSymbol": "WindMaker",
+			"mPriority": 31,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_WindMaker"
+		},
+		{
+			"mSymbol": "Trampoline",
+			"mPriority": 30,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Trampoline"
+		},
+		{
+			"mSymbol": "NorthForestRelic",
+			"mPriority": 29,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_NorthForestRelic"
+		},
+		{
+			"mSymbol": "StatueL003Snake",
+			"mPriority": 27,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_StatueL003Snake"
+		},
+		{
+			"mSymbol": "StatueL003Cat",
+			"mPriority": 26,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_StatueL003Cat"
+		},
+		{
+			"mSymbol": "StatueL003Bird",
+			"mPriority": 25,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_StatueL003Bird"
+		},
+		{
+			"mSymbol": "StatueL003",
+			"mPriority": 24,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_StatueL003"
+		},
+		{
+			"mSymbol": "BlockWater",
+			"mPriority": 22,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BlockWater"
+		},
+		{
+			"mSymbol": "CharmCarrot",
+			"mPriority": 21,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_CharmCarrot"
+		},
+		{
+			"mSymbol": "CharmDoll",
+			"mPriority": 20,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_CharmDoll"
+		},
+		{
+			"mSymbol": "CharmRockRoast",
+			"mPriority": 19,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_CharmRockRoast"
+		},
+		{
+			"mSymbol": "CharmMeat",
+			"mPriority": 18,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_CharmMeat"
+		},
+		{
+			"mSymbol": "CharmFish",
+			"mPriority": 17,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_CharmFish"
+		},
+		{
+			"mSymbol": "Signboard",
+			"mPriority": 16,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Signboard"
+		},
+		{
+			"mSymbol": "SnowBall",
+			"mPriority": 15,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_SnowBall"
+		},
+		{
+			"mSymbol": "BlockIce",
+			"mPriority": 14,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BlockIce"
+		},
+		{
+			"mSymbol": "BoardFloatLava",
+			"mPriority": 12,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BoardFloatLava"
+		},
+		{
+			"mSymbol": "RockSolid",
+			"mPriority": 11,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_RockSolid"
+		},
+		{
+			"mSymbol": "RockCave",
+			"mPriority": 10,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_RockCave"
+		},
+		{
+			"mSymbol": "PotGerudo",
+			"mPriority": 8,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_PotGerudo"
+		},
+		{
+			"mSymbol": "PotHyruleCastle",
+			"mPriority": 7,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_PotHyruleCastle"
+		},
+		{
+			"mSymbol": "Pot",
+			"mPriority": 6,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Pot"
+		},
+		{
+			"mSymbol": "BoxWooden",
+			"mPriority": 5,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BoxWooden"
+		},
+		{
+			"mSymbol": "FoliagePlant",
+			"mPriority": 4,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_FoliagePlant"
+		},
+		{
+			"mSymbol": "BedZelda",
+			"mPriority": 3,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BedZelda"
+		},
+		{
+			"mSymbol": "BedMedium",
+			"mPriority": 2,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BedMedium"
+		},
+		{
+			"mSymbol": "Bed",
+			"mPriority": 1,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Bed"
+		},
+		{
+			"mSymbol": "Table",
+			"mPriority": 0,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Table"
+		},
+		{
+			"mSymbol": "Beamos",
+			"mPriority": 136,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Beamos"
+		},
+		{
+			"mSymbol": "Megadon",
+			"mPriority": 135,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Megadon"
+		},
+		{
+			"mSymbol": "Spark00",
+			"mPriority": 134,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Spark00"
+		},
+		{
+			"mSymbol": "Dandarma",
+			"mPriority": 133,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Dandarma"
+		},
+		{
+			"mSymbol": "Freezard",
+			"mPriority": 132,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Freezard"
+		},
+		{
+			"mSymbol": "StoneFragile01",
+			"mPriority": 131,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_StoneFragile01"
+		},
+		{
+			"mSymbol": "StoneFragile",
+			"mPriority": 130,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_StoneFragile"
+		},
+		{
+			"mSymbol": "DeathBallReverse",
+			"mPriority": 129,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_DeathBallReverse"
+		},
+		{
+			"mSymbol": "TrapBladeTimer",
+			"mPriority": 127,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_TrapBladeTimer"
+		},
+		{
+			"mSymbol": "Leever",
+			"mPriority": 126,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Leever"
+		},
+		{
+			"mSymbol": "Ghini01",
+			"mPriority": 125,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Ghini01"
+		},
+		{
+			"mSymbol": "Ghini00",
+			"mPriority": 124,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Ghini00"
+		},
+		{
+			"mSymbol": "StretchyGhost",
+			"mPriority": 123,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_StretchyGhost"
+		},
+		{
+			"mSymbol": "Moa",
+			"mPriority": 122,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Moa"
+		},
+		{
+			"mSymbol": "Poe",
+			"mPriority": 121,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Poe"
+		},
+		{
+			"mSymbol": "Hidy",
+			"mPriority": 120,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Hidy"
+		},
+		{
+			"mSymbol": "Tektight01",
+			"mPriority": 119,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Tektight01"
+		},
+		{
+			"mSymbol": "Tektight00",
+			"mPriority": 118,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Tektight00"
+		},
+		{
+			"mSymbol": "Aruroda",
+			"mPriority": 117,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Aruroda"
+		},
+		{
+			"mSymbol": "ZoroZoro",
+			"mPriority": 116,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_ZoroZoro"
+		},
+		{
+			"mSymbol": "GhomaBaby",
+			"mPriority": 115,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_GhomaBaby"
+		},
+		{
+			"mSymbol": "Walltula",
+			"mPriority": 114,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Walltula"
+		},
+		{
+			"mSymbol": "Skulltula",
+			"mPriority": 113,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Skulltula"
+		},
+		{
+			"mSymbol": "Tail",
+			"mPriority": 112,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Tail"
+		},
+		{
+			"mSymbol": "Creepee01",
+			"mPriority": 111,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Creepee01"
+		},
+		{
+			"mSymbol": "Creepee00",
+			"mPriority": 110,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Creepee00"
+		},
+		{
+			"mSymbol": "AnaMonea",
+			"mPriority": 109,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_AnaMonea"
+		},
+		{
+			"mSymbol": "Peahat",
+			"mPriority": 108,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Peahat"
+		},
+		{
+			"mSymbol": "Dekubaba",
+			"mPriority": 107,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Dekubaba"
+		},
+		{
+			"mSymbol": "Dekubaba01",
+			"mPriority": 106,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Dekubaba01"
+		},
+		{
+			"mSymbol": "Dekubaba00",
+			"mPriority": 105,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Dekubaba00"
+		},
+		{
+			"mSymbol": "Piranha01",
+			"mPriority": 104,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Piranha01"
+		},
+		{
+			"mSymbol": "Piranha00",
+			"mPriority": 103,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Piranha00"
+		},
+		{
+			"mSymbol": "Gabufin",
+			"mPriority": 102,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Gabufin"
+		},
+		{
+			"mSymbol": "Bombfish",
+			"mPriority": 101,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Bombfish"
+		},
+		{
+			"mSymbol": "Taggler01",
+			"mPriority": 100,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Taggler01"
+		},
+		{
+			"mSymbol": "Taggler00",
+			"mPriority": 99,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Taggler00"
+		},
+		{
+			"mSymbol": "Biri",
+			"mPriority": 98,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Biri"
+		},
+		{
+			"mSymbol": "Peese",
+			"mPriority": 97,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Peese"
+		},
+		{
+			"mSymbol": "SeaUrchin",
+			"mPriority": 96,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_SeaUrchin"
+		},
+		{
+			"mSymbol": "Octorok02",
+			"mPriority": 95,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Octorok02"
+		},
+		{
+			"mSymbol": "Octorok01",
+			"mPriority": 94,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:CopyableActor_Octorok01"
+		},
+		{
+			"mSymbol": "Octorok",
+			"mPriority": 93,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Test_Octorok"
+		},
+		{
+			"mSymbol": "Guay",
+			"mPriority": 92,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Guay"
+		},
+		{
+			"mSymbol": "Crowly01",
+			"mPriority": 91,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Crowly01"
+		},
+		{
+			"mSymbol": "Crowly",
+			"mPriority": 90,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Crowly"
+		},
+		{
+			"mSymbol": "BirdSea",
+			"mPriority": 89,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BirdSea"
+		},
+		{
+			"mSymbol": "Dragonfly",
+			"mPriority": 88,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Dragonfly"
+		},
+		{
+			"mSymbol": "Mothula01",
+			"mPriority": 87,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Mothula01"
+		},
+		{
+			"mSymbol": "Mothula00",
+			"mPriority": 86,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Mothula00"
+		},
+		{
+			"mSymbol": "Keese03",
+			"mPriority": 85,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Keese03"
+		},
+		{
+			"mSymbol": "Keese02",
+			"mPriority": 84,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Keese02"
+		},
+		{
+			"mSymbol": "Keese01",
+			"mPriority": 83,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Keese01"
+		},
+		{
+			"mSymbol": "Keese00",
+			"mPriority": 82,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Keese"
+		},
+		{
+			"mSymbol": "Wolfos01",
+			"mPriority": 81,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Wolfos01"
+		},
+		{
+			"mSymbol": "Wolfos00",
+			"mPriority": 80,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Wolfos00"
+		},
+		{
+			"mSymbol": "Pitty",
+			"mPriority": 79,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Pitty"
+		},
+		{
+			"mSymbol": "TorchSlug01",
+			"mPriority": 78,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_TorchSlug01"
+		},
+		{
+			"mSymbol": "TorchSlug",
+			"mPriority": 77,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_TorchSlug"
+		},
+		{
+			"mSymbol": "Kerotone01",
+			"mPriority": 76,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Kerotone01"
+		},
+		{
+			"mSymbol": "Kerotone",
+			"mPriority": 75,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Kerotone"
+		},
+		{
+			"mSymbol": "Toppyu",
+			"mPriority": 74,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Toppyu"
+		},
+		{
+			"mSymbol": "Rope",
+			"mPriority": 73,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Rope"
+		},
+		{
+			"mSymbol": "Boundillo01",
+			"mPriority": 72,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Boundillo01"
+		},
+		{
+			"mSymbol": "Boundillo00",
+			"mPriority": 71,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Boundillo00"
+		},
+		{
+			"mSymbol": "Wizzrobe02",
+			"mPriority": 70,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Wizzrobe02"
+		},
+		{
+			"mSymbol": "Wizzrobe01",
+			"mPriority": 69,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Wizzrobe01"
+		},
+		{
+			"mSymbol": "Wizzrobe00",
+			"mPriority": 68,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Wizzrobe00"
+		},
+		{
+			"mSymbol": "ReDead",
+			"mPriority": 67,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_ReDead"
+		},
+		{
+			"mSymbol": "Gibdos01",
+			"mPriority": 66,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Gibdos01"
+		},
+		{
+			"mSymbol": "Gibdos00",
+			"mPriority": 65,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Gibdos00"
+		},
+		{
+			"mSymbol": "SoldierIronBall",
+			"mPriority": 64,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_SoldierIronBall"
+		},
+		{
+			"mSymbol": "Armos",
+			"mPriority": 63,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Armos"
+		},
+		{
+			"mSymbol": "Darknut02",
+			"mPriority": 62,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Darknut02"
+		},
+		{
+			"mSymbol": "Darknut01",
+			"mPriority": 61,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Darknut01"
+		},
+		{
+			"mSymbol": "Darknut00",
+			"mPriority": 60,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Darknut00"
+		},
+		{
+			"mSymbol": "Lizalfos02",
+			"mPriority": 59,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Lizalfos02"
+		},
+		{
+			"mSymbol": "Lizalfos01",
+			"mPriority": 58,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Lizalfos01"
+		},
+		{
+			"mSymbol": "Lizalfos00",
+			"mPriority": 57,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Lizalfos00"
+		},
+		{
+			"mSymbol": "Lynel",
+			"mPriority": 56,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Lynel"
+		},
+		{
+			"mSymbol": "BoarblinBoomerang01",
+			"mPriority": 55,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BoarblinBoomerang01"
+		},
+		{
+			"mSymbol": "BoarblinBoomerang00",
+			"mPriority": 54,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BoarblinBoomerang00"
+		},
+		{
+			"mSymbol": "BoarblinClub01",
+			"mPriority": 52,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BoarblinClub01"
+		},
+		{
+			"mSymbol": "BoarblinClub00",
+			"mPriority": 51,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BoarblinClub00"
+		},
+		{
+			"mSymbol": "MoriblinSword02",
+			"mPriority": 49,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Test_MoriblinSword02"
+		},
+		{
+			"mSymbol": "MoriblinSword01",
+			"mPriority": 48,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Test_MoriblinSword01"
+		},
+		{
+			"mSymbol": "MoriblinSword00",
+			"mPriority": 47,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_MoriblinSword00"
+		},
+		{
+			"mSymbol": "MoriblinSpear01",
+			"mPriority": 46,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_MoriblinSpear01"
+		},
+		{
+			"mSymbol": "MoriblinSpear00",
+			"mPriority": 45,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_MoriblinSpear00"
+		},
+		{
+			"mSymbol": "BuzzBlob",
+			"mPriority": 44,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_BuzzBlob"
+		},
+		{
+			"mSymbol": "ZolWater",
+			"mPriority": 43,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_ZolWater"
+		},
+		{
+			"mSymbol": "ZolFire",
+			"mPriority": 42,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_ZolFire"
+		},
+		{
+			"mSymbol": "Zol",
+			"mPriority": 41,
+			"mFlavorTextLabel": "ui/DictionaryExplanation:Dictionary_Zol"
+		}
+	]
+}

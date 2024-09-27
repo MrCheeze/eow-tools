@@ -1,0 +1,1139 @@
+{
+	"unk1": 1207917051,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Darknut00",
+	"fields": [
+		{
+			"name": "mMotionName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDataName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAnimPolicy",
+			"typename": "AnimPolicy",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mInterpolateSeconds",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mNextMotionName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mRootMotionOffset",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mBoneInfo",
+			"typename": "__inline_struct_Darknut00_mBoneInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mBoneName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 1,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mAngleX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAngleY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 20,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAngleZ",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mFacialName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 80,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mMotionName": "attack_slash_ed",
+			"mDataName": "attack_slash",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_slash",
+			"mDataName": "attack_slash",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_slash_pre_lp",
+			"mDataName": "attack_slash_pre_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_slash_pre_move",
+			"mDataName": "attack_slash_pre_move",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_slash_pre_st",
+			"mDataName": "attack_slash_pre_st",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "attack_slash_pre_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_slash_st",
+			"mDataName": "attack_slash_st",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.033333335,
+			"mNextMotionName": "attack_slash_ed",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_spin_pre_st",
+			"mDataName": "attack_spin_pre_st",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "attack_spin_pre_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_spin_pre_lp",
+			"mDataName": "attack_spin_pre_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_spin_st",
+			"mDataName": "attack_spin_st",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "attack_spin_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_spin_lp",
+			"mDataName": "attack_spin_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "attack_spin_ed",
+			"mDataName": "attack_spin_ed",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_f",
+			"mDataName": "damage",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_b",
+			"mDataName": "damage",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_blowaway_ed",
+			"mDataName": "damage_blowaway_ed",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_blowaway_lp",
+			"mDataName": "damage_blowaway_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_bomb",
+			"mDataName": "damage_bomb",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_burn",
+			"mDataName": "damage_burn",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_electric",
+			"mDataName": "damage_electric",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_freeze",
+			"mDataName": "damage_freeze",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_press_ed",
+			"mDataName": "damage_press_ed",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_press_lp",
+			"mDataName": "damage_press_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_press_st",
+			"mDataName": "damage_press_st",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "damage_press_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_f",
+			"mDataName": "dead",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_b",
+			"mDataName": "dead",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_bomb",
+			"mDataName": "dead_bomb",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_burn",
+			"mDataName": "dead_burn",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_burn_position",
+			"mDataName": "dead_burn_position",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "dead_electric",
+			"mDataName": "dead_electric",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fear_lp",
+			"mDataName": "fear_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "damage_inhaled",
+			"mDataName": "damage_inhaled",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_abyss_lp",
+			"mDataName": "fall_abyss_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_lava_lp",
+			"mDataName": "fall_lava_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_water_lp",
+			"mDataName": "fall_water_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_quicksand_lp",
+			"mDataName": "fall_quicksand_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "find",
+			"mDataName": "find",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "interest",
+			"mDataName": "interest",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.2,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "jump",
+			"mDataName": "jump",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "fall_lp",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "fall_lp",
+			"mDataName": "fall_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "land",
+			"mDataName": "land",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "move",
+			"mDataName": "move",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.2,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "move_find",
+			"mDataName": "move_find",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.2,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "pose_copyobject",
+			"mDataName": "pose_copyobject",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "search",
+			"mDataName": "search",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.2,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "stun",
+			"mDataName": "stun",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.2,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "sync_burst",
+			"mDataName": "sync_burst",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "thrown_ed",
+			"mDataName": "thrown_ed",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "thrown_lp",
+			"mDataName": "thrown_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "stagger_ed",
+			"mDataName": "stagger_ed",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.1,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "stagger_lp",
+			"mDataName": "stagger_lp",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.15,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "wait",
+			"mDataName": "wait",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.2,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "wait_find",
+			"mDataName": "wait_find",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "wait_standby",
+			"mDataName": "wait_standby",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "wakeup",
+			"mDataName": "wakeup",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "wait",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "ev_LinkAdventure_c1_A",
+			"mDataName": "ev_LinkAdventure_c1_A",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "ev_LinkAdventure_c1_B",
+			"mDataName": "ev_LinkAdventure_c1_B",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "ev_LinkAdventure_c1_C",
+			"mDataName": "ev_LinkAdventure_c1_C",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "ev_LinkAdventure_c4_A",
+			"mDataName": "ev_LinkAdventure_c4_A",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "ev_LinkAdventure_c4_B",
+			"mDataName": "ev_LinkAdventure_c4_B",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		},
+		{
+			"mMotionName": "ev_LinkAdventure_c4_C",
+			"mDataName": "ev_LinkAdventure_c4_C",
+			"mAnimPolicy": 2,
+			"mInterpolateSeconds": 0.0,
+			"mNextMotionName": "",
+			"mRootMotionOffset": false,
+			"mBoneInfo": [
+				{
+					"mBoneName": "NONE",
+					"mAngleX": 0.0,
+					"mAngleY": 0.0,
+					"mAngleZ": 0.0
+				}
+			],
+			"mFacialName": ""
+		}
+	]
+}

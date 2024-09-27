@@ -1,0 +1,224 @@
+{
+	"unk1": 56682650,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "PartnerTalk",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mBehavior",
+			"typename": "PartnerTalkBehavior",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mTolerance",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mMotionName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEventAssetPath",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEventEntryPoint",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mCondition",
+			"typename": "__inline_struct_PartnerTalk_mCondition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 72,
+			"directsize": 24,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mStrategy",
+					"typename": "__inline_enum_PartnerTalk_mCondition.mStrategy",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 48,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mExpressions",
+					"typename": "__inline_struct_PartnerTalk_mCondition.mExpressions",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mCategory",
+							"typename": "ConditionCategory",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 16,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mParameter",
+							"typename": "string",
+							"typeid": 4,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 16
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "mActiveTimeSec",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 1,
+			"offset": 96,
+			"directsize": 8,
+			"elemsize": 4
+		},
+		{
+			"name": "mCoolTimeSec",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 104,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mKey": "rod",
+			"mBehavior": 65536,
+			"mTolerance": 2.5,
+			"mMotionName": "",
+			"mEventAssetPath": "event/PartnerTalk.bfevfl",
+			"mEventEntryPoint": "rod",
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 1,
+						"mParameter": "!EvPrologue009"
+					}
+				]
+			},
+			"mActiveTimeSec": null,
+			"mCoolTimeSec": 0.0
+		},
+		{
+			"mKey": "WarpOpener",
+			"mBehavior": 65536,
+			"mTolerance": 2.5,
+			"mMotionName": "",
+			"mEventAssetPath": "",
+			"mEventEntryPoint": "",
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 1,
+						"mParameter": "!EvFirstWarpSucces"
+					}
+				]
+			},
+			"mActiveTimeSec": null,
+			"mCoolTimeSec": 0.0
+		},
+		{
+			"mKey": "WarpAppeal",
+			"mBehavior": 0,
+			"mTolerance": 0.0,
+			"mMotionName": "appeal_warp",
+			"mEventAssetPath": "",
+			"mEventEntryPoint": "",
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"mActiveTimeSec": null,
+			"mCoolTimeSec": 0.0
+		},
+		{
+			"mKey": "WarpMarker",
+			"mBehavior": 0,
+			"mTolerance": 0.0,
+			"mMotionName": "appeal_warp",
+			"mEventAssetPath": "",
+			"mEventEntryPoint": "",
+			"mCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 0,
+						"mParameter": ""
+					}
+				]
+			},
+			"mActiveTimeSec": null,
+			"mCoolTimeSec": 0.0
+		}
+	]
+}

@@ -1,0 +1,418 @@
+{
+	"unk1": 3113884469,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconSensorLevelOpenPair",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mPairKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Field:F_Beach_001",
+			"mPairKey": "S_Dungeon001:S001_R001_StartE"
+		},
+		{
+			"mKey": "Field:F_Beach_002",
+			"mPairKey": "S_Dungeon002:S002_R001_StartW"
+		},
+		{
+			"mKey": "Field:F_SouthernVillage001_002",
+			"mPairKey": "S_Dungeon002:S002_R001_StartE"
+		},
+		{
+			"mKey": "Field:F_Forest_002",
+			"mPairKey": "S_Dungeon003:S003_R001_Start"
+		},
+		{
+			"mKey": "Field:F_Forest_003",
+			"mPairKey": "S_Dungeon004:S004_R001_Start"
+		},
+		{
+			"mKey": "Field:F_Forest_004",
+			"mPairKey": "S_Dungeon005:S005_R001_Start"
+		},
+		{
+			"mKey": "Field:F_River_004",
+			"mPairKey": "S_Dungeon006:S_Dungeon006_001"
+		},
+		{
+			"mKey": "Field:River003_001",
+			"mPairKey": "S_Dungeon007:S_Dungeon007_001"
+		},
+		{
+			"mKey": "Field:River001_001",
+			"mPairKey": "S_Dungeon008:S_Dungeon008_001"
+		},
+		{
+			"mKey": "Field:Coast002_001",
+			"mPairKey": "S_Dungeon009:S_Dungeon009_001"
+		},
+		{
+			"mKey": "Field:Coast002_002",
+			"mPairKey": "S_Dungeon009:S_Dungeon009_002"
+		},
+		{
+			"mKey": "Field:Coast_003_002",
+			"mPairKey": "S_Dungeon010:S_Dungeon010_001"
+		},
+		{
+			"mKey": "Field:Desert003_001",
+			"mPairKey": "S_Dungeon011:S_Dungeon011_001"
+		},
+		{
+			"mKey": "Field:Desert005_001",
+			"mPairKey": "S_Dungeon012:S_Dungeon012_001"
+		},
+		{
+			"mKey": "Field:Wildernesst003_001",
+			"mPairKey": "S_Dungeon013:S_Dungeon013_001"
+		},
+		{
+			"mKey": "Field:Wildernesst003_002",
+			"mPairKey": "S_Dungeon013:S_Dungeon013_002"
+		},
+		{
+			"mKey": "Field:Wildernesst004_008",
+			"mPairKey": "S_Dungeon014:S_Dungeon014_001"
+		},
+		{
+			"mKey": "Field:Wildernesst004_009",
+			"mPairKey": "S_Dungeon015:S_Dungeon015_001"
+		},
+		{
+			"mKey": "Field:Wildernesst002_001",
+			"mPairKey": "S_Dungeon016:S_Dungeon016_001"
+		},
+		{
+			"mKey": "Field:Field_Volcano_002",
+			"mPairKey": "S_Dungeon017:S017_R002_Start"
+		},
+		{
+			"mKey": "Field:Field_Volcano_001",
+			"mPairKey": "S_Dungeon017:S017_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_Volcano_006",
+			"mPairKey": "S_Dungeon019:S019_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_Volcano_007",
+			"mPairKey": "S_Dungeon020:S020_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_Volcano_003",
+			"mPairKey": "S_Dungeon021:S021_R001_001"
+		},
+		{
+			"mKey": "Field:Field_Volcano_004",
+			"mPairKey": "S_Dungeon021:S021_R001_002"
+		},
+		{
+			"mKey": "Field:Field_Volcano_010",
+			"mPairKey": "S_Dungeon022:S022_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_020",
+			"mPairKey": "S_Dungeon023:S_Dungeon023_01"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_021",
+			"mPairKey": "S_Dungeon024:S_Dungeon024_001"
+		},
+		{
+			"mKey": "Field:Field_Jungle_004",
+			"mPairKey": "S_Dungeon031:S_Dungeon031_001"
+		},
+		{
+			"mKey": "Field:Field_Jungle_005",
+			"mPairKey": "S_Dungeon031:S_Dungeon031_002"
+		},
+		{
+			"mKey": "Field:Field_Jungle_007",
+			"mPairKey": "S_Dungeon032:S_Dungeon032_001"
+		},
+		{
+			"mKey": "Field:Field_Jungle_006",
+			"mPairKey": "S_Dungeon033:S_Dungeon033_001"
+		},
+		{
+			"mKey": "Field:Field_Jungle_009",
+			"mPairKey": "S_Dungeon033:S_Dungeon033_004"
+		},
+		{
+			"mKey": "Field:Field_Jungle_000",
+			"mPairKey": "S_Dungeon034:S034_R001_StartS"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain011",
+			"mPairKey": "S_Dungeon035:S_Dungeon035_001_01"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain001",
+			"mPairKey": "S_Dungeon035:S_Dungeon035_002_01"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain008",
+			"mPairKey": "S_Dungeon036:S_Dungeon036_001_01"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain010",
+			"mPairKey": "S_Dungeon037:S_Dungeon037_001"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain012",
+			"mPairKey": "S_Dungeon038:S_Dungeon038_001"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain006",
+			"mPairKey": "S_Dungeon039:S_Dungeon039_001_01"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain007",
+			"mPairKey": "S_Dungeon039:S_Dungeon039_R002_02"
+		},
+		{
+			"mKey": "Field:Desert002_001",
+			"mPairKey": "S_Dungeon041:S_Dungeon041_001"
+		},
+		{
+			"mKey": "Field:F_HyruleCastle001_012",
+			"mPairKey": "S_Dungeon042:S042_R001_StartS"
+		},
+		{
+			"mKey": "Field:Field_Volcano_008",
+			"mPairKey": "S_Dungeon043:S043_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_Volcano_009",
+			"mPairKey": "S_Dungeon044:S044_R001_Start"
+		},
+		{
+			"mKey": "Field:F_Forest_006",
+			"mPairKey": "S_Dungeon045:S045_R001_Start"
+		},
+		{
+			"mKey": "Field:F_Forest_005",
+			"mPairKey": "S_Dungeon045:S045_R002_Start"
+		},
+		{
+			"mKey": "Field:F_HyruleCastle001_011",
+			"mPairKey": "S_Dungeon046:S046_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_HyruleLake_003",
+			"mPairKey": "S_Dungeon060:S060_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_013",
+			"mPairKey": "S_Dungeon061:S061_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_014",
+			"mPairKey": "S_Dungeon062:S062_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_015",
+			"mPairKey": "S_Dungeon063:S063_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_HyruleLake_004",
+			"mPairKey": "S_Dungeon064:S064_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_016",
+			"mPairKey": "S_Dungeon065:S065_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_Coast_102",
+			"mPairKey": "S_Dungeon102:S102_R001_StartW"
+		},
+		{
+			"mKey": "Field:Field_Jungle_008",
+			"mPairKey": "S_Dungeon104:S104_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain003",
+			"mPairKey": "S_Dungeon107:S107_R008_Start_02"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain002",
+			"mPairKey": "S_Dungeon107:S107_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_Jungle_002",
+			"mPairKey": "S_Dungeon109:S109_R006_StartE"
+		},
+		{
+			"mKey": "Field:Field_Jungle_001",
+			"mPairKey": "S_Dungeon109:S109_R007_StartS"
+		},
+		{
+			"mKey": "Field:Field_Remains_001",
+			"mPairKey": "S_Dungeon110:S110_R001_StartS"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain004",
+			"mPairKey": "S_Dungeon114:S114_R001_Start"
+		},
+		{
+			"mKey": "Field:Field_SnowyMountain005",
+			"mPairKey": "S_Dungeon114:S114_R010_Start_02"
+		},
+		{
+			"mKey": "YetiHouse001:YetiHouse",
+			"mPairKey": "YetiHouse001:YetiHouse001_001"
+		},
+		{
+			"mKey": "S_Dungeon024:S_Dungeon024_002",
+			"mPairKey": "S_Dungeon024:S_Dungeon024_001"
+		},
+		{
+			"mKey": "Field:F_SouthernVillage001_009",
+			"mPairKey": "S_Dungeon116:S116_R001_StartS"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_023",
+			"mPairKey": "S_Dungeon117:S_Dungeon117_StartS"
+		},
+		{
+			"mKey": "Field:F_GerudoPalace01",
+			"mPairKey": "GerudoPalace:GerudoPalace01"
+		},
+		{
+			"mKey": "Field:F_GerudoPalace02",
+			"mPairKey": "GerudoPalace:GerudoPalace02"
+		},
+		{
+			"mKey": "Field:Wildernesst004_010",
+			"mPairKey": "GerudoPalace:GerudoPalace03"
+		},
+		{
+			"mKey": "Field:Desert005_002",
+			"mPairKey": "Desert_LDungeonEntrance:LDungeonEntrance_001"
+		},
+		{
+			"mKey": "FieldBoundary001:FB001_003",
+			"mPairKey": "L_Dungeon001:L001_R001_Start"
+		},
+		{
+			"mKey": "FieldBoundary002:FieldBoundary002_2",
+			"mPairKey": "L_Dungeon002:L002_R001_Start"
+		},
+		{
+			"mKey": "L_Dungeon003:L003_R015_StartS",
+			"mPairKey": "FieldBoundary003:FB003_002"
+		},
+		{
+			"mKey": "FieldBoundary003:FB003_004_Left",
+			"mPairKey": "L_Dungeon003:L003_R018_StartS_Left"
+		},
+		{
+			"mKey": "FieldBoundary003:FB003_003",
+			"mPairKey": "L_Dungeon003:L003_R019_StartS"
+		},
+		{
+			"mKey": "FieldBoundaryCastle:FBCastle_002",
+			"mPairKey": "L_DungeonCastle:LCastle_R001_Start"
+		},
+		{
+			"mKey": "FieldBoundary004:FB004_002",
+			"mPairKey": "L_Dungeon004:L004_R001_Start"
+		},
+		{
+			"mKey": "FieldBoundary005:FB005_010",
+			"mPairKey": "L_Dungeon005:L005_R001_Start"
+		},
+		{
+			"mKey": "L_Dungeon005:L005_R011_Start",
+			"mPairKey": "FieldBoundary005:FB005_006"
+		},
+		{
+			"mKey": "FieldBoundary005:FB005_007",
+			"mPairKey": "L_Dungeon005:L005_R012_Start"
+		},
+		{
+			"mKey": "FieldBoundary005:FB005_004",
+			"mPairKey": "L_Dungeon005:L005_R023_LadderW"
+		},
+		{
+			"mKey": "FieldBoundary005:FB005_008",
+			"mPairKey": "L_Dungeon005:L005_R005_Start"
+		},
+		{
+			"mKey": "FieldBoundary005:FB005_009",
+			"mPairKey": "L_Dungeon005:L005_R008_Start"
+		},
+		{
+			"mKey": "FieldBoundary005:FB005_005",
+			"mPairKey": "L_Dungeon005:L005_R024_LadderE"
+		},
+		{
+			"mKey": "BS_Dungeon013:BS013_001_StartN",
+			"mPairKey": "L_Dungeon006:L006_R001_Start"
+		},
+		{
+			"mKey": "Field:F_HyruleCastle001_001",
+			"mPairKey": "HyruleCastle:HyruleCastle_001"
+		},
+		{
+			"mKey": "Field:F_HyruleCastle001_002",
+			"mPairKey": "HyruleHouse002:HyruleHouse002_001"
+		},
+		{
+			"mKey": "Field:F_HyruleCastle001_003",
+			"mPairKey": "HyruleHouse002:HyruleHouse002_002"
+		},
+		{
+			"mKey": "HyruleHouse002:HyruleHouse002_002",
+			"mPairKey": "HyruleHouse002:HyruleHouse002_001"
+		},
+		{
+			"mKey": "Field:F_HyruleCastle001_004",
+			"mPairKey": "HyruleHouse003:HyruleHouse003_001"
+		},
+		{
+			"mKey": "Field:Field_HyrulePlains_001",
+			"mPairKey": "HyruleWaterway:HyruleWaterway_002"
+		},
+		{
+			"mKey": "Field:Field_NorthForest_003",
+			"mPairKey": "CarrotStorage:CarrotStorage_001"
+		},
+		{
+			"mKey": "Field:Desert004_001",
+			"mPairKey": "S_Dungeon115:SD115_R001_Start"
+		},
+		{
+			"mKey": "LuberiHouse:MeetLuberi",
+			"mPairKey": "LuberiHouse:LuberiHouse_001"
+		},
+		{
+			"mKey": "S_Dungeon109:S109_R001_StartPrison",
+			"mPairKey": "S_Dungeon109:S109_R007_StartS"
+		}
+	]
+}

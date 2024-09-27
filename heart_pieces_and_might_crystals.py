@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import json
 
-sheet = json.load(open('gsheet_json/datasheets/ui/UiMapIconItem.json'))['rows']
+sheet = json.load(open('gsheet_json/1.0.1/datasheets/ui/UiMapIconItem.json'))['rows']
 
 for row in sheet:
     if row['mSymbol'] == "HeartPiece":

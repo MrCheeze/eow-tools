@@ -1,0 +1,199 @@
+{
+	"unk1": 949394871,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiBuffIconBottleContent",
+	"fields": [
+		{
+			"name": "mKind",
+			"typename": "BottleContentEffectKind",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 20,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mIconInfo",
+			"typename": "__inline_struct_UiBuffIconBottleContent_mIconInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 8,
+			"directsize": 16,
+			"elemsize": 40,
+			"subfields": [
+				{
+					"name": "mParam",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mTextureName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mTextLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKind": 0,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "",
+					"mTextLabel": ""
+				}
+			]
+		},
+		{
+			"mKind": 1,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "Heart_00",
+					"mTextLabel": ""
+				},
+				{
+					"mParam": 1,
+					"mTextureName": "Heart_01",
+					"mTextLabel": ""
+				},
+				{
+					"mParam": 2,
+					"mTextureName": "Heart_02",
+					"mTextLabel": ""
+				},
+				{
+					"mParam": 3,
+					"mTextureName": "Heart_03",
+					"mTextLabel": ""
+				}
+			]
+		},
+		{
+			"mKind": 2,
+			"mIconInfo": []
+		},
+		{
+			"mKind": 3,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "DamageReduce",
+					"mTextLabel": "ui/Buff:Buff18"
+				}
+			]
+		},
+		{
+			"mKind": 4,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "AirSaving",
+					"mTextLabel": "ui/Buff:Buff05"
+				}
+			]
+		},
+		{
+			"mKind": 5,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "SpeedUpWindingUp",
+					"mTextLabel": "ui/Buff:Buff27"
+				}
+			]
+		},
+		{
+			"mKind": 6,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "SpeedUpSwim",
+					"mTextLabel": "ui/Buff:Buff25"
+				}
+			]
+		},
+		{
+			"mKind": 7,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "SpeedUpOnWall",
+					"mTextLabel": "ui/Buff:Buff26"
+				}
+			]
+		},
+		{
+			"mKind": 8,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "",
+					"mTextLabel": "ui/Buff:Buff36"
+				}
+			]
+		},
+		{
+			"mKind": 9,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "",
+					"mTextLabel": "ui/Buff:Buff37"
+				}
+			]
+		},
+		{
+			"mKind": 10,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "",
+					"mTextLabel": "ui/Buff:Buff39"
+				}
+			]
+		},
+		{
+			"mKind": 11,
+			"mIconInfo": [
+				{
+					"mParam": 0,
+					"mTextureName": "",
+					"mTextLabel": "ui/Buff:Buff38"
+				}
+			]
+		},
+		{
+			"mKind": 12,
+			"mIconInfo": []
+		}
+	]
+}

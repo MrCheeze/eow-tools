@@ -1,0 +1,1548 @@
+{
+	"unk1": 3453593038,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "TecuumList",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mTable",
+			"typename": "__inline_struct_TecuumList_mTable",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 64,
+			"subfields": [
+				{
+					"name": "mType",
+					"typename": "EnemyLottery",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 9,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mTypeAerial",
+					"typename": "EnemyLottery",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 9,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mTypeInWater",
+					"typename": "EnemyLottery",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 9,
+					"offset": 32,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mPopAngle",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 48,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mOffset",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 52,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mOffsetY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 56,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "MoriblinSpearBoundary",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 60.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 300.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "ZolsAndMoriblinSpearBoundary",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 315.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "FirstPasteLink",
+			"mTable": [
+				{
+					"mType": "TutorialEnemy",
+					"mTypeAerial": "TutorialEnemy",
+					"mTypeInWater": "TutorialEnemy",
+					"mPopAngle": 0.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "ZolBoundary",
+					"mTypeInWater": "ZolBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "KeesesAndZolsBoundary",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 1.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "TektightBoundary",
+			"mTable": [
+				{
+					"mType": "TektightBoundary",
+					"mTypeAerial": "TektightBoundary",
+					"mTypeInWater": "BiriBoundary",
+					"mPopAngle": 0.0,
+					"mOffset": 3.0,
+					"mOffsetY": 1.0
+				},
+				{
+					"mType": "TektightBoundary",
+					"mTypeAerial": "TektightBoundary",
+					"mTypeInWater": "BiriBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 3.0,
+					"mOffsetY": 1.0
+				}
+			]
+		},
+		{
+			"mKey": "FB003_001",
+			"mTable": [
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ReDeadBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "FB003_002",
+			"mTable": [
+				{
+					"mType": "ArurodaBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ArurodaBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "FBCastle001",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 65.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "FBCastle002",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 315.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle001",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 360.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle002",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle003",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 3.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle004",
+			"mTable": [
+				{
+					"mType": "ReDeadBoundary",
+					"mTypeAerial": "ReDeadBoundary",
+					"mTypeInWater": "ReDeadBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle005",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle006",
+			"mTable": [
+				{
+					"mType": "BiriBoundary",
+					"mTypeAerial": "BiriBoundary",
+					"mTypeInWater": "BiriBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 3.0
+				},
+				{
+					"mType": "BiriBoundary",
+					"mTypeAerial": "BiriBoundary",
+					"mTypeInWater": "BiriBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "S106_001",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 1.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 225.0,
+					"mOffset": 1.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains001",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 225.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "ZolBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 0.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains002",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 45.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 315.0,
+					"mOffset": 3.0,
+					"mOffsetY": 1.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains003",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 300.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "ZolBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 60.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "ZolBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 0.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains004",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "BoarblinClubBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains005",
+			"mTable": [
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "BoarblinClubBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "BoarblinClubBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains006",
+			"mTable": [
+				{
+					"mType": "TektightBoundary",
+					"mTypeAerial": "TektightBoundary",
+					"mTypeInWater": "BiriBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 1.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 225.0,
+					"mOffset": 1.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Volcano001",
+			"mTable": [
+				{
+					"mType": "CreepeeBoundary",
+					"mTypeAerial": "CreepeeBoundary",
+					"mTypeInWater": "CreepeeBoundary",
+					"mPopAngle": 210.0,
+					"mOffset": 3.0,
+					"mOffsetY": 2.0
+				},
+				{
+					"mType": "TailBoundary",
+					"mTypeAerial": "TailBoundary",
+					"mTypeInWater": "TailBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Volcano002",
+			"mTable": [
+				{
+					"mType": "CreepeeBoundary",
+					"mTypeAerial": "CreepeeBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 3.0,
+					"mOffsetY": 2.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 210.0,
+					"mOffset": 3.0,
+					"mOffsetY": 1.0
+				}
+			]
+		},
+		{
+			"mKey": "LabelEmpty",
+			"mTable": [
+				{
+					"mType": "LabelEmpty",
+					"mTypeAerial": "LabelEmpty",
+					"mTypeInWater": "LabelEmpty",
+					"mPopAngle": 90.0,
+					"mOffset": 90.0,
+					"mOffsetY": 90.0
+				}
+			]
+		},
+		{
+			"mKey": "RiverSet",
+			"mTable": [
+				{
+					"mType": "TektightOrBiri",
+					"mTypeAerial": "TektightOrBiri",
+					"mTypeInWater": "TagglerOrBiri",
+					"mPopAngle": 135.0,
+					"mOffset": 5.0,
+					"mOffsetY": 1.0
+				},
+				{
+					"mType": "TektightOrBiri",
+					"mTypeAerial": "TektightOrBiri",
+					"mTypeInWater": "TagglerOrBiri",
+					"mPopAngle": 210.0,
+					"mOffset": 5.0,
+					"mOffsetY": 1.0
+				}
+			]
+		},
+		{
+			"mKey": "CoastSet",
+			"mTable": [
+				{
+					"mType": "TagglerOrBiri",
+					"mTypeAerial": "TagglerOrBiri",
+					"mTypeInWater": "TagglerOrBiri",
+					"mPopAngle": 135.0,
+					"mOffset": 5.0,
+					"mOffsetY": 1.0
+				},
+				{
+					"mType": "TagglerOrBiri",
+					"mTypeAerial": "TagglerOrBiri",
+					"mTypeInWater": "TagglerOrBiri",
+					"mPopAngle": 210.0,
+					"mOffset": 5.0,
+					"mOffsetY": 1.0
+				}
+			]
+		},
+		{
+			"mKey": "Desert001",
+			"mTable": [
+				{
+					"mType": "ArurodaBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ArurodaOrReDead",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Desert002",
+			"mTable": [
+				{
+					"mType": "ArurodaOrBoarblinB",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ArurodaOrBoarblinB",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "DesertSequence001",
+			"mTable": [
+				{
+					"mType": "ArurodaBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ArurodaBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "DesertSequence002",
+			"mTable": [
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "DesertSequence003",
+			"mTable": [
+				{
+					"mType": "ReDeadBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ReDeadBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "FB004_001",
+			"mTable": [
+				{
+					"mType": "LizalfosBoundary",
+					"mTypeAerial": "LizalfosBoundary",
+					"mTypeInWater": "LizalfosBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "CreepeeBoundary",
+					"mTypeAerial": "CreepeeBoundary",
+					"mTypeInWater": "CreepeeBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				}
+			]
+		},
+		{
+			"mKey": "Desert003",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 70.0,
+					"mOffset": 3.0,
+					"mOffsetY": 3.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 250.0,
+					"mOffset": 3.0,
+					"mOffsetY": 3.0
+				},
+				{
+					"mType": "ArurodaBoundary",
+					"mTypeAerial": "ArurodaBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "S056_001",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 225.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "S056_002",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LLast001",
+			"mTable": [
+				{
+					"mType": "LastBoundary",
+					"mTypeAerial": "LastBoundaryAir",
+					"mTypeInWater": "LastBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "LastBoundary",
+					"mTypeAerial": "LastBoundaryAir",
+					"mTypeInWater": "LastBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "S053_002",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 60.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "JungleSet",
+			"mTable": [
+				{
+					"mType": "JungleSet",
+					"mTypeAerial": "JungleSet",
+					"mTypeInWater": "JungleSet",
+					"mPopAngle": 0.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "JungleSet",
+					"mTypeAerial": "JungleSet",
+					"mTypeInWater": "JungleSet",
+					"mPopAngle": 120.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "JungleSet",
+					"mTypeAerial": "JungleSet",
+					"mTypeInWater": "JungleSet",
+					"mPopAngle": 240.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "SnowyMountainFB01",
+			"mTable": [
+				{
+					"mType": "MoaBoundary",
+					"mTypeAerial": "MoaBoundary",
+					"mTypeInWater": "MoaBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "SnowyMountainFB03",
+			"mTable": [
+				{
+					"mType": "WolfosBoundary",
+					"mTypeAerial": "MoaBoundary",
+					"mTypeInWater": "MoaBoundary",
+					"mPopAngle": 225.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "S034_001",
+			"mTable": [
+				{
+					"mType": "WalltulaBoundary",
+					"mTypeAerial": "WalltulaBoundary",
+					"mTypeInWater": "WalltulaBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "WalltulaBoundary",
+					"mTypeAerial": "WalltulaBoundary",
+					"mTypeInWater": "WalltulaBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LLastWave1",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 60.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "BoarblinClubBoundary",
+					"mTypeInWater": "BoarblinClubBoundary",
+					"mPopAngle": 300.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LLastWave2",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 240.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 0.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				}
+			]
+		},
+		{
+			"mKey": "LLastWave3",
+			"mTable": [
+				{
+					"mType": "CreepeeBoundary",
+					"mTypeAerial": "CreepeeBoundary",
+					"mTypeInWater": "CreepeeBoundary",
+					"mPopAngle": 0.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "CreepeeBoundary",
+					"mTypeAerial": "CreepeeBoundary",
+					"mTypeInWater": "CreepeeBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LLastWave4",
+			"mTable": [
+				{
+					"mType": "LynelBoundary",
+					"mTypeAerial": "LynelBoundary",
+					"mTypeInWater": "LynelBoundary",
+					"mPopAngle": 179.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle007",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle008",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle009",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle010",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LCastle011",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "FBLastPolice",
+			"mTable": [
+				{
+					"mType": "MoaBoundary",
+					"mTypeAerial": "MoaBoundary",
+					"mTypeInWater": "MoaBoundary",
+					"mPopAngle": 215.0,
+					"mOffset": 3.0,
+					"mOffsetY": 3.0
+				},
+				{
+					"mType": "MoaBoundary",
+					"mTypeAerial": "MoaBoundary",
+					"mTypeInWater": "MoaBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 3.0,
+					"mOffsetY": 3.0
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 3.0,
+					"mOffsetY": 3.0
+				}
+			]
+		},
+		{
+			"mKey": "LastBossMu01",
+			"mTable": [
+				{
+					"mType": "BiriBoundary",
+					"mTypeAerial": "BiriBoundary",
+					"mTypeInWater": "BiriBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 3.0,
+					"mOffsetY": 3.0
+				}
+			]
+		},
+		{
+			"mKey": "LastBossMu02A",
+			"mTable": [
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 7.5,
+					"mOffsetY": 2.0
+				},
+				{
+					"mType": "DarknutBoundary",
+					"mTypeAerial": "DarknutBoundary",
+					"mTypeInWater": "DarknutBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 7.5,
+					"mOffsetY": 2.0
+				}
+			]
+		},
+		{
+			"mKey": "LastBossMu02B",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 6.0,
+					"mOffsetY": 2.0
+				},
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 225.0,
+					"mOffset": 6.0,
+					"mOffsetY": 2.0
+				}
+			]
+		},
+		{
+			"mKey": "LastBossMu02C",
+			"mTable": [
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "BoarblinClubBoundary",
+					"mTypeInWater": "BoarblinClubBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 7.5,
+					"mOffsetY": 2.0
+				}
+			]
+		},
+		{
+			"mKey": "LLastWave1-2",
+			"mTable": [
+				{
+					"mType": "MoriblinSpearBoundary",
+					"mTypeAerial": "MoriblinSpearBoundary",
+					"mTypeInWater": "MoriblinSpearBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "BoarblinClubBoundary",
+					"mTypeAerial": "BoarblinClubBoundary",
+					"mTypeInWater": "BoarblinClubBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "LLastWave2-2",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 300.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 60.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				}
+			]
+		},
+		{
+			"mKey": "Volcano003",
+			"mTable": [
+				{
+					"mType": "TailBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TailBoundary",
+					"mPopAngle": 60.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "TailBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TailBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "TailBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TailBoundary",
+					"mPopAngle": 300.0,
+					"mOffset": 3.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Hebra001",
+			"mTable": [
+				{
+					"mType": "FreezardBoundary",
+					"mTypeAerial": "FreezardBoundary",
+					"mTypeInWater": "FreezardBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "FreezardBoundary",
+					"mTypeAerial": "FreezardBoundary",
+					"mTypeInWater": "FreezardBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Jungle001",
+			"mTable": [
+				{
+					"mType": "WalltulaBoundary",
+					"mTypeAerial": "WalltulaBoundary",
+					"mTypeInWater": "WalltulaBoundary",
+					"mPopAngle": 90.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "WalltulaBoundary",
+					"mTypeAerial": "WalltulaBoundary",
+					"mTypeInWater": "WalltulaBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Jungle002",
+			"mTable": [
+				{
+					"mType": "WalltulaBoundary",
+					"mTypeAerial": "WalltulaBoundary",
+					"mTypeInWater": "WalltulaBoundary",
+					"mPopAngle": 135.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "AnaMoneaBoundary",
+					"mTypeAerial": "AnaMoneaBoundary",
+					"mTypeInWater": "AnaMoneaBoundary",
+					"mPopAngle": 270.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Jungle003",
+			"mTable": [
+				{
+					"mType": "WalltulaBoundary",
+					"mTypeAerial": "WalltulaBoundary",
+					"mTypeInWater": "WalltulaBoundary",
+					"mPopAngle": 210.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "BuzzBlobBoundary",
+					"mTypeAerial": "BuzzBlobBoundary",
+					"mTypeInWater": "BuzzBlobBoundary",
+					"mPopAngle": 150.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains007",
+			"mTable": [
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 0.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "ZolBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "TagglerBoundary",
+					"mPopAngle": 240.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "HyrulePlains008",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 0.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 120.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				},
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 240.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				}
+			]
+		},
+		{
+			"mKey": "Hebra002",
+			"mTable": [
+				{
+					"mType": "KeeseBoundary",
+					"mTypeAerial": "KeeseBoundary",
+					"mTypeInWater": "KeeseBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				},
+				{
+					"mType": "MoaBoundary",
+					"mTypeAerial": "MoaBoundary",
+					"mTypeInWater": "MoaBoundary",
+					"mPopAngle": 215.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				}
+			]
+		},
+		{
+			"mKey": "Hebra003",
+			"mTable": [
+				{
+					"mType": "WolfosBoundary",
+					"mTypeAerial": "WolfosBoundary",
+					"mTypeInWater": "WolfosBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "WolfosBoundary",
+					"mTypeAerial": "WolfosBoundary",
+					"mTypeInWater": "WolfosBoundary",
+					"mPopAngle": 215.0,
+					"mOffset": 4.5,
+					"mOffsetY": 0.0
+				}
+			]
+		},
+		{
+			"mKey": "Hebra004",
+			"mTable": [
+				{
+					"mType": "FreezardBoundary",
+					"mTypeAerial": "FreezardBoundary",
+					"mTypeInWater": "FreezardBoundary",
+					"mPopAngle": 215.0,
+					"mOffset": 6.0,
+					"mOffsetY": 0.0
+				},
+				{
+					"mType": "MoaBoundary",
+					"mTypeAerial": "MoaBoundary",
+					"mTypeInWater": "MoaBoundary",
+					"mPopAngle": 180.0,
+					"mOffset": 4.5,
+					"mOffsetY": 1.5
+				}
+			]
+		}
+	]
+}

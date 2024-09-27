@@ -1,0 +1,194 @@
+{
+	"unk1": 1859139161,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "SpikeTileObstacle",
+	"fields": [
+		{
+			"name": "mActorName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mIsDown",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 1,
+			"elemsize": 1
+		}
+	],
+	"rows": [
+		{
+			"mActorName": "Anchor",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "Beamos",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "Bed",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "BedMedium",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "BedZelda",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "BlockIce",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "BlockWater",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "BoardFloatLava",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "Bonfire",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "BoxWooden",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "CharmCarrot",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "CharmDoll",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "CharmFish",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "CharmMeat",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "CharmRockRoast",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "Cloud",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "Firework",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "FlyingTile",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "FoliagePlant",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "Grass",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "LampDungeon",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "NorthForestRelic",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "Pot",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "Rock",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "RockCave",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "RockSolid",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "RockSolidElectric",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "RollingPole",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "Signboard",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "SnowBall",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "StatueL003",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "StatueL003Bird",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "StatueL003Cat",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "StatueL003Snake",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "Table",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "Trampoline",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "WindMaker",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "ZoroZoroHill",
+			"mIsDown": false
+		},
+		{
+			"mActorName": "Armos",
+			"mIsDown": true
+		},
+		{
+			"mActorName": "Megadon",
+			"mIsDown": true
+		}
+	]
+}

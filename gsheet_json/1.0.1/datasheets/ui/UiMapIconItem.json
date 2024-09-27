@@ -1,0 +1,838 @@
+{
+	"unk1": 55598600,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconItem",
+	"fields": [
+		{
+			"name": "mSymbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mIconWidth",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mIconInfos",
+			"typename": "__inline_struct_UiMapIconItem_mIconInfos",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mPosX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPosY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mSymbol": "HeartPiece",
+			"mIconWidth": 20.0,
+			"mIconInfos": [
+				{
+					"mPosX": 216.0,
+					"mPosY": 482.25
+				},
+				{
+					"mPosX": 230.25,
+					"mPosY": 457.35
+				},
+				{
+					"mPosX": 408.75,
+					"mPosY": 427.35
+				},
+				{
+					"mPosX": 300.75,
+					"mPosY": 445.35
+				},
+				{
+					"mPosX": 569.25,
+					"mPosY": 44.25
+				},
+				{
+					"mPosX": 611.25,
+					"mPosY": 144.75
+				},
+				{
+					"mPosX": 687.0,
+					"mPosY": 282.0
+				},
+				{
+					"mPosX": 501.75,
+					"mPosY": 283.35
+				},
+				{
+					"mPosX": 108.75,
+					"mPosY": 357.0
+				},
+				{
+					"mPosX": -14.25,
+					"mPosY": 471.75
+				},
+				{
+					"mPosX": 21.75,
+					"mPosY": 380.85
+				},
+				{
+					"mPosX": 205.5,
+					"mPosY": 388.5
+				},
+				{
+					"mPosX": 57.75,
+					"mPosY": 92.85
+				},
+				{
+					"mPosX": -35.25,
+					"mPosY": 162.75
+				},
+				{
+					"mPosX": 77.25,
+					"mPosY": 107.25
+				},
+				{
+					"mPosX": 44.25,
+					"mPosY": 131.25
+				},
+				{
+					"mPosX": 639.75,
+					"mPosY": 433.35
+				},
+				{
+					"mPosX": 597.75,
+					"mPosY": 446.85
+				},
+				{
+					"mPosX": 527.25,
+					"mPosY": 415.35
+				},
+				{
+					"mPosX": 582.75,
+					"mPosY": 374.95
+				},
+				{
+					"mPosX": 455.25,
+					"mPosY": 45.75
+				},
+				{
+					"mPosX": 421.5,
+					"mPosY": 72.0
+				},
+				{
+					"mPosX": 442.5,
+					"mPosY": 96.6
+				},
+				{
+					"mPosX": 350.25,
+					"mPosY": 20.25
+				},
+				{
+					"mPosX": 324.0,
+					"mPosY": 361.5
+				},
+				{
+					"mPosX": 235.5,
+					"mPosY": 307.5
+				},
+				{
+					"mPosX": 225.0,
+					"mPosY": 186.0
+				},
+				{
+					"mPosX": 37.5,
+					"mPosY": 261.75
+				},
+				{
+					"mPosX": 447.75,
+					"mPosY": 196.35
+				},
+				{
+					"mPosX": -17.25,
+					"mPosY": 202.35
+				},
+				{
+					"mPosX": 330.0,
+					"mPosY": 175.5
+				},
+				{
+					"mPosX": 165.75,
+					"mPosY": 172.35
+				},
+				{
+					"mPosX": 177.0,
+					"mPosY": 290.25
+				},
+				{
+					"mPosX": 138.75,
+					"mPosY": 155.25
+				},
+				{
+					"mPosX": 104.25,
+					"mPosY": 398.85
+				},
+				{
+					"mPosX": 69.75,
+					"mPosY": 199.35
+				},
+				{
+					"mPosX": 69.75,
+					"mPosY": 199.35
+				},
+				{
+					"mPosX": 507.75,
+					"mPosY": 250.35
+				},
+				{
+					"mPosX": 296.25,
+					"mPosY": 238.5
+				},
+				{
+					"mPosX": 2.25,
+					"mPosY": 204.75
+				}
+			]
+		},
+		{
+			"mSymbol": "WorldGlobePiece",
+			"mIconWidth": 12.0,
+			"mIconInfos": [
+				{
+					"mPosX": 227.25,
+					"mPosY": 296.25
+				},
+				{
+					"mPosX": 228.75,
+					"mPosY": 206.85
+				},
+				{
+					"mPosX": 396.75,
+					"mPosY": 371.25
+				},
+				{
+					"mPosX": 433.5,
+					"mPosY": 255.0
+				},
+				{
+					"mPosX": 315.0,
+					"mPosY": 194.25
+				},
+				{
+					"mPosX": 75.75,
+					"mPosY": 341.25
+				},
+				{
+					"mPosX": 73.5,
+					"mPosY": 357.75
+				},
+				{
+					"mPosX": -11.25,
+					"mPosY": 92.25
+				},
+				{
+					"mPosX": -0.75,
+					"mPosY": 342.75
+				},
+				{
+					"mPosX": 114.75,
+					"mPosY": 453.6
+				},
+				{
+					"mPosX": 411.75,
+					"mPosY": 340.35
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 129.75,
+					"mPosY": 135.75
+				},
+				{
+					"mPosX": -23.25,
+					"mPosY": 176.25
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 595.5,
+					"mPosY": 122.25
+				},
+				{
+					"mPosX": 132.75,
+					"mPosY": 401.25
+				},
+				{
+					"mPosX": 528.75,
+					"mPosY": 120.75
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 229.5,
+					"mPosY": 391.5
+				},
+				{
+					"mPosX": 227.25,
+					"mPosY": 71.25
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 333.75,
+					"mPosY": 114.75
+				},
+				{
+					"mPosX": 378.0,
+					"mPosY": 68.25
+				},
+				{
+					"mPosX": 327.75,
+					"mPosY": 32.25
+				},
+				{
+					"mPosX": 449.25,
+					"mPosY": 86.25
+				},
+				{
+					"mPosX": 368.25,
+					"mPosY": 43.5
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 591.75,
+					"mPosY": 375.7
+				},
+				{
+					"mPosX": 617.25,
+					"mPosY": 444.75
+				},
+				{
+					"mPosX": 672.0,
+					"mPosY": 336.0
+				},
+				{
+					"mPosX": 503.25,
+					"mPosY": 423.75
+				},
+				{
+					"mPosX": 293.25,
+					"mPosY": 354.75
+				},
+				{
+					"mPosX": 227.25,
+					"mPosY": 248.25
+				},
+				{
+					"mPosX": 72.75,
+					"mPosY": 286.35
+				},
+				{
+					"mPosX": 273.75,
+					"mPosY": 279.75
+				},
+				{
+					"mPosX": 140.25,
+					"mPosY": 323.25
+				},
+				{
+					"mPosX": 366.75,
+					"mPosY": 278.25
+				},
+				{
+					"mPosX": 65.25,
+					"mPosY": 230.25
+				},
+				{
+					"mPosX": 75.75,
+					"mPosY": 179.25
+				},
+				{
+					"mPosX": 413.25,
+					"mPosY": 284.25
+				},
+				{
+					"mPosX": 294.75,
+					"mPosY": 303.75
+				},
+				{
+					"mPosX": 453.75,
+					"mPosY": 125.25
+				},
+				{
+					"mPosX": 272.25,
+					"mPosY": 402.75
+				},
+				{
+					"mPosX": 477.75,
+					"mPosY": 125.85
+				},
+				{
+					"mPosX": 522.75,
+					"mPosY": 182.5
+				},
+				{
+					"mPosX": 458.25,
+					"mPosY": 458.25
+				},
+				{
+					"mPosX": 462.75,
+					"mPosY": 212.25
+				},
+				{
+					"mPosX": 473.25,
+					"mPosY": 146.25
+				},
+				{
+					"mPosX": -34.5,
+					"mPosY": 222.0
+				},
+				{
+					"mPosX": 147.75,
+					"mPosY": 105.75
+				},
+				{
+					"mPosX": 147.25,
+					"mPosY": 477.25
+				},
+				{
+					"mPosX": 42.75,
+					"mPosY": 296.25
+				},
+				{
+					"mPosX": 204.75,
+					"mPosY": 221.25
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 303.75,
+					"mPosY": 218.85
+				},
+				{
+					"mPosX": 177.0,
+					"mPosY": 290.25
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 104.25,
+					"mPosY": 398.85
+				},
+				{
+					"mPosX": 272.25,
+					"mPosY": 215.25
+				},
+				{
+					"mPosX": 553.5,
+					"mPosY": 239.25
+				},
+				{
+					"mPosX": 581.25,
+					"mPosY": 270.0
+				},
+				{
+					"mPosX": 647.25,
+					"mPosY": 234.0
+				},
+				{
+					"mPosX": 120.375,
+					"mPosY": 150.75
+				},
+				{
+					"mPosX": 96.0,
+					"mPosY": 135.375
+				},
+				{
+					"mPosX": 296.25,
+					"mPosY": 238.5
+				},
+				{
+					"mPosX": 284.25,
+					"mPosY": 453.75
+				},
+				{
+					"mPosX": 531.75,
+					"mPosY": 218.25
+				},
+				{
+					"mPosX": 592.5,
+					"mPosY": 381.75
+				},
+				{
+					"mPosX": -9.75,
+					"mPosY": 407.272
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 440.25,
+					"mPosY": 383.85
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 603.75,
+					"mPosY": 151.35
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 73.5,
+					"mPosY": 450.6
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 312.0,
+					"mPosY": 205.725
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 22.0,
+					"mPosY": 88.5
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 628.5,
+					"mPosY": 334.35
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 428.625,
+					"mPosY": 0.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 676.875,
+					"mPosY": 468.375
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 516.75,
+					"mPosY": 464.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 384.75,
+					"mPosY": 356.925
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 237.75,
+					"mPosY": 345.25
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 246.5,
+					"mPosY": 155.75
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 305.25,
+					"mPosY": 144.94
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 635.25,
+					"mPosY": 75.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -12.0,
+					"mPosY": 299.78
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 395.25,
+					"mPosY": 458.875
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 446.25,
+					"mPosY": 31.5
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 599.25,
+					"mPosY": 69.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 158.25,
+					"mPosY": 372.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 90.75,
+					"mPosY": 136.35
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 452.25,
+					"mPosY": 89.85
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": 13.5,
+					"mPosY": 158.062
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				},
+				{
+					"mPosX": -255.0,
+					"mPosY": -255.0
+				}
+			]
+		}
+	]
+}

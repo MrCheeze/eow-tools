@@ -1,0 +1,354 @@
+{
+	"unk1": 2757188553,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiItemMenuList",
+	"fields": [
+		{
+			"name": "mSymbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "itemId",
+			"typename": "ItemId",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "listIndex",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mSoldPrice",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mBottleContentEffectKind",
+			"typename": "BottleContentEffectKind",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 28,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mAmount",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mNameTextLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mDescriptionTextLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mSymbol": "SmoothieIngredient00",
+			"itemId": 212,
+			"listIndex": 0,
+			"mSoldPrice": 5,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 1.0,
+			"mNameTextLabel": "glossary/Item:Item210",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient00"
+		},
+		{
+			"mSymbol": "SmoothieIngredient01",
+			"itemId": 213,
+			"listIndex": 0,
+			"mSoldPrice": 8,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item205",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient01"
+		},
+		{
+			"mSymbol": "SmoothieIngredient02",
+			"itemId": 214,
+			"listIndex": 0,
+			"mSoldPrice": 8,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 2.0,
+			"mNameTextLabel": "glossary/Item:Item225",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient02"
+		},
+		{
+			"mSymbol": "SmoothieIngredient03",
+			"itemId": 215,
+			"listIndex": 0,
+			"mSoldPrice": 6,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 1.0,
+			"mNameTextLabel": "glossary/Item:Item250",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient03"
+		},
+		{
+			"mSymbol": "SmoothieIngredient04",
+			"itemId": 216,
+			"listIndex": 0,
+			"mSoldPrice": 10,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item220",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient04"
+		},
+		{
+			"mSymbol": "SmoothieIngredient05",
+			"itemId": 217,
+			"listIndex": 0,
+			"mSoldPrice": 6,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 1.0,
+			"mNameTextLabel": "glossary/Item:Item200",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient05"
+		},
+		{
+			"mSymbol": "SmoothieIngredient06",
+			"itemId": 218,
+			"listIndex": 0,
+			"mSoldPrice": 10,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 2.0,
+			"mNameTextLabel": "glossary/Item:Item245",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient06"
+		},
+		{
+			"mSymbol": "SmoothieIngredient07",
+			"itemId": 219,
+			"listIndex": 0,
+			"mSoldPrice": 6,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 1.0,
+			"mNameTextLabel": "glossary/Item:Item215",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient07"
+		},
+		{
+			"mSymbol": "SmoothieIngredient08",
+			"itemId": 220,
+			"listIndex": 0,
+			"mSoldPrice": 5,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 1.0,
+			"mNameTextLabel": "glossary/Item:Item230",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient08"
+		},
+		{
+			"mSymbol": "SmoothieIngredient09",
+			"itemId": 221,
+			"listIndex": 0,
+			"mSoldPrice": 6,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item235",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient09"
+		},
+		{
+			"mSymbol": "SmoothieIngredient10",
+			"itemId": 222,
+			"listIndex": 0,
+			"mSoldPrice": 10,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item240",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient10"
+		},
+		{
+			"mSymbol": "SmoothieIngredient11",
+			"itemId": 223,
+			"listIndex": 0,
+			"mSoldPrice": 10,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 4.0,
+			"mNameTextLabel": "glossary/Item:Item267",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient11"
+		},
+		{
+			"mSymbol": "SmoothieIngredient12",
+			"itemId": 224,
+			"listIndex": 0,
+			"mSoldPrice": 20,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item265",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient12"
+		},
+		{
+			"mSymbol": "SmoothieIngredient13",
+			"itemId": 225,
+			"listIndex": 0,
+			"mSoldPrice": 20,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item260",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient13"
+		},
+		{
+			"mSymbol": "SmoothieIngredient14",
+			"itemId": 226,
+			"listIndex": 0,
+			"mSoldPrice": 8,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 4.0,
+			"mNameTextLabel": "glossary/Item:Item255",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient14"
+		},
+		{
+			"mSymbol": "SmoothieIngredient15",
+			"itemId": 236,
+			"listIndex": 0,
+			"mSoldPrice": 150,
+			"mBottleContentEffectKind": 1,
+			"mAmount": 8.0,
+			"mNameTextLabel": "glossary/Item:Item573",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient15"
+		},
+		{
+			"mSymbol": "ItemMachineCoupon",
+			"itemId": 197,
+			"listIndex": 1,
+			"mSoldPrice": 5,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item285",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MachineCoupon"
+		},
+		{
+			"mSymbol": "ItemQuest00",
+			"itemId": 157,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item416",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemQuest00"
+		},
+		{
+			"mSymbol": "ItemQuest01",
+			"itemId": 186,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item165",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemQuest01"
+		},
+		{
+			"mSymbol": "ItemQuest02",
+			"itemId": 187,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item170",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemQuest02"
+		},
+		{
+			"mSymbol": "ItemQuest04",
+			"itemId": 189,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item160",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemQuest04"
+		},
+		{
+			"mSymbol": "ItemQuest05",
+			"itemId": 190,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item172",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemQuest05"
+		},
+		{
+			"mSymbol": "ItemMachineUnlock00",
+			"itemId": 208,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item180",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemMachineUnlock00"
+		},
+		{
+			"mSymbol": "ItemMachineUnlock01",
+			"itemId": 209,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item185",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemMachineUnlock01"
+		},
+		{
+			"mSymbol": "ItemMachineUnlock02",
+			"itemId": 210,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item190",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemMachineUnlock02"
+		},
+		{
+			"mSymbol": "ItemMachineUnlock03",
+			"itemId": 229,
+			"listIndex": 1,
+			"mSoldPrice": 4294967295,
+			"mBottleContentEffectKind": 0,
+			"mAmount": 0.0,
+			"mNameTextLabel": "glossary/Item:Item195",
+			"mDescriptionTextLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_ItemMachineUnlock03"
+		}
+	]
+}

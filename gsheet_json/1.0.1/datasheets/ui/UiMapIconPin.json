@@ -1,0 +1,62 @@
+{
+	"unk1": 2361380663,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconPin",
+	"fields": [
+		{
+			"name": "mPinNo",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mTextureName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 8,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mPinNo": 7,
+			"mTextureName": "MapFlag_00"
+		},
+		{
+			"mPinNo": 8,
+			"mTextureName": "MapFlag_01"
+		},
+		{
+			"mPinNo": 9,
+			"mTextureName": "MapFlag_02"
+		},
+		{
+			"mPinNo": 3,
+			"mTextureName": "MapPin_03"
+		},
+		{
+			"mPinNo": 0,
+			"mTextureName": "MapPin_00"
+		},
+		{
+			"mPinNo": 2,
+			"mTextureName": "MapPin_02"
+		},
+		{
+			"mPinNo": 4,
+			"mTextureName": "MapPin_04"
+		}
+	]
+}

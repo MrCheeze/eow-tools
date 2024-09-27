@@ -1,0 +1,184 @@
+{
+	"unk1": 263124795,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "InstancedModelList",
+	"fields": [
+		{
+			"name": "ModelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "Id",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "ShapeVisibilityFlag",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"ModelName": "TreePlains01",
+			"Id": 1,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TreePlains02",
+			"Id": 2,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TreePlains03",
+			"Id": 3,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TreeHyrule",
+			"Id": 4,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "Lawn",
+			"Id": 5,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnVolcano",
+			"Id": 6,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnSea",
+			"Id": 7,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnWater",
+			"Id": 8,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "TreeRiver",
+			"Id": 9,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "LawnDesert",
+			"Id": 10,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnFlowerRiver",
+			"Id": 11,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnFlowerSea",
+			"Id": 12,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnJungle",
+			"Id": 13,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnTall",
+			"Id": 14,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnHebra",
+			"Id": 15,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "TreeJungle00",
+			"Id": 16,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "TreeJungle01",
+			"Id": 17,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "GrassJungle02",
+			"Id": 18,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "TreeHebra",
+			"Id": 19,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnHyrule",
+			"Id": 20,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnPlains",
+			"Id": 21,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "LawnLow",
+			"Id": 22,
+			"ShapeVisibilityFlag": 1
+		},
+		{
+			"ModelName": "TreeAncient",
+			"Id": 23,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TreeForest",
+			"Id": 24,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TreeJungle03",
+			"Id": 25,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TreeJungle04",
+			"Id": 26,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TreeJungle05",
+			"Id": 27,
+			"ShapeVisibilityFlag": 3
+		},
+		{
+			"ModelName": "TotemPole",
+			"Id": 28,
+			"ShapeVisibilityFlag": 1
+		}
+	]
+}

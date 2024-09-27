@@ -53,11 +53,9 @@ sectionSpecs = [
 
 hashes = {}
 
-for line in open('strings_exefs.txt'):
-    line = line.strip()
-    hashes[binascii.crc32(line.encode('ascii'))] = line
-    for line2 in re.split('[^a-zA-Z]', line):
-        hashes[binascii.crc32(line2.encode('ascii'))] = line2
+for line in open('ActorProfile_1.0.1.txt'):
+    for word in line.strip().split():
+        hashes[binascii.crc32(word.encode('ascii'))] = word
 
 for fname in glob.glob("level/**/*.elo", recursive=True):
     print(fname)
@@ -158,6 +156,10 @@ for fname in glob.glob("level/**/*.elo", recursive=True):
 
     fname2 = fname.replace("level"+os.sep,"level_json"+os.sep).replace(".elo",".json")
     assert fname2 != fname
+    try:
+        os.makedirs(fname2.rsplit(os.sep,1)[0])
+    except OSError as e:
+        pass
     
     #pprint.pprint(output, width=400, sort_dicts=False)
     f2 = open(fname2, 'w')

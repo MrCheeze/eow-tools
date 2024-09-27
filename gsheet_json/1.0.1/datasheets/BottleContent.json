@@ -1,0 +1,1057 @@
+{
+	"unk1": 359810577,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "BottleContent",
+	"fields": [
+		{
+			"name": "mSymbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEffect1",
+			"typename": "__inline_struct_BottleContent_mEffect1",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mKind",
+					"typename": "BottleContentEffectKind",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAmount",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mEffect2",
+			"typename": "__inline_struct_BottleContent_mEffect2",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 8,
+			"elemsize": 8,
+			"subfields": [
+				{
+					"name": "mKind",
+					"typename": "BottleContentEffectKind",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mAmount",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mSoldPrice",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mMessageLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mSymbol": "MedicineBlue",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 10.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 5,
+			"mMessageLabel": "glossary/Item:Item280"
+		},
+		{
+			"mSymbol": "MedicineRed",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 5,
+			"mMessageLabel": "glossary/Item:Item270"
+		},
+		{
+			"mSymbol": "MedicineYellow",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 12.0
+			},
+			"mEffect2": {
+				"mKind": 2,
+				"mAmount": 5.0
+			},
+			"mSoldPrice": 10,
+			"mMessageLabel": "glossary/Item:Item275"
+		},
+		{
+			"mSymbol": "Smoothie00",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 2.0
+			},
+			"mEffect2": {
+				"mKind": 2,
+				"mAmount": 5.0
+			},
+			"mSoldPrice": 5,
+			"mMessageLabel": "glossary/Item:Item500"
+		},
+		{
+			"mSymbol": "Smoothie01",
+			"mEffect1": {
+				"mKind": 11,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item501"
+		},
+		{
+			"mSymbol": "Smoothie02",
+			"mEffect1": {
+				"mKind": 6,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item502"
+		},
+		{
+			"mSymbol": "Smoothie03",
+			"mEffect1": {
+				"mKind": 10,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item503"
+		},
+		{
+			"mSymbol": "Smoothie04",
+			"mEffect1": {
+				"mKind": 9,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item504"
+		},
+		{
+			"mSymbol": "Smoothie05",
+			"mEffect1": {
+				"mKind": 8,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item505"
+		},
+		{
+			"mSymbol": "Smoothie06",
+			"mEffect1": {
+				"mKind": 12,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item506"
+		},
+		{
+			"mSymbol": "Smoothie07",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 7,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item507"
+		},
+		{
+			"mSymbol": "Smoothie08",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 8.0
+			},
+			"mEffect2": {
+				"mKind": 7,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item508"
+		},
+		{
+			"mSymbol": "Smoothie09",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 15.0
+			},
+			"mEffect2": {
+				"mKind": 7,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item509"
+		},
+		{
+			"mSymbol": "Smoothie10",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 60.0
+			},
+			"mEffect2": {
+				"mKind": 7,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 50,
+			"mMessageLabel": "glossary/Item:Item510"
+		},
+		{
+			"mSymbol": "Smoothie11",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 7,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item511"
+		},
+		{
+			"mSymbol": "Smoothie12",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 7,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item512"
+		},
+		{
+			"mSymbol": "Smoothie13",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 8.0
+			},
+			"mEffect2": {
+				"mKind": 9,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item513"
+		},
+		{
+			"mSymbol": "Smoothie14",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 6,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item514"
+		},
+		{
+			"mSymbol": "Smoothie15",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 6,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item515"
+		},
+		{
+			"mSymbol": "Smoothie16",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 8.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 20,
+			"mMessageLabel": "glossary/Item:Item516"
+		},
+		{
+			"mSymbol": "Smoothie17",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 60.0
+			},
+			"mEffect2": {
+				"mKind": 2,
+				"mAmount": 15.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item517"
+		},
+		{
+			"mSymbol": "Smoothie18",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 10.0
+			},
+			"mEffect2": {
+				"mKind": 9,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item518"
+		},
+		{
+			"mSymbol": "Smoothie19",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 2,
+				"mAmount": 40.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item519"
+		},
+		{
+			"mSymbol": "Smoothie20",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 30.0
+			},
+			"mEffect2": {
+				"mKind": 10,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item520"
+		},
+		{
+			"mSymbol": "Smoothie21",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 15.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item521"
+		},
+		{
+			"mSymbol": "Smoothie22",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 5,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item522"
+		},
+		{
+			"mSymbol": "Smoothie23",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 5,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item523"
+		},
+		{
+			"mSymbol": "Smoothie24",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 5,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item524"
+		},
+		{
+			"mSymbol": "Smoothie25",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 60.0
+			},
+			"mEffect2": {
+				"mKind": 5,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 50,
+			"mMessageLabel": "glossary/Item:Item525"
+		},
+		{
+			"mSymbol": "Smoothie26",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 5,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item526"
+		},
+		{
+			"mSymbol": "Smoothie27",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 52.0
+			},
+			"mEffect2": {
+				"mKind": 5,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item527"
+		},
+		{
+			"mSymbol": "Smoothie28",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 8.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item552"
+		},
+		{
+			"mSymbol": "Smoothie29",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 4,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item529"
+		},
+		{
+			"mSymbol": "Smoothie30",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 8.0
+			},
+			"mEffect2": {
+				"mKind": 4,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item530"
+		},
+		{
+			"mSymbol": "Smoothie31",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 4,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item531"
+		},
+		{
+			"mSymbol": "Smoothie32",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 4,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item532"
+		},
+		{
+			"mSymbol": "Smoothie33",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item533"
+		},
+		{
+			"mSymbol": "Smoothie34",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item534"
+		},
+		{
+			"mSymbol": "Smoothie35",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 28.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item535"
+		},
+		{
+			"mSymbol": "Smoothie36",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 52.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item536"
+		},
+		{
+			"mSymbol": "Smoothie37",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 15.0
+			},
+			"mEffect2": {
+				"mKind": 8,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item537"
+		},
+		{
+			"mSymbol": "Smoothie38",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 10.0
+			},
+			"mEffect2": {
+				"mKind": 8,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item538"
+		},
+		{
+			"mSymbol": "Smoothie39",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 30.0
+			},
+			"mEffect2": {
+				"mKind": 8,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item539"
+		},
+		{
+			"mSymbol": "Smoothie40",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 15.0
+			},
+			"mEffect2": {
+				"mKind": 8,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item540"
+		},
+		{
+			"mSymbol": "Smoothie41",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 28.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item541"
+		},
+		{
+			"mSymbol": "Smoothie42",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 52.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item542"
+		},
+		{
+			"mSymbol": "Smoothie43",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 60.0
+			},
+			"mEffect2": {
+				"mKind": 3,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 50,
+			"mMessageLabel": "glossary/Item:Item543"
+		},
+		{
+			"mSymbol": "Smoothie44",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 28.0
+			},
+			"mEffect2": {
+				"mKind": 3,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item544"
+		},
+		{
+			"mSymbol": "Smoothie45",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 60.0
+			},
+			"mEffect2": {
+				"mKind": 3,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 50,
+			"mMessageLabel": "glossary/Item:Item545"
+		},
+		{
+			"mSymbol": "Smoothie46",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 3,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 50,
+			"mMessageLabel": "glossary/Item:Item546"
+		},
+		{
+			"mSymbol": "Smoothie47",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 72.0
+			},
+			"mEffect2": {
+				"mKind": 3,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 50,
+			"mMessageLabel": "glossary/Item:Item547"
+		},
+		{
+			"mSymbol": "Smoothie48",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 8.0
+			},
+			"mEffect2": {
+				"mKind": 10,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item548"
+		},
+		{
+			"mSymbol": "Smoothie49",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 10,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item549"
+		},
+		{
+			"mSymbol": "Smoothie50",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item550"
+		},
+		{
+			"mSymbol": "Smoothie51",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 180.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item551"
+		},
+		{
+			"mSymbol": "Smoothie52",
+			"mEffect1": {
+				"mKind": 4,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item559"
+		},
+		{
+			"mSymbol": "Smoothie53",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item553"
+		},
+		{
+			"mSymbol": "Smoothie54",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 40.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 45,
+			"mMessageLabel": "glossary/Item:Item554"
+		},
+		{
+			"mSymbol": "Smoothie55",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 20.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 30,
+			"mMessageLabel": "glossary/Item:Item555"
+		},
+		{
+			"mSymbol": "Smoothie56",
+			"mEffect1": {
+				"mKind": 7,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item560"
+		},
+		{
+			"mSymbol": "Smoothie57",
+			"mEffect1": {
+				"mKind": 5,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item561"
+		},
+		{
+			"mSymbol": "Smoothie58",
+			"mEffect1": {
+				"mKind": 3,
+				"mAmount": 300.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 35,
+			"mMessageLabel": "glossary/Item:Item562"
+		},
+		{
+			"mSymbol": "Smoothie59",
+			"mEffect1": {
+				"mKind": 2,
+				"mAmount": 15.0
+			},
+			"mEffect2": {
+				"mKind": 4,
+				"mAmount": 60.0
+			},
+			"mSoldPrice": 25,
+			"mMessageLabel": "glossary/Item:Item572"
+		},
+		{
+			"mSymbol": "Smoothie60",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 0,
+				"mAmount": 0.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item563"
+		},
+		{
+			"mSymbol": "Smoothie61",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 4,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item564"
+		},
+		{
+			"mSymbol": "Smoothie62",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 6,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item565"
+		},
+		{
+			"mSymbol": "Smoothie63",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 11,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item566"
+		},
+		{
+			"mSymbol": "Smoothie64",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 9,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item567"
+		},
+		{
+			"mSymbol": "Smoothie65",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 7,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item568"
+		},
+		{
+			"mSymbol": "Smoothie66",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 12,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item569"
+		},
+		{
+			"mSymbol": "Smoothie67",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 5,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item570"
+		},
+		{
+			"mSymbol": "Smoothie68",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 3,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item571"
+		},
+		{
+			"mSymbol": "Smoothie69",
+			"mEffect1": {
+				"mKind": 1,
+				"mAmount": 80.0
+			},
+			"mEffect2": {
+				"mKind": 10,
+				"mAmount": 300.0
+			},
+			"mSoldPrice": 75,
+			"mMessageLabel": "glossary/Item:Item574"
+		}
+	]
+}

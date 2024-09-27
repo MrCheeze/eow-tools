@@ -1,0 +1,94 @@
+{
+	"unk1": 784403044,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconActor",
+	"fields": [
+		{
+			"name": "mActorName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mIconType",
+			"typename": "UiMapIconType",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mActorName": "WarpOpener",
+			"mIconType": 4
+		},
+		{
+			"mActorName": "WarpOpenerBoundary",
+			"mIconType": 4
+		},
+		{
+			"mActorName": "SensorFloorChange",
+			"mIconType": 5
+		},
+		{
+			"mActorName": "SensorLevelOpen",
+			"mIconType": 6
+		},
+		{
+			"mActorName": "CrackHuge",
+			"mIconType": 7
+		},
+		{
+			"mActorName": "CrackSmall",
+			"mIconType": 7
+		},
+		{
+			"mActorName": "TreasureBox",
+			"mIconType": 8
+		},
+		{
+			"mActorName": "TreasureBoxBig",
+			"mIconType": 8
+		},
+		{
+			"mActorName": "StampTable",
+			"mIconType": 12
+		},
+		{
+			"mActorName": "DoorBoss",
+			"mIconType": 0
+		},
+		{
+			"mActorName": "DoorCloseBoss",
+			"mIconType": 0
+		},
+		{
+			"mActorName": "DoorLock",
+			"mIconType": 0
+		},
+		{
+			"mActorName": "DoorClose",
+			"mIconType": 0
+		},
+		{
+			"mActorName": "DoorOneway",
+			"mIconType": 0
+		},
+		{
+			"mActorName": "ItemKeyBoss",
+			"mIconType": 0
+		}
+	]
+}

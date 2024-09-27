@@ -1,0 +1,54 @@
+{
+	"unk1": 1324959338,
+	"unk2": [
+		1,
+		8,
+		4,
+		0
+	],
+	"sheetname": "StampCard",
+	"fields": [
+		{
+			"name": "mCardNo",
+			"typename": "StampCard",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 20,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mStampNum",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 4,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mCardNo": 0,
+			"mStampNum": 5
+		},
+		{
+			"mCardNo": 1,
+			"mStampNum": 5
+		},
+		{
+			"mCardNo": 2,
+			"mStampNum": 5
+		},
+		{
+			"mCardNo": 3,
+			"mStampNum": 5
+		},
+		{
+			"mCardNo": 4,
+			"mStampNum": 5
+		}
+	]
+}

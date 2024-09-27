@@ -1,0 +1,225 @@
+{
+	"unk1": 1595882845,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconLandMark",
+	"fields": [
+		{
+			"name": "mLevelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mIconInfos",
+			"typename": "__inline_struct_UiMapIconLandMark_mIconInfos",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 64,
+			"subfields": [
+				{
+					"name": "mTextureName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mVisibleCondition",
+					"typename": "__inline_struct_UiMapIconLandMark_mIconInfos.mVisibleCondition",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 24,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mStrategy",
+							"typename": "__inline_enum_UiMapIconLandMark_mIconInfos.mVisibleCondition.mStrategy",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 48,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mExpressions",
+							"typename": "__inline_struct_UiMapIconLandMark_mIconInfos.mVisibleCondition.mExpressions",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 2,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 24,
+							"subfields": [
+								{
+									"name": "mCategory",
+									"typename": "ConditionCategory",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 16,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mParameter",
+									"typename": "string",
+									"typeid": 4,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 8,
+									"directsize": 16,
+									"elemsize": 16
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "mLabelName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 40,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mPosX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 56,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPosY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 60,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mLevelName": "Field",
+			"mIconInfos": [
+				{
+					"mTextureName": "Smoothie",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 1,
+								"mParameter": "MapIcon_30"
+							}
+						]
+					},
+					"mLabelName": "glossary/Location:DekuHouse001",
+					"mPosX": 627.75,
+					"mPosY": 207.75
+				},
+				{
+					"mTextureName": "Smoothie",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 1,
+								"mParameter": "MapIcon_31"
+							}
+						]
+					},
+					"mLabelName": "glossary/Location:DekuHouse001",
+					"mPosX": 95.25,
+					"mPosY": 404.25
+				},
+				{
+					"mTextureName": "Smoothie",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 1,
+								"mParameter": "MapIcon_32"
+							}
+						]
+					},
+					"mLabelName": "glossary/Location:DekuHouse001",
+					"mPosX": 84.75,
+					"mPosY": 219.75
+				},
+				{
+					"mTextureName": "Smoothie",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 1,
+								"mParameter": "MapIcon_33"
+							}
+						]
+					},
+					"mLabelName": "glossary/Location:DekuHouse001",
+					"mPosX": 282.0,
+					"mPosY": 156.5
+				},
+				{
+					"mTextureName": "Smoothie",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 1,
+								"mParameter": "MapIcon_34"
+							}
+						]
+					},
+					"mLabelName": "glossary/Location:DekuHouse001",
+					"mPosX": 69.0,
+					"mPosY": 140.25
+				},
+				{
+					"mTextureName": "Smoothie",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 1,
+								"mParameter": "MapIcon_35"
+							}
+						]
+					},
+					"mLabelName": "glossary/Location:DekuHouse001",
+					"mPosX": 365.25,
+					"mPosY": 65.25
+				}
+			]
+		}
+	]
+}

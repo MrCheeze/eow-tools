@@ -1,0 +1,922 @@
+{
+	"unk1": 255434518,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconSensorLevelOpen",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mViewZoomLevel",
+			"typename": "UiMapIconViewZoomLevel",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mTextureName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLabelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mOffsetX",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 56,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mOffsetY",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 60,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mKey": "S_Dungeon003:S003_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon004:S004_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon005:S005_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon007:S_Dungeon007_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon008:S_Dungeon008_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon009:S_Dungeon009_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon009:S_Dungeon009_002",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon010:S_Dungeon010_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon011:S_Dungeon011_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon012:S_Dungeon012_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon013:S_Dungeon013_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon013:S_Dungeon013_002",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon015:S_Dungeon015_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon016:S_Dungeon016_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon017:S017_R002_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon017:S017_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon021:S021_R001_002",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon021:S021_R001_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon022:S022_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon022",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon023:S_Dungeon023_01",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon024:S_Dungeon024_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon031:S_Dungeon031_002",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon031:S_Dungeon031_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon032:S_Dungeon032_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon033:S_Dungeon033_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon033:S_Dungeon033_004",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon035:S_Dungeon035_001_01",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon035:S_Dungeon035_002_01",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon036:S_Dungeon036_001_01",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon037:S_Dungeon037_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon038:S_Dungeon038_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon039:S_Dungeon039_R002_02",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon039:S_Dungeon039_001_01",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon043:S043_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon044:S044_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon045:S045_R002_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:L_Dungeon001",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon045:S045_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:L_Dungeon001",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon046:S046_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon107:S107_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon114:S114_R010_Start_02",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon114:S114_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "HyruleHouse002:HyruleHouse002_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "Shop",
+			"mLabelName": "glossary/Location:HyruleHouse002",
+			"mOffsetX": 2.5,
+			"mOffsetY": 0.3
+		},
+		{
+			"mKey": "VillageHouse003:VillageHouse003_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "Shop",
+			"mLabelName": "glossary/Location:VillageHouse003",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "SeasideHouse004:SeasideHouse004_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "Shop",
+			"mLabelName": "glossary/Location:SeasideHouse004",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "ZoraRiverHouse005:ZoraRiverHouse005_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "Shop",
+			"mLabelName": "glossary/Location:ZoraRiverHouse005",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "GerudoHouse004:GerudoHouse004_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "Shop",
+			"mLabelName": "glossary/Location:GerudoHouse004",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "KakarikoHouse004:KakarikoHouse004_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "Shop",
+			"mLabelName": "glossary/Location:KakarikoHouse004",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "GoronVillage:GoronVillage_R001_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:GoronVillage",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "LuberiHouse:LuberiHouse_001",
+			"mViewZoomLevel": 0,
+			"mTextureName": "Luberi",
+			"mLabelName": "glossary/Location:LuberiHouse",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "MachineEngineerHouse:MachineEngineerHouse_001",
+			"mViewZoomLevel": 0,
+			"mTextureName": "MachineEngineer",
+			"mLabelName": "glossary/Location:MachineEngineerHouse",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "DekuHouse001:DekuHouse001_001",
+			"mViewZoomLevel": 0,
+			"mTextureName": "Smoothie",
+			"mLabelName": "glossary/Location:DekuHouse001",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "GreatFairyFountain:GreatFairyFountain_001",
+			"mViewZoomLevel": 0,
+			"mTextureName": "GreatFairy",
+			"mLabelName": "glossary/Location:GreatFairyFoutain",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "YetiHouse001:YetiHouse001_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:YetiHouse001",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "ZoraSeaVillage:ZoraSeaVillage_001_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:ZoraSeaVillage",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "GerudoPalace:GerudoPalace01",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:GerudoPalace",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "Church:Church_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:Church",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "OasisTent:OasisTent001_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:OasisTent",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "BattleChallengeRoom:BattleChallengeRoom_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:BattleChallengeRoom",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon014:S_Dungeon014_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:S_Dungeon014",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon006:S_Dungeon006_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:S_Dungeon006",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon019:S019_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon019",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon020:S020_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon020",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon034:S034_R001_StartS",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:S_Dungeon034",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon041:S_Dungeon041_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon041",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon102:S102_R001_StartW",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon102",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon104:S104_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon104",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon109:S109_R007_StartS",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:S_Dungeon109",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon110:S110_R001_StartS",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon110",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon115:SD115_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon115",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon002:S002_R001_StartE",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon002",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon002:S002_R001_StartW",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon002",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon001:S001_R001_StartE",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon042:S042_R001_StartS",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon042",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon060:S060_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon061:S061_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon062:S062_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon063:S063_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon064:S064_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon065:S065_R001_Start",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon107:S107_R008_Start_02",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon109:S109_R006_StartE",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon109",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon116:S116_R001_StartS",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon042",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon117:S_Dungeon117_StartS",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:S_Dungeon042",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "GerudoPalace:GerudoPalace02",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:GerudoPalace",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "Desert_LDungeonEntrance:LDungeonEntrance_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "glossary/Location:L_Dungeon003",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "GerudoPalace:GerudoPalace03",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:GerudoPalace",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon001:L001_R001_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon002:L002_R001_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "FieldBoundary003:FB003_002",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon003:L003_R018_StartS_Left",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon003:L003_R019_StartS",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_DungeonCastle:LCastle_R001_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon004:L004_R001_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon005:L005_R001_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "FieldBoundary005:FB005_006",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon005:L005_R012_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon005:L005_R023_LadderW",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon005:L005_R005_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon005:L005_R008_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon005:L005_R024_LadderE",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "L_Dungeon006:L006_R001_Start",
+			"mViewZoomLevel": 0,
+			"mTextureName": "",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "HyruleCastle:HyruleCastle_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:Field_006",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "HyruleHouse003:HyruleHouse003_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "City",
+			"mLabelName": "glossary/Location:HyruleHouse003",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "S_Dungeon107:S107_R005_HoleStart",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "HyruleWaterway:HyruleWaterway_002",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		},
+		{
+			"mKey": "CarrotStorage:CarrotStorage_001",
+			"mViewZoomLevel": 2,
+			"mTextureName": "SDungeon",
+			"mLabelName": "",
+			"mOffsetX": 0.0,
+			"mOffsetY": 0.0
+		}
+	]
+}

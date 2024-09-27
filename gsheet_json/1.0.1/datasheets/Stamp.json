@@ -1,0 +1,274 @@
+{
+	"unk1": 1009358928,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Stamp",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mModelPath",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mModelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEventAssetPath",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEntryPoint",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mUiTextureName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 80,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Stamp_00",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_00"
+		},
+		{
+			"mKey": "Stamp_01",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_01"
+		},
+		{
+			"mKey": "Stamp_02",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_02"
+		},
+		{
+			"mKey": "Stamp_03",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_03"
+		},
+		{
+			"mKey": "Stamp_04",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_04"
+		},
+		{
+			"mKey": "Stamp_05",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_00"
+		},
+		{
+			"mKey": "Stamp_06",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_01"
+		},
+		{
+			"mKey": "Stamp_07",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_02"
+		},
+		{
+			"mKey": "Stamp_08",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_03"
+		},
+		{
+			"mKey": "Stamp_09",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_04"
+		},
+		{
+			"mKey": "Stamp_10",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_00"
+		},
+		{
+			"mKey": "Stamp_11",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_01"
+		},
+		{
+			"mKey": "Stamp_12",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_02"
+		},
+		{
+			"mKey": "Stamp_13",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_03"
+		},
+		{
+			"mKey": "Stamp_14",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_04"
+		},
+		{
+			"mKey": "Stamp_15",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_00"
+		},
+		{
+			"mKey": "Stamp_16",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_01"
+		},
+		{
+			"mKey": "Stamp_17",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_02"
+		},
+		{
+			"mKey": "Stamp_18",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_03"
+		},
+		{
+			"mKey": "Stamp_19",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_04"
+		},
+		{
+			"mKey": "Stamp_20",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_00"
+		},
+		{
+			"mKey": "Stamp_21",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_01"
+		},
+		{
+			"mKey": "Stamp_22",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_02"
+		},
+		{
+			"mKey": "Stamp_23",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_03"
+		},
+		{
+			"mKey": "Stamp_24",
+			"mModelPath": "actor/StampTable.bfres",
+			"mModelName": "StampTable",
+			"mEventAssetPath": "event/Stampman.bfevfl",
+			"mEntryPoint": "Stamp",
+			"mUiTextureName": "StampRallyStamp_04"
+		}
+	]
+}

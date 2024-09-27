@@ -1,0 +1,634 @@
+{
+	"unk1": 3353310555,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiSmoothies",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mListIndex",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mPrice",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mMakePrice",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mNameLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mExplanationLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Smoothie00",
+			"mListIndex": 0,
+			"mPrice": 0,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item500",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie00"
+		},
+		{
+			"mKey": "Smoothie01",
+			"mListIndex": 63,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item501",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie01"
+		},
+		{
+			"mKey": "Smoothie02",
+			"mListIndex": 66,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item502",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie02"
+		},
+		{
+			"mKey": "Smoothie03",
+			"mListIndex": 64,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item503",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie03"
+		},
+		{
+			"mKey": "Smoothie04",
+			"mListIndex": 61,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item504",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie04"
+		},
+		{
+			"mKey": "Smoothie05",
+			"mListIndex": 62,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item505",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie05"
+		},
+		{
+			"mKey": "Smoothie06",
+			"mListIndex": 68,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item506",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie06"
+		},
+		{
+			"mKey": "Smoothie07",
+			"mListIndex": 33,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item507",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie07"
+		},
+		{
+			"mKey": "Smoothie08",
+			"mListIndex": 31,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item508",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie08"
+		},
+		{
+			"mKey": "Smoothie09",
+			"mListIndex": 36,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item509",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie09"
+		},
+		{
+			"mKey": "Smoothie10",
+			"mListIndex": 35,
+			"mPrice": 200,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item510",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie10"
+		},
+		{
+			"mKey": "Smoothie11",
+			"mListIndex": 32,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item511",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie11"
+		},
+		{
+			"mKey": "Smoothie12",
+			"mListIndex": 34,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item512",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie12"
+		},
+		{
+			"mKey": "Smoothie13",
+			"mListIndex": 15,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item513",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie13"
+		},
+		{
+			"mKey": "Smoothie14",
+			"mListIndex": 29,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item514",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie14"
+		},
+		{
+			"mKey": "Smoothie15",
+			"mListIndex": 30,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item515",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie15"
+		},
+		{
+			"mKey": "Smoothie16",
+			"mListIndex": 1,
+			"mPrice": 80,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item516",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie16"
+		},
+		{
+			"mKey": "Smoothie17",
+			"mListIndex": 2,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item517",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie17"
+		},
+		{
+			"mKey": "Smoothie18",
+			"mListIndex": 16,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item518",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie18"
+		},
+		{
+			"mKey": "Smoothie19",
+			"mListIndex": 9,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item519",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie19"
+		},
+		{
+			"mKey": "Smoothie20",
+			"mListIndex": 23,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item520",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie20"
+		},
+		{
+			"mKey": "Smoothie21",
+			"mListIndex": 43,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item521",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie21"
+		},
+		{
+			"mKey": "Smoothie22",
+			"mListIndex": 46,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item522",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie22"
+		},
+		{
+			"mKey": "Smoothie23",
+			"mListIndex": 44,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item523",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie23"
+		},
+		{
+			"mKey": "Smoothie24",
+			"mListIndex": 49,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item524",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie24"
+		},
+		{
+			"mKey": "Smoothie25",
+			"mListIndex": 48,
+			"mPrice": 200,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item525",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie25"
+		},
+		{
+			"mKey": "Smoothie26",
+			"mListIndex": 45,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item526",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie26"
+		},
+		{
+			"mKey": "Smoothie27",
+			"mListIndex": 47,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item527",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie27"
+		},
+		{
+			"mKey": "Smoothie28",
+			"mListIndex": 37,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item552",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie28"
+		},
+		{
+			"mKey": "Smoothie29",
+			"mListIndex": 26,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item529",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie29"
+		},
+		{
+			"mKey": "Smoothie30",
+			"mListIndex": 24,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item530",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie30"
+		},
+		{
+			"mKey": "Smoothie31",
+			"mListIndex": 25,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item531",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie31"
+		},
+		{
+			"mKey": "Smoothie32",
+			"mListIndex": 27,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item532",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie32"
+		},
+		{
+			"mKey": "Smoothie33",
+			"mListIndex": 5,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item533",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie33"
+		},
+		{
+			"mKey": "Smoothie34",
+			"mListIndex": 3,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item534",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie34"
+		},
+		{
+			"mKey": "Smoothie35",
+			"mListIndex": 4,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item535",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie35"
+		},
+		{
+			"mKey": "Smoothie36",
+			"mListIndex": 6,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item536",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie36"
+		},
+		{
+			"mKey": "Smoothie37",
+			"mListIndex": 19,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item537",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie37"
+		},
+		{
+			"mKey": "Smoothie38",
+			"mListIndex": 17,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item538",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie38"
+		},
+		{
+			"mKey": "Smoothie39",
+			"mListIndex": 20,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item539",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie39"
+		},
+		{
+			"mKey": "Smoothie40",
+			"mListIndex": 18,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item540",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie40"
+		},
+		{
+			"mKey": "Smoothie41",
+			"mListIndex": 7,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item541",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie41"
+		},
+		{
+			"mKey": "Smoothie42",
+			"mListIndex": 8,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item542",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie42"
+		},
+		{
+			"mKey": "Smoothie43",
+			"mListIndex": 12,
+			"mPrice": 200,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item543",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie43"
+		},
+		{
+			"mKey": "Smoothie44",
+			"mListIndex": 10,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item544",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie44"
+		},
+		{
+			"mKey": "Smoothie45",
+			"mListIndex": 11,
+			"mPrice": 200,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item545",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie45"
+		},
+		{
+			"mKey": "Smoothie46",
+			"mListIndex": 14,
+			"mPrice": 200,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item546",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie46"
+		},
+		{
+			"mKey": "Smoothie47",
+			"mListIndex": 13,
+			"mPrice": 200,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item547",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie47"
+		},
+		{
+			"mKey": "Smoothie48",
+			"mListIndex": 21,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item548",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie48"
+		},
+		{
+			"mKey": "Smoothie49",
+			"mListIndex": 22,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item549",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie49"
+		},
+		{
+			"mKey": "Smoothie50",
+			"mListIndex": 41,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item550",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie50"
+		},
+		{
+			"mKey": "Smoothie51",
+			"mListIndex": 40,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item551",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie51"
+		},
+		{
+			"mKey": "Smoothie52",
+			"mListIndex": 65,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item559",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie52"
+		},
+		{
+			"mKey": "Smoothie53",
+			"mListIndex": 39,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item553",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie53"
+		},
+		{
+			"mKey": "Smoothie54",
+			"mListIndex": 42,
+			"mPrice": 180,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item554",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie54"
+		},
+		{
+			"mKey": "Smoothie55",
+			"mListIndex": 38,
+			"mPrice": 120,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item555",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie55"
+		},
+		{
+			"mKey": "Smoothie56",
+			"mListIndex": 67,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item560",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie56"
+		},
+		{
+			"mKey": "Smoothie57",
+			"mListIndex": 69,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item561",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie57"
+		},
+		{
+			"mKey": "Smoothie58",
+			"mListIndex": 60,
+			"mPrice": 150,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item562",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie58"
+		},
+		{
+			"mKey": "Smoothie59",
+			"mListIndex": 28,
+			"mPrice": 100,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item572",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie59"
+		},
+		{
+			"mKey": "Smoothie60",
+			"mListIndex": 50,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item563",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie60"
+		},
+		{
+			"mKey": "Smoothie61",
+			"mListIndex": 55,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item564",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie61"
+		},
+		{
+			"mKey": "Smoothie62",
+			"mListIndex": 56,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item565",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie62"
+		},
+		{
+			"mKey": "Smoothie63",
+			"mListIndex": 53,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item566",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie63"
+		},
+		{
+			"mKey": "Smoothie64",
+			"mListIndex": 52,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item567",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie64"
+		},
+		{
+			"mKey": "Smoothie65",
+			"mListIndex": 57,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item568",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie65"
+		},
+		{
+			"mKey": "Smoothie66",
+			"mListIndex": 58,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item569",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie66"
+		},
+		{
+			"mKey": "Smoothie67",
+			"mListIndex": 59,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item570",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie67"
+		},
+		{
+			"mKey": "Smoothie68",
+			"mListIndex": 51,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item571",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie68"
+		},
+		{
+			"mKey": "Smoothie69",
+			"mListIndex": 54,
+			"mPrice": 300,
+			"mMakePrice": 10,
+			"mNameLabel": "glossary/Item:Item574",
+			"mExplanationLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_Smoothie69"
+		}
+	]
+}

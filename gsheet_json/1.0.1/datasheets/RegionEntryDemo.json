@@ -1,0 +1,330 @@
+{
+	"unk1": 8138357,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "RegionEntryDemo",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mEvents",
+			"typename": "__inline_struct_RegionEntryDemo_mEvents",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 72,
+			"subfields": [
+				{
+					"name": "mConditionKey",
+					"typename": "Conditions",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mEventFlag",
+					"typename": "GlobalFlags",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 9,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mEventAssetPath",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 32,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mEntryPoint",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 48,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mPlayerJoin",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 64,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mPreprocessEnabled",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 65,
+					"directsize": 1,
+					"elemsize": 1
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Field:Desert:Enter",
+			"mEvents": [
+				{
+					"mConditionKey": "DesertOverview",
+					"mEventFlag": "EvD_Overview",
+					"mEventAssetPath": "event/FieldDesert.bfevfl",
+					"mEntryPoint": "DesertOverview",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": true
+				}
+			]
+		},
+		{
+			"mKey": "Field:Goronrace:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingGoronRace",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/Goron011.bfevfl",
+					"mEntryPoint": "Racing_Valcano010_OutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:Volcano:Enter",
+			"mEvents": [
+				{
+					"mConditionKey": "volcano_jungle_hebra_Overview",
+					"mEventFlag": "EvC_Overview",
+					"mEventAssetPath": "event/Volcano.bfevfl",
+					"mEntryPoint": "VolcanoOverview",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": true
+				}
+			]
+		},
+		{
+			"mKey": "Field:HebraMountains:Enter",
+			"mEvents": [
+				{
+					"mConditionKey": "volcano_jungle_hebra_Overview",
+					"mEventFlag": "EvG_Overview",
+					"mEventAssetPath": "event/HebraMountains.bfevfl",
+					"mEntryPoint": "SnowmountainOverview",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:Coast:Enter",
+			"mEvents": [
+				{
+					"mConditionKey": "DesertOverview",
+					"mEventFlag": "EvB_Overview",
+					"mEventAssetPath": "event/Coast.bfevfl",
+					"mEntryPoint": "CoastRiverOverview",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": true
+				}
+			]
+		},
+		{
+			"mKey": "Field:Jungle:Enter",
+			"mEvents": [
+				{
+					"mConditionKey": "volcano_jungle_hebra_Overview",
+					"mEventFlag": "EvF_Overview",
+					"mEventAssetPath": "event/Jungle.bfevfl",
+					"mEntryPoint": "AreaFIntroduction",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": true
+				}
+			]
+		},
+		{
+			"mKey": "Field:Donguri_Stage_01:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingPickUpAcorns",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianM032.bfevfl",
+					"mEntryPoint": "cancelMiniGameOutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:GerudoChase:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingGerudoChase",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/Gerudo004.bfevfl",
+					"mEntryPoint": "Chase_Desert010_OutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:GerudoChase2:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingGerudoChase",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/Gerudo004.bfevfl",
+					"mEntryPoint": "Chase_Desert010_OutOfArea2",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": true
+				}
+			]
+		},
+		{
+			"mKey": "Field:Donguri_Stage_02:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingPickUpAcorns",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianM032.bfevfl",
+					"mEntryPoint": "cancelMiniGameOutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:Donguri_Stage_03:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingPickUpAcorns",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianM032.bfevfl",
+					"mEntryPoint": "cancelMiniGameOutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:Donguri_Stage_04:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingPickUpAcorns",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianM032.bfevfl",
+					"mEntryPoint": "cancelMiniGameOutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:Donguri_Stage_05:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingPickUpAcorns",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianM032.bfevfl",
+					"mEntryPoint": "cancelMiniGameOutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:Gliding_Valcano040:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingGliding_Valcano040",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/GoronC001.bfevfl",
+					"mEntryPoint": "Gliding_Valcano040_OutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:Gliding_Valcano070:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "PlayingGliding_Valcano070",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/Goron006.bfevfl",
+					"mEntryPoint": "Gliding_Valcano070_OutOfArea",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:HorseRaceEasy:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "HorseRaceLayoutEasy",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianF006.bfevfl",
+					"mEntryPoint": "LeaveCourse",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:HorseRaceNormal:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "HorseRaceLayoutNormal",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianF006.bfevfl",
+					"mEntryPoint": "LeaveCourse",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		},
+		{
+			"mKey": "Field:HorseRaceHard:Leave",
+			"mEvents": [
+				{
+					"mConditionKey": "HorseRaceLayoutHard",
+					"mEventFlag": null,
+					"mEventAssetPath": "event/HylianF006.bfevfl",
+					"mEntryPoint": "LeaveCourse",
+					"mPlayerJoin": true,
+					"mPreprocessEnabled": false
+				}
+			]
+		}
+	]
+}

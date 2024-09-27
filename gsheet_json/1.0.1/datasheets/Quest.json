@@ -1,0 +1,5294 @@
+{
+	"unk1": 3427435519,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Quest",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mKind",
+			"typename": "QuestKind",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mTitle",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLocation",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mProgress",
+			"typename": "__inline_struct_Quest_mProgress",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 56,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mLabel",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mReturnLabel",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mText",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		},
+		{
+			"name": "mReadyCondition",
+			"typename": "__inline_struct_Quest_mReadyCondition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 72,
+			"directsize": 24,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mStrategy",
+					"typename": "__inline_enum_Quest_mReadyCondition.mStrategy",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 48,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mExpressions",
+					"typename": "__inline_struct_Quest_mReadyCondition.mExpressions",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mCategory",
+							"typename": "ConditionCategory",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 16,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mParameter",
+							"typename": "string",
+							"typeid": 4,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 16
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "mQuestPriority",
+			"typename": "UiQuestPriority",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 96,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mKey": "HyruleCastle_LuberiHouse",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaAQuest:AreaAQuest_Title",
+			"mLocation": "glossary/Location:Field_006",
+			"mProgress": [
+				{
+					"mLabel": 2553344500,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 425213136,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_000"
+				},
+				{
+					"mLabel": 3398887262,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_001"
+				},
+				{
+					"mLabel": 2529992941,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_002"
+				},
+				{
+					"mLabel": 361887586,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_003"
+				},
+				{
+					"mLabel": 2384585407,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_004"
+				},
+				{
+					"mLabel": 1055863140,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_005"
+				},
+				{
+					"mLabel": 430356480,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_006"
+				},
+				{
+					"mLabel": 3870260017,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_007"
+				},
+				{
+					"mLabel": 404754367,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaAQuest_Explanation_008"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Area3Quest",
+			"mKind": 0,
+			"mTitle": "ui/Quest/Area3Quest:Area3Quest_Title",
+			"mLocation": "glossary/Location:Field_006",
+			"mProgress": [
+				{
+					"mLabel": 1664907062,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2596641860,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/Area3Quest:Area3Quest_Explanation_000"
+				},
+				{
+					"mLabel": 2380387596,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/Area3Quest:Area3Quest_Explanation_010"
+				},
+				{
+					"mLabel": 707934835,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/Area3Quest:Area3Quest_Explanation_010"
+				},
+				{
+					"mLabel": 462900029,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/Area3Quest:Area3Quest_Explanation_030"
+				},
+				{
+					"mLabel": 3236604128,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/Area3Quest:Area3Quest_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Desert",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaDQuest:AreaDQuest_Title",
+			"mLocation": "glossary/Location:Field_004",
+			"mProgress": [
+				{
+					"mLabel": 3290227544,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3426855654,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2205786242,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_010"
+				},
+				{
+					"mLabel": 945356639,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_020"
+				},
+				{
+					"mLabel": 3132339282,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_030"
+				},
+				{
+					"mLabel": 2205187835,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_030"
+				},
+				{
+					"mLabel": 2501589789,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_030"
+				},
+				{
+					"mLabel": 3008826567,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_040"
+				},
+				{
+					"mLabel": 853184227,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_050"
+				},
+				{
+					"mLabel": 2289111619,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_060"
+				},
+				{
+					"mLabel": 4179724650,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_070"
+				},
+				{
+					"mLabel": 1613289680,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_072"
+				},
+				{
+					"mLabel": 389015622,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_074"
+				},
+				{
+					"mLabel": 3353565871,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_080"
+				},
+				{
+					"mLabel": 1907799803,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_080"
+				},
+				{
+					"mLabel": 3217026082,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_090"
+				},
+				{
+					"mLabel": 699522087,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_100"
+				},
+				{
+					"mLabel": 2854397981,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_110"
+				},
+				{
+					"mLabel": 517571575,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_120"
+				},
+				{
+					"mLabel": 2606873053,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_130"
+				},
+				{
+					"mLabel": 915839205,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_140"
+				},
+				{
+					"mLabel": 3205882340,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:AreaDQuest_Explanation_150"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 1
+		},
+		{
+			"mKey": "Desert_Crack_A",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaDQuest:Desert_Crack_A_Title",
+			"mLocation": "glossary/Location:Field_004",
+			"mProgress": [
+				{
+					"mLabel": 3095123709,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1275620048,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_A_Explanation_010"
+				},
+				{
+					"mLabel": 2737680573,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_A_Explanation_010"
+				},
+				{
+					"mLabel": 1015199178,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_A_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "Desert_Crack_B",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaDQuest:Desert_Crack_B_Title",
+			"mLocation": "glossary/Location:Field_004",
+			"mProgress": [
+				{
+					"mLabel": 1055892563,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3263655219,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_B_Explanation_010"
+				},
+				{
+					"mLabel": 986699452,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_B_Explanation_010"
+				},
+				{
+					"mLabel": 3522719167,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_B_Explanation_020"
+				},
+				{
+					"mLabel": 2065878810,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_B_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "Desert_Crack_C",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaDQuest:Desert_Crack_C_Title",
+			"mLocation": "glossary/Location:Field_004",
+			"mProgress": [
+				{
+					"mLabel": 4122179574,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 237858221,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_C_Explanation_010"
+				},
+				{
+					"mLabel": 4215343484,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_C_Explanation_010"
+				},
+				{
+					"mLabel": 1178789546,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Desert_Crack_C_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "Coast_River",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaBQuest:AreaBQuest_Title",
+			"mLocation": "glossary/Location:region003",
+			"mProgress": [
+				{
+					"mLabel": 2075186051,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 567695331,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2484872267,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_010"
+				},
+				{
+					"mLabel": 3565611949,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_020"
+				},
+				{
+					"mLabel": 1005827274,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_020"
+				},
+				{
+					"mLabel": 3080686713,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_030"
+				},
+				{
+					"mLabel": 862666161,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_032"
+				},
+				{
+					"mLabel": 1174189887,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_034"
+				},
+				{
+					"mLabel": 874443942,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_040"
+				},
+				{
+					"mLabel": 3979756810,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_040"
+				},
+				{
+					"mLabel": 276104939,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_050"
+				},
+				{
+					"mLabel": 2970438674,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_060"
+				},
+				{
+					"mLabel": 2924653973,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_070"
+				},
+				{
+					"mLabel": 268800698,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_070"
+				},
+				{
+					"mLabel": 2355312423,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_070"
+				},
+				{
+					"mLabel": 2122875373,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_070"
+				},
+				{
+					"mLabel": 2364775705,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_080"
+				},
+				{
+					"mLabel": 1333737924,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_090"
+				},
+				{
+					"mLabel": 607469713,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_100"
+				},
+				{
+					"mLabel": 2910472641,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1775022245,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_110"
+				},
+				{
+					"mLabel": 138066480,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_120"
+				},
+				{
+					"mLabel": 2098385247,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_120"
+				},
+				{
+					"mLabel": 3171885588,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_120"
+				},
+				{
+					"mLabel": 17648280,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_120"
+				},
+				{
+					"mLabel": 2197812480,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_120"
+				},
+				{
+					"mLabel": 4287266681,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_130"
+				},
+				{
+					"mLabel": 4018665463,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_130"
+				},
+				{
+					"mLabel": 4211698231,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBQuest_Explanation_140"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 1
+		},
+		{
+			"mKey": "Calamity_Coast",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaBQuest:AreaBCoastQuest_Title",
+			"mLocation": "glossary/Location:Field_009",
+			"mProgress": [
+				{
+					"mLabel": 3136974174,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 928336285,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBCoastQuest_Explanation_010"
+				},
+				{
+					"mLabel": 1451185699,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBCoastQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2290931515,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBCoastQuest_Explanation_020"
+				},
+				{
+					"mLabel": 72847901,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBCoastQuest_Explanation_030"
+				},
+				{
+					"mLabel": 3500809225,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBCoastQuest_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "Calamity_River",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaBQuest:AreaBRiverQuest_Title",
+			"mLocation": "glossary/Location:Field_008",
+			"mProgress": [
+				{
+					"mLabel": 2779090137,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2737573220,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBRiverQuest_Explanation_010"
+				},
+				{
+					"mLabel": 3255177946,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBRiverQuest_Explanation_020"
+				},
+				{
+					"mLabel": 1011063871,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBRiverQuest_Explanation_020"
+				},
+				{
+					"mLabel": 2418988772,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBRiverQuest_Explanation_020"
+				},
+				{
+					"mLabel": 3137783147,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBRiverQuest_Explanation_030"
+				},
+				{
+					"mLabel": 1439233498,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:AreaBRiverQuest_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "Midpoint",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Title",
+			"mLocation": "glossary/Location:L_DungeonCastle",
+			"mProgress": [
+				{
+					"mLabel": 3048836015,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1333872236,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2815898635,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_020"
+				},
+				{
+					"mLabel": 4221713223,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_030"
+				},
+				{
+					"mLabel": 2319019637,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_030"
+				},
+				{
+					"mLabel": 855587140,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_030"
+				},
+				{
+					"mLabel": 2930961825,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1575969516,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1038646991,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_042"
+				},
+				{
+					"mLabel": 3289377397,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_042"
+				},
+				{
+					"mLabel": 2223612379,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_042"
+				},
+				{
+					"mLabel": 1007394733,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_042"
+				},
+				{
+					"mLabel": 2052037484,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_042"
+				},
+				{
+					"mLabel": 2895641642,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_050"
+				},
+				{
+					"mLabel": 3945920652,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_050"
+				},
+				{
+					"mLabel": 2082813777,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_050"
+				},
+				{
+					"mLabel": 2412815200,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_050"
+				},
+				{
+					"mLabel": 1911838744,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_060"
+				},
+				{
+					"mLabel": 1048050120,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_060"
+				},
+				{
+					"mLabel": 2478168384,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHyruleCastleQuest:AreaHyruleCastleQuest_Explanation_070"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "LinkQuest",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaHQuest:ThreeGoddessesQuest_Title",
+			"mLocation": "glossary/Location:L_DungeonCastle",
+			"mProgress": [
+				{
+					"mLabel": 1548396124,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 946808683,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_010"
+				},
+				{
+					"mLabel": 323122344,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_020"
+				},
+				{
+					"mLabel": 2425720579,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_022"
+				},
+				{
+					"mLabel": 1947258801,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_022"
+				},
+				{
+					"mLabel": 2946521465,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_022"
+				},
+				{
+					"mLabel": 1187802142,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_024"
+				},
+				{
+					"mLabel": 2994718262,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_024"
+				},
+				{
+					"mLabel": 3703185651,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_024"
+				},
+				{
+					"mLabel": 54337350,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:LinkQuest_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Link_Rescue",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaHQuest:LinkQuest_Title",
+			"mLocation": "glossary/Location:Field_006",
+			"mProgress": [
+				{
+					"mLabel": 865096695,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1391291837,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:ThreeGoddessesQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2042642046,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:ThreeGoddessesQuest_Explanation_020"
+				},
+				{
+					"mLabel": 1774146960,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:ThreeGoddessesQuest_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Volcano",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaCQuest:AreaCQuest_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 527937337,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 168217101,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_000"
+				},
+				{
+					"mLabel": 462064560,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_010"
+				},
+				{
+					"mLabel": 3637142808,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_010"
+				},
+				{
+					"mLabel": 1185195103,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_020"
+				},
+				{
+					"mLabel": 2252136208,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_020"
+				},
+				{
+					"mLabel": 1354458768,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_040"
+				},
+				{
+					"mLabel": 2170237783,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1172601107,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_050"
+				},
+				{
+					"mLabel": 4182818630,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_060"
+				},
+				{
+					"mLabel": 1683922084,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_062"
+				},
+				{
+					"mLabel": 3804950026,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_064"
+				},
+				{
+					"mLabel": 1727991118,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_070"
+				},
+				{
+					"mLabel": 687519485,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_080"
+				},
+				{
+					"mLabel": 833297561,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_080"
+				},
+				{
+					"mLabel": 3354662517,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_090"
+				},
+				{
+					"mLabel": 1507786808,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_100"
+				},
+				{
+					"mLabel": 2724487074,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_110"
+				},
+				{
+					"mLabel": 3860383934,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_110"
+				},
+				{
+					"mLabel": 1234858987,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_110"
+				},
+				{
+					"mLabel": 101165827,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_110"
+				},
+				{
+					"mLabel": 1816244391,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_130"
+				},
+				{
+					"mLabel": 103143046,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_130"
+				},
+				{
+					"mLabel": 1474105390,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCQuest_Explanation_140"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 1
+		},
+		{
+			"mKey": "VolcanoPointA",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaCQuest:AreaCPointAQuest_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 3399862492,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3278417433,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_000"
+				},
+				{
+					"mLabel": 2357603538,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_010"
+				},
+				{
+					"mLabel": 1729718027,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_020"
+				},
+				{
+					"mLabel": 1716781276,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_020"
+				},
+				{
+					"mLabel": 3675423252,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_040"
+				},
+				{
+					"mLabel": 3932298167,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_050"
+				},
+				{
+					"mLabel": 3451489517,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_060"
+				},
+				{
+					"mLabel": 3976801331,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_070"
+				},
+				{
+					"mLabel": 36325163,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointAQuest_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "VolcanoPointB",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaCQuest:AreaCPointBQuest_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 4216181313,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1909955747,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_000"
+				},
+				{
+					"mLabel": 541829843,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_010"
+				},
+				{
+					"mLabel": 1791522085,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2281334597,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_010"
+				},
+				{
+					"mLabel": 1518538330,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_020"
+				},
+				{
+					"mLabel": 3367912310,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_050"
+				},
+				{
+					"mLabel": 675020421,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_060"
+				},
+				{
+					"mLabel": 2091990392,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_070"
+				},
+				{
+					"mLabel": 3941976741,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_080"
+				},
+				{
+					"mLabel": 331464894,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_090"
+				},
+				{
+					"mLabel": 1166687739,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:AreaCPointBQuest_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "Snowmountain",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaGQuest:AreaGQuest_Title",
+			"mLocation": "glossary/Location:Field_012",
+			"mProgress": [
+				{
+					"mLabel": 2059330405,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 395782083,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_000"
+				},
+				{
+					"mLabel": 923966202,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_010"
+				},
+				{
+					"mLabel": 3470768085,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_010"
+				},
+				{
+					"mLabel": 4190463339,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_015"
+				},
+				{
+					"mLabel": 681687062,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_020"
+				},
+				{
+					"mLabel": 4040136737,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_020"
+				},
+				{
+					"mLabel": 1904612481,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_030"
+				},
+				{
+					"mLabel": 2772211975,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_030"
+				},
+				{
+					"mLabel": 2087719995,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_030"
+				},
+				{
+					"mLabel": 2241943168,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_030"
+				},
+				{
+					"mLabel": 3166995948,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_030"
+				},
+				{
+					"mLabel": 4244676596,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1697430969,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1584015532,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_050"
+				},
+				{
+					"mLabel": 1115904312,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_060"
+				},
+				{
+					"mLabel": 3384954459,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_065"
+				},
+				{
+					"mLabel": 3090057468,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_070"
+				},
+				{
+					"mLabel": 2299025361,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_080"
+				},
+				{
+					"mLabel": 3787936954,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_090"
+				},
+				{
+					"mLabel": 1730042710,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_090"
+				},
+				{
+					"mLabel": 225290797,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_090"
+				},
+				{
+					"mLabel": 2222532772,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_100"
+				},
+				{
+					"mLabel": 2648648469,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_110"
+				},
+				{
+					"mLabel": 1574840747,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_110"
+				},
+				{
+					"mLabel": 3271194676,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_120"
+				},
+				{
+					"mLabel": 4080146613,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_120"
+				},
+				{
+					"mLabel": 2983457297,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_120"
+				},
+				{
+					"mLabel": 776505974,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:AreaGQuest_Explanation_130"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 1
+		},
+		{
+			"mKey": "Jungle",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaFQuest:AreaFQuest_Title",
+			"mLocation": "glossary/Location:Field_010",
+			"mProgress": [
+				{
+					"mLabel": 4046942846,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2687392642,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_010"
+				},
+				{
+					"mLabel": 1171821801,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_010"
+				},
+				{
+					"mLabel": 793828598,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_010"
+				},
+				{
+					"mLabel": 841687235,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_010"
+				},
+				{
+					"mLabel": 1583649098,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2871161209,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_010"
+				},
+				{
+					"mLabel": 3345858800,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_010"
+				},
+				{
+					"mLabel": 2941835573,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_020"
+				},
+				{
+					"mLabel": 3867163122,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_022"
+				},
+				{
+					"mLabel": 2139711560,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_022"
+				},
+				{
+					"mLabel": 143546590,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_024"
+				},
+				{
+					"mLabel": 2352048004,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_026"
+				},
+				{
+					"mLabel": 775789688,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_026"
+				},
+				{
+					"mLabel": 459983305,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_030"
+				},
+				{
+					"mLabel": 4209006452,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1575206677,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1857682978,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_040"
+				},
+				{
+					"mLabel": 3291394035,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_040"
+				},
+				{
+					"mLabel": 337646779,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_050"
+				},
+				{
+					"mLabel": 966286477,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_060"
+				},
+				{
+					"mLabel": 207596745,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_070"
+				},
+				{
+					"mLabel": 3062461699,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_080"
+				},
+				{
+					"mLabel": 2201875577,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_080"
+				},
+				{
+					"mLabel": 190251542,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_080"
+				},
+				{
+					"mLabel": 711665023,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_095"
+				},
+				{
+					"mLabel": 3392534741,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 3353776939,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1657273193,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 3972776168,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1240115370,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 4124111273,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1358010859,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 232149398,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1558256532,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1057567431,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 4220639031,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_100"
+				},
+				{
+					"mLabel": 2471736681,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_110"
+				},
+				{
+					"mLabel": 425818924,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFQuest_Explanation_120"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 1
+		},
+		{
+			"mKey": "JungleHartPond",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaFQuest:AreaFHartPond_Title",
+			"mLocation": "glossary/Location:Field_010",
+			"mProgress": [
+				{
+					"mLabel": 3829186200,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFHartPond_Explanation_010"
+				},
+				{
+					"mLabel": 2871792226,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFHartPond_Explanation_010"
+				},
+				{
+					"mLabel": 4090686556,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFHartPond_Explanation_020"
+				},
+				{
+					"mLabel": 4040004241,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFHartPond_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "JungleEasternRuins",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaFQuest:AreaFEasternRuins_Title",
+			"mLocation": "glossary/Location:Field_010",
+			"mProgress": [
+				{
+					"mLabel": 3050161753,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFEasternRuins_Explanation_010"
+				},
+				{
+					"mLabel": 1193152828,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFEasternRuins_Explanation_010"
+				},
+				{
+					"mLabel": 3702134637,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFEasternRuins_Explanation_020"
+				},
+				{
+					"mLabel": 3753208224,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:AreaFEasternRuins_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 2
+		},
+		{
+			"mKey": "LastDungeon",
+			"mKind": 0,
+			"mTitle": "ui/Quest/AreaHQuest:AreaHQuest_Title",
+			"mLocation": "glossary/Location:Field_006",
+			"mProgress": [
+				{
+					"mLabel": 180461888,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1973410502,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_010"
+				},
+				{
+					"mLabel": 868176213,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_010"
+				},
+				{
+					"mLabel": 3474672201,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_010"
+				},
+				{
+					"mLabel": 324930744,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_010"
+				},
+				{
+					"mLabel": 721740190,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_010"
+				},
+				{
+					"mLabel": 3262011794,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_030"
+				},
+				{
+					"mLabel": 3401986107,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_040"
+				},
+				{
+					"mLabel": 1367956526,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_050"
+				},
+				{
+					"mLabel": 4054912678,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_050"
+				},
+				{
+					"mLabel": 1511324440,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_060"
+				},
+				{
+					"mLabel": 484825290,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_060"
+				},
+				{
+					"mLabel": 929402173,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_060"
+				},
+				{
+					"mLabel": 928406339,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_090"
+				},
+				{
+					"mLabel": 1355103998,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_100"
+				},
+				{
+					"mLabel": 2534190080,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1215263039,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_100"
+				},
+				{
+					"mLabel": 637992014,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1388816485,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_100"
+				},
+				{
+					"mLabel": 1006510195,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaHQuest:AreaHQuest_Explanation_100"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Special_Jungle100",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:Special_Jungle100_Title",
+			"mLocation": "glossary/Location:DekuHouse001",
+			"mProgress": [
+				{
+					"mLabel": 3919023860,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle100_Explanation_00"
+				},
+				{
+					"mLabel": 898154198,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle100_Explanation_010"
+				},
+				{
+					"mLabel": 514190613,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle100_Explanation_020"
+				},
+				{
+					"mLabel": 249202427,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle100_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Balom_Jungle010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:Balom_Jungle010_Title",
+			"mLocation": "glossary/Location:Field_024",
+			"mProgress": [
+				{
+					"mLabel": 3523275065,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Balom_Jungle010_Explanation_00"
+				},
+				{
+					"mLabel": 2780724792,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Balom_Jungle010_Explanation_005"
+				},
+				{
+					"mLabel": 3436166134,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Balom_Jungle010_Explanation_010"
+				},
+				{
+					"mLabel": 3890407477,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Balom_Jungle010_Explanation_020"
+				},
+				{
+					"mLabel": 4154295259,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Balom_Jungle010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "HideAndSeek_Jungle010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:HideAndSeek_Jungle010_Title",
+			"mLocation": "glossary/Location:Field_024",
+			"mProgress": [
+				{
+					"mLabel": 1742118661,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:HideAndSeek010_Explanation_00"
+				},
+				{
+					"mLabel": 3396777547,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:HideAndSeek010_Explanation_010"
+				},
+				{
+					"mLabel": 3780896136,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:HideAndSeek010_Explanation_020"
+				},
+				{
+					"mLabel": 4164998345,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:HideAndSeek010_Explanation_030"
+				},
+				{
+					"mLabel": 3070312974,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:HideAndSeek010_Explanation_040"
+				},
+				{
+					"mLabel": 4045704806,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:HideAndSeek010_Explanation_050"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Jungle"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Bring_Jungle010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:Bring_Jungle010_Title",
+			"mLocation": "glossary/Location:Field_024",
+			"mProgress": [
+				{
+					"mLabel": 4126884882,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Bring_Jungle010_Explanation_00"
+				},
+				{
+					"mLabel": 891501191,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Bring_Jungle010_Explanation_010"
+				},
+				{
+					"mLabel": 242287274,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Bring_Jungle010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Enemy_Jungle050",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:Enemy_Jungle050_Title",
+			"mLocation": "glossary/Location:Field_024",
+			"mProgress": [
+				{
+					"mLabel": 2596079428,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Enemy_Jungle050_Explanation_00"
+				},
+				{
+					"mLabel": 3273100625,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Enemy_Jungle050_Explanation_010"
+				},
+				{
+					"mLabel": 3896172178,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Enemy_Jungle050_Explanation_020"
+				},
+				{
+					"mLabel": 4165318012,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Enemy_Jungle050_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Jungle"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Deliver_Jungle010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:Deliver_Jungle010_Title",
+			"mLocation": "glossary/Location:Field_024",
+			"mProgress": [
+				{
+					"mLabel": 1635484956,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Deliver_Jungle010_Explanation_00"
+				},
+				{
+					"mLabel": 3520704526,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Deliver_Jungle010_Explanation_010"
+				},
+				{
+					"mLabel": 3935012899,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Deliver_Jungle010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Carry_Snowmountain010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaGQuest:Carry_Snowmountain010_Title",
+			"mLocation": "glossary/Location:Field_012",
+			"mProgress": [
+				{
+					"mLabel": 482624177,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Carry_Snowmountain010_Explanation_00"
+				},
+				{
+					"mLabel": 1770040449,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Carry_Snowmountain010_Explanation_010"
+				},
+				{
+					"mLabel": 1118699330,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Carry_Snowmountain010_Explanation_020"
+				},
+				{
+					"mLabel": 1389532332,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Carry_Snowmountain010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Snowmountain"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Stamp_SnowMountain010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaGQuest:Stamp_SnowMountain010_Title",
+			"mLocation": "glossary/Location:Field_012",
+			"mProgress": [
+				{
+					"mLabel": 1508136510,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Stamp_SnowMountain010_Explanation_00"
+				},
+				{
+					"mLabel": 2529711788,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Stamp_SnowMountain010_Explanation_010"
+				},
+				{
+					"mLabel": 3185902959,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Stamp_SnowMountain010_Explanation_020"
+				},
+				{
+					"mLabel": 2912579201,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Stamp_SnowMountain010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Special_Jungle050",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:Special_Jungle050_Title",
+			"mLocation": "glossary/Location:Field_012",
+			"mProgress": [
+				{
+					"mLabel": 1996857805,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle050_Explanation_00"
+				},
+				{
+					"mLabel": 3274843345,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle050_Explanation_010"
+				},
+				{
+					"mLabel": 4167048444,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle050_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Golem_Valcano010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaCQuest:Golem_Valcano010_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 3769318339,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Golem_Valcano010_Explanation_00"
+				},
+				{
+					"mLabel": 3590350612,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Golem_Valcano010_Explanation_005"
+				},
+				{
+					"mLabel": 3211895514,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Golem_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 2489119001,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Golem_Valcano010_Explanation_030"
+				},
+				{
+					"mLabel": 2216925943,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Golem_Valcano010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Carry_Valcano010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaCQuest:Carry_Valcano010_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 3342971213,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Carry_Valcano010_Explanation_00"
+				},
+				{
+					"mLabel": 1471841963,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Carry_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 2090325352,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Carry_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 1703732265,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Carry_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 1827192454,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Carry_Valcano010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Volcano"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Gliding_Valcano070",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaCQuest:Gliding_Valcano070_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 3818649905,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano070_Explanation_00"
+				},
+				{
+					"mLabel": 1464688015,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano070_Explanation_010"
+				},
+				{
+					"mLabel": 1344313750,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano070_Explanation_010"
+				},
+				{
+					"mLabel": 961633368,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano070_Explanation_010"
+				},
+				{
+					"mLabel": 310120347,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano070_Explanation_010"
+				},
+				{
+					"mLabel": 33776757,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano070_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Gliding_Valcano040"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Gliding_Valcano040",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaCQuest:Gliding_Valcano040_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 3530810284,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano040_Explanation_00"
+				},
+				{
+					"mLabel": 3520671521,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano040_Explanation_010"
+				},
+				{
+					"mLabel": 3602180920,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano040_Explanation_010"
+				},
+				{
+					"mLabel": 3217370870,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano040_Explanation_010"
+				},
+				{
+					"mLabel": 2498264373,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano040_Explanation_010"
+				},
+				{
+					"mLabel": 2224494299,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Gliding_Valcano040_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 14,
+						"mParameter": "!Volcano"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Racing_Valcano010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaCQuest:Racing_Valcano010_Title",
+			"mLocation": "glossary/Location:Field_011",
+			"mProgress": [
+				{
+					"mLabel": 131978198,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Racing_Valcano010_Explanation_00"
+				},
+				{
+					"mLabel": 531149059,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Racing_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 415593754,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Racing_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 1907667156,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Racing_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 1520034583,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Racing_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 1256622329,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Racing_Valcano010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 14,
+						"mParameter": "!Volcano"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Firework_Valcano010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaCQuest:Firework_Valcano010_Title",
+			"mLocation": "glossary/Location:GoronVillage",
+			"mProgress": [
+				{
+					"mLabel": 149040381,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Firework_Valcano010_Explanation_00"
+				},
+				{
+					"mLabel": 1320333213,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Firework_Valcano010_Explanation_010"
+				},
+				{
+					"mLabel": 1704983646,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Firework_Valcano010_Explanation_020"
+				},
+				{
+					"mLabel": 2089078047,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Firework_Valcano010_Explanation_020"
+				},
+				{
+					"mLabel": 868572120,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Firework_Valcano010_Explanation_020"
+				},
+				{
+					"mLabel": 1977653168,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaCQuest:Firework_Valcano010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					},
+					{
+						"mCategory": 14,
+						"mParameter": "!Volcano"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Animal_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_025",
+			"mProgress": [
+				{
+					"mLabel": 2764005172,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 2939692726,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2215998837,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_020"
+				},
+				{
+					"mLabel": 2634957876,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_030"
+				},
+				{
+					"mLabel": 3982799035,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_035"
+				},
+				{
+					"mLabel": 3528446707,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_040"
+				},
+				{
+					"mLabel": 2489982619,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_050"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Carry_HyrulePlains030",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Carry_HyrulePlains030_Title",
+			"mLocation": "glossary/Location:Field_025",
+			"mProgress": [
+				{
+					"mLabel": 2020629055,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Carry_HyrulePlains030_Explanation_010"
+				},
+				{
+					"mLabel": 3056657048,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Carry_HyrulePlains030_Explanation_010"
+				},
+				{
+					"mLabel": 2635968859,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Carry_HyrulePlains030_Explanation_020"
+				},
+				{
+					"mLabel": 2372065973,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Carry_HyrulePlains030_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "CroMachine_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:CroMachine_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:MachineEngineerHouse",
+			"mProgress": [
+				{
+					"mLabel": 2436776157,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:CroMachine_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 2609853854,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:CroMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2963433053,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:CroMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2847495964,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:CroMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2698841523,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:CroMachine_HyrulePlains010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "CroMachine_Open"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "MorMachine_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:MorMachine_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:MachineEngineerHouse",
+			"mProgress": [
+				{
+					"mLabel": 1498794698,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:MorMachine_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 659858092,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:MorMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 209318255,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:MorMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 358793262,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:MorMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 470194817,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:MorMachine_HyrulePlains010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "OctMachine_HyrulePlains010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "DekMachine_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:DekMachine_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:MachineEngineerHouse",
+			"mProgress": [
+				{
+					"mLabel": 724118785,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:DekMachine_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 1557458026,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:DekMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2012856233,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:DekMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 1860341480,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:DekMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 1736889415,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:DekMachine_HyrulePlains010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "OctMachine_HyrulePlains010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "ZolMachine_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:ZolMachine_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:MachineEngineerHouse",
+			"mProgress": [
+				{
+					"mLabel": 652821971,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:ZolMachine_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 4057333984,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:ZolMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3673903907,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:ZolMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3286262370,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:ZolMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3397662925,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:ZolMachine_HyrulePlains010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 1,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "OctMachine_HyrulePlains010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "OctMachine_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:OctMachine_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:MachineEngineerHouse",
+			"mProgress": [
+				{
+					"mLabel": 470702544,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:OctMachine_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 2744896897,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:OctMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2293669442,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:OctMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2444078851,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:OctMachine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2563372460,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:OctMachine_HyrulePlains010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Machine_HyrulePlains010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Machine_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_005",
+			"mProgress": [
+				{
+					"mLabel": 1772617961,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 1868654659,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2171537775,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 1745661018,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 1145846656,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_020"
+				},
+				{
+					"mLabel": 874958607,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_025"
+				},
+				{
+					"mLabel": 1565985473,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_030"
+				},
+				{
+					"mLabel": 303471622,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_030"
+				},
+				{
+					"mLabel": 1412649070,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Machine_HyrulePlains010_Explanation_050"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Special_HyruleCastle010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaAQuest:Special_HyruleCastle010_Title",
+			"mLocation": "glossary/Location:Field_020",
+			"mProgress": [
+				{
+					"mLabel": 3084815926,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_HyruleCastle010_Explanation_00"
+				},
+				{
+					"mLabel": 2725343918,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_HyruleCastle010_Explanation_010"
+				},
+				{
+					"mLabel": 2304516461,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_HyruleCastle010_Explanation_020"
+				},
+				{
+					"mLabel": 2420576300,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_HyruleCastle010_Explanation_030"
+				},
+				{
+					"mLabel": 3741746923,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_HyruleCastle050_Explanation_040"
+				},
+				{
+					"mLabel": 3323836330,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_HyruleCastle010_Explanation_050"
+				},
+				{
+					"mLabel": 2569226883,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_HyruleCastle050_Explanation_060"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Mystery_Forest010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Mystery_Forest010_Title",
+			"mLocation": "glossary/Location:Field_020",
+			"mProgress": [
+				{
+					"mLabel": 977216263,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Mystery_Forest010_Explanation_00"
+				},
+				{
+					"mLabel": 1272034993,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Mystery_Forest010_Explanation_010"
+				},
+				{
+					"mLabel": 1002127934,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Mystery_Forest010_Explanation_010"
+				},
+				{
+					"mLabel": 1627186546,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Mystery_Forest010_Explanation_020"
+				},
+				{
+					"mLabel": 1887669916,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Mystery_Forest010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "GetHorse_Forest010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaAQuest:GetHorse_Forest010_Title",
+			"mLocation": "glossary/Location:HyruleCastle_002",
+			"mProgress": [
+				{
+					"mLabel": 1914420660,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:GetHorse_Forest010_Explanation_00"
+				},
+				{
+					"mLabel": 3715714582,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:GetHorse_Forest010_Explanation_010"
+				},
+				{
+					"mLabel": 4132707797,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:GetHorse_Forest010_Explanation_020"
+				},
+				{
+					"mLabel": 4014943380,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:GetHorse_Forest010_Explanation_030"
+				},
+				{
+					"mLabel": 2685319763,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:GetHorse_Forest010_Explanation_040"
+				},
+				{
+					"mLabel": 3861607995,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:GetHorse_Forest010_Explanation_050"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "ZolMachine_Forest010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaAQuest:Bring_Forest040_010_Title",
+			"mLocation": "glossary/Location:Field_020",
+			"mProgress": [
+				{
+					"mLabel": 3132461996,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Special_Desert100_Explanation_00"
+				},
+				{
+					"mLabel": 2751911460,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest040_Explanation_050"
+				},
+				{
+					"mLabel": 2673143305,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest040_Explanation_060"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Bring_Forest040",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaAQuest:Bring_Forest040_Title",
+			"mLocation": "glossary/Location:Field_020",
+			"mProgress": [
+				{
+					"mLabel": 1057927055,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:AreaASubquest_Explanation_00"
+				},
+				{
+					"mLabel": 2047487350,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest040_Explanation_010"
+				},
+				{
+					"mLabel": 2975268563,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest040_Explanation_020"
+				},
+				{
+					"mLabel": 935496829,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest040_Explanation_030"
+				},
+				{
+					"mLabel": 1096291675,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest040_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Fairy_HyrulePlains010_Gerudo",
+			"mKind": 2,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_003",
+			"mProgress": [
+				{
+					"mLabel": 21258228,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1586335121,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1973476946,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1709159868,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Fairy_HyrulePlains010_Goron",
+			"mKind": 2,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Goron_Title",
+			"mLocation": "glossary/Location:Field_003",
+			"mProgress": [
+				{
+					"mLabel": 31608262,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 4171218833,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3551718482,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3285026748,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Fairy_HyrulePlains010_Zora",
+			"mKind": 2,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Zora_Title",
+			"mLocation": "glossary/Location:Field_003",
+			"mProgress": [
+				{
+					"mLabel": 168753240,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3488940126,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3839382429,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 4104599667,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Fairy_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:GreatFairyFoutain",
+			"mProgress": [
+				{
+					"mLabel": 3609104884,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 3537921329,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 4190975730,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Explanation_020"
+				},
+				{
+					"mLabel": 3772123059,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Explanation_030"
+				},
+				{
+					"mLabel": 2428302140,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Explanation_035"
+				},
+				{
+					"mLabel": 3920780572,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Fairy_HyrulePlains010_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Volcano"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Balom_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Balom_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_039",
+			"mProgress": [
+				{
+					"mLabel": 2048633662,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Balom_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 3642961045,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Balom_HyrulePlains010_Explanation_005"
+				},
+				{
+					"mLabel": 2958223707,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Balom_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2608839320,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Balom_HyrulePlains010_Explanation_020"
+				},
+				{
+					"mLabel": 2332086646,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Balom_HyrulePlains010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Horse_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_019",
+			"mProgress": [
+				{
+					"mLabel": 3626459606,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 3957945208,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3501935445,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Special_Coast010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaBQuest:Special_Coast010_Title",
+			"mLocation": "glossary/Location:Field_009",
+			"mProgress": [
+				{
+					"mLabel": 4050029321,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Special_Coast010_Explanation_00"
+				},
+				{
+					"mLabel": 1942631425,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Special_Coast010_Explanation_010"
+				},
+				{
+					"mLabel": 1491560386,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Special_Coast010_Explanation_020"
+				},
+				{
+					"mLabel": 1107056259,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Special_Coast010_Explanation_025"
+				},
+				{
+					"mLabel": 1217924140,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Special_Coast010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "LostShip_Coast010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaBQuest:LostShip_Coast010_Title",
+			"mLocation": "glossary/Location:Field_009",
+			"mProgress": [
+				{
+					"mLabel": 823010123,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:LostShip_Coast010_Explanation_00"
+				},
+				{
+					"mLabel": 2702105470,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:LostShip_Coast010_Explanation_010"
+				},
+				{
+					"mLabel": 2317584573,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:LostShip_Coast010_Explanation_012"
+				},
+				{
+					"mLabel": 2589778771,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:LostShip_Coast010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Special_Jungle010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaFQuest:Special_Jungle010_Title",
+			"mLocation": "glossary/Location:Field_009",
+			"mProgress": [
+				{
+					"mLabel": 2202699230,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle010_Explanation_00"
+				},
+				{
+					"mLabel": 1487103687,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle010_Explanation_010"
+				},
+				{
+					"mLabel": 1676762858,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaFQuest:Special_Jungle010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Treasure_RiverCoast010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaBQuest:Treasure_RiverCoast010_Title",
+			"mLocation": "glossary/Location:Field_023",
+			"mProgress": [
+				{
+					"mLabel": 530348045,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Treasure_RiverCoast010_Explanation_00"
+				},
+				{
+					"mLabel": 2270698499,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Treasure_RiverCoast010_Explanation_010"
+				},
+				{
+					"mLabel": 3154781230,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Treasure_RiverCoast010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Coast_River"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Bring_RiverCoast010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaBQuest:Bring_RiverCoast010_Title",
+			"mLocation": "glossary/Location:Field_021",
+			"mProgress": [
+				{
+					"mLabel": 1562142884,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3050363178,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Bring_RiverCoast010_Explanation_010"
+				},
+				{
+					"mLabel": 3268929980,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Bring_RiverCoast010_Explanation_020"
+				},
+				{
+					"mLabel": 2667416297,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Bring_RiverCoast010_Explanation_030"
+				},
+				{
+					"mLabel": 2280045480,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Bring_RiverCoast010_Explanation_040"
+				},
+				{
+					"mLabel": 2390941959,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Bring_RiverCoast010_Explanation_050"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Coast_River>=Calamity_River_Comp"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "BigBari_Coast010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaBQuest:BigBari_Coast010_Title",
+			"mLocation": "glossary/Location:Field_022",
+			"mProgress": [
+				{
+					"mLabel": 3791269875,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:BigBari_Coast010_Explanation_00"
+				},
+				{
+					"mLabel": 1550143829,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:BigBari_Coast010_Explanation_005"
+				},
+				{
+					"mLabel": 890541211,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:BigBari_Coast010_Explanation_010"
+				},
+				{
+					"mLabel": 507103064,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:BigBari_Coast010_Explanation_020"
+				},
+				{
+					"mLabel": 239512758,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:BigBari_Coast010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Animal_Coast010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaBQuest:Animal_Coast010_Title",
+			"mLocation": "glossary/Location:Field_022",
+			"mProgress": [
+				{
+					"mLabel": 797684213,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Animal_Coast010_Explanation_00"
+				},
+				{
+					"mLabel": 627969516,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Animal_Coast010_Explanation_010"
+				},
+				{
+					"mLabel": 507262401,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Animal_Coast010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Carry_RiverCoast010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaBQuest:Carry_RiverCoast010_Title",
+			"mLocation": "glossary/Location:Field_022",
+			"mProgress": [
+				{
+					"mLabel": 129207440,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 535557844,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Carry_RiverCoast010_Explanation_010"
+				},
+				{
+					"mLabel": 885433623,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Carry_RiverCoast010_Explanation_020"
+				},
+				{
+					"mLabel": 616156921,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaBQuest:Carry_RiverCoast010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Special_Desert010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaDQuest:Special_Desert010_Title",
+			"mLocation": "glossary/Location:Field_018",
+			"mProgress": [
+				{
+					"mLabel": 3033646142,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Special_Desert010_Explanation_00"
+				},
+				{
+					"mLabel": 467236396,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Special_Desert010_Explanation_010"
+				},
+				{
+					"mLabel": 821306863,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Special_Desert010_Explanation_020"
+				},
+				{
+					"mLabel": 703534254,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Special_Desert010_Explanation_030"
+				},
+				{
+					"mLabel": 546000385,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Special_Desert010_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Lanmola_Desert010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaDQuest:Lanmola_Desert010_Title",
+			"mLocation": "glossary/Location:GerudoPalace",
+			"mProgress": [
+				{
+					"mLabel": 2785400685,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Lanmola_Desert010_Explanation_00"
+				},
+				{
+					"mLabel": 290631867,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Lanmola_Desert010_Explanation_005"
+				},
+				{
+					"mLabel": 2015589749,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Lanmola_Desert010_Explanation_010"
+				},
+				{
+					"mLabel": 1393436342,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Lanmola_Desert010_Explanation_020"
+				},
+				{
+					"mLabel": 1131498840,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Lanmola_Desert010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					},
+					{
+						"mCategory": 1,
+						"mParameter": "Desert_LanmolaDead1"
+					},
+					{
+						"mCategory": 1,
+						"mParameter": "Desert_LanmolaDead2"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Bring_Desert030",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaDQuest:Bring_Desert030_Title",
+			"mLocation": "glossary/Location:Field_018",
+			"mProgress": [
+				{
+					"mLabel": 1442780379,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Bring_Desert030_Explanation_00"
+				},
+				{
+					"mLabel": 999394151,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Bring_Desert030_Explanation_010"
+				},
+				{
+					"mLabel": 12825418,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Bring_Desert030_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Chase_Desert010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaDQuest:Chase_Desert010_Title",
+			"mLocation": "glossary/Location:Field_018",
+			"mProgress": [
+				{
+					"mLabel": 2989524010,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1383772348,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Chase_Desert010_Explanation_010"
+				},
+				{
+					"mLabel": 1013363051,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Chase_Desert010_Explanation_010"
+				},
+				{
+					"mLabel": 390849192,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Chase_Desert010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "EnemyDefeat_Desert010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaDQuest:EnemyDefeat_Desert010_Title",
+			"mLocation": "glossary/Location:Field_018",
+			"mProgress": [
+				{
+					"mLabel": 3005930933,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3624456180,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:EnemyDefeat_Desert010_Explanation_010"
+				},
+				{
+					"mLabel": 4079328311,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:EnemyDefeat_Desert010_Explanation_020"
+				},
+				{
+					"mLabel": 3814389721,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:EnemyDefeat_Desert010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Carry_Desert010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaDQuest:Carry_Desert010_Title",
+			"mLocation": "glossary/Location:Field_018",
+			"mProgress": [
+				{
+					"mLabel": 2313585045,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 793889861,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Carry_Desert010_Explanation_010"
+				},
+				{
+					"mLabel": 75276166,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Carry_Desert010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Bring_Desert010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaDQuest:Bring_Desert010_Title",
+			"mLocation": "glossary/Location:Field_017",
+			"mProgress": [
+				{
+					"mLabel": 1503657504,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1985555052,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Bring_Desert010_Explanation_010"
+				},
+				{
+					"mLabel": 1567914415,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaDQuest:Bring_Desert010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Sink_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Sink_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_001",
+			"mProgress": [
+				{
+					"mLabel": 2488677132,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Sink_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 4088133465,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Sink_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3632702618,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Sink_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3371814772,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Sink_HyrulePlains010_Explanation_030"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Link_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaAQuest:Link_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_001",
+			"mProgress": [
+				{
+					"mLabel": 773487485,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Link_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 1876263853,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Link_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 1157156974,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Link_HyrulePlains010_Explanation_020"
+				},
+				{
+					"mLabel": 1418181504,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Link_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Bring_SnowMountain010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaGQuest:Bring_SnowMountain010_Title",
+			"mLocation": "glossary/Location:Field_014",
+			"mProgress": [
+				{
+					"mLabel": 397850357,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Bring_SnowMountain010_Explanation_00"
+				},
+				{
+					"mLabel": 3232483662,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Bring_SnowMountain010_Explanation_010"
+				},
+				{
+					"mLabel": 4227461475,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaGQuest:Bring_SnowMountain010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Midpoint"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Pehat_HyrulePlains010",
+			"mKind": 1,
+			"mTitle": "ui/Quest/AreaAQuest:Bring_Forest010_Title",
+			"mLocation": "glossary/Location:Field_014",
+			"mProgress": [
+				{
+					"mLabel": 3176617552,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest010_Explanation_00"
+				},
+				{
+					"mLabel": 721892128,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest010_Explanation_010"
+				},
+				{
+					"mLabel": 274008845,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaAQuest:Bring_Forest010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "HyruleCastle_LuberiHouse"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Animal_HyrulePlains010_Other",
+			"mKind": 2,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_025",
+			"mProgress": [
+				{
+					"mLabel": 3843195316,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 110937629,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 766612958,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_020"
+				},
+				{
+					"mLabel": 883598495,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_030"
+				},
+				{
+					"mLabel": 1036975664,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Animal_HyrulePlains010_Explanation_040"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Animal_HyrulePlains010>=Animal_HyrulePlains010_010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "OP_Dungeon",
+			"mKind": 2,
+			"mTitle": "scenario/StoryAreaA:Test_OP_Dungeon_Title",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 955335550,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_000"
+				},
+				{
+					"mLabel": 1281385200,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_010"
+				},
+				{
+					"mLabel": 1279525274,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_020"
+				},
+				{
+					"mLabel": 531802941,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_030"
+				},
+				{
+					"mLabel": 2526625780,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_040"
+				},
+				{
+					"mLabel": 1101033480,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_050"
+				},
+				{
+					"mLabel": 3246976351,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_060"
+				},
+				{
+					"mLabel": 3547397471,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest:Test_QuestExplanation_070"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "OctMachine_A",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 2317971679,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2367311051,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:OctMachine_A"
+				},
+				{
+					"mLabel": 3058201830,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "OctMachine_B",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 213713521,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3401201179,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:OctMachine_B"
+				},
+				{
+					"mLabel": 4058517046,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "TekMachine_A",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1804191886,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 591005056,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:TekMachine_A"
+				},
+				{
+					"mLabel": 409484717,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "TekMachine_B",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 3978148384,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1687846736,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:TekMachine_B"
+				},
+				{
+					"mLabel": 1606961021,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "ZolMachine_A",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1159693614,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 24782077,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:ZolMachine_A"
+				},
+				{
+					"mLabel": 975707344,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "ZolMachine_B",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 3280729984,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1188716077,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:ZolMachine_B"
+				},
+				{
+					"mLabel": 2106091008,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "DekMachine_A",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 2094551539,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3307027230,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:DekMachine_A"
+				},
+				{
+					"mLabel": 4266591027,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "DekMachine_B",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 4199293789,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2193441230,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:DekMachine_B"
+				},
+				{
+					"mLabel": 3119479267,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "MorMachine_A",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 3687704354,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3079506938,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:MorMachine_A"
+				},
+				{
+					"mLabel": 2363470807,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "MorMachine_B",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1566152076,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 4029542698,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:MorMachine_B"
+				},
+				{
+					"mLabel": 3414149383,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "CroMachine_A",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 3454570032,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 4264287269,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:CroMachine_A"
+				},
+				{
+					"mLabel": 3313099784,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "CroMachine_B",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1266482334,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3112937205,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:CroMachine_B"
+				},
+				{
+					"mLabel": 2195300056,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "CroMachine_Open",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1062831651,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 757301622,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 101634741,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 521528308,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 376551771,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "AllMachineCreate",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 139903388,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 4200582813,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3513949534,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3362368543,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2267560664,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2654145433,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3038664794,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3238917808,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "OctMachine_HyrulePlains010"
+					},
+					{
+						"mCategory": 15,
+						"mParameter": "ZolMachine_HyrulePlains010"
+					},
+					{
+						"mCategory": 15,
+						"mParameter": "DekMachine_HyrulePlains010"
+					},
+					{
+						"mCategory": 15,
+						"mParameter": "MorMachine_HyrulePlains010"
+					},
+					{
+						"mCategory": 15,
+						"mParameter": "CroMachine_HyrulePlains010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "QuestIcon_Coast_River",
+			"mKind": 2,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_005",
+			"mProgress": [
+				{
+					"mLabel": 3745696260,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 3817257084,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3637805137,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "QuestIcon_Desert",
+			"mKind": 2,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_005",
+			"mProgress": [
+				{
+					"mLabel": 731588423,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 4007570026,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3582759495,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "QuestIcon_Midpoint",
+			"mKind": 2,
+			"mTitle": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Title",
+			"mLocation": "glossary/Location:Field_005",
+			"mProgress": [
+				{
+					"mLabel": 3813042473,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 3837871192,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 3750984821,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "QuestIcon_Volcano",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1397819916,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 591020834,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 409500431,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "QuestIcon_Snowmountain",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 163973119,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 2984815580,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 2327483377,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "QuestIcon_Jungle",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 3196197215,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 1219113122,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 1945634959,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "QuestIcon_LastDungeon",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 2922625223,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_00"
+				},
+				{
+					"mLabel": 594670136,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_010"
+				},
+				{
+					"mLabel": 404998677,
+					"mReturnLabel": 0,
+					"mText": "ui/Quest/AreaPlainsQuest:Horse_HyrulePlains010_Explanation_020"
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "MinisterLeftInfo_Volcano",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 4275739361,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3475171400,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 4101034085,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "MinisterLeftInfo_Snowmountain",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 2450248688,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 419304476,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 598486065,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "MinisterLeftInfo_Jungle",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1385869877,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 871595107,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 144786510,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "GerudoRace_Replay",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1875578225,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3569741521,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3134844678,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2173425451,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Chase_Desert010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "ZoraRiverChiefEncounter",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 2535638061,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 834591451,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 183296758,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "ZoraSeaChiefEncounter",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 561887403,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 149905892,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 868047305,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "ZoraChiefsConflict",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 83896851,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3252584215,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 4203497274,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "GoronRace_Replay",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 1017503446,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 159742243,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1738111220,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1286875959,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1556824281,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Racing_Valcano010"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "StampRally",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 3579774475,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1289245387,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2890240234,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 1274062720,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 290675368,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 277950623,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3317082335,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 37,
+						"mParameter": "true"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Gliding_Replay",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 315284922,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3532362846,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3164050825,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2545600074,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2277879204,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Gliding_Valcano070"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		},
+		{
+			"mKey": "Gliding070_Replay",
+			"mKind": 2,
+			"mTitle": "",
+			"mLocation": "",
+			"mProgress": [
+				{
+					"mLabel": 568029173,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 3223600691,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2922921956,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2232773671,
+					"mReturnLabel": 0,
+					"mText": ""
+				},
+				{
+					"mLabel": 2506753993,
+					"mReturnLabel": 0,
+					"mText": ""
+				}
+			],
+			"mReadyCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 15,
+						"mParameter": "Gliding_Valcano070"
+					}
+				]
+			},
+			"mQuestPriority": 0
+		}
+	]
+}

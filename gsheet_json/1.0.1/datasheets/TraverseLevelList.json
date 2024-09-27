@@ -1,0 +1,108 @@
+{
+	"unk1": 2392312865,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "TraverseLevelList",
+	"fields": [
+		{
+			"name": "mLevelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mLevelName": "Field"
+		},
+		{
+			"mLevelName": "FieldBoundary001"
+		},
+		{
+			"mLevelName": "FieldBoundary002"
+		},
+		{
+			"mLevelName": "FieldBoundary003"
+		},
+		{
+			"mLevelName": "FieldBoundaryCastle"
+		},
+		{
+			"mLevelName": "FieldBoundary004"
+		},
+		{
+			"mLevelName": "FieldBoundary005"
+		},
+		{
+			"mLevelName": "FieldBoundary006_001"
+		},
+		{
+			"mLevelName": "FieldBoundaryLast"
+		},
+		{
+			"mLevelName": "HyruleCastlePrison"
+		},
+		{
+			"mLevelName": "S_Dungeon050"
+		},
+		{
+			"mLevelName": "S_Dungeon052"
+		},
+		{
+			"mLevelName": ""
+		},
+		{
+			"mLevelName": "S_Dungeon029"
+		},
+		{
+			"mLevelName": "S_Dungeon030"
+		},
+		{
+			"mLevelName": "S_Dungeon051"
+		},
+		{
+			"mLevelName": "S_Dungeon053"
+		},
+		{
+			"mLevelName": "S_Dungeon056"
+		},
+		{
+			"mLevelName": "S_Dungeon101"
+		},
+		{
+			"mLevelName": "S_Dungeon105"
+		},
+		{
+			"mLevelName": "S_Dungeon111"
+		},
+		{
+			"mLevelName": "S_Dungeon108"
+		},
+		{
+			"mLevelName": "S_Dungeon054"
+		},
+		{
+			"mLevelName": "S_Dungeon055"
+		},
+		{
+			"mLevelName": "S_Dungeon057"
+		},
+		{
+			"mLevelName": "S_Dungeon106"
+		},
+		{
+			"mLevelName": "S_Dungeon103"
+		},
+		{
+			"mLevelName": "HyruleCastle"
+		}
+	]
+}

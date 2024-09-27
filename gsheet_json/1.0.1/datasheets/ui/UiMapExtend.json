@@ -1,0 +1,158 @@
+{
+	"unk1": 738318324,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapExtend",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mExtendInfo",
+			"typename": "__inline_struct_UiMapExtend_mExtendInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 40,
+			"subfields": [
+				{
+					"name": "mPaneName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mVisibleCondition",
+					"typename": "__inline_struct_UiMapExtend_mExtendInfo.mVisibleCondition",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 24,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mStrategy",
+							"typename": "__inline_enum_UiMapExtend_mExtendInfo.mVisibleCondition.mStrategy",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 48,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mExpressions",
+							"typename": "__inline_struct_UiMapExtend_mExtendInfo.mVisibleCondition.mExpressions",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 2,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 24,
+							"subfields": [
+								{
+									"name": "mCategory",
+									"typename": "ConditionCategory",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 16,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mParameter",
+									"typename": "string",
+									"typeid": 4,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 8,
+									"directsize": 16,
+									"elemsize": 16
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Field",
+			"mExtendInfo": [
+				{
+					"mPaneName": "L_Extend_00",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 16,
+								"mParameter": "LastDungeon<=LostWoodsGimmick"
+							}
+						]
+					}
+				},
+				{
+					"mPaneName": "L_Extend_01",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 16,
+								"mParameter": "LastDungeon<=LostWoodsGimmick"
+							}
+						]
+					}
+				},
+				{
+					"mPaneName": "L_Extend_02",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 16,
+								"mParameter": "LastDungeon<=LostWoodsGimmick"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary002",
+			"mExtendInfo": [
+				{
+					"mPaneName": "L_Extend_00",
+					"mVisibleCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mCategory": 1,
+								"mParameter": "!EvB_AreaBBossDead"
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

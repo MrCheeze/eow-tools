@@ -1,0 +1,94 @@
+{
+	"unk1": 2987006110,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "DeguZolPriorityActor",
+	"fields": [
+		{
+			"name": "mActorName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mIsPriorityActor",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mFreezePoints",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mActorName": "Keese02",
+			"mIsPriorityActor": false,
+			"mFreezePoints": 120
+		},
+		{
+			"mActorName": "Octorok02",
+			"mIsPriorityActor": false,
+			"mFreezePoints": 0
+		},
+		{
+			"mActorName": "Wizzrobe01",
+			"mIsPriorityActor": false,
+			"mFreezePoints": 0
+		},
+		{
+			"mActorName": "BlockIce",
+			"mIsPriorityActor": true,
+			"mFreezePoints": 0
+		},
+		{
+			"mActorName": "Octorok02Bullet1",
+			"mIsPriorityActor": false,
+			"mFreezePoints": 150
+		},
+		{
+			"mActorName": "Wizzrobe01Bullet1",
+			"mIsPriorityActor": false,
+			"mFreezePoints": 500
+		},
+		{
+			"mActorName": "Freezard",
+			"mIsPriorityActor": true,
+			"mFreezePoints": 90
+		},
+		{
+			"mActorName": "TorchSlug01Bullet1",
+			"mIsPriorityActor": false,
+			"mFreezePoints": 300
+		},
+		{
+			"mActorName": "SnowBall",
+			"mIsPriorityActor": true,
+			"mFreezePoints": 0
+		},
+		{
+			"mActorName": "Dandarma",
+			"mIsPriorityActor": true,
+			"mFreezePoints": 0
+		}
+	]
+}

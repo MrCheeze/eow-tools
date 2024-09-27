@@ -1,0 +1,226 @@
+{
+	"unk1": 1350595472,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "FadePreset",
+	"fields": [
+		{
+			"name": "mId",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mFadeMode",
+			"typename": "FadeMode",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mColor",
+			"typename": "__inline_struct_FadePreset_mColor",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 12,
+			"elemsize": 12,
+			"subfields": [
+				{
+					"name": "mRed",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mGreen",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mBlue",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		},
+		{
+			"name": "mSecond",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mId": "FadeOutSlowB",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.75
+		},
+		{
+			"mId": "FadeOutSlowW",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 1.0,
+				"mGreen": 1.0,
+				"mBlue": 1.0
+			},
+			"mSecond": 0.75
+		},
+		{
+			"mId": "FadeInSlow",
+			"mFadeMode": 0,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.75
+		},
+		{
+			"mId": "FadeOutNormalB",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.5
+		},
+		{
+			"mId": "FadeOutNormalW",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 1.0,
+				"mGreen": 1.0,
+				"mBlue": 1.0
+			},
+			"mSecond": 0.5
+		},
+		{
+			"mId": "FadeInNormal",
+			"mFadeMode": 0,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.5
+		},
+		{
+			"mId": "FadeOutFastB",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.25
+		},
+		{
+			"mId": "FadeOutFastW",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 1.0,
+				"mGreen": 1.0,
+				"mBlue": 1.0
+			},
+			"mSecond": 0.25
+		},
+		{
+			"mId": "FadeInFast",
+			"mFadeMode": 0,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.25
+		},
+		{
+			"mId": "CutOutB",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.0
+		},
+		{
+			"mId": "CutOutW",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 1.0,
+				"mGreen": 1.0,
+				"mBlue": 1.0
+			},
+			"mSecond": 0.0
+		},
+		{
+			"mId": "CutIn",
+			"mFadeMode": 0,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 0.0
+		},
+		{
+			"mId": "FadeOutTitle",
+			"mFadeMode": 1,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 5.0
+		},
+		{
+			"mId": "FadeInTitle",
+			"mFadeMode": 0,
+			"mColor": {
+				"mRed": 0.0,
+				"mGreen": 0.0,
+				"mBlue": 0.0
+			},
+			"mSecond": 5.0
+		}
+	]
+}

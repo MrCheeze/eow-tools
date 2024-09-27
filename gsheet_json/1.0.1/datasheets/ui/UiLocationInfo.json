@@ -1,0 +1,1694 @@
+{
+	"unk1": 2534592770,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiLocationInfo",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mVisibleFlag",
+			"typename": "GlobalFlags",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 9,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mIsShowHud",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mFieldType",
+			"typename": "UiFieldType",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mIsShowRupee",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 1,
+			"elemsize": 1
+		},
+		{
+			"name": "mLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAddtionalLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mVisibleCondition",
+			"typename": "__inline_struct_UiLocationInfo_mVisibleCondition",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 80,
+			"directsize": 24,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mStrategy",
+					"typename": "__inline_enum_UiLocationInfo_mVisibleCondition.mStrategy",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 48,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mExpressions",
+					"typename": "__inline_struct_UiLocationInfo_mVisibleCondition.mExpressions",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 2,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mCategory",
+							"typename": "ConditionCategory",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 16,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mParameter",
+							"typename": "string",
+							"typeid": 4,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 16
+						}
+					]
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "OP_Dungeon",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_Dungeon001",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon001",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_Dungeon001",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_Dungeon002",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon002",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_Dungeon002",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_Dungeon003",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon003",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_Dungeon003",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_Dungeon004",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon004",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_Dungeon004",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_Dungeon005",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon005",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_Dungeon005",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_Dungeon006",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon006",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_Dungeon006",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_DungeonCastle",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_DungeonCastle",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_DungeonCastle",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "L_DungeonLast",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_DungeonLast",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_DungeonLast",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundary001",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundary002",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundary003",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary003",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundary004",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary004",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundary005",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary005",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundary006_Hebra",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary006_001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundary006_Lanayru",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary006_002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundaryCastle",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundaryCastle",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "FieldBoundaryLast",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundaryLast",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_Volcano",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_011",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_NorthForest",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_013",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_HyrulePlains",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_005",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_HebraMountains",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_012",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_Coast",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_009",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Coast_River>=Coast_River_FirstContact"
+					}
+				]
+			}
+		},
+		{
+			"mKey": "Field_HyruleCastle",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_020",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_Desert",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_004",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Desert>=DesertCrack"
+					}
+				]
+			}
+		},
+		{
+			"mKey": "Field_Jungle",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_010",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_Forest",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_SouthernGrassland",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_Remains",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_039",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_Remains02",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_039",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_HyruleLake",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_003",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_JabulWaters",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:region003",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Coast_River>=Coast_River_FirstContact"
+					}
+				]
+			}
+		},
+		{
+			"mKey": "Field_Wildernesst",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_004",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Desert>=DesertCrack"
+					}
+				]
+			}
+		},
+		{
+			"mKey": "Field_SouthernVillage",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_014",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_River",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_008",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Coast_River>=Coast_River_FirstContact"
+					}
+				]
+			}
+		},
+		{
+			"mKey": "Field_Beach",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_038",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_Oasis",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_017",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_GerudoTown",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_018",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_HyruleRanch",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_019",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_RiverZoraVillage",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_021",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_SeesydeVillage",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_022",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Coast_River>=Coast_River_FirstContact"
+					}
+				]
+			}
+		},
+		{
+			"mKey": "Field_Scrubton",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_024",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_KakarikoVillage",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_025",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_VolcanoTrail",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_032",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Field_CrossflowsPlaza",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_036",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "LuberiHouse",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:LuberiHouse",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "MachineEngineerHouse",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:MachineEngineerHouse",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "DekuHouse001",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:DekuHouse001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "GreatFairyFountain",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:GreatFairyFoutain",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleHouse002",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": true,
+			"mLabel": "glossary/Location:HyruleHouse002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "VillageHouse003",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": true,
+			"mLabel": "glossary/Location:VillageHouse003",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "SeasideHouse004",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": true,
+			"mLabel": "glossary/Location:SeasideHouse004",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "ZoraRiverHouse005",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": true,
+			"mLabel": "glossary/Location:ZoraRiverHouse005",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "GerudoHouse004",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": true,
+			"mLabel": "glossary/Location:GerudoHouse004",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "KakarikoHouse004",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": true,
+			"mLabel": "glossary/Location:KakarikoHouse004",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "GoronVillage",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:GoronVillage",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "YetiHouse001",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:YetiHouse001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": [
+					{
+						"mCategory": 16,
+						"mParameter": "Snowmountain>=CondesHouseBook"
+					}
+				]
+			}
+		},
+		{
+			"mKey": "ZoraSeaVillage",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_023",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "GerudoPalace",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:GerudoPalace",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Church",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Church",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "OasisTent",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:OasisTent",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "BattleChallengeRoom",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:BattleChallengeRoom",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastlePrison",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:HyruleCastlePrison_001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastlePrison003",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:HyruleCastlePrison_002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastlePrison007",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:HyruleCastlePrison_001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastlePrison008",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_006",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleWaterway",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:HyruleCastlePrison_002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "TriForceRemains",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:TriForceRemains",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastle",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_006",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastle_001",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_006",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastle_002",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:HyruleCastle_002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleCastle_003",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:HyruleCastle_003",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "HyruleHouse003",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:HyruleHouse003",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon001",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_038",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon002",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon042",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon042",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon116",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon042",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon117",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon042",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon014",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon014",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon022",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon022",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon006",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon006",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon018",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon018",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon019",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon019",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon020",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon020",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon034",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon034",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon041",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon041",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon045",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon102",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon102",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon104",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon104",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon109",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon109",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon110",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon110",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon115",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon115",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "BS_Dungeon013",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary006_002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "BS_Dungeon011",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary006_002",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "BS_Dungeon010",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundary006_001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "BS_Dungeon005",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:FieldBoundaryCastle",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon035",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "Signboard:S035_001",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "Desert_LDungeonEntrance",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 1,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:L_Dungeon003",
+			"mAddtionalLabel": "ui/LocationInfo:LocationInfo_L_Dungeon003",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "DekuTreeArea",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_013",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon016",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_004",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon021",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_032",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon107",
+			"mVisibleFlag": null,
+			"mIsShowHud": false,
+			"mFieldType": 0,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:Field_012",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon029",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon029",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon030",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon030",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon050",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon050",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon051",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon051",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon052",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon052",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon053",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon053",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon054",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon054",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon055",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon055",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon056",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon056",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon057",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon057",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon101",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon101",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon103",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon103",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon105",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon105",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon108",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon108",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		},
+		{
+			"mKey": "S_Dungeon111",
+			"mVisibleFlag": null,
+			"mIsShowHud": true,
+			"mFieldType": 2,
+			"mIsShowRupee": false,
+			"mLabel": "glossary/Location:S_Dungeon111",
+			"mAddtionalLabel": "",
+			"mVisibleCondition": {
+				"mStrategy": 0,
+				"mExpressions": []
+			}
+		}
+	]
+}

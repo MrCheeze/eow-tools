@@ -1,0 +1,511 @@
+{
+	"unk1": 3791999381,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "EnemyLottery",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mLotTable",
+			"typename": "__inline_struct_EnemyLottery_mLotTable",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mEnemyName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mWeight",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "ZolOnly",
+			"mLotTable": [
+				{
+					"mEnemyName": "Zol",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "DekuOrHidy",
+			"mLotTable": [
+				{
+					"mEnemyName": "Dekubaba",
+					"mWeight": 50
+				},
+				{
+					"mEnemyName": "Hidy",
+					"mWeight": 50
+				}
+			]
+		},
+		{
+			"mKey": "KeeseOnly",
+			"mLotTable": [
+				{
+					"mEnemyName": "Keese",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "TektightOnly",
+			"mLotTable": [
+				{
+					"mEnemyName": "Test_Tektight",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "ZolOrZolFire",
+			"mLotTable": [
+				{
+					"mEnemyName": "Zol",
+					"mWeight": 70
+				},
+				{
+					"mEnemyName": "ZolFire",
+					"mWeight": 30
+				}
+			]
+		},
+		{
+			"mKey": "Test_MoriblinSpearBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "MoriblinSpearBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "OctorokOrSeaUrchin",
+			"mLotTable": [
+				{
+					"mEnemyName": "SeaUrchin",
+					"mWeight": 50
+				},
+				{
+					"mEnemyName": "Octorok",
+					"mWeight": 50
+				}
+			]
+		},
+		{
+			"mKey": "MoriblinSpearBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "MoriblinSpearBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "ZolBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "ZolBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "KeeseBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "KeeseBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "Octorok",
+			"mLotTable": [
+				{
+					"mEnemyName": "Octorok",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "TutorialEnemy",
+			"mLotTable": [
+				{
+					"mEnemyName": "MoriblinSpearBoundary",
+					"mWeight": 10
+				},
+				{
+					"mEnemyName": "KeeseBoundary",
+					"mWeight": 90
+				}
+			]
+		},
+		{
+			"mKey": "TektightBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "TektightBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "BiriBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "BiriBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "BoarblinClubBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "BoarblinClubBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "ReDeadBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "ReDeadBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "ArurodaBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "ArurodaBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "DarknutBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "DarknutBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "TailBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "TailBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "CreepeeBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "CreepeeBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "LizalfosBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "LizalfosBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "LabelEmpty",
+			"mLotTable": [
+				{
+					"mEnemyName": "ZolBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "TektightOrBiri",
+			"mLotTable": [
+				{
+					"mEnemyName": "TektightBoundary",
+					"mWeight": 50
+				},
+				{
+					"mEnemyName": "BiriBoundary",
+					"mWeight": 50
+				}
+			]
+		},
+		{
+			"mKey": "TagglerOrBiri",
+			"mLotTable": [
+				{
+					"mEnemyName": "TagglerBoundary",
+					"mWeight": 85
+				},
+				{
+					"mEnemyName": "BiriBoundary",
+					"mWeight": 15
+				}
+			]
+		},
+		{
+			"mKey": "TagglerBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "TagglerBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "ArurodaOrReDead",
+			"mLotTable": [
+				{
+					"mEnemyName": "ArurodaBoundary",
+					"mWeight": 70
+				},
+				{
+					"mEnemyName": "ReDeadBoundary",
+					"mWeight": 30
+				}
+			]
+		},
+		{
+			"mKey": "ArurodaOrBoarblinB",
+			"mLotTable": [
+				{
+					"mEnemyName": "ArurodaBoundary",
+					"mWeight": 70
+				},
+				{
+					"mEnemyName": "BoarblinClubBoundary",
+					"mWeight": 30
+				}
+			]
+		},
+		{
+			"mKey": "JungleSet",
+			"mLotTable": [
+				{
+					"mEnemyName": "WalltulaBoundary",
+					"mWeight": 25
+				},
+				{
+					"mEnemyName": "Walltula",
+					"mWeight": 25
+				},
+				{
+					"mEnemyName": "GhomaEgg",
+					"mWeight": 25
+				},
+				{
+					"mEnemyName": "GhomaBaby",
+					"mWeight": 25
+				}
+			]
+		},
+		{
+			"mKey": "MoaBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "MoaBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "FreezardBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "FreezardBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "WolfosBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "WolfosBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "LastBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "MoriblinSpearBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "ZolBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "TektightBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "BoarblinClubBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "ReDeadBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "ArurodaBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "DarknutBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "TailBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "LizalfosBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "KeeseBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "BiriBoundary",
+					"mWeight": 9
+				},
+				{
+					"mEnemyName": "CreepeeBoundary",
+					"mWeight": 9
+				}
+			]
+		},
+		{
+			"mKey": "LastBoundaryAir",
+			"mLotTable": [
+				{
+					"mEnemyName": "KeeseBoundary",
+					"mWeight": 50
+				},
+				{
+					"mEnemyName": "BiriBoundary",
+					"mWeight": 25
+				},
+				{
+					"mEnemyName": "CreepeeBoundary",
+					"mWeight": 25
+				}
+			]
+		},
+		{
+			"mKey": "WalltulaBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "WalltulaBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "BuzzBlobBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "BuzzBlobBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "LynelBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "LynelBoundary",
+					"mWeight": 100
+				}
+			]
+		},
+		{
+			"mKey": "LastBossMu02A",
+			"mLotTable": [
+				{
+					"mEnemyName": "DarknutBoundary",
+					"mWeight": 50
+				},
+				{
+					"mEnemyName": "BoarblinClubBoundary",
+					"mWeight": 50
+				}
+			]
+		},
+		{
+			"mKey": "LastBossMu02C",
+			"mLotTable": [
+				{
+					"mEnemyName": "LizalfosBoundary",
+					"mWeight": 50
+				},
+				{
+					"mEnemyName": "MoriblinSpearBoundary",
+					"mWeight": 50
+				}
+			]
+		},
+		{
+			"mKey": "AnaMoneaBoundary",
+			"mLotTable": [
+				{
+					"mEnemyName": "AnaMoneaBoundary",
+					"mWeight": 100
+				}
+			]
+		}
+	]
+}

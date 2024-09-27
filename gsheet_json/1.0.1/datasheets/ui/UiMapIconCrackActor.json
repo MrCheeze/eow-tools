@@ -1,0 +1,144 @@
+{
+	"unk1": 328079857,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconCrackActor",
+	"fields": [
+		{
+			"name": "mModelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mOffsetPosX",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mOffsetPosY",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mModelName": "Crack_Field_Desert_001",
+			"mOffsetPosX": 15.0,
+			"mOffsetPosY": -28.0
+		},
+		{
+			"mModelName": "Crack_Field_Desert_003",
+			"mOffsetPosX": -32.0,
+			"mOffsetPosY": 32.0
+		},
+		{
+			"mModelName": "Crack_Field_Desert_005",
+			"mOffsetPosX": -40.0,
+			"mOffsetPosY": -18.0
+		},
+		{
+			"mModelName": "Crack_Field_Forest_001",
+			"mOffsetPosX": 35.0,
+			"mOffsetPosY": 31.0
+		},
+		{
+			"mModelName": "Crack_Field_Forest_002",
+			"mOffsetPosX": -35.0,
+			"mOffsetPosY": 1.0
+		},
+		{
+			"mModelName": "Crack_Field_HebraMountains_001",
+			"mOffsetPosX": -144.0,
+			"mOffsetPosY": -51.0
+		},
+		{
+			"mModelName": "Crack_Field_HebraMountains_004",
+			"mOffsetPosX": -7.0,
+			"mOffsetPosY": -47.0
+		},
+		{
+			"mModelName": "Crack_Field_Jungle_001",
+			"mOffsetPosX": 60.0,
+			"mOffsetPosY": -33.0
+		},
+		{
+			"mModelName": "Crack_Field_Jungle_002",
+			"mOffsetPosX": 54.0,
+			"mOffsetPosY": 31.5
+		},
+		{
+			"mModelName": "Crack_Field_River_002",
+			"mOffsetPosX": 0.0,
+			"mOffsetPosY": 50.0
+		},
+		{
+			"mModelName": "Crack_Field_River_003",
+			"mOffsetPosX": 0.0,
+			"mOffsetPosY": 0.0
+		},
+		{
+			"mModelName": "Crack_Field_SouthernVillage_003",
+			"mOffsetPosX": 0.0,
+			"mOffsetPosY": 0.0
+		},
+		{
+			"mModelName": "Crack_Field_Volcano_004",
+			"mOffsetPosX": 145.0,
+			"mOffsetPosY": -1.0
+		},
+		{
+			"mModelName": "CrackHyruleCastle",
+			"mOffsetPosX": 1.0,
+			"mOffsetPosY": 0.5
+		},
+		{
+			"mModelName": "CrackMedium",
+			"mOffsetPosX": 0.0,
+			"mOffsetPosY": 0.0
+		},
+		{
+			"mModelName": "CrackSmall",
+			"mOffsetPosX": 0.0,
+			"mOffsetPosY": 0.0
+		},
+		{
+			"mModelName": "Crack_Field_HyruleCastle_001",
+			"mOffsetPosX": 8.0,
+			"mOffsetPosY": -5.0
+		},
+		{
+			"mModelName": "Crack_Field_HyruleCastle_002",
+			"mOffsetPosX": 2.0,
+			"mOffsetPosY": -47.0
+		},
+		{
+			"mModelName": "Crack_Field_Volcano_003",
+			"mOffsetPosX": 47.0,
+			"mOffsetPosY": -38.0
+		},
+		{
+			"mModelName": "Crack_Field_HyrulePlains_001",
+			"mOffsetPosX": -22.0,
+			"mOffsetPosY": 20.0
+		}
+	]
+}

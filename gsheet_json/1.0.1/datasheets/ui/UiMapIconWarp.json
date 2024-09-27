@@ -1,0 +1,71 @@
+{
+	"unk1": 3953425109,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapIconWarp",
+	"fields": [
+		{
+			"name": "mLevelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mGameFlag",
+			"typename": "GlobalFlags",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 9,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mPosX",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mPosY",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mIsShowMiniMap",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 1,
+			"elemsize": 1
+		}
+	],
+	"rows": [
+		{
+			"mLevelName": "Field",
+			"mGameFlag": "Warp_Field_Volcano_005",
+			"mPosX": 21.0,
+			"mPosY": 90.0,
+			"mIsShowMiniMap": false
+		}
+	]
+}

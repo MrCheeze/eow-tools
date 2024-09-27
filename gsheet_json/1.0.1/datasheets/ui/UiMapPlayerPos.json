@@ -1,0 +1,707 @@
+{
+	"unk1": 135687763,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiMapPlayerPos",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mPosInfo",
+			"typename": "__inline_struct_UiMapPlayerPos_mPosInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 16,
+			"subfields": [
+				{
+					"name": "mUiMapLevelType",
+					"typename": "UiMapLevelType",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPosX",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPosY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 8,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mPosZ",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 12,
+					"directsize": 4,
+					"elemsize": 4
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "L_Dungeon001",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 438.75,
+					"mPosY": 0.0,
+					"mPosZ": 394.5
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon001_Cleared",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 443.25,
+					"mPosY": 0.0,
+					"mPosZ": 383.25
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon002",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 603.75,
+					"mPosY": 0.0,
+					"mPosZ": 149.25
+				},
+				{
+					"mUiMapLevelType": 1,
+					"mPosX": -9.0,
+					"mPosY": 0.0,
+					"mPosZ": -107.25
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon003",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 73.5,
+					"mPosY": 0.0,
+					"mPosZ": 448.5
+				},
+				{
+					"mUiMapLevelType": 1,
+					"mPosX": 12.75,
+					"mPosY": 0.0,
+					"mPosZ": 9.75
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon004",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 22.0,
+					"mPosY": 0.0,
+					"mPosZ": 90.0
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon005",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 628.5,
+					"mPosY": 0.0,
+					"mPosZ": 332.25
+				},
+				{
+					"mUiMapLevelType": 1,
+					"mPosX": 17.7,
+					"mPosY": 0.0,
+					"mPosZ": 551.3
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon006",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 428.625,
+					"mPosY": 0.0,
+					"mPosZ": 0.0
+				},
+				{
+					"mUiMapLevelType": 1,
+					"mPosX": 59.25,
+					"mPosY": 0.0,
+					"mPosZ": -64.75
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon006_Cleared",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 426.75,
+					"mPosY": 0.0,
+					"mPosZ": -5.25
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonCastle",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 292.5,
+					"mPosY": 0.0,
+					"mPosZ": 228.0
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonLast",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 198.0,
+					"mPosY": 0.0,
+					"mPosZ": 72.5
+				},
+				{
+					"mUiMapLevelType": 1,
+					"mPosX": 7.5,
+					"mPosY": 0.0,
+					"mPosZ": -194.25
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary001",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 438.75,
+					"mPosY": 0.0,
+					"mPosZ": 394.5
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary001_Cleared",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 443.25,
+					"mPosY": 0.0,
+					"mPosZ": 383.25
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary002",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 603.75,
+					"mPosY": 0.0,
+					"mPosZ": 149.25
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary003",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 73.5,
+					"mPosY": 0.0,
+					"mPosZ": 448.5
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary004",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 22.0,
+					"mPosY": 0.0,
+					"mPosZ": 90.0
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary005",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 628.5,
+					"mPosY": 0.0,
+					"mPosZ": 332.25
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary006_001",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 428.625,
+					"mPosY": 0.0,
+					"mPosZ": 0.0
+				},
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 9.8,
+					"mPosY": 0.0,
+					"mPosZ": 11.8
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary006_001_Cleared",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 426.75,
+					"mPosY": 0.0,
+					"mPosZ": -5.25
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundaryCastle",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 292.5,
+					"mPosY": 0.0,
+					"mPosZ": 228.0
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundaryLast",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 198.0,
+					"mPosY": 0.0,
+					"mPosZ": 72.5
+				}
+			]
+		},
+		{
+			"mKey": "HyruleCastlePrison",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 312.0,
+					"mPosY": 0.0,
+					"mPosZ": 203.625
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon018",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 90.75,
+					"mPosY": 0.0,
+					"mPosZ": 134.25
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonCastle_023",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 4.5,
+					"mPosY": 0.0,
+					"mPosZ": 195.3
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonCastle_024",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": -38.2,
+					"mPosY": 0.0,
+					"mPosZ": 283.8
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonCastle_025",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 47.2,
+					"mPosY": 0.0,
+					"mPosZ": 192.3
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonCastle_026",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 68.2,
+					"mPosY": 0.0,
+					"mPosZ": 198.3
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon018_002",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 22.0,
+					"mPosY": 0.0,
+					"mPosZ": 90.0
+				}
+			]
+		},
+		{
+			"mKey": "L_Dungeon002_023",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 2.25,
+					"mPosY": 22.5,
+					"mPosZ": -36.0
+				}
+			]
+		},
+		{
+			"mKey": "FieldBoundary004_002",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 22.0,
+					"mPosY": 0.0,
+					"mPosZ": 90.0
+				},
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 9.0,
+					"mPosY": 12.0,
+					"mPosZ": 34.7
+				},
+				{
+					"mUiMapLevelType": 1,
+					"mPosX": 5.25,
+					"mPosY": 0.0,
+					"mPosZ": -80.8
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonLast_019",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 27.0,
+					"mPosY": 0.0,
+					"mPosZ": -202.75
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonLast_009",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 27.0,
+					"mPosY": 0.0,
+					"mPosZ": -202.75
+				}
+			]
+		},
+		{
+			"mKey": "L_DungeonLast_004",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 2,
+					"mPosX": 27.0,
+					"mPosY": 0.0,
+					"mPosZ": -202.75
+				}
+			]
+		},
+		{
+			"mKey": "Desert_LDungeonEntrance",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 73.5,
+					"mPosY": 0.0,
+					"mPosZ": 448.5
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon034",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 628.5,
+					"mPosY": 0.0,
+					"mPosZ": 332.25
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon042",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 292.5,
+					"mPosY": 0.0,
+					"mPosZ": 228.0
+				}
+			]
+		},
+		{
+			"mKey": "TriForceRemains",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 198.0,
+					"mPosY": 0.0,
+					"mPosZ": 72.5
+				}
+			]
+		},
+		{
+			"mKey": "DekuTreeArea",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 198.0,
+					"mPosY": 0.0,
+					"mPosZ": 72.5
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon029",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 676.875,
+					"mPosY": 0.0,
+					"mPosZ": 468.375
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon030",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 516.75,
+					"mPosY": 0.0,
+					"mPosZ": 464.0
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon050",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 384.75,
+					"mPosY": 0.0,
+					"mPosZ": 356.925
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon051",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 237.75,
+					"mPosY": 0.0,
+					"mPosZ": 343.425
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon052",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 246.75,
+					"mPosY": 0.0,
+					"mPosZ": 156.875
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon053",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 305.25,
+					"mPosY": 0.0,
+					"mPosZ": 144.94
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon054",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 635.25,
+					"mPosY": 0.0,
+					"mPosZ": 75.0
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon055",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": -12.0,
+					"mPosY": 0.0,
+					"mPosZ": 299.78
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon056",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 395.25,
+					"mPosY": 0.0,
+					"mPosZ": 458.875
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon057",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 446.25,
+					"mPosY": 0.0,
+					"mPosZ": 31.5
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon101",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 599.25,
+					"mPosY": 0.0,
+					"mPosZ": 69.0
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon103",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 158.25,
+					"mPosY": 0.0,
+					"mPosZ": 372.0
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon105",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 90.75,
+					"mPosY": 0.0,
+					"mPosZ": 134.25
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon108",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 452.25,
+					"mPosY": 0.0,
+					"mPosZ": 87.75
+				}
+			]
+		},
+		{
+			"mKey": "S_Dungeon111",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 13.5,
+					"mPosY": 0.0,
+					"mPosZ": 158.062
+				}
+			]
+		},
+		{
+			"mKey": "GerudoMiniGame",
+			"mPosInfo": [
+				{
+					"mUiMapLevelType": 0,
+					"mPosX": 104.25,
+					"mPosY": 0.0,
+					"mPosZ": 396.75
+				}
+			]
+		}
+	]
+}

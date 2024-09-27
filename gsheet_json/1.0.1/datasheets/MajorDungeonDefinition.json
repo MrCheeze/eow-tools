@@ -1,0 +1,105 @@
+{
+	"unk1": 2392312865,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "MajorDungeonDefinition",
+	"fields": [
+		{
+			"name": "mLevelname",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mLevelname": "L_Dungeon001"
+		},
+		{
+			"mLevelname": "L_Dungeon002"
+		},
+		{
+			"mLevelname": "L_Dungeon003"
+		},
+		{
+			"mLevelname": "L_Dungeon004"
+		},
+		{
+			"mLevelname": "L_Dungeon005"
+		},
+		{
+			"mLevelname": "L_Dungeon006"
+		},
+		{
+			"mLevelname": "S_Dungeon029"
+		},
+		{
+			"mLevelname": "S_Dungeon030"
+		},
+		{
+			"mLevelname": "S_Dungeon050"
+		},
+		{
+			"mLevelname": "S_Dungeon001"
+		},
+		{
+			"mLevelname": "S_Dungeon002"
+		},
+		{
+			"mLevelname": "S_Dungeon003"
+		},
+		{
+			"mLevelname": "S_Dungeon115"
+		},
+		{
+			"mLevelname": "S_Dungeon051"
+		},
+		{
+			"mLevelname": "S_Dungeon052"
+		},
+		{
+			"mLevelname": "S_Dungeon053"
+		},
+		{
+			"mLevelname": "S_Dungeon054"
+		},
+		{
+			"mLevelname": "L_DungeonCastle"
+		},
+		{
+			"mLevelname": "L_DungeonLast"
+		},
+		{
+			"mLevelname": "S_Dungeon055"
+		},
+		{
+			"mLevelname": "S_Dungeon056"
+		},
+		{
+			"mLevelname": "S_Dungeon057"
+		},
+		{
+			"mLevelname": "S_Dungeon101"
+		},
+		{
+			"mLevelname": "S_Dungeon103"
+		},
+		{
+			"mLevelname": "S_Dungeon105"
+		},
+		{
+			"mLevelname": "S_Dungeon108"
+		},
+		{
+			"mLevelname": "S_Dungeon111"
+		}
+	]
+}

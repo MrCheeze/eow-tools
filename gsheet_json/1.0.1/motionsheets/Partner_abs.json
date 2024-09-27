@@ -1,0 +1,368 @@
+{
+	"unk1": 2362429281,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "Partner_abs",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mResultType",
+			"typename": "EvalSheetObjectType",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mBranches",
+			"typename": "__inline_struct_Partner_abs_mBranches",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 40,
+			"subfields": [
+				{
+					"name": "mCondition",
+					"typename": "__inline_struct_Partner_abs_mBranches.mCondition",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 24,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mStrategy",
+							"typename": "EvalSheetStrategy",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 16,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mExpressions",
+							"typename": "__inline_struct_Partner_abs_mBranches.mCondition.mExpressions",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 2,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 48,
+							"subfields": [
+								{
+									"name": "mOperandType",
+									"typename": "EvalSheetObjectType",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 16,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mLeftOperand",
+									"typename": "bytes",
+									"typeid": 5,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 8,
+									"directsize": 16,
+									"elemsize": 16
+								},
+								{
+									"name": "mOperator",
+									"typename": "EvalSheetOperator",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 16,
+									"offset": 24,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mRightOperand",
+									"typename": "bytes",
+									"typeid": 5,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 32,
+									"directsize": 16,
+									"elemsize": 16
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "mResult",
+					"typename": "bytes",
+					"typeid": 5,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		},
+		{
+			"name": "mFallback",
+			"typename": "bytes",
+			"typeid": 5,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "locomotion",
+			"mResultType": 3,
+			"mBranches": [
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 1,
+								"mLeftOperand": [
+									217,
+									171,
+									162,
+									110,
+									68,
+									73,
+									83,
+									84,
+									65,
+									78,
+									67,
+									69,
+									95,
+									76,
+									69,
+									86,
+									69,
+									76
+								],
+								"mOperator": 1,
+								"mRightOperand": [
+									0
+								]
+							}
+						]
+					},
+					"mResult": [
+						100,
+						119,
+						97,
+						105,
+						116
+					]
+				},
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 1,
+								"mLeftOperand": [
+									217,
+									171,
+									162,
+									110,
+									68,
+									73,
+									83,
+									84,
+									65,
+									78,
+									67,
+									69,
+									95,
+									76,
+									69,
+									86,
+									69,
+									76
+								],
+								"mOperator": 1,
+								"mRightOperand": [
+									1
+								]
+							}
+						]
+					},
+					"mResult": [
+						100,
+						109,
+						111,
+						118,
+						101
+					]
+				},
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 1,
+								"mLeftOperand": [
+									217,
+									171,
+									162,
+									110,
+									68,
+									73,
+									83,
+									84,
+									65,
+									78,
+									67,
+									69,
+									95,
+									76,
+									69,
+									86,
+									69,
+									76
+								],
+								"mOperator": 1,
+								"mRightOperand": [
+									2
+								]
+							}
+						]
+					},
+					"mResult": [
+						103,
+						101,
+						118,
+						95,
+						109,
+						111,
+						118,
+						101
+					]
+				}
+			],
+			"mFallback": [
+				100,
+				119,
+				97,
+				105,
+				116
+			]
+		},
+		{
+			"mKey": "DISTANCE_LEVEL",
+			"mResultType": 1,
+			"mBranches": [
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 2,
+								"mLeftOperand": [
+									217,
+									171,
+									161,
+									110,
+									116,
+									97,
+									114,
+									103,
+									101,
+									116,
+									68,
+									105,
+									115,
+									116,
+									97,
+									110,
+									99,
+									101
+								],
+								"mOperator": 4,
+								"mRightOperand": [
+									250,
+									63,
+									76,
+									204,
+									205
+								]
+							}
+						]
+					},
+					"mResult": [
+						0
+					]
+				},
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 2,
+								"mLeftOperand": [
+									217,
+									171,
+									161,
+									110,
+									116,
+									97,
+									114,
+									103,
+									101,
+									116,
+									68,
+									105,
+									115,
+									116,
+									97,
+									110,
+									99,
+									101
+								],
+								"mOperator": 4,
+								"mRightOperand": [
+									249,
+									68,
+									0
+								]
+							}
+						]
+					},
+					"mResult": [
+						1
+					]
+				}
+			],
+			"mFallback": [
+				2
+			]
+		}
+	]
+}

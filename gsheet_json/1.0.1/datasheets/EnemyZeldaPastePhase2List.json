@@ -1,0 +1,150 @@
+{
+	"unk1": 1435197279,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "EnemyZeldaPastePhase2List",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mMax",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 4,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mPasteEnemyInfo",
+			"typename": "__inline_struct_EnemyZeldaPastePhase2List_mPasteEnemyInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 8,
+			"directsize": 16,
+			"elemsize": 24,
+			"subfields": [
+				{
+					"name": "mSymbol",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mWeight",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mIsSelect",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 20,
+					"directsize": 1,
+					"elemsize": 1
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": 1,
+			"mMax": 5,
+			"mPasteEnemyInfo": [
+				{
+					"mSymbol": "StoneFragile",
+					"mWeight": 1,
+					"mIsSelect": true
+				}
+			]
+		},
+		{
+			"mKey": 2,
+			"mMax": 4,
+			"mPasteEnemyInfo": [
+				{
+					"mSymbol": "TorchSlug",
+					"mWeight": 1,
+					"mIsSelect": true
+				},
+				{
+					"mSymbol": "Lizalfos01",
+					"mWeight": 1,
+					"mIsSelect": false
+				}
+			]
+		},
+		{
+			"mKey": 3,
+			"mMax": 4,
+			"mPasteEnemyInfo": [
+				{
+					"mSymbol": "Octorok02",
+					"mWeight": 2,
+					"mIsSelect": false
+				},
+				{
+					"mSymbol": "Freezard",
+					"mWeight": 2,
+					"mIsSelect": true
+				},
+				{
+					"mSymbol": "Wolfos00",
+					"mWeight": 1,
+					"mIsSelect": false
+				}
+			]
+		},
+		{
+			"mKey": 4,
+			"mMax": 4,
+			"mPasteEnemyInfo": [
+				{
+					"mSymbol": "BuzzBlob",
+					"mWeight": 1,
+					"mIsSelect": true
+				},
+				{
+					"mSymbol": "Darknut01",
+					"mWeight": 1,
+					"mIsSelect": false
+				},
+				{
+					"mSymbol": "Kerotone01",
+					"mWeight": 1,
+					"mIsSelect": true
+				},
+				{
+					"mSymbol": "ReDead",
+					"mWeight": 1,
+					"mIsSelect": false
+				}
+			]
+		}
+	]
+}

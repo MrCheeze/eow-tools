@@ -1,0 +1,176 @@
+{
+	"unk1": 1815335918,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "AudioReverb",
+	"fields": [
+		{
+			"name": "mPreset",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mAudioReverbEarlyMode",
+			"typename": "AudioReverbEarlyMode",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mAudioReverbLateMode",
+			"typename": "AudioReverbLateMode",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 20,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mLateGain",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 24,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mDecayTime",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 28,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mPredelayTime",
+			"typename": "int",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mHighFrequencyDecayRatio",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 36,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mColoration",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mReverbGain",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 44,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mOutGain",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mDryGain",
+			"typename": "float",
+			"typeid": 3,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 52,
+			"directsize": 4,
+			"elemsize": 4
+		}
+	],
+	"rows": [
+		{
+			"mPreset": "REVERB_PRESET_00",
+			"mAudioReverbEarlyMode": 0,
+			"mAudioReverbLateMode": 0,
+			"mLateGain": 0.7,
+			"mDecayTime": 1.5,
+			"mPredelayTime": 15,
+			"mHighFrequencyDecayRatio": 0.8,
+			"mColoration": 0.7,
+			"mReverbGain": 0.2,
+			"mOutGain": 0.3,
+			"mDryGain": 0.9
+		},
+		{
+			"mPreset": "REVERB_PRESET_01",
+			"mAudioReverbEarlyMode": 1,
+			"mAudioReverbLateMode": 3,
+			"mLateGain": 0.8,
+			"mDecayTime": 2.1,
+			"mPredelayTime": 25,
+			"mHighFrequencyDecayRatio": 0.6,
+			"mColoration": 0.8,
+			"mReverbGain": 0.8,
+			"mOutGain": 0.8,
+			"mDryGain": 0.6
+		},
+		{
+			"mPreset": "REVERB_PRESET_02",
+			"mAudioReverbEarlyMode": 1,
+			"mAudioReverbLateMode": 0,
+			"mLateGain": 0.8,
+			"mDecayTime": 1.8,
+			"mPredelayTime": 20,
+			"mHighFrequencyDecayRatio": 0.6,
+			"mColoration": 0.8,
+			"mReverbGain": 0.5,
+			"mOutGain": 0.8,
+			"mDryGain": 0.8
+		},
+		{
+			"mPreset": "REVERB_PRESET_03",
+			"mAudioReverbEarlyMode": 0,
+			"mAudioReverbLateMode": 1,
+			"mLateGain": 0.3,
+			"mDecayTime": 0.3,
+			"mPredelayTime": 3,
+			"mHighFrequencyDecayRatio": 0.8,
+			"mColoration": 0.6,
+			"mReverbGain": 0.5,
+			"mOutGain": 0.5,
+			"mDryGain": 0.8
+		}
+	]
+}

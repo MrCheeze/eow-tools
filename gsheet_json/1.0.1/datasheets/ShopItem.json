@@ -1,0 +1,1117 @@
+{
+	"unk1": 3683965119,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "ShopItem",
+	"fields": [
+		{
+			"name": "mLabel",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mGoods",
+			"typename": "__inline_struct_ShopItem_mGoods",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 160,
+			"subfields": [
+				{
+					"name": "mCondition",
+					"typename": "Conditions",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 8,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mTransformReference",
+					"typename": "Items",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 9,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mPrice",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 32,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mDiscountPrice",
+					"typename": "int",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 36,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mModelPath",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 40,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mModelName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 56,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mOffsetY",
+					"typename": "float",
+					"typeid": 3,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 72,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "mEventAssetPath",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 80,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mEntryPoint",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 96,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mNameLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 112,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mCaptionLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 128,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mBottleContentKey",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 144,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		},
+		{
+			"name": "mSoldOutModelPath",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 32,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mSoldOutModelName",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 48,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mSoldOutEventAssetPath",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 64,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mSoldOutEntryPoint",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 80,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mLabel": "SouthernVillagePotionShop0",
+			"mGoods": [
+				{
+					"mCondition": "HasNotBottle0",
+					"mTransformReference": null,
+					"mPrice": 80,
+					"mDiscountPrice": 80,
+					"mModelPath": "actor/Bottle.bfres",
+					"mModelName": "Bottle",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Bottle",
+					"mNameLabel": "ui/ShopWindow:ShopWindow_Bottle_Name",
+					"mCaptionLabel": "ui/ShopWindow:ShopWindow_Bottle_Explanation",
+					"mBottleContentKey": ""
+				}
+			],
+			"mSoldOutModelPath": "actor/SoldOutPlate.bfres",
+			"mSoldOutModelName": "SoldOutPlate",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "SouthernVillagePotionShop1",
+			"mGoods": [
+				{
+					"mCondition": "L001Clear",
+					"mTransformReference": null,
+					"mPrice": 10,
+					"mDiscountPrice": 10,
+					"mModelPath": "actor/ItemRecoveryHeart.bfres",
+					"mModelName": "ItemRecoveryHeart",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "RecoveryHeartLow",
+					"mNameLabel": "ui/ShopWindow:Test_RecoveryHeartLow_Name",
+					"mCaptionLabel": "ui/ShopWindow:Test_RecoveryHeartLow_Explanation",
+					"mBottleContentKey": ""
+				}
+			],
+			"mSoldOutModelPath": "actor/SoldOutPlate.bfres",
+			"mSoldOutModelName": "SoldOutPlate",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "SouthernVillagePotionShop2",
+			"mGoods": [
+				{
+					"mCondition": "L001Clear",
+					"mTransformReference": null,
+					"mPrice": 20,
+					"mDiscountPrice": 20,
+					"mModelPath": "actor/HeartMany.bfres",
+					"mModelName": "HeartMany",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "RecoveryHeartHigh",
+					"mNameLabel": "ui/ShopWindow:Test_RecoveryHeartHigh_Name",
+					"mCaptionLabel": "ui/ShopWindow:Test_RecoveryHeartHigh_Explanation",
+					"mBottleContentKey": ""
+				}
+			],
+			"mSoldOutModelPath": "actor/SoldOutPlate.bfres",
+			"mSoldOutModelName": "SoldOutPlate",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "SouthernVillagePotionShop3",
+			"mGoods": [
+				{
+					"mCondition": "L001Clear",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemPastePowerLow.bfres",
+					"mModelName": "ItemPastePowerLow",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "MorphEnergyLow",
+					"mNameLabel": "ui/ShopWindow:Test_MorphEnergyLow_Name",
+					"mCaptionLabel": "ui/ShopWindow:Test_MorphEnergyLow_Explanation",
+					"mBottleContentKey": ""
+				}
+			],
+			"mSoldOutModelPath": "actor/SoldOutPlate.bfres",
+			"mSoldOutModelName": "SoldOutPlate",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "SouthernVillagePotionShop4",
+			"mGoods": [
+				{
+					"mCondition": "L001Clear",
+					"mTransformReference": null,
+					"mPrice": 80,
+					"mDiscountPrice": 80,
+					"mModelPath": "actor/ItemPastePowerHigh.bfres",
+					"mModelName": "ItemPastePowerHigh",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "MorphEnergyHigh",
+					"mNameLabel": "ui/ShopWindow:Test_MorphEnergyHigh_Name",
+					"mCaptionLabel": "ui/ShopWindow:Test_MorphEnergyHigh_Explanation",
+					"mBottleContentKey": ""
+				}
+			],
+			"mSoldOutModelPath": "actor/SoldOutPlate.bfres",
+			"mSoldOutModelName": "SoldOutPlate",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "SouthernVillagePotionShop5",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 10,
+					"mDiscountPrice": 10,
+					"mModelPath": "actor/ItemRecoveryHeart.bfres",
+					"mModelName": "ItemRecoveryHeart",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "RecoveryHeartLow",
+					"mNameLabel": "ui/ShopWindow:Test_SouthernVillagePotionShop5_Name",
+					"mCaptionLabel": "ui/ShopWindow:Test_SouthernVillagePotionShop5_Explanation",
+					"mBottleContentKey": ""
+				}
+			],
+			"mSoldOutModelPath": "actor/SoldOutPlate.bfres",
+			"mSoldOutModelName": "SoldOutPlate",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Village01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemIngredientShop05.bfres",
+					"mModelName": "ItemIngredientShop05",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Village01",
+					"mNameLabel": "glossary/Item:Item200",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient05",
+					"mBottleContentKey": "SmoothieIngredient05"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Village04",
+			"mGoods": [
+				{
+					"mCondition": "L001Clear",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ItemGeneralShop02.bfres",
+					"mModelName": "ItemGeneralShop02",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Village04",
+					"mNameLabel": "glossary/Item:Item275",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineYellow",
+					"mBottleContentKey": "MedicineYellow"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": "SoldOutVillage"
+		},
+		{
+			"mLabel": "Village03",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Village03",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Village02",
+			"mGoods": [
+				{
+					"mCondition": "NotHaveShopHeartPiece3",
+					"mTransformReference": "HeartPiece",
+					"mPrice": 80,
+					"mDiscountPrice": 80,
+					"mModelPath": "actor/ItemHeartPiece.bfres",
+					"mModelName": "ItemHeartPiece",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "VillageHeartPiece",
+					"mNameLabel": "glossary/Item:Item020",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_HeartPiece_00",
+					"mBottleContentKey": ""
+				},
+				{
+					"mCondition": "L001Clear",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop03.bfres",
+					"mModelName": "ItemGeneralShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Village02",
+					"mNameLabel": "glossary/Item:Item280",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineBlue",
+					"mBottleContentKey": "MedicineBlue"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": "SoldOutVillage"
+		},
+		{
+			"mLabel": "Seaside01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop03.bfres",
+					"mModelName": "ItemGeneralShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Seaside01",
+					"mNameLabel": "glossary/Item:Item280",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineBlue",
+					"mBottleContentKey": "MedicineBlue"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Seaside02",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Seaside02",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Seaside03",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ItemGeneralShop02.bfres",
+					"mModelName": "ItemGeneralShop02",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Seaside03",
+					"mNameLabel": "glossary/Item:Item275",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineYellow",
+					"mBottleContentKey": "MedicineYellow"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "River01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 40,
+					"mDiscountPrice": 40,
+					"mModelPath": "actor/ItemIngredientShop01.bfres",
+					"mModelName": "ItemIngredientShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "River01",
+					"mNameLabel": "glossary/Item:Item205",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient01",
+					"mBottleContentKey": "SmoothieIngredient01"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "River02",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop03.bfres",
+					"mModelName": "ItemGeneralShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "River02",
+					"mNameLabel": "glossary/Item:Item280",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineBlue",
+					"mBottleContentKey": "MedicineBlue"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "River03",
+			"mGoods": [
+				{
+					"mCondition": "NotHaveOrnament20",
+					"mTransformReference": "Ornament20",
+					"mPrice": 350,
+					"mDiscountPrice": 350,
+					"mModelPath": "actor/ItemOrnament20.bfres",
+					"mModelName": "ItemOrnament20",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "RiverOrnament",
+					"mNameLabel": "glossary/Item:Item435",
+					"mCaptionLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_20",
+					"mBottleContentKey": "Ornament20"
+				},
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ItemGeneralShop02.bfres",
+					"mModelName": "ItemGeneralShop02",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "River03",
+					"mNameLabel": "glossary/Item:Item275",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineYellow",
+					"mBottleContentKey": "MedicineYellow"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": "SoldOutRiver"
+		},
+		{
+			"mLabel": "River04",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "River04",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Sea01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 25,
+					"mDiscountPrice": 25,
+					"mModelPath": "actor/ItemIngredientShop00.bfres",
+					"mModelName": "ItemIngredientShop00",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Sea01",
+					"mNameLabel": "glossary/Item:Item210",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient00",
+					"mBottleContentKey": "SmoothieIngredient00"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Sea02",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Sea02",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Sea03",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop03.bfres",
+					"mModelName": "ItemGeneralShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Sea03",
+					"mNameLabel": "glossary/Item:Item280",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineBlue",
+					"mBottleContentKey": "MedicineBlue"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Gerudo01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ItemIngredientShop04.bfres",
+					"mModelName": "ItemIngredientShop04",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Gerudo01",
+					"mNameLabel": "glossary/Item:Item220",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient04",
+					"mBottleContentKey": "SmoothieIngredient04"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Gerudo02",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemIngredientShop07.bfres",
+					"mModelName": "ItemIngredientShop07",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Gerudo02",
+					"mNameLabel": "glossary/Item:Item215",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient07",
+					"mBottleContentKey": "SmoothieIngredient07"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Gerudo03",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Gerudo03",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Gerudo04",
+			"mGoods": [
+				{
+					"mCondition": "NotHaveOrnament17",
+					"mTransformReference": "Ornament17",
+					"mPrice": 400,
+					"mDiscountPrice": 400,
+					"mModelPath": "actor/ItemOrnament17.bfres",
+					"mModelName": "ItemOrnament17",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "GerudoOrnament",
+					"mNameLabel": "glossary/Item:Item420",
+					"mCaptionLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_17",
+					"mBottleContentKey": "Ornament17"
+				},
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop03.bfres",
+					"mModelName": "ItemGeneralShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Gerudo04",
+					"mNameLabel": "glossary/Item:Item280",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineBlue",
+					"mBottleContentKey": "MedicineBlue"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": "SoldOutGerudo"
+		},
+		{
+			"mLabel": "Goron01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 25,
+					"mDiscountPrice": 25,
+					"mModelPath": "actor/ItemIngredientShop08.bfres",
+					"mModelName": "ItemIngredientShop08",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Goron01",
+					"mNameLabel": "glossary/Item:Item230",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient08",
+					"mBottleContentKey": "SmoothieIngredient08"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Goron02",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemIngredientShop09.bfres",
+					"mModelName": "ItemIngredientShop09",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Goron02",
+					"mNameLabel": "glossary/Item:Item235",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient09",
+					"mBottleContentKey": "SmoothieIngredient09"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Goron03",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Goron03",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Goron04",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop03.bfres",
+					"mModelName": "ItemGeneralShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Goron04",
+					"mNameLabel": "glossary/Item:Item280",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineBlue",
+					"mBottleContentKey": "MedicineBlue"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Castle01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ItemIngredientShop10.bfres",
+					"mModelName": "ItemIngredientShop10",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Castle01",
+					"mNameLabel": "glossary/Item:Item240",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient10",
+					"mBottleContentKey": "SmoothieIngredient10"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Castle02",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemIngredientShop03.bfres",
+					"mModelName": "ItemIngredientShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Castle02",
+					"mNameLabel": "glossary/Item:Item250",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient03",
+					"mBottleContentKey": "SmoothieIngredient03"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Castle03",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Castle03",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Castle05",
+			"mGoods": [
+				{
+					"mCondition": "NotHaveOrnament19",
+					"mTransformReference": "Ornament19",
+					"mPrice": 400,
+					"mDiscountPrice": 800,
+					"mModelPath": "actor/ItemOrnament19.bfres",
+					"mModelName": "ItemOrnament19",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "CastleOrnament",
+					"mNameLabel": "glossary/Item:Item430",
+					"mCaptionLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_19",
+					"mBottleContentKey": "Ornament19"
+				},
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ItemGeneralShop02.bfres",
+					"mModelName": "ItemGeneralShop02",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Castle04",
+					"mNameLabel": "glossary/Item:Item275",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineYellow",
+					"mBottleContentKey": "MedicineYellow"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": "SoldOutCastleOrnament"
+		},
+		{
+			"mLabel": "Kakariko01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 40,
+					"mDiscountPrice": 40,
+					"mModelPath": "actor/ItemIngredientShop02.bfres",
+					"mModelName": "ItemIngredientShop02",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Kakariko01",
+					"mNameLabel": "glossary/Item:Item225",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient02",
+					"mBottleContentKey": "SmoothieIngredient02"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Kakariko02",
+			"mGoods": [
+				{
+					"mCondition": "NotHaveOrnament21",
+					"mTransformReference": "Ornament21",
+					"mPrice": 500,
+					"mDiscountPrice": 500,
+					"mModelPath": "actor/ItemOrnament21.bfres",
+					"mModelName": "ItemOrnament21",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "KakarikoOrnament",
+					"mNameLabel": "glossary/Item:Item440",
+					"mCaptionLabel": "ui/DressUpMenu:ZeldaOrnaments_Explanation_21",
+					"mBottleContentKey": "Ornament21"
+				},
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop03.bfres",
+					"mModelName": "ItemGeneralShop03",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Kakariko02",
+					"mNameLabel": "glossary/Item:Item280",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineBlue",
+					"mBottleContentKey": "MedicineBlue"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": "SoldOutKakariko"
+		},
+		{
+			"mLabel": "Kakariko03",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 30,
+					"mDiscountPrice": 30,
+					"mModelPath": "actor/ItemGeneralShop01.bfres",
+					"mModelName": "ItemGeneralShop01",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Kakariko03",
+					"mNameLabel": "glossary/Item:Item270",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineRed",
+					"mBottleContentKey": "MedicineRed"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Kakariko04",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ItemGeneralShop02.bfres",
+					"mModelName": "ItemGeneralShop02",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/ShopItem.bfevfl",
+					"mEntryPoint": "Kakariko04",
+					"mNameLabel": "glossary/Item:Item275",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_Explanation_MedicineYellow",
+					"mBottleContentKey": "MedicineYellow"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		},
+		{
+			"mLabel": "Ranch01",
+			"mGoods": [
+				{
+					"mCondition": "true",
+					"mTransformReference": null,
+					"mPrice": 50,
+					"mDiscountPrice": 50,
+					"mModelPath": "actor/ShopMannequin.bfres",
+					"mModelName": "Bottle",
+					"mOffsetY": 0.0,
+					"mEventAssetPath": "event/HylianF004.bfevfl",
+					"mEntryPoint": "Ranch",
+					"mNameLabel": "glossary/Item:Item245",
+					"mCaptionLabel": "ui/ItemMenu:ItemMenu_Item_SmoothieIngredient06",
+					"mBottleContentKey": "SmoothieIngredient06"
+				}
+			],
+			"mSoldOutModelPath": "",
+			"mSoldOutModelName": "",
+			"mSoldOutEventAssetPath": "event/ShopItem.bfevfl",
+			"mSoldOutEntryPoint": ""
+		}
+	]
+}

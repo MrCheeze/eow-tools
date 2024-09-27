@@ -1,0 +1,381 @@
+{
+	"unk1": 2362429281,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "HylianSoldier000_abs",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mResultType",
+			"typename": "EvalSheetObjectType",
+			"typeid": 2,
+			"typeflags1": 0,
+			"typeflags2": 16,
+			"offset": 16,
+			"directsize": 4,
+			"elemsize": 4
+		},
+		{
+			"name": "mBranches",
+			"typename": "__inline_struct_HylianSoldier000_abs_mBranches",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 24,
+			"directsize": 16,
+			"elemsize": 40,
+			"subfields": [
+				{
+					"name": "mCondition",
+					"typename": "__inline_struct_HylianSoldier000_abs_mBranches.mCondition",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 24,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mStrategy",
+							"typename": "EvalSheetStrategy",
+							"typeid": 2,
+							"typeflags1": 2,
+							"typeflags2": 16,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mExpressions",
+							"typename": "__inline_struct_HylianSoldier000_abs_mBranches.mCondition.mExpressions",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 2,
+							"offset": 8,
+							"directsize": 16,
+							"elemsize": 48,
+							"subfields": [
+								{
+									"name": "mOperandType",
+									"typename": "EvalSheetObjectType",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 16,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mLeftOperand",
+									"typename": "bytes",
+									"typeid": 5,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 8,
+									"directsize": 16,
+									"elemsize": 16
+								},
+								{
+									"name": "mOperator",
+									"typename": "EvalSheetOperator",
+									"typeid": 2,
+									"typeflags1": 3,
+									"typeflags2": 16,
+									"offset": 24,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mRightOperand",
+									"typename": "bytes",
+									"typeid": 5,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 32,
+									"directsize": 16,
+									"elemsize": 16
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "mResult",
+					"typename": "bytes",
+					"typeid": 5,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		},
+		{
+			"name": "mFallback",
+			"typename": "bytes",
+			"typeid": 5,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 40,
+			"directsize": 16,
+			"elemsize": 16
+		}
+	],
+	"rows": [
+		{
+			"mKey": "wait",
+			"mResultType": 3,
+			"mBranches": [
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 0,
+								"mLeftOperand": [
+									217,
+									171,
+									162,
+									112,
+									73,
+									83,
+									95,
+									83,
+									80,
+									69,
+									65,
+									82,
+									95,
+									83,
+									79,
+									76,
+									68,
+									73,
+									69,
+									82
+								],
+								"mOperator": 0,
+								"mRightOperand": [
+									245
+								]
+							}
+						]
+					},
+					"mResult": [
+						106,
+						119,
+						97,
+						105,
+						116,
+						95,
+						115,
+						112,
+						101,
+						97,
+						114
+					]
+				}
+			],
+			"mFallback": [
+				100,
+				119,
+				97,
+				105,
+				116
+			]
+		},
+		{
+			"mKey": "move",
+			"mResultType": 3,
+			"mBranches": [
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 0,
+								"mLeftOperand": [
+									217,
+									171,
+									162,
+									112,
+									73,
+									83,
+									95,
+									83,
+									80,
+									69,
+									65,
+									82,
+									95,
+									83,
+									79,
+									76,
+									68,
+									73,
+									69,
+									82
+								],
+								"mOperator": 0,
+								"mRightOperand": [
+									245
+								]
+							}
+						]
+					},
+					"mResult": [
+						100,
+						109,
+						111,
+						118,
+						101
+					]
+				}
+			],
+			"mFallback": [
+				100,
+				109,
+				111,
+				118,
+				101
+			]
+		},
+		{
+			"mKey": "move_fast",
+			"mResultType": 3,
+			"mBranches": [
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 0,
+								"mLeftOperand": [
+									217,
+									171,
+									162,
+									112,
+									73,
+									83,
+									95,
+									83,
+									80,
+									69,
+									65,
+									82,
+									95,
+									83,
+									79,
+									76,
+									68,
+									73,
+									69,
+									82
+								],
+								"mOperator": 0,
+								"mRightOperand": [
+									245
+								]
+							}
+						]
+					},
+					"mResult": [
+						105,
+						109,
+						111,
+						118,
+						101,
+						95,
+						102,
+						97,
+						115,
+						116
+					]
+				}
+			],
+			"mFallback": [
+				108,
+				101,
+				118,
+				95,
+				109,
+				111,
+				118,
+				101,
+				95,
+				102,
+				97,
+				115,
+				116
+			]
+		},
+		{
+			"mKey": "IS_SPEAR_SOLDIER",
+			"mResultType": 0,
+			"mBranches": [
+				{
+					"mCondition": {
+						"mStrategy": 0,
+						"mExpressions": [
+							{
+								"mOperandType": 1,
+								"mLeftOperand": [
+									217,
+									171,
+									163,
+									130,
+									115,
+									71,
+									101,
+									116,
+									73,
+									110,
+									116,
+									65,
+									99,
+									116,
+									111,
+									114,
+									65,
+									114,
+									103,
+									117,
+									109,
+									101,
+									110,
+									116,
+									129,
+									1
+								],
+								"mOperator": 1,
+								"mRightOperand": [
+									1
+								]
+							}
+						]
+					},
+					"mResult": [
+						245
+					]
+				}
+			],
+			"mFallback": [
+				244
+			]
+		}
+	]
+}

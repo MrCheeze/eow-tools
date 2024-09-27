@@ -1,0 +1,642 @@
+{
+	"unk1": 1441267061,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "InterestList",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mInterest",
+			"typename": "__inline_struct_InterestList_mInterest",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 2,
+			"offset": 16,
+			"directsize": 16,
+			"elemsize": 6,
+			"subfields": [
+				{
+					"name": "mMeat",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mFish",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 1,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mRockRoast",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 2,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mRupee",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 3,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mDoll",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 4,
+					"directsize": 1,
+					"elemsize": 1
+				},
+				{
+					"name": "mCarrot",
+					"typename": "bool",
+					"typeid": 1,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 5,
+					"directsize": 1,
+					"elemsize": 1
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "Wolfos00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Gabufin",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Crowly01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Ghini00",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": false,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": true,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Ghini01",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": false,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": true,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Guay",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Crowly",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": true,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Taggler00",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Taggler01",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Dekubaba",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "Dekubaba01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "Boundillo00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Boundillo01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "StoneFragile",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": false,
+					"mRockRoast": true,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "StoneFragile01",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": false,
+					"mRockRoast": true,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "StretchyGhost",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": false,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": true,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Piranha00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "BoarblinBoomerang00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "BoarblinBoomerang01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "BoarblinClub00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "BoarblinClub01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "Poe",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": false,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": true,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "TagglerBoundary",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "BoarblinClubBoundary",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "MoriblinSpearBoundary",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "LizalfosBoundary",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "MoriblinSword00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "MoriblinSword01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "MoriblinSword02",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "MoriblinSpear00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "MoriblinSpear01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "Lizalfos00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "Lizalfos01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "Lizalfos02",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "Rope",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "BirdSea",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Piranha01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Dekubaba00",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "TestitartHeadPlant",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "TestitartHeadRock",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": true
+				}
+			]
+		},
+		{
+			"mKey": "CrowlyMachine",
+			"mInterest": [
+				{
+					"mMeat": false,
+					"mFish": false,
+					"mRockRoast": false,
+					"mRupee": true,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		},
+		{
+			"mKey": "Wolfos01",
+			"mInterest": [
+				{
+					"mMeat": true,
+					"mFish": true,
+					"mRockRoast": false,
+					"mRupee": false,
+					"mDoll": false,
+					"mCarrot": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,218 @@
+{
+	"unk1": 2605683247,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "ShadowMapSettingsForRegion",
+	"fields": [
+		{
+			"name": "mRegion",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mShadowMap",
+			"typename": "ShadowMapSettings",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 48,
+			"elemsize": 48,
+			"subfields": [
+				{
+					"name": "mKey",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 4,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mAabb",
+					"typename": "__inline_struct_ShadowMapSettings_mAabb",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 24,
+					"elemsize": 24,
+					"subfields": [
+						{
+							"name": "mMin",
+							"typename": "__inline_struct_ShadowMapSettings_mAabb.mMin",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 0,
+							"directsize": 12,
+							"elemsize": 12,
+							"subfields": [
+								{
+									"name": "mX",
+									"typename": "float",
+									"typeid": 3,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mY",
+									"typename": "float",
+									"typeid": 3,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 4,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mZ",
+									"typename": "float",
+									"typeid": 3,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 8,
+									"directsize": 4,
+									"elemsize": 4
+								}
+							]
+						},
+						{
+							"name": "mMax",
+							"typename": "__inline_struct_ShadowMapSettings_mAabb.mMax",
+							"typeid": 0,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 12,
+							"directsize": 12,
+							"elemsize": 12,
+							"subfields": [
+								{
+									"name": "mX",
+									"typename": "float",
+									"typeid": 3,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 0,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mY",
+									"typename": "float",
+									"typeid": 3,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 4,
+									"directsize": 4,
+									"elemsize": 4
+								},
+								{
+									"name": "mZ",
+									"typename": "float",
+									"typeid": 3,
+									"typeflags1": 3,
+									"typeflags2": 0,
+									"offset": 8,
+									"directsize": 4,
+									"elemsize": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "mDintance",
+					"typename": "__inline_struct_ShadowMapSettings_mDintance",
+					"typeid": 0,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 40,
+					"directsize": 8,
+					"elemsize": 8,
+					"subfields": [
+						{
+							"name": "mBegin",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 0,
+							"directsize": 4,
+							"elemsize": 4
+						},
+						{
+							"name": "mEnd",
+							"typename": "float",
+							"typeid": 3,
+							"typeflags1": 2,
+							"typeflags2": 0,
+							"offset": 4,
+							"directsize": 4,
+							"elemsize": 4
+						}
+					]
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mRegion": "BossDeguZol",
+			"mShadowMap": {
+				"mKey": "HighCeiling",
+				"mAabb": {
+					"mMin": {
+						"mX": 15.0,
+						"mY": 15.0,
+						"mZ": 20.0
+					},
+					"mMax": {
+						"mX": 15.0,
+						"mY": 45.0,
+						"mZ": 10.0
+					}
+				},
+				"mDintance": {
+					"mBegin": 1000.0,
+					"mEnd": 1500.0
+				}
+			}
+		},
+		{
+			"mRegion": "BossMogriffon",
+			"mShadowMap": {
+				"mKey": "HighCeiling",
+				"mAabb": {
+					"mMin": {
+						"mX": 15.0,
+						"mY": 15.0,
+						"mZ": 20.0
+					},
+					"mMax": {
+						"mX": 15.0,
+						"mY": 45.0,
+						"mZ": 10.0
+					}
+				},
+				"mDintance": {
+					"mBegin": 1000.0,
+					"mEnd": 1500.0
+				}
+			}
+		}
+	]
+}

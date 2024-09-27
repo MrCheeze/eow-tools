@@ -1,0 +1,105 @@
+{
+	"unk1": 3560104610,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "QuestItem",
+	"fields": [
+		{
+			"name": "mKey",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mQuest",
+			"typename": "__inline_struct_QuestItem_mQuest",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 32,
+			"elemsize": 32,
+			"subfields": [
+				{
+					"name": "mName",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 0,
+					"directsize": 16,
+					"elemsize": 16
+				},
+				{
+					"name": "mProgress",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 16,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"mKey": "ItemQuest01",
+			"mQuest": {
+				"mName": "",
+				"mProgress": ""
+			}
+		},
+		{
+			"mKey": "ItemQuest02",
+			"mQuest": {
+				"mName": "",
+				"mProgress": ""
+			}
+		},
+		{
+			"mKey": "ItemQuest03",
+			"mQuest": {
+				"mName": "",
+				"mProgress": ""
+			}
+		},
+		{
+			"mKey": "ItemQuest04",
+			"mQuest": {
+				"mName": "",
+				"mProgress": ""
+			}
+		},
+		{
+			"mKey": "ItemQuest05",
+			"mQuest": {
+				"mName": "",
+				"mProgress": ""
+			}
+		},
+		{
+			"mKey": "ItemQuest06",
+			"mQuest": {
+				"mName": "",
+				"mProgress": ""
+			}
+		},
+		{
+			"mKey": "ItemQuest07",
+			"mQuest": {
+				"mName": "",
+				"mProgress": ""
+			}
+		}
+	]
+}

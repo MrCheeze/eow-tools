@@ -1,0 +1,167 @@
+{
+	"unk1": 3430995796,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "UiTutorialInsert",
+	"fields": [
+		{
+			"name": "symbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "insertInfo",
+			"typename": "__inline_struct_UiTutorialInsert_insertInfo",
+			"typeid": 0,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 40,
+			"elemsize": 40,
+			"subfields": [
+				{
+					"name": "dispButtonType",
+					"typename": "DoActionButtonType",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 16,
+					"offset": 0,
+					"directsize": 4,
+					"elemsize": 4
+				},
+				{
+					"name": "inputButtonType",
+					"typename": "DoActionButtonType",
+					"typeid": 2,
+					"typeflags1": 1,
+					"typeflags2": 18,
+					"offset": 8,
+					"directsize": 16,
+					"elemsize": 4
+				},
+				{
+					"name": "textLabel",
+					"typename": "string",
+					"typeid": 4,
+					"typeflags1": 1,
+					"typeflags2": 0,
+					"offset": 24,
+					"directsize": 16,
+					"elemsize": 16
+				}
+			]
+		}
+	],
+	"rows": [
+		{
+			"symbol": "OPLink1Insert",
+			"insertInfo": {
+				"dispButtonType": 3,
+				"inputButtonType": [
+					3
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_Sword"
+			}
+		},
+		{
+			"symbol": "OPLink2Insert",
+			"insertInfo": {
+				"dispButtonType": 6,
+				"inputButtonType": [
+					6
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_Shield"
+			}
+		},
+		{
+			"symbol": "OPLink3Insert",
+			"insertInfo": {
+				"dispButtonType": 1,
+				"inputButtonType": [
+					1
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_Jump"
+			}
+		},
+		{
+			"symbol": "RememberInsert",
+			"insertInfo": {
+				"dispButtonType": 7,
+				"inputButtonType": [
+					7
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_Remember"
+			}
+		},
+		{
+			"symbol": "PutOutInsert",
+			"insertInfo": {
+				"dispButtonType": 3,
+				"inputButtonType": [
+					3
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_PutOut"
+			}
+		},
+		{
+			"symbol": "SyncRodInsert",
+			"insertInfo": {
+				"dispButtonType": 2,
+				"inputButtonType": [
+					2
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_ShootTheBall"
+			}
+		},
+		{
+			"symbol": "CameraRotationInsert",
+			"insertInfo": {
+				"dispButtonType": 9,
+				"inputButtonType": [
+					9,
+					26
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_CameraRotation"
+			}
+		},
+		{
+			"symbol": "LockOnInsert",
+			"insertInfo": {
+				"dispButtonType": 6,
+				"inputButtonType": [
+					6
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_LockOn"
+			}
+		},
+		{
+			"symbol": "SpinInsert",
+			"insertInfo": {
+				"dispButtonType": 5,
+				"inputButtonType": [
+					5
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_Spin"
+			}
+		},
+		{
+			"symbol": "ChangeLinkSword",
+			"insertInfo": {
+				"dispButtonType": 30,
+				"inputButtonType": [
+					30
+				],
+				"textLabel": "ui/Tutorial:TutorialInsert_ChangeLinkSword"
+			}
+		}
+	]
+}

@@ -1,0 +1,546 @@
+{
+	"unk1": 1859139161,
+	"unk2": [
+		1,
+		8,
+		8,
+		0
+	],
+	"sheetname": "GerudoMiniGameRemovableActorData",
+	"fields": [
+		{
+			"name": "mSymbol",
+			"typename": "string",
+			"typeid": 4,
+			"typeflags1": 0,
+			"typeflags2": 4,
+			"offset": 0,
+			"directsize": 16,
+			"elemsize": 16
+		},
+		{
+			"name": "mIsRemovable",
+			"typename": "bool",
+			"typeid": 1,
+			"typeflags1": 0,
+			"typeflags2": 0,
+			"offset": 16,
+			"directsize": 1,
+			"elemsize": 1
+		}
+	],
+	"rows": [
+		{
+			"mSymbol": "BoxWooden",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Zol",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Signboard",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Skulltula",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "RockCave",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "BlockWater",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Pot",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "ZolFire",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "RockSolid",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "SeaUrchin",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Walltula",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Octorok",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "CharmMeat",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "CharmFish",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Dekubaba",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "MoriblinSword00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "MoriblinSword01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "MoriblinSword02",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Bed",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Table",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Rope",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Boundillo00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Peahat",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Kerotone",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Dekubaba00",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "FoliagePlant",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Darknut00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "PotHyruleCastle",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Taggler00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Boundillo01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BedMedium",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Bombfish",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "TrapBladeTimer",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Biri",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Guay",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "WindMaker",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "FlyingTile",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "ZoroZoroHill",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Taggler01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Dekubaba01",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "ZolWater",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Poe",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Peese",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BirdSea",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Gabufin",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Megadon",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "ZoroZoro",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Gibdos00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Gibdos01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "ReDead",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Wolfos00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Tektight00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Tektight01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "PotGerudo",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Piranha00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Piranha01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "StatueL003",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "BoarblinClub00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BoarblinClub01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BoarblinBoomerang00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BoarblinBoomerang01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "MoriblinSpear01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "MoriblinSpear00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BedZelda",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Bonfire",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "CharmRockRoast",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Pitty",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Octorok01",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "SoldierIronBall",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Spark00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Dragonfly",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "DeathBallReverse",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Creepee00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Creepee01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Darknut01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Darknut02",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Toppyu",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Octorok02",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Aruroda",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Tail",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "StoneFragile",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Firework",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Wizzrobe00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Wizzrobe01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Wizzrobe02",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "TorchSlug",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Keese00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Keese01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Keese02",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Keese03",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Crowly",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Lizalfos00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Lizalfos01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Lizalfos02",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BoardFloatLava",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "AnaMonea",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Ghini00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Ghini01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "CharmDoll",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "CharmCarrot",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "StretchyGhost",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Hidy",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BuzzBlob",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Crowly01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Kerotone01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Armos",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Beamos",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Leever",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "BlockIce",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "StatueL003Bird",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "StatueL003Cat",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "StatueL003Snake",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Freezard",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "RollingPole",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "RollingPoleSide",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Wolfos01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Cloud",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "GhomaBaby",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "SnowBall",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Moa",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Trampoline",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "TorchSlug01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "StoneFragile01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Mothula00",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Mothula01",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "NorthForestRelic",
+			"mIsRemovable": true
+		},
+		{
+			"mSymbol": "Dandarma",
+			"mIsRemovable": false
+		},
+		{
+			"mSymbol": "Lynel",
+			"mIsRemovable": false
+		}
+	]
+}
