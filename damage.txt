@@ -4,11 +4,15 @@ This was determined using the following gdb breakpoint on 1.0.0:
     print *(int*)($x3 + 4)
 All values are "per hit", but hit frequency varies wildly for different echoes.
 
+Rift enemies take 2x damage from "of Might" weapons, and bosses take 1.5x damage.
+Non-boss enemies take half damage in Hero Mode (rounded up).
+
 Sword of Might Lv. 1            4
 Sword of Might Lv. 1 (Charged)  8
 Sword of Might Lv. 2            6
 Sword of Might Lv. 2 (Charged)  12
 Sword of Might Lv. 3            8
+Sword of Might Lv. 3 (Beam)     12
 Sword of Might Lv. 3 (Charged)  16
 Bow of Might Lv. 1              2
 Bow of Might Lv. 2              3
