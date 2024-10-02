@@ -1,0 +1,159 @@
+I'm unsure where this data actually comes from.
+This was determined using the following gdb breakpoint on 1.0.0:
+    b *(0x710034fed0+0x80004000-0x7100000000)
+    print *(int*)($x3 + 4)
+All values are "per hit", but hit frequency varies wildly for different echoes.
+
+Sword of Might Lv. 1            4
+Sword of Might Lv. 1 (Charged)  8
+Sword of Might Lv. 2            6
+Sword of Might Lv. 2 (Charged)  12
+Sword of Might Lv. 3            8
+Sword of Might Lv. 3 (Charged)  16
+Bow of Might Lv. 1              2
+Bow of Might Lv. 2              3
+Bow of Might Lv. 2 (Charged)    6
+Bow of Might Lv. 3              4
+Bow of Might Lv. 3 (Charged)    8
+Bombs of Might Lv. 1            12
+Bombs of Might Lv. 2            18
+Bombs of Might Lv. 2 (Charged)  18
+Bombs of Might Lv. 3            24
+Bombs of Might Lv. 3 (Charged)  24
+
+Table (Drop)                2
+Old Bed (Drop)              2
+Soft Bed (Drop)             2
+Zelda's Bed (Drop)          2
+Decorative Shrub (Drop)     2
+Wooden Box (Toss)           2
+Pot (Toss)                  2
+Hyrule Castle Pot (Toss)    2
+Gerudo Pot (Toss)           2
+Boulder (Drop)              2
+Rock (Toss)                 2
+Lava Rock (Drop)            2
+Ice Block (Drop)            2
+Snowball (Roll)             2
+Sign (Drop)                 2
+Grilled Fish                n/a
+Meat                        n/a
+Rock Roast (Toss)           2
+Stuffed Toy                 n/a
+Carrot                      n/a
+Water Block                 n/a
+Elephant Statue (Drop)      2
+Hawk Statue (Drop)          2
+Cat Statue (Drop)           2
+Snake Statue (Drop)         2
+Ancient Orb                 n/a
+Trampoline (Drop)           2
+Wind Cannon (Toss)          2
+Flying Tile (Fire)          1
+Cloud                       n/a
+Spiked Roller (Roll)        4
+Beetle Mound (Drop)         2 (summoned beetles do 2)
+Firework (Fire)             4
+Brazier (Drop)              2 (fire damage is separate from this, don't know how it works)
+
+Zol                         2
+Ignizol                     4
+Hydrozol                    4 (even when big)
+Buzz Blob                   3
+Spear Moblin                4
+Spear Moblin Lv. 2          8
+Sword Moblin                4
+Sword Moblin Lv. 2          9
+Sword Moblin Lv. 3          14
+Club Boarblin               4
+Club Boarblin Lv. 2         9
+Boomerang Boarblin          4
+Boomerang Boarblin Lv. 2    8
+Lynel                       10 or 20 (depending on attack)
+Lizalfos                    6
+Lizalfos Lv. 2              10
+Lizalfos Lv. 3              14
+Darknut                     6
+Darknut Lv. 2               12
+Darknut Lv. 3               19
+Armos                       0 (does nothing besides push)
+Ball-and-Chain Trooper      6
+Gibdo                       8
+Gibdo Lv. 2                 12
+ReDead                      12
+Fire Wizzrobe               12
+Ice Wizzrobe                12
+Electric Wizzrobe           12
+Caromadillo                 4
+Caromadillo Lv. 2           8
+Rope                        2
+Tornando                    0 (blows)
+Ribbitune                   n/a
+Drippitune                  n/a
+Torch Slug                  0 or 6 (body vs trail, both burn)
+Freeze Slug                 0 or 6 (body vs trail, both freeze, frozen enemies take triple damage)
+Holmill                     7
+Wolfos                      8
+White Wolfos                16 (summoned wolfos do 8)
+Keese                       2
+Fire Keese                  3
+Ice Keese                   3
+Electric Keese              3
+Mothula                     8
+Mothula Lv. 2               16
+Needlefly                   4
+Albatrawl                   4
+Crow                        4
+Beakon                      n/a
+Guay                        8
+Octorok                     1
+Fire Octo                   3
+Ice Octo                    3
+Sea Urchin                  2
+Sand Crab                   2
+Biri                        1
+Tangler                     2
+Tangler Lv. 2               4
+Bombfish                    12
+Chompfin                    12
+Piranha                     4
+Sand Piranha                4
+Deku Baba                   3
+Bio Deku Baba               6
+Deku Baba Lv. 2             6
+Peahat                      4
+Giant Goponga Flower        11
+Zirro                       8
+Ghirro                      n/a (blows)
+Mini-Moldorm                4
+Strandtula                  2
+Crawltula                   4
+Baby Gohma                  4
+Beetle                      2
+Aruroda                     4
+Tektite                     4
+Tektite Lv. 2               8
+Hoarder                     8
+Poe                         11
+Moa                         7
+Goo Specter                 8
+Ghini                       2
+Ghini Lv. 2                 8
+Leever                      4
+Pathblade                   2
+Gustmaster                  0 (blows)
+Tweelus                     4
+Temper Tweelus              3 (even when enraged)
+Freezard                    1
+Snomaul                     3 or 7 (segment toss vs head roll)
+Spark                       0 (shocks)
+Platboom                    3
+Beamos                      7
+
+Techtite        8
+Tocktorok       2
+Gizmol          4
+High-Teku Baba  4
+Roboblin        42
+Goldfinch       12
+
