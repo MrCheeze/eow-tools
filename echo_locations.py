@@ -68,7 +68,8 @@ for echo in echoes:
         if not (level_sym.startswith("EV_") or level_sym.startswith("OP_") or level_sym.startswith("BC_")): # ignore cutscene maps, link's dungeon, and dream challenges (they don't let you keep the echoes)
             for actor in actors:
                 if actor[-16] == symbol or (symbol == "Trampoline" and actor[-16] == "evTrampoline"):
-                    count_per_level[level_sym] += 1
+                    if not (level_sym == "L_DungeonLast" and actor[0][2] > 100) and not (level_sym == "HyruleCastle" and actor[0][2] > 100): # ignore the fake cutscene overworld areas in Hyrule Castle and null
+                        count_per_level[level_sym] += 1
     for level_name, count in count_per_level.items():
         if level_name in location_pretty_names:
             print("  %s - %s (x%d)"%(level_name, location_pretty_names[level_name], count))

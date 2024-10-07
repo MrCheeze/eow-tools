@@ -15,10 +15,8 @@ Zelda's Bed
   HyruleCastle (x1)
 Decorative Shrub
   Field (x64)
-  HyruleCastle (x29)
   HyruleCastlePrison (x17)
   L_DungeonCastle - Hyrule Castle (x9)
-  L_DungeonLast - Null's Body (x35)
   S_Dungeon109 - Deku Scrub Lockup (x5)
 Wooden Box
   BS_Dungeon001 - cave in Stilled Suthorn Forest (x9)
@@ -28,14 +26,12 @@ Wooden Box
   CarrotStorage (x9)
   Field (x58)
   FieldBoundary002 - Stilled Jabul Waters (x1)
-  HyruleCastle (x12)
   HyruleCastlePrison (x20)
   L_Dungeon001 - Suthorn Ruins (x10)
   L_Dungeon002 - Jabul Ruins (x33)
   L_Dungeon003 - Gerudo Sanctum (x5)
   L_Dungeon005 - Faron Temple (x1)
   L_DungeonCastle - Hyrule Castle (x23)
-  L_DungeonLast - Null's Body (x8)
   S_Dungeon001 - cave in Beach (x2)
   S_Dungeon002 - Beach Cave (x3)
   S_Dungeon004 - cave in Forest (x6)
@@ -118,7 +114,6 @@ Boulder
   FieldBoundary001 - Stilled Suthorn Forest (x1)
   FieldBoundary004 - Stilled Eldin Volcano (x3)
   FieldBoundaryLast - Stilled Ancient Ruins (x2)
-  HyruleCastle (x4)
   HyruleCastlePrison (x1)
   L_Dungeon001 - Suthorn Ruins (x1)
   L_Dungeon002 - Jabul Ruins (x4)
@@ -148,7 +143,6 @@ Rock
   Field (x97)
   FieldBoundary002 - Stilled Jabul Waters (x2)
   FieldBoundary004 - Stilled Eldin Volcano (x2)
-  HyruleCastle (x1)
   L_Dungeon004 - Eldin Temple (x2)
   L_Dungeon005 - Faron Temple (x3)
   L_DungeonCastle - Hyrule Castle (x3)
@@ -170,19 +164,15 @@ Ice Block
   S_Dungeon114 - cave in SnowyMountain (x57)
 Snowball
   Field (x1)
-  HyruleCastle (x1)
   S_Dungeon039 - cave in SnowyMountain (x3)
   S_Dungeon107 - cave in SnowyMountain (x2)
 Sign
   Field (x16)
-  HyruleCastle (x5)
-  L_DungeonLast - Null's Body (x1)
   S_Dungeon007 - cave in River (x2)
   S_Dungeon035 - cave in SnowyMountain (x1)
   S_Dungeon109 - Deku Scrub Lockup (x1)
 Grilled Fish
   Field (x3)
-  L_DungeonLast - Null's Body (x1)
 Meat
   BS_Dungeon015 - cave in Stilled Carrot Patch (x1)
   CarrotStorage (x1)
@@ -212,7 +202,6 @@ Ancient Orb
   Field (x1)
 Trampoline
   Field (x1)
-  HyruleCastle (x1)
 Wind Cannon
   L_Dungeon003 - Gerudo Sanctum (x1)
   S_Dungeon012 - cave in Desert (x1)
@@ -242,7 +231,6 @@ Brazier
   S_Dungeon114 - cave in SnowyMountain (x2)
 Zol
   Field (x56)
-  HyruleCastle (x13)
   S_Dungeon002 - Beach Cave (x2)
   S_Dungeon003 - cave in Forest (x7)
   S_Dungeon010 - cave in Coast (x2)
@@ -250,7 +238,6 @@ Zol
   S_Dungeon114 - cave in SnowyMountain (x1)
 Ignizol
   Field (x5)
-  HyruleCastle (x3)
   L_Dungeon001 - Suthorn Ruins (x1)
   L_DungeonCastle - Hyrule Castle (x3)
   S_Dungeon003 - cave in Forest (x1)
@@ -268,17 +255,12 @@ Buzz Blob
 Spear Moblin
   BS_Dungeon002 - cave in Stilled Suthorn Forest (x1)
   Field (x43)
-  HyruleCastle (x12)
-  L_DungeonLast - Null's Body (x6)
 Spear Moblin Lv. 2
   Field (x6)
-  L_DungeonLast - Null's Body (x1)
   S_Dungeon107 - cave in SnowyMountain (x1)
   S_Dungeon114 - cave in SnowyMountain (x2)
 Sword Moblin
   Field (x15)
-  HyruleCastle (x2)
-  L_DungeonLast - Null's Body (x1)
   S_Dungeon056 - Stilled Lower Suthorn Forest (x2)
   S_Dungeon063 - cave in HyrulePlains (x3)
 Sword Moblin Lv. 2
@@ -349,7 +331,6 @@ Caromadillo Lv. 2
   S_Dungeon110 - Eastern Temple (x1)
 Rope
   Field (x43)
-  HyruleCastle (x11)
   S_Dungeon056 - Stilled Lower Suthorn Forest (x1)
 Tornando
   Field (x9)
@@ -378,8 +359,6 @@ Wolfos
   Field (x4)
   FieldBoundary006_001 - Stilled Hebra Mountain (x2)
   FieldBoundaryLast - Stilled Ancient Ruins (x2)
-  HyruleCastle (x1)
-  L_DungeonLast - Null's Body (x1)
 White Wolfos
   L_Dungeon006 - Lanayru Temple (x1)
 Keese
@@ -420,7 +399,6 @@ Mothula Lv. 2
 Needlefly
   Field (x12)
   L_Dungeon002 - Jabul Ruins (x3)
-  L_DungeonLast - Null's Body (x2)
   S_Dungeon031 - cave in Jungle (x3)
 Albatrawl
   Field (x4)
@@ -433,12 +411,10 @@ Beakon
   S_Dungeon033 - cave in Jungle (x1)
 Guay
   Field (x13)
-  HyruleCastle (x4)
 Octorok
   Field (x22)
-  HyruleCastle (x8)
   L_Dungeon002 - Jabul Ruins (x7)
-  L_DungeonLast - Null's Body (x6)
+  L_DungeonLast - Null's Body (x4)
   S_Dungeon016 - cave in Wildernesst (x1)
   S_Dungeon101 - Stilled Upper Zora River (x3)
   S_Dungeon102 - Wrecked Ship (x2)
@@ -478,7 +454,6 @@ Tangler
   BS_Dungeon003 - cave in Stilled Upper Zora River (x1)
   Field (x30)
   L_Dungeon002 - Jabul Ruins (x3)
-  L_DungeonLast - Null's Body (x4)
   S_Dungeon007 - cave in River (x4)
   S_Dungeon009 - cave in Coast (x3)
   S_Dungeon051 - Stilled Southern Hyrule Field (x2)
@@ -529,7 +504,6 @@ Deku Baba Lv. 2
 Peahat
   Field (x2)
   FieldBoundaryLast - Stilled Ancient Ruins (x2)
-  HyruleCastle (x1)
   S_Dungeon005 - cave in Forest (x1)
   S_Dungeon035 - cave in SnowyMountain (x1)
   S_Dungeon051 - Stilled Southern Hyrule Field (x3)
@@ -559,7 +533,6 @@ Strandtula
 Crawltula
   Field (x3)
   FieldBoundary005 - Stilled Faron Wetlands (x2)
-  HyruleCastle (x3)
   S_Dungeon065 - cave in HyrulePlains (x1)
 Baby Gohma
   Field (x5)
@@ -581,7 +554,6 @@ Aruroda
 Tektite
   Field (x32)
   L_Dungeon002 - Jabul Ruins (x5)
-  L_DungeonLast - Null's Body (x5)
   S_Dungeon102 - Wrecked Ship (x3)
 Tektite Lv. 2
   L_Dungeon006 - Lanayru Temple (x3)
