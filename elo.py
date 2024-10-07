@@ -24,25 +24,25 @@ sectionSpecs = [
     {'name':'unk4','itemsize':0x18,'endalignment':True},
     {'name':'unk5','itemsize':0xC,'endalignment':True},
     {'name':'unk6','itemsize':2,'endalignment':True},
-    {'name':'unk7','itemsize':0x30,'endalignment':True},
-    {'name':'unk8','itemsize':0x30,'endalignment':True},
+    {'name':'unk7','itemsize':0x30,'endalignment':True,'fields':'<ffffffffhhhhhhhh'},
+    {'name':'unk8','itemsize':0x30,'endalignment':True,'fields':'<ffffffffhhhhhhhh'},
     {'name':'unk9','itemsize':4,'endalignment':True},
     {'name':'unk10','itemsize':8,'endalignment':True,'fields':'<hhi'},
     {'name':'unk11','itemsize':4,'endalignment':True},
-    {'name':'unk12','itemsize':0x30,'endalignment':True},
+    {'name':'unk12','itemsize':0x30,'endalignment':True,'fields':'<ffffffffffhhhh'},
     {'name':'unk13','itemsize':0xC,'endalignment':True},
     {'name':'unk14','itemsize':0x30,'endalignment':True},
     {'name':'unk15','itemsize':0x20,'endalignment':True},
     {'name':'unk16','itemsize':8,'endalignment':True},
     {'name':'unk17','itemsize':2,'endalignment':True},
     {'name':'unk18','itemsize':8,'endalignment':True},
-    {'name':'unk19','itemsize':0x20,'endalignment':True},
-    {'name':'unk20','itemsize':8,'endalignment':True},
+    {'name':'unk19','itemsize':0x20,'endalignment':True,'fields':'<fffhhfffhh'},
+    {'name':'unk20','itemsize':8,'endalignment':True,'fields':'<ff'},
     {'name':'unk21','itemsize':4,'endalignment':True},
-    {'name':'unk22','itemsize':8,'endalignment':True},
+    {'name':'unk22','itemsize':8,'endalignment':True,'fields':'<ff'},
     {'name':'empty23','itemsize':-1,'endalignment':True},
-    {'name':'unk24','itemsize':0x10,'endalignment':True},
-    {'name':'unk25','itemsize':0x10,'endalignment':False},
+    {'name':'unk24','itemsize':0x10,'endalignment':True,'fields':'<ffff'},
+    {'name':'unk25','itemsize':0x10,'endalignment':False,'fields':'<ffff'},
     {'name':'actorParams','itemsize':8,'endalignment':False,'fields':'<i4s'},
     {'name':'unk27','itemsize':4,'endalignment':False},
     {'name':'empty28','itemsize':-1,'endalignment':False},
@@ -143,13 +143,13 @@ for fname in glob.glob("level/**/*.elo", recursive=True):
             params.append(output[26][item[22+j]])
         while len(params) > 0 and params[-1] is None:
             params.pop()
-        params0 = []
+        conditions = []
         for j in range(0,8,2):
             assert item[14+j+1] <= 4
-            params0.append((output[26][item[14+j]], item[14+j+1]))
-        while len(params0) > 0 and params0[-1] == (None, 4):
-            params0.pop()
-        output[0][i] = [item[:3]] + item[3:14] + [params0] + [params] + item[30:] # group the params
+            conditions.append((output[26][item[14+j]], item[14+j+1]))
+        while len(conditions) > 0 and conditions[-1] == (None, 4):
+            conditions.pop()
+        output[0][i] = [item[:3]] + item[3:8] + [item[8:14]] + [conditions] + [params] + item[30:] # group the params
         
     for i,item in enumerate(output[2]):
         output[2][i] = hashes[item]
