@@ -21,7 +21,7 @@ sectionSpecs = [
     {'name':'empty1','itemsize':-1,'endalignment':True},
     {'name':'unk2','itemsize':4,'endalignment':True,'fields':'<I'},
     {'name':'unk3','itemsize':2,'endalignment':True,'fields':'<h'},
-    {'name':'unk4','itemsize':0x18,'endalignment':True},
+    {'name':'actorFieldValues','itemsize':0x18,'endalignment':True,'fields':'<hh4sIiii'},
     {'name':'unk5','itemsize':0xC,'endalignment':True},
     {'name':'unk6','itemsize':2,'endalignment':True},
     {'name':'unk7','itemsize':0x30,'endalignment':True,'fields':'<ffffffffhhhhhhhh'},
@@ -44,18 +44,22 @@ sectionSpecs = [
     {'name':'unk24','itemsize':0x10,'endalignment':True,'fields':'<ffff'},
     {'name':'unk25','itemsize':0x10,'endalignment':False,'fields':'<ffff'},
     {'name':'actorParams','itemsize':8,'endalignment':False,'fields':'<i4s'},
-    {'name':'unk27','itemsize':4,'endalignment':False},
+    {'name':'floatValues','itemsize':4,'endalignment':False,'fields':'<f'},
     {'name':'empty28','itemsize':-1,'endalignment':False},
-    {'name':'unk29','itemsize':2,'endalignment':False},
+    {'name':'stringValues','itemsize':2,'endalignment':False,'fields':'<h'},
     {'name':'stringOffsets','itemsize':4,'endalignment':True,'fields':'<i'},
     {'name':'strings','itemsize':None,'endalignment':True},
 ]
 
 hashes = {}
 
-for line in open('ActorProfile_1.0.1.txt'):
+for line in open('ActorProfile_1.0.1-2.txt'):
     for word in line.strip().split():
         hashes[binascii.crc32(word.encode('ascii'))] = word
+
+for line in open('strings_exefs.txt'):
+    line = line.rstrip()
+    hashes[binascii.crc32(line.encode('ascii'))] = line
 
 for fname in glob.glob("level/**/*.elo", recursive=True):
     print(fname)
@@ -135,6 +139,40 @@ for fname in glob.glob("level/**/*.elo", recursive=True):
             output[26][i] = float(str(float32(struct.unpack('<f', item[1])[0])))
         elif item[0] == 4: # string
             output[26][i] = output[31][struct.unpack('<i', item[1])[0]]
+        
+    for i,item in enumerate(output[2]):
+        output[2][i] = hashes[item]
+        
+    for i,item in enumerate(output[29]):
+        output[29][i] = output[31][item]
+        
+    for i,item in enumerate(output[4]):
+        if item[0] == 1: # bool
+            item[2] = [False, True][struct.unpack('<i', item[2])[0]]
+            assert item[1] == 0
+        elif item[0] == 2: # int
+            item[2] = struct.unpack('<i', item[2])[0]
+            assert item[1] == 0
+        elif item[0] == 3: # float
+            item[2] = struct.unpack('<f', item[2])[0]
+            assert item[1] == 0
+        elif item[0] == 4: # string
+            item[2] = output[31][struct.unpack('<i', item[2])[0]]
+            assert item[1] == 0
+        elif item[0] == 6:
+            item[2] = struct.unpack('<i', item[2])[0]
+            item[2] = output[27][item[2]:item[2]+item[1]]
+            assert item[1] > 0
+        elif item[0] == 7:
+            item[2] = struct.unpack('<i', item[2])[0]
+            item[2] = output[29][item[2]:item[2]+item[1]]
+            assert item[1] > 0
+        else:
+            print(item)
+            1/0
+        if item[-4] in hashes:
+            item[-4] = hashes[item[-4]]
+        assert item[-1] == item[-2] == item[-3] == 0
             
     for i,item in enumerate(output[0]):
         item[34] = hashes[item[34]]
@@ -149,10 +187,10 @@ for fname in glob.glob("level/**/*.elo", recursive=True):
             conditions.append((output[26][item[14+j]], item[14+j+1]))
         while len(conditions) > 0 and conditions[-1] == (None, 4):
             conditions.pop()
-        output[0][i] = [item[:3]] + item[3:8] + [item[8:14]] + [conditions] + [params] + item[30:] # group the params
-        
-    for i,item in enumerate(output[2]):
-        output[2][i] = hashes[item]
+        fieldValues = {}
+        for j in range(item[37],item[37]+item[38]):
+            fieldValues[output[4][j][3]] = output[4][j][2]
+        output[0][i] = [item[:3]] + item[3:8] + [item[8:14]] + [conditions] + [params] + item[30:37] + [fieldValues] + item[39:] # group the params
 
     fname2 = fname.replace("level"+os.sep,"level_json"+os.sep).replace(".elo",".json")
     assert fname2 != fname
